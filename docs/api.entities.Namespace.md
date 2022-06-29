@@ -1,1 +1,0 @@
-# Module: api/entities/Namespace
