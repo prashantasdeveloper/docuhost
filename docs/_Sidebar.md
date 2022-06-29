@@ -1,6 +1,6 @@
-# @polymeshassociation/polymesh-sdk
+## @polymeshassociation/polymesh-sdk
 
-## Table of contents
+- [Home](../wiki/Home)
 
 ### Modules
 
