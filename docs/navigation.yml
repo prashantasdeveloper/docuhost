@@ -1,0 +1,9 @@
+navigation:
+  - title: Modules
+    url: modules
+  - title: Classes
+    url: classes
+  - title: Enums
+    url: enums
+  - title: Interfaces
+    url: interfaces
