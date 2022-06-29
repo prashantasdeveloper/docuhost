@@ -1,1 +1,16 @@
 remote_theme: just-the-docs/just-the-docs
+navigation:
+  - text: Modules
+    internal: true
+    url: modules
+  - text: Classes
+    internal: true
+    url: classes
+  - text: Enums
+    internal: true
+    url: enums
+  - text: Interfaces
+    internal: true
+    url: interfaces
+  - text: Create a Glossary
+    glossary: true
