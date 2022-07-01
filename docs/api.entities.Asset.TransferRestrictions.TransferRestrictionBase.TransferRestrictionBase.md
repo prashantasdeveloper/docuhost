@@ -8,7 +8,7 @@ Base class for managing Transfer Restrictions
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`TransferRestrictionType`](../wiki/api.procedures.types.TransferRestrictionType) |
+| `T` | extends [`TransferRestrictionType`](../wiki/types.TransferRestrictionType) |
 
 ## Hierarchy
 
@@ -46,7 +46,7 @@ Add a Transfer Restriction of the corresponding type to this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddRestrictionParams`](../wiki/api.procedures.types#addrestrictionparams)<`T`\> |
+| `args` | [`AddRestrictionParams`](../wiki/types#addrestrictionparams)<`T`\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -61,7 +61,7 @@ ___
 
 ### get
 
-▸ **get**(): `Promise`<[`GetReturnType`](../wiki/api.procedures.types#getreturntype)<`T`\>\>
+▸ **get**(): `Promise`<[`GetReturnType`](../wiki/types#getreturntype)<`T`\>\>
 
 Retrieve all active Transfer Restrictions of the corresponding type
 
@@ -71,7 +71,7 @@ Retrieve all active Transfer Restrictions of the corresponding type
 
 #### Returns
 
-`Promise`<[`GetReturnType`](../wiki/api.procedures.types#getreturntype)<`T`\>\>
+`Promise`<[`GetReturnType`](../wiki/types#getreturntype)<`T`\>\>
 
 #### Defined in
 
@@ -121,7 +121,7 @@ Sets all Transfer Restrictions of the corresponding type on this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetRestrictionsParams`](../wiki/api.procedures.types#setrestrictionsparams)<`T`\> |
+| `args` | [`SetRestrictionsParams`](../wiki/types#setrestrictionsparams)<`T`\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

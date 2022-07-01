@@ -112,7 +112,7 @@ Register an Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RegisterIdentityParams`](../wiki/api.procedures.types.RegisterIdentityParams) |
+| `args` | [`RegisterIdentityParams`](../wiki/types.RegisterIdentityParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

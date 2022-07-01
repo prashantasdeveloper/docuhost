@@ -40,7 +40,7 @@ Add a new compliance requirement to the the Asset. This doesn't modify existing 
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddAssetRequirementParams`](../wiki/api.procedures.types.AddAssetRequirementParams) |
+| `args` | [`AddAssetRequirementParams`](../wiki/types.AddAssetRequirementParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -144,7 +144,7 @@ Modify a compliance requirement for the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyComplianceRequirementParams`](../wiki/api.procedures.types#modifycompliancerequirementparams) |
+| `args` | [`ModifyComplianceRequirementParams`](../wiki/types#modifycompliancerequirementparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -195,7 +195,7 @@ Remove an existing compliance requirement from the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveAssetRequirementParams`](../wiki/api.procedures.types.RemoveAssetRequirementParams) |
+| `args` | [`RemoveAssetRequirementParams`](../wiki/types.RemoveAssetRequirementParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -249,7 +249,7 @@ For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetAssetRequirementsParams`](../wiki/api.procedures.types.SetAssetRequirementsParams) |
+| `args` | [`SetAssetRequirementsParams`](../wiki/types.SetAssetRequirementsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

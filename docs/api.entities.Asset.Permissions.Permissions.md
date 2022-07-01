@@ -36,7 +36,7 @@ Create a Permission Group for this Asset. Identities can be assigned to Permissi
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateGroupParams`](../wiki/api.procedures.types.CreateGroupParams) |
+| `args` | [`CreateGroupParams`](../wiki/types.CreateGroupParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -142,7 +142,7 @@ Invite an Identity to be an agent with permissions over this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`InviteExternalAgentParams`](../wiki/api.procedures.types.InviteExternalAgentParams) |
+| `args` | [`InviteExternalAgentParams`](../wiki/types.InviteExternalAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -168,7 +168,7 @@ Revoke an agent's permissions over this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveExternalAgentParams`](../wiki/api.procedures.types.RemoveExternalAgentParams) |
+| `args` | [`RemoveExternalAgentParams`](../wiki/types.RemoveExternalAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

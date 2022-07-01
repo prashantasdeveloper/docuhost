@@ -149,7 +149,7 @@ Modify the group's permissions
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetGroupPermissionsParams`](../wiki/api.procedures.types.SetGroupPermissionsParams) |
+| `args` | [`SetGroupPermissionsParams`](../wiki/types.SetGroupPermissionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

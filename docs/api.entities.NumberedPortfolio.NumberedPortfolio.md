@@ -316,7 +316,7 @@ Rename portfolio
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RenamePortfolioParams`](../wiki/api.procedures.types.RenamePortfolioParams) |
+| `args` | [`RenamePortfolioParams`](../wiki/types.RenamePortfolioParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -345,7 +345,7 @@ Moves funds from this Portfolio to another one owned by the same Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`MoveFundsParams`](../wiki/api.procedures.types.MoveFundsParams) |
+| `args` | [`MoveFundsParams`](../wiki/types.MoveFundsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -414,7 +414,7 @@ Send an invitation to an Identity to assign it as custodian for this Portfolio
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetCustodianParams`](../wiki/api.procedures.types.SetCustodianParams) |
+| `args` | [`SetCustodianParams`](../wiki/types.SetCustodianParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

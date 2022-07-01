@@ -222,7 +222,7 @@ Invest in the Offering
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`InvestInOfferingParams`](../wiki/api.procedures.types.InvestInOfferingParams) |
+| `args` | [`InvestInOfferingParams`](../wiki/types.InvestInOfferingParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -279,7 +279,7 @@ Modify the start/end time of the Offering
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyOfferingTimesParams`](../wiki/api.procedures.types#modifyofferingtimesparams) |
+| `args` | [`ModifyOfferingTimesParams`](../wiki/types#modifyofferingtimesparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

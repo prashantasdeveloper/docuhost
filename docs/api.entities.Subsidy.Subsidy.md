@@ -88,7 +88,7 @@ Decrease allowance for this Subsidy relationship
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`DecreaseAllowanceParams`](../wiki/api.procedures.types.DecreaseAllowanceParams), ``"allowance"``\> |
+| `args` | `Pick`<[`DecreaseAllowanceParams`](../wiki/types.DecreaseAllowanceParams), ``"allowance"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -154,7 +154,7 @@ Increase allowance for this Subsidy relationship
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`IncreaseAllowanceParams`](../wiki/api.procedures.types.IncreaseAllowanceParams), ``"allowance"``\> |
+| `args` | `Pick`<[`IncreaseAllowanceParams`](../wiki/types.IncreaseAllowanceParams), ``"allowance"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -237,7 +237,7 @@ Set allowance for this Subsidy relationship
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`SetAllowanceParams`](../wiki/api.procedures.types.SetAllowanceParams), ``"allowance"``\> |
+| `args` | `Pick`<[`SetAllowanceParams`](../wiki/types.SetAllowanceParams), ``"allowance"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

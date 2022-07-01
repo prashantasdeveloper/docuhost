@@ -85,7 +85,7 @@ Launch an Asset Offering
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`LaunchOfferingParams`](../wiki/api.procedures.types.LaunchOfferingParams) |
+| `args` | [`LaunchOfferingParams`](../wiki/types.LaunchOfferingParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

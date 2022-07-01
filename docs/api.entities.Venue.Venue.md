@@ -75,7 +75,7 @@ Creates a settlement Instruction in this Venue
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInstructionParams`](../wiki/api.procedures.types.AddInstructionParams) |
+| `args` | [`AddInstructionParams`](../wiki/types.AddInstructionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -104,7 +104,7 @@ Creates a batch of settlement Instructions in this Venue
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInstructionsParams`](../wiki/api.procedures.types.AddInstructionsParams) |
+| `args` | [`AddInstructionsParams`](../wiki/types.AddInstructionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -229,7 +229,7 @@ Modify description and type
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyVenueParams`](../wiki/api.procedures.types#modifyvenueparams) |
+| `args` | [`ModifyVenueParams`](../wiki/types#modifyvenueparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

@@ -95,7 +95,7 @@ ___
 
 ### getGroup
 
-▸ **getGroup**(`__namedParameters`): `Promise`<[`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup) \| [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup)\>
+▸ **getGroup**(`__namedParameters`): `Promise`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup)\>
 
 Retrieve this Identity's Permission Group for a specific Asset
 
@@ -108,7 +108,7 @@ Retrieve this Identity's Permission Group for a specific Asset
 
 #### Returns
 
-`Promise`<[`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup) \| [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup)\>
+`Promise`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup)\>
 
 #### Defined in
 
@@ -175,7 +175,7 @@ ___
 
 ### setGroup
 
-▸ **setGroup**(`args`, `opts?`): `Promise`<`TransactionQueue`<[`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup) \| [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup), [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup) \| [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup), `unknown`[][]\>\>
+▸ **setGroup**(`args`, `opts?`): `Promise`<`TransactionQueue`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup), [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup), `unknown`[][]\>\>
 
 Assign this Identity to a different Permission Group for a given Asset
 
@@ -186,12 +186,12 @@ Assign this Identity to a different Permission Group for a given Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetPermissionGroupParams`](../wiki/api.procedures.types.SetPermissionGroupParams) |
+| `args` | [`SetPermissionGroupParams`](../wiki/types.SetPermissionGroupParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
 
-`Promise`<`TransactionQueue`<[`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup) \| [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup), [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup) \| [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup), `unknown`[][]\>\>
+`Promise`<`TransactionQueue`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup), [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup), `unknown`[][]\>\>
 
 #### Defined in
 
@@ -212,7 +212,7 @@ Abdicate from the current Permissions Group for a given Asset. This means that t
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`WaivePermissionsParams`](../wiki/api.procedures.types.WaivePermissionsParams) |
+| `args` | [`WaivePermissionsParams`](../wiki/types.WaivePermissionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

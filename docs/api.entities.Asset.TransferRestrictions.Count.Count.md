@@ -6,7 +6,7 @@ Handles all Count Transfer Restriction related functionality
 
 ## Hierarchy
 
-- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Count`](../wiki/api.procedures.types.TransferRestrictionType#count)\>
+- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Count`](../wiki/types.TransferRestrictionType#count)\>
 
   ↳ **`Count`**
 
@@ -23,7 +23,7 @@ Handles all Count Transfer Restriction related functionality
 
 ### addRestriction
 
-• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddCountTransferRestrictionParams`](../wiki/api.procedures.types#addcounttransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddCountTransferRestrictionParams`](../wiki/types#addcounttransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Add a Count Transfer Restriction to this Asset
 
@@ -87,7 +87,7 @@ ___
 
 ### setRestrictions
 
-• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetCountTransferRestrictionsParams`](../wiki/api.procedures.types.SetCountTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetCountTransferRestrictionsParams`](../wiki/types.SetCountTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Sets all Count Transfer Restrictions on this Asset
 

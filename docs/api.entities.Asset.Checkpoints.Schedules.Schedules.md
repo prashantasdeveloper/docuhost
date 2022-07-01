@@ -63,7 +63,7 @@ Create a schedule for Checkpoint creation (i.e. "Create a checkpoint every week 
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateCheckpointScheduleParams`](../wiki/api.procedures.types.CreateCheckpointScheduleParams) |
+| `args` | [`CreateCheckpointScheduleParams`](../wiki/types.CreateCheckpointScheduleParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -163,7 +163,7 @@ Remove the supplied Checkpoint Schedule for a given Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveCheckpointScheduleParams`](../wiki/api.procedures.types.RemoveCheckpointScheduleParams) |
+| `args` | [`RemoveCheckpointScheduleParams`](../wiki/types.RemoveCheckpointScheduleParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

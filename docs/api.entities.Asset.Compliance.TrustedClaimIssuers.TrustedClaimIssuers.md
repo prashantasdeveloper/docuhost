@@ -34,7 +34,7 @@ Add the supplied Identities to the Asset's list of trusted claim issuers
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersAddSetParams) |
+| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/types.ModifyAssetTrustedClaimIssuersAddSetParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -94,7 +94,7 @@ Remove the supplied Identities from the Asset's list of trusted claim issuers   
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetTrustedClaimIssuersRemoveParams`](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersRemoveParams) |
+| `args` | [`ModifyAssetTrustedClaimIssuersRemoveParams`](../wiki/types.ModifyAssetTrustedClaimIssuersRemoveParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -122,7 +122,7 @@ This requires two transactions
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersAddSetParams) |
+| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/types.ModifyAssetTrustedClaimIssuersAddSetParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

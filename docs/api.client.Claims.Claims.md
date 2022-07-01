@@ -37,7 +37,7 @@ Add claims to Identities
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/api.procedures.types#modifyclaimsparams), ``"claims"``\> |
+| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/types#modifyclaimsparams), ``"claims"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -63,7 +63,7 @@ Add an Investor Uniqueness Claim to the signing Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInvestorUniquenessClaimParams`](../wiki/api.procedures.types.AddInvestorUniquenessClaimParams) |
+| `args` | [`AddInvestorUniquenessClaimParams`](../wiki/types.AddInvestorUniquenessClaimParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -92,7 +92,7 @@ Edit claims associated to Identities (only the expiry date can be modified)
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/api.procedures.types#modifyclaimsparams), ``"claims"``\> |
+| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/types#modifyclaimsparams), ``"claims"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -288,7 +288,7 @@ Revoke claims from Identities
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/api.procedures.types#modifyclaimsparams), ``"claims"``\> |
+| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/types#modifyclaimsparams), ``"claims"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

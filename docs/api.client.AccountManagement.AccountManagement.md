@@ -181,7 +181,7 @@ Send an invitation to an Account to join the signing Identity as a secondary Acc
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`InviteAccountParams`](../wiki/api.procedures.types.InviteAccountParams) |
+| `args` | [`InviteAccountParams`](../wiki/types.InviteAccountParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -234,7 +234,7 @@ Modify all permissions of a list of secondary Accounts associated with the signi
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifySignerPermissionsParams`](../wiki/api.procedures.types.ModifySignerPermissionsParams) |
+| `args` | [`ModifySignerPermissionsParams`](../wiki/types.ModifySignerPermissionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -260,7 +260,7 @@ Remove a list of secondary Accounts associated with the signing Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveSecondaryAccountsParams`](../wiki/api.procedures.types.RemoveSecondaryAccountsParams) |
+| `args` | [`RemoveSecondaryAccountsParams`](../wiki/types.RemoveSecondaryAccountsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -319,7 +319,7 @@ Send an Authorization Request to an Account to subsidize its transaction fees
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SubsidizeAccountParams`](../wiki/api.procedures.types.SubsidizeAccountParams) |
+| `args` | [`SubsidizeAccountParams`](../wiki/types.SubsidizeAccountParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

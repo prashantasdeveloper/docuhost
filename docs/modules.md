@@ -67,6 +67,5 @@
 - [api/entities/Venue](../wiki/api.entities.Venue)
 - [api/entities/Venue/types](../wiki/api.entities.Venue.types)
 - [api/entities/common/namespaces/Authorizations](../wiki/api.entities.common.namespaces.Authorizations)
-- [api/procedures/types](../wiki/api.procedures.types)
 - [types](../wiki/types)
 - [types/utils](../wiki/types.utils)

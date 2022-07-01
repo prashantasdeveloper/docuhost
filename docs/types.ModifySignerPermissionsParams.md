@@ -1,0 +1,21 @@
+# Interface: ModifySignerPermissionsParams
+
+[types](../wiki/types).ModifySignerPermissionsParams
+
+## Table of contents
+
+### Properties
+
+- [secondaryAccounts](../wiki/types.ModifySignerPermissionsParams#secondaryaccounts)
+
+## Properties
+
+### secondaryAccounts
+
+• **secondaryAccounts**: [`Modify`](../wiki/types.utils#modify)<[`PermissionedAccount`](../wiki/types.PermissionedAccount), { `permissions`: [`PermissionsLike`](../wiki/types#permissionslike)  }\>[]
+
+list of secondary Accounts
+
+#### Defined in
+
+[api/procedures/types.ts:126](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L126)

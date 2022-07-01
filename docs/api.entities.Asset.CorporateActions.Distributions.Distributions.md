@@ -36,7 +36,7 @@ Create a Dividend Distribution for a subset of the Asset Holders at a certain (e
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ConfigureDividendDistributionParams`](../wiki/api.procedures.types.ConfigureDividendDistributionParams) |
+| `args` | [`ConfigureDividendDistributionParams`](../wiki/types.ConfigureDividendDistributionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

@@ -4,109 +4,40 @@
 
 ### References
 
-- [AddAssetRequirementParams](../wiki/types#addassetrequirementparams)
-- [AddClaimsParams](../wiki/types#addclaimsparams)
-- [AddCountTransferRestrictionParams](../wiki/types#addcounttransferrestrictionparams)
-- [AddInstructionParams](../wiki/types#addinstructionparams)
-- [AddInstructionWithVenueIdParams](../wiki/types#addinstructionwithvenueidparams)
-- [AddInstructionsParams](../wiki/types#addinstructionsparams)
-- [AddInvestorUniquenessClaimParams](../wiki/types#addinvestoruniquenessclaimparams)
-- [AddPercentageTransferRestrictionParams](../wiki/types#addpercentagetransferrestrictionparams)
-- [AddRestrictionParams](../wiki/types#addrestrictionparams)
-- [AffirmInstructionParams](../wiki/types#affirminstructionparams)
 - [AffirmationStatus](../wiki/types#affirmationstatus)
 - [AgentWithGroup](../wiki/types#agentwithgroup)
-- [AllowanceOperation](../wiki/types#allowanceoperation)
-- [AssetBase](../wiki/types#assetbase)
 - [AssetDetails](../wiki/types#assetdetails)
 - [CaCheckpointType](../wiki/types#cacheckpointtype)
 - [CheckpointScheduleParams](../wiki/types#checkpointscheduleparams)
-- [ClaimClassicTickerParams](../wiki/types#claimclassictickerparams)
-- [ClaimOperation](../wiki/types#claimoperation)
-- [ConfigureDividendDistributionParams](../wiki/types#configuredividenddistributionparams)
 - [ConnectParams](../wiki/types#connectparams)
-- [ControllerTransferParams](../wiki/types#controllertransferparams)
 - [CorporateActionDefaultConfig](../wiki/types#corporateactiondefaultconfig)
 - [CorporateActionKind](../wiki/types#corporateactionkind)
 - [CorporateActionParams](../wiki/types#corporateactionparams)
 - [CorporateActionTargets](../wiki/types#corporateactiontargets)
-- [CountTransferRestrictionInput](../wiki/types#counttransferrestrictioninput)
-- [CreateAssetParams](../wiki/types#createassetparams)
-- [CreateAssetWithTickerParams](../wiki/types#createassetwithtickerparams)
-- [CreateCheckpointScheduleParams](../wiki/types#createcheckpointscheduleparams)
-- [CreateGroupParams](../wiki/types#creategroupparams)
-- [CreateVenueParams](../wiki/types#createvenueparams)
-- [DecreaseAllowanceParams](../wiki/types#decreaseallowanceparams)
 - [DistributionParticipant](../wiki/types#distributionparticipant)
 - [DividendDistributionDetails](../wiki/types#dividenddistributiondetails)
 - [DividendDistributionParams](../wiki/types#dividenddistributionparams)
-- [EditClaimsParams](../wiki/types#editclaimsparams)
-- [GetReturnType](../wiki/types#getreturntype)
 - [HistoricSettlement](../wiki/types#historicsettlement)
 - [IdentityBalance](../wiki/types#identitybalance)
-- [IncreaseAllowanceParams](../wiki/types#increaseallowanceparams)
 - [InputCaCheckpoint](../wiki/types#inputcacheckpoint)
 - [InputTargets](../wiki/types#inputtargets)
 - [InputTaxWithholding](../wiki/types#inputtaxwithholding)
 - [InstructionAffirmation](../wiki/types#instructionaffirmation)
-- [InstructionAffirmationOperation](../wiki/types#instructionaffirmationoperation)
 - [InstructionDetails](../wiki/types#instructiondetails)
 - [InstructionStatus](../wiki/types#instructionstatus)
 - [InstructionStatusResult](../wiki/types#instructionstatusresult)
 - [InstructionType](../wiki/types#instructiontype)
-- [InvestInOfferingParams](../wiki/types#investinofferingparams)
 - [Investment](../wiki/types#investment)
-- [InviteAccountParams](../wiki/types#inviteaccountparams)
-- [InviteExternalAgentParams](../wiki/types#inviteexternalagentparams)
-- [LaunchOfferingParams](../wiki/types#launchofferingparams)
 - [Leg](../wiki/types#leg)
-- [LinkCaDocsParams](../wiki/types#linkcadocsparams)
-- [ModifyAssetParams](../wiki/types#modifyassetparams)
-- [ModifyAssetTrustedClaimIssuersAddSetParams](../wiki/types#modifyassettrustedclaimissuersaddsetparams)
-- [ModifyAssetTrustedClaimIssuersRemoveParams](../wiki/types#modifyassettrustedclaimissuersremoveparams)
-- [ModifyCaCheckpointParams](../wiki/types#modifycacheckpointparams)
-- [ModifyCaDefaultConfigParams](../wiki/types#modifycadefaultconfigparams)
-- [ModifyClaimsParams](../wiki/types#modifyclaimsparams)
-- [ModifyComplianceRequirementParams](../wiki/types#modifycompliancerequirementparams)
-- [ModifyCorporateActionsAgentParams](../wiki/types#modifycorporateactionsagentparams)
-- [ModifyInstructionAffirmationParams](../wiki/types#modifyinstructionaffirmationparams)
-- [ModifyOfferingTimesParams](../wiki/types#modifyofferingtimesparams)
-- [ModifyPrimaryIssuanceAgentParams](../wiki/types#modifyprimaryissuanceagentparams)
-- [ModifySignerPermissionsParams](../wiki/types#modifysignerpermissionsparams)
-- [ModifyVenueParams](../wiki/types#modifyvenueparams)
-- [MoveFundsParams](../wiki/types#movefundsparams)
 - [OfferingBalanceStatus](../wiki/types#offeringbalancestatus)
 - [OfferingDetails](../wiki/types#offeringdetails)
 - [OfferingSaleStatus](../wiki/types#offeringsalestatus)
 - [OfferingStatus](../wiki/types#offeringstatus)
 - [OfferingTier](../wiki/types#offeringtier)
 - [OfferingTimingStatus](../wiki/types#offeringtimingstatus)
-- [PayDividendsParams](../wiki/types#paydividendsparams)
-- [PercentageTransferRestrictionInput](../wiki/types#percentagetransferrestrictioninput)
 - [PortfolioBalance](../wiki/types#portfoliobalance)
-- [RedeemTokensParams](../wiki/types#redeemtokensparams)
-- [RegisterIdentityParams](../wiki/types#registeridentityparams)
-- [RemoveAssetRequirementParams](../wiki/types#removeassetrequirementparams)
-- [RemoveCheckpointScheduleParams](../wiki/types#removecheckpointscheduleparams)
-- [RemoveCorporateActionParams](../wiki/types#removecorporateactionparams)
-- [RemoveExternalAgentParams](../wiki/types#removeexternalagentparams)
-- [RemoveSecondaryAccountsParams](../wiki/types#removesecondaryaccountsparams)
-- [RenamePortfolioParams](../wiki/types#renameportfolioparams)
-- [ReserveTickerParams](../wiki/types#reservetickerparams)
-- [RevokeClaimsParams](../wiki/types#revokeclaimsparams)
 - [ScheduleDetails](../wiki/types#scheduledetails)
-- [ScopeClaimProof](../wiki/types#scopeclaimproof)
-- [SetAllowanceParams](../wiki/types#setallowanceparams)
-- [SetAssetDocumentsParams](../wiki/types#setassetdocumentsparams)
-- [SetAssetRequirementsParams](../wiki/types#setassetrequirementsparams)
-- [SetCountTransferRestrictionsParams](../wiki/types#setcounttransferrestrictionsparams)
-- [SetCustodianParams](../wiki/types#setcustodianparams)
-- [SetGroupPermissionsParams](../wiki/types#setgrouppermissionsparams)
-- [SetPercentageTransferRestrictionsParams](../wiki/types#setpercentagetransferrestrictionsparams)
-- [SetPermissionGroupParams](../wiki/types#setpermissiongroupparams)
-- [SetRestrictionsParams](../wiki/types#setrestrictionsparams)
 - [SettlementLeg](../wiki/types#settlementleg)
-- [SubsidizeAccountParams](../wiki/types#subsidizeaccountparams)
 - [SubsidyData](../wiki/types#subsidydata)
 - [SubsidyWithAllowance](../wiki/types#subsidywithallowance)
 - [TargetTreatment](../wiki/types#targettreatment)
@@ -114,21 +45,14 @@
 - [TickerReservationDetails](../wiki/types#tickerreservationdetails)
 - [TickerReservationStatus](../wiki/types#tickerreservationstatus)
 - [Tier](../wiki/types#tier)
-- [TransactionsParams](../wiki/types#transactionsparams)
-- [TransferAssetOwnershipParams](../wiki/types#transferassetownershipparams)
 - [TransferBreakdown](../wiki/types#transferbreakdown)
-- [TransferPolyxParams](../wiki/types#transferpolyxparams)
-- [TransferRestriction](../wiki/types#transferrestriction)
 - [TransferRestrictionResult](../wiki/types#transferrestrictionresult)
-- [TransferRestrictionType](../wiki/types#transferrestrictiontype)
-- [TransferTickerOwnershipParams](../wiki/types#transfertickerownershipparams)
-- [TxGroupParams](../wiki/types#txgroupparams)
 - [VenueDetails](../wiki/types#venuedetails)
 - [VenueType](../wiki/types#venuetype)
-- [WaivePermissionsParams](../wiki/types#waivepermissionsparams)
 
 ### Enumerations
 
+- [AllowanceOperation](../wiki/types.AllowanceOperation)
 - [AssetTx](../wiki/types.AssetTx)
 - [AuthorizationType](../wiki/types.AuthorizationType)
 - [AuthorshipTx](../wiki/types.AuthorshipTx)
@@ -139,6 +63,7 @@
 - [CapitalDistributionTx](../wiki/types.CapitalDistributionTx)
 - [CddServiceProvidersTx](../wiki/types.CddServiceProvidersTx)
 - [CheckpointTx](../wiki/types.CheckpointTx)
+- [ClaimOperation](../wiki/types.ClaimOperation)
 - [ClaimType](../wiki/types.ClaimType)
 - [CommitteeMembershipTx](../wiki/types.CommitteeMembershipTx)
 - [ComplianceManagerTx](../wiki/types.ComplianceManagerTx)
@@ -155,6 +80,7 @@
 - [IdentityTx](../wiki/types.IdentityTx)
 - [ImOnlineTx](../wiki/types.ImOnlineTx)
 - [IndicesTx](../wiki/types.IndicesTx)
+- [InstructionAffirmationOperation](../wiki/types.InstructionAffirmationOperation)
 - [KnownAssetType](../wiki/types.KnownAssetType)
 - [ModuleIdEnum](../wiki/types.ModuleIdEnum)
 - [ModuleName](../wiki/types.ModuleName)
@@ -194,6 +120,7 @@
 - [TransactionQueueStatus](../wiki/types.TransactionQueueStatus)
 - [TransactionStatus](../wiki/types.TransactionStatus)
 - [TransferError](../wiki/types.TransferError)
+- [TransferRestrictionType](../wiki/types.TransferRestrictionType)
 - [TransferStatus](../wiki/types.TransferStatus)
 - [TreasuryTx](../wiki/types.TreasuryTx)
 - [TxGroup](../wiki/types.TxGroup)
@@ -205,8 +132,16 @@
 
 - [AccreditedClaim](../wiki/types.AccreditedClaim)
 - [ActiveTransferRestrictions](../wiki/types.ActiveTransferRestrictions)
+- [AddAssetRequirementParams](../wiki/types.AddAssetRequirementParams)
+- [AddClaimsParams](../wiki/types.AddClaimsParams)
+- [AddInstructionParams](../wiki/types.AddInstructionParams)
+- [AddInstructionWithVenueIdParams](../wiki/types.AddInstructionWithVenueIdParams)
+- [AddInstructionsParams](../wiki/types.AddInstructionsParams)
+- [AddInvestorUniquenessClaimParams](../wiki/types.AddInvestorUniquenessClaimParams)
 - [AffiliateClaim](../wiki/types.AffiliateClaim)
+- [AffirmInstructionParams](../wiki/types.AffirmInstructionParams)
 - [ArrayTransactionArgument](../wiki/types.ArrayTransactionArgument)
+- [AssetBase](../wiki/types.AssetBase)
 - [AssetDocument](../wiki/types.AssetDocument)
 - [AssetWithGroup](../wiki/types.AssetWithGroup)
 - [Balance](../wiki/types.Balance)
@@ -218,6 +153,7 @@
 - [CheckPermissionsResult](../wiki/types.CheckPermissionsResult)
 - [CheckRolesResult](../wiki/types.CheckRolesResult)
 - [CheckpointWithData](../wiki/types.CheckpointWithData)
+- [ClaimClassicTickerParams](../wiki/types.ClaimClassicTickerParams)
 - [ClaimData](../wiki/types.ClaimData)
 - [ClaimScope](../wiki/types.ClaimScope)
 - [ClaimTarget](../wiki/types.ClaimTarget)
@@ -226,9 +162,19 @@
 - [ComplianceRequirements](../wiki/types.ComplianceRequirements)
 - [ConditionBase](../wiki/types.ConditionBase)
 - [ConditionCompliance](../wiki/types.ConditionCompliance)
+- [ConfigureDividendDistributionParams](../wiki/types.ConfigureDividendDistributionParams)
+- [ControllerTransferParams](../wiki/types.ControllerTransferParams)
 - [CountTransferRestriction](../wiki/types.CountTransferRestriction)
+- [CountTransferRestrictionInput](../wiki/types.CountTransferRestrictionInput)
+- [CreateAssetParams](../wiki/types.CreateAssetParams)
+- [CreateAssetWithTickerParams](../wiki/types.CreateAssetWithTickerParams)
+- [CreateCheckpointScheduleParams](../wiki/types.CreateCheckpointScheduleParams)
+- [CreateGroupParams](../wiki/types.CreateGroupParams)
+- [CreateVenueParams](../wiki/types.CreateVenueParams)
+- [DecreaseAllowanceParams](../wiki/types.DecreaseAllowanceParams)
 - [DistributionPayment](../wiki/types.DistributionPayment)
 - [DistributionWithDetails](../wiki/types.DistributionWithDetails)
+- [EditClaimsParams](../wiki/types.EditClaimsParams)
 - [EventIdentifier](../wiki/types.EventIdentifier)
 - [ExemptedClaim](../wiki/types.ExemptedClaim)
 - [ExternalAgentCondition](../wiki/types.ExternalAgentCondition)
@@ -241,11 +187,25 @@
 - [IdentityCondition](../wiki/types.IdentityCondition)
 - [IdentityRole](../wiki/types.IdentityRole)
 - [IdentityWithClaims](../wiki/types.IdentityWithClaims)
+- [IncreaseAllowanceParams](../wiki/types.IncreaseAllowanceParams)
+- [InvestInOfferingParams](../wiki/types.InvestInOfferingParams)
 - [InvestorUniquenessClaim](../wiki/types.InvestorUniquenessClaim)
 - [InvestorUniquenessV2Claim](../wiki/types.InvestorUniquenessV2Claim)
+- [InviteAccountParams](../wiki/types.InviteAccountParams)
+- [InviteExternalAgentParams](../wiki/types.InviteExternalAgentParams)
 - [JurisdictionClaim](../wiki/types.JurisdictionClaim)
 - [KycClaim](../wiki/types.KycClaim)
+- [LaunchOfferingParams](../wiki/types.LaunchOfferingParams)
+- [LinkCaDocsParams](../wiki/types.LinkCaDocsParams)
 - [MiddlewareConfig](../wiki/types.MiddlewareConfig)
+- [ModifyAssetTrustedClaimIssuersAddSetParams](../wiki/types.ModifyAssetTrustedClaimIssuersAddSetParams)
+- [ModifyAssetTrustedClaimIssuersRemoveParams](../wiki/types.ModifyAssetTrustedClaimIssuersRemoveParams)
+- [ModifyCaCheckpointParams](../wiki/types.ModifyCaCheckpointParams)
+- [ModifyCorporateActionsAgentParams](../wiki/types.ModifyCorporateActionsAgentParams)
+- [ModifyInstructionAffirmationParams](../wiki/types.ModifyInstructionAffirmationParams)
+- [ModifyPrimaryIssuanceAgentParams](../wiki/types.ModifyPrimaryIssuanceAgentParams)
+- [ModifySignerPermissionsParams](../wiki/types.ModifySignerPermissionsParams)
+- [MoveFundsParams](../wiki/types.MoveFundsParams)
 - [MultiClaimCondition](../wiki/types.MultiClaimCondition)
 - [NetworkProperties](../wiki/types.NetworkProperties)
 - [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod)
@@ -253,8 +213,10 @@
 - [NoTypeClaim](../wiki/types.NoTypeClaim)
 - [OfferingWithDetails](../wiki/types.OfferingWithDetails)
 - [PaginationOptions](../wiki/types.PaginationOptions)
+- [PayDividendsParams](../wiki/types.PayDividendsParams)
 - [PayingAccount](../wiki/types.PayingAccount)
 - [PercentageTransferRestriction](../wiki/types.PercentageTransferRestriction)
+- [PercentageTransferRestrictionInput](../wiki/types.PercentageTransferRestrictionInput)
 - [PermissionGroups](../wiki/types.PermissionGroups)
 - [PermissionedAccount](../wiki/types.PermissionedAccount)
 - [Permissions](../wiki/types.Permissions)
@@ -266,33 +228,64 @@
 - [ProcedureMethod](../wiki/types.ProcedureMethod)
 - [ProcedureOpts](../wiki/types.ProcedureOpts)
 - [ProtocolFees](../wiki/types.ProtocolFees)
+- [RedeemTokensParams](../wiki/types.RedeemTokensParams)
+- [RegisterIdentityParams](../wiki/types.RegisterIdentityParams)
+- [RemoveAssetRequirementParams](../wiki/types.RemoveAssetRequirementParams)
+- [RemoveCheckpointScheduleParams](../wiki/types.RemoveCheckpointScheduleParams)
+- [RemoveCorporateActionParams](../wiki/types.RemoveCorporateActionParams)
+- [RemoveExternalAgentParams](../wiki/types.RemoveExternalAgentParams)
+- [RemoveSecondaryAccountsParams](../wiki/types.RemoveSecondaryAccountsParams)
+- [RenamePortfolioParams](../wiki/types.RenamePortfolioParams)
 - [Requirement](../wiki/types.Requirement)
 - [RequirementCompliance](../wiki/types.RequirementCompliance)
+- [ReserveTickerParams](../wiki/types.ReserveTickerParams)
 - [ResultSet](../wiki/types.ResultSet)
+- [RevokeClaimsParams](../wiki/types.RevokeClaimsParams)
 - [ScheduleWithDetails](../wiki/types.ScheduleWithDetails)
 - [Scope](../wiki/types.Scope)
+- [ScopeClaimProof](../wiki/types.ScopeClaimProof)
 - [SectionPermissions](../wiki/types.SectionPermissions)
 - [SecurityIdentifier](../wiki/types.SecurityIdentifier)
 - [SellLockupClaim](../wiki/types.SellLockupClaim)
+- [SetAllowanceParams](../wiki/types.SetAllowanceParams)
+- [SetAssetDocumentsParams](../wiki/types.SetAssetDocumentsParams)
+- [SetAssetRequirementsParams](../wiki/types.SetAssetRequirementsParams)
+- [SetCountTransferRestrictionsParams](../wiki/types.SetCountTransferRestrictionsParams)
+- [SetCustodianParams](../wiki/types.SetCustodianParams)
+- [SetGroupPermissionsParams](../wiki/types.SetGroupPermissionsParams)
+- [SetPercentageTransferRestrictionsParams](../wiki/types.SetPercentageTransferRestrictionsParams)
+- [SetPermissionGroupParams](../wiki/types.SetPermissionGroupParams)
 - [SignerValue](../wiki/types.SignerValue)
 - [SimpleEnumTransactionArgument](../wiki/types.SimpleEnumTransactionArgument)
 - [SimplePermissions](../wiki/types.SimplePermissions)
 - [SingleClaimCondition](../wiki/types.SingleClaimCondition)
+- [SubsidizeAccountParams](../wiki/types.SubsidizeAccountParams)
 - [ThirdPartyFees](../wiki/types.ThirdPartyFees)
 - [TickerOwnerRole](../wiki/types.TickerOwnerRole)
 - [TransactionPermissions](../wiki/types.TransactionPermissions)
+- [TransactionsParams](../wiki/types.TransactionsParams)
+- [TransferAssetOwnershipParams](../wiki/types.TransferAssetOwnershipParams)
+- [TransferPolyxParams](../wiki/types.TransferPolyxParams)
+- [TransferRestriction](../wiki/types.TransferRestriction)
+- [TransferTickerOwnershipParams](../wiki/types.TransferTickerOwnershipParams)
 - [TrustedClaimIssuer](../wiki/types.TrustedClaimIssuer)
+- [TxGroupParams](../wiki/types.TxGroupParams)
 - [VenueOwnerRole](../wiki/types.VenueOwnerRole)
+- [WaivePermissionsParams](../wiki/types.WaivePermissionsParams)
 
 ### Type Aliases
 
 - [AccountBalance](../wiki/types#accountbalance)
+- [AddCountTransferRestrictionParams](../wiki/types#addcounttransferrestrictionparams)
+- [AddPercentageTransferRestrictionParams](../wiki/types#addpercentagetransferrestrictionparams)
 - [AddRelayerPayingKeyAuthorizationData](../wiki/types#addrelayerpayingkeyauthorizationdata)
+- [AddRestrictionParams](../wiki/types#addrestrictionparams)
 - [Authorization](../wiki/types#authorization)
 - [BecomeAgentAuthorizationData](../wiki/types#becomeagentauthorizationdata)
 - [Claim](../wiki/types#claim)
 - [Condition](../wiki/types#condition)
 - [GenericAuthorizationData](../wiki/types#genericauthorizationdata)
+- [GetReturnType](../wiki/types#getreturntype)
 - [GroupPermissions](../wiki/types#grouppermissions)
 - [InputCondition](../wiki/types#inputcondition)
 - [InputConditionBase](../wiki/types#inputconditionbase)
@@ -301,6 +294,12 @@
 - [InputRequirement](../wiki/types#inputrequirement)
 - [InputTrustedClaimIssuer](../wiki/types#inputtrustedclaimissuer)
 - [JoinIdentityAuthorizationData](../wiki/types#joinidentityauthorizationdata)
+- [ModifyAssetParams](../wiki/types#modifyassetparams)
+- [ModifyCaDefaultConfigParams](../wiki/types#modifycadefaultconfigparams)
+- [ModifyClaimsParams](../wiki/types#modifyclaimsparams)
+- [ModifyComplianceRequirementParams](../wiki/types#modifycompliancerequirementparams)
+- [ModifyOfferingTimesParams](../wiki/types#modifyofferingtimesparams)
+- [ModifyVenueParams](../wiki/types#modifyvenueparams)
 - [NextKey](../wiki/types#nextkey)
 - [PermissionsLike](../wiki/types#permissionslike)
 - [PortfolioCustodyAuthorizationData](../wiki/types#portfoliocustodyauthorizationdata)
@@ -310,6 +309,7 @@
 - [RotatePrimaryKeyAuthorizationData](../wiki/types#rotateprimarykeyauthorizationdata)
 - [RotatePrimaryKeyToSecondaryData](../wiki/types#rotateprimarykeytosecondarydata)
 - [ScopedClaim](../wiki/types#scopedclaim)
+- [SetRestrictionsParams](../wiki/types#setrestrictionsparams)
 - [Signer](../wiki/types#signer)
 - [SubCallback](../wiki/types#subcallback)
 - [TransactionArgument](../wiki/types#transactionargument)
@@ -324,66 +324,6 @@
 
 ## References
 
-### AddAssetRequirementParams
-
-Re-exports [AddAssetRequirementParams](../wiki/api.procedures.types.AddAssetRequirementParams)
-
-___
-
-### AddClaimsParams
-
-Re-exports [AddClaimsParams](../wiki/api.procedures.types.AddClaimsParams)
-
-___
-
-### AddCountTransferRestrictionParams
-
-Re-exports [AddCountTransferRestrictionParams](../wiki/api.procedures.types#addcounttransferrestrictionparams)
-
-___
-
-### AddInstructionParams
-
-Re-exports [AddInstructionParams](../wiki/api.procedures.types.AddInstructionParams)
-
-___
-
-### AddInstructionWithVenueIdParams
-
-Re-exports [AddInstructionWithVenueIdParams](../wiki/api.procedures.types.AddInstructionWithVenueIdParams)
-
-___
-
-### AddInstructionsParams
-
-Re-exports [AddInstructionsParams](../wiki/api.procedures.types.AddInstructionsParams)
-
-___
-
-### AddInvestorUniquenessClaimParams
-
-Re-exports [AddInvestorUniquenessClaimParams](../wiki/api.procedures.types.AddInvestorUniquenessClaimParams)
-
-___
-
-### AddPercentageTransferRestrictionParams
-
-Re-exports [AddPercentageTransferRestrictionParams](../wiki/api.procedures.types#addpercentagetransferrestrictionparams)
-
-___
-
-### AddRestrictionParams
-
-Re-exports [AddRestrictionParams](../wiki/api.procedures.types#addrestrictionparams)
-
-___
-
-### AffirmInstructionParams
-
-Re-exports [AffirmInstructionParams](../wiki/api.procedures.types.AffirmInstructionParams)
-
-___
-
 ### AffirmationStatus
 
 Re-exports [AffirmationStatus](../wiki/api.entities.Instruction.types.AffirmationStatus)
@@ -393,18 +333,6 @@ ___
 ### AgentWithGroup
 
 Re-exports [AgentWithGroup](../wiki/api.entities.Asset.types.AgentWithGroup)
-
-___
-
-### AllowanceOperation
-
-Re-exports [AllowanceOperation](../wiki/api.procedures.types.AllowanceOperation)
-
-___
-
-### AssetBase
-
-Re-exports [AssetBase](../wiki/api.procedures.types.AssetBase)
 
 ___
 
@@ -426,33 +354,9 @@ Re-exports [CheckpointScheduleParams](../wiki/api.entities.CheckpointSchedule.ty
 
 ___
 
-### ClaimClassicTickerParams
-
-Re-exports [ClaimClassicTickerParams](../wiki/api.procedures.types.ClaimClassicTickerParams)
-
-___
-
-### ClaimOperation
-
-Re-exports [ClaimOperation](../wiki/api.procedures.types.ClaimOperation)
-
-___
-
-### ConfigureDividendDistributionParams
-
-Re-exports [ConfigureDividendDistributionParams](../wiki/api.procedures.types.ConfigureDividendDistributionParams)
-
-___
-
 ### ConnectParams
 
 Re-exports [ConnectParams](../wiki/api.client.Polymesh.ConnectParams)
-
-___
-
-### ControllerTransferParams
-
-Re-exports [ControllerTransferParams](../wiki/api.procedures.types.ControllerTransferParams)
 
 ___
 
@@ -480,48 +384,6 @@ Re-exports [CorporateActionTargets](../wiki/api.entities.CorporateActionBase.typ
 
 ___
 
-### CountTransferRestrictionInput
-
-Re-exports [CountTransferRestrictionInput](../wiki/api.procedures.types.CountTransferRestrictionInput)
-
-___
-
-### CreateAssetParams
-
-Re-exports [CreateAssetParams](../wiki/api.procedures.types.CreateAssetParams)
-
-___
-
-### CreateAssetWithTickerParams
-
-Re-exports [CreateAssetWithTickerParams](../wiki/api.procedures.types.CreateAssetWithTickerParams)
-
-___
-
-### CreateCheckpointScheduleParams
-
-Re-exports [CreateCheckpointScheduleParams](../wiki/api.procedures.types.CreateCheckpointScheduleParams)
-
-___
-
-### CreateGroupParams
-
-Re-exports [CreateGroupParams](../wiki/api.procedures.types.CreateGroupParams)
-
-___
-
-### CreateVenueParams
-
-Re-exports [CreateVenueParams](../wiki/api.procedures.types.CreateVenueParams)
-
-___
-
-### DecreaseAllowanceParams
-
-Re-exports [DecreaseAllowanceParams](../wiki/api.procedures.types.DecreaseAllowanceParams)
-
-___
-
 ### DistributionParticipant
 
 Re-exports [DistributionParticipant](../wiki/api.entities.DividendDistribution.types.DistributionParticipant)
@@ -540,18 +402,6 @@ Re-exports [DividendDistributionParams](../wiki/api.entities.DividendDistributio
 
 ___
 
-### EditClaimsParams
-
-Re-exports [EditClaimsParams](../wiki/api.procedures.types.EditClaimsParams)
-
-___
-
-### GetReturnType
-
-Re-exports [GetReturnType](../wiki/api.procedures.types#getreturntype)
-
-___
-
 ### HistoricSettlement
 
 Re-exports [HistoricSettlement](../wiki/api.entities.Portfolio.types.HistoricSettlement)
@@ -561,12 +411,6 @@ ___
 ### IdentityBalance
 
 Re-exports [IdentityBalance](../wiki/api.entities.Asset.types.IdentityBalance)
-
-___
-
-### IncreaseAllowanceParams
-
-Re-exports [IncreaseAllowanceParams](../wiki/api.procedures.types.IncreaseAllowanceParams)
 
 ___
 
@@ -594,12 +438,6 @@ Re-exports [InstructionAffirmation](../wiki/api.entities.Instruction.types.Instr
 
 ___
 
-### InstructionAffirmationOperation
-
-Re-exports [InstructionAffirmationOperation](../wiki/api.procedures.types.InstructionAffirmationOperation)
-
-___
-
 ### InstructionDetails
 
 Re-exports [InstructionDetails](../wiki/api.entities.Instruction.types#instructiondetails)
@@ -624,129 +462,15 @@ Re-exports [InstructionType](../wiki/api.entities.Instruction.types.InstructionT
 
 ___
 
-### InvestInOfferingParams
-
-Re-exports [InvestInOfferingParams](../wiki/api.procedures.types.InvestInOfferingParams)
-
-___
-
 ### Investment
 
 Re-exports [Investment](../wiki/api.entities.Offering.types.Investment)
 
 ___
 
-### InviteAccountParams
-
-Re-exports [InviteAccountParams](../wiki/api.procedures.types.InviteAccountParams)
-
-___
-
-### InviteExternalAgentParams
-
-Re-exports [InviteExternalAgentParams](../wiki/api.procedures.types.InviteExternalAgentParams)
-
-___
-
-### LaunchOfferingParams
-
-Re-exports [LaunchOfferingParams](../wiki/api.procedures.types.LaunchOfferingParams)
-
-___
-
 ### Leg
 
 Re-exports [Leg](../wiki/api.entities.Instruction.types.Leg)
-
-___
-
-### LinkCaDocsParams
-
-Re-exports [LinkCaDocsParams](../wiki/api.procedures.types.LinkCaDocsParams)
-
-___
-
-### ModifyAssetParams
-
-Re-exports [ModifyAssetParams](../wiki/api.procedures.types#modifyassetparams)
-
-___
-
-### ModifyAssetTrustedClaimIssuersAddSetParams
-
-Re-exports [ModifyAssetTrustedClaimIssuersAddSetParams](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersAddSetParams)
-
-___
-
-### ModifyAssetTrustedClaimIssuersRemoveParams
-
-Re-exports [ModifyAssetTrustedClaimIssuersRemoveParams](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersRemoveParams)
-
-___
-
-### ModifyCaCheckpointParams
-
-Re-exports [ModifyCaCheckpointParams](../wiki/api.procedures.types.ModifyCaCheckpointParams)
-
-___
-
-### ModifyCaDefaultConfigParams
-
-Re-exports [ModifyCaDefaultConfigParams](../wiki/api.procedures.types#modifycadefaultconfigparams)
-
-___
-
-### ModifyClaimsParams
-
-Re-exports [ModifyClaimsParams](../wiki/api.procedures.types#modifyclaimsparams)
-
-___
-
-### ModifyComplianceRequirementParams
-
-Re-exports [ModifyComplianceRequirementParams](../wiki/api.procedures.types#modifycompliancerequirementparams)
-
-___
-
-### ModifyCorporateActionsAgentParams
-
-Re-exports [ModifyCorporateActionsAgentParams](../wiki/api.procedures.types.ModifyCorporateActionsAgentParams)
-
-___
-
-### ModifyInstructionAffirmationParams
-
-Re-exports [ModifyInstructionAffirmationParams](../wiki/api.procedures.types.ModifyInstructionAffirmationParams)
-
-___
-
-### ModifyOfferingTimesParams
-
-Re-exports [ModifyOfferingTimesParams](../wiki/api.procedures.types#modifyofferingtimesparams)
-
-___
-
-### ModifyPrimaryIssuanceAgentParams
-
-Re-exports [ModifyPrimaryIssuanceAgentParams](../wiki/api.procedures.types.ModifyPrimaryIssuanceAgentParams)
-
-___
-
-### ModifySignerPermissionsParams
-
-Re-exports [ModifySignerPermissionsParams](../wiki/api.procedures.types.ModifySignerPermissionsParams)
-
-___
-
-### ModifyVenueParams
-
-Re-exports [ModifyVenueParams](../wiki/api.procedures.types#modifyvenueparams)
-
-___
-
-### MoveFundsParams
-
-Re-exports [MoveFundsParams](../wiki/api.procedures.types.MoveFundsParams)
 
 ___
 
@@ -786,81 +510,9 @@ Re-exports [OfferingTimingStatus](../wiki/api.entities.Offering.types.OfferingTi
 
 ___
 
-### PayDividendsParams
-
-Re-exports [PayDividendsParams](../wiki/api.procedures.types.PayDividendsParams)
-
-___
-
-### PercentageTransferRestrictionInput
-
-Re-exports [PercentageTransferRestrictionInput](../wiki/api.procedures.types.PercentageTransferRestrictionInput)
-
-___
-
 ### PortfolioBalance
 
 Re-exports [PortfolioBalance](../wiki/api.entities.Portfolio.types.PortfolioBalance)
-
-___
-
-### RedeemTokensParams
-
-Re-exports [RedeemTokensParams](../wiki/api.procedures.types.RedeemTokensParams)
-
-___
-
-### RegisterIdentityParams
-
-Re-exports [RegisterIdentityParams](../wiki/api.procedures.types.RegisterIdentityParams)
-
-___
-
-### RemoveAssetRequirementParams
-
-Re-exports [RemoveAssetRequirementParams](../wiki/api.procedures.types.RemoveAssetRequirementParams)
-
-___
-
-### RemoveCheckpointScheduleParams
-
-Re-exports [RemoveCheckpointScheduleParams](../wiki/api.procedures.types.RemoveCheckpointScheduleParams)
-
-___
-
-### RemoveCorporateActionParams
-
-Re-exports [RemoveCorporateActionParams](../wiki/api.procedures.types.RemoveCorporateActionParams)
-
-___
-
-### RemoveExternalAgentParams
-
-Re-exports [RemoveExternalAgentParams](../wiki/api.procedures.types.RemoveExternalAgentParams)
-
-___
-
-### RemoveSecondaryAccountsParams
-
-Re-exports [RemoveSecondaryAccountsParams](../wiki/api.procedures.types.RemoveSecondaryAccountsParams)
-
-___
-
-### RenamePortfolioParams
-
-Re-exports [RenamePortfolioParams](../wiki/api.procedures.types.RenamePortfolioParams)
-
-___
-
-### ReserveTickerParams
-
-Re-exports [ReserveTickerParams](../wiki/api.procedures.types.ReserveTickerParams)
-
-___
-
-### RevokeClaimsParams
-
-Re-exports [RevokeClaimsParams](../wiki/api.procedures.types.RevokeClaimsParams)
 
 ___
 
@@ -870,75 +522,9 @@ Re-exports [ScheduleDetails](../wiki/api.entities.CheckpointSchedule.types.Sched
 
 ___
 
-### ScopeClaimProof
-
-Re-exports [ScopeClaimProof](../wiki/api.procedures.types.ScopeClaimProof)
-
-___
-
-### SetAllowanceParams
-
-Re-exports [SetAllowanceParams](../wiki/api.procedures.types.SetAllowanceParams)
-
-___
-
-### SetAssetDocumentsParams
-
-Re-exports [SetAssetDocumentsParams](../wiki/api.procedures.types.SetAssetDocumentsParams)
-
-___
-
-### SetAssetRequirementsParams
-
-Re-exports [SetAssetRequirementsParams](../wiki/api.procedures.types.SetAssetRequirementsParams)
-
-___
-
-### SetCountTransferRestrictionsParams
-
-Re-exports [SetCountTransferRestrictionsParams](../wiki/api.procedures.types.SetCountTransferRestrictionsParams)
-
-___
-
-### SetCustodianParams
-
-Re-exports [SetCustodianParams](../wiki/api.procedures.types.SetCustodianParams)
-
-___
-
-### SetGroupPermissionsParams
-
-Re-exports [SetGroupPermissionsParams](../wiki/api.procedures.types.SetGroupPermissionsParams)
-
-___
-
-### SetPercentageTransferRestrictionsParams
-
-Re-exports [SetPercentageTransferRestrictionsParams](../wiki/api.procedures.types.SetPercentageTransferRestrictionsParams)
-
-___
-
-### SetPermissionGroupParams
-
-Re-exports [SetPermissionGroupParams](../wiki/api.procedures.types.SetPermissionGroupParams)
-
-___
-
-### SetRestrictionsParams
-
-Re-exports [SetRestrictionsParams](../wiki/api.procedures.types#setrestrictionsparams)
-
-___
-
 ### SettlementLeg
 
 Re-exports [SettlementLeg](../wiki/api.entities.Portfolio.types.SettlementLeg)
-
-___
-
-### SubsidizeAccountParams
-
-Re-exports [SubsidizeAccountParams](../wiki/api.procedures.types.SubsidizeAccountParams)
 
 ___
 
@@ -984,57 +570,15 @@ Re-exports [Tier](../wiki/api.entities.Offering.types.Tier)
 
 ___
 
-### TransactionsParams
-
-Re-exports [TransactionsParams](../wiki/api.procedures.types.TransactionsParams)
-
-___
-
-### TransferAssetOwnershipParams
-
-Re-exports [TransferAssetOwnershipParams](../wiki/api.procedures.types.TransferAssetOwnershipParams)
-
-___
-
 ### TransferBreakdown
 
 Re-exports [TransferBreakdown](../wiki/api.entities.Asset.types.TransferBreakdown)
 
 ___
 
-### TransferPolyxParams
-
-Re-exports [TransferPolyxParams](../wiki/api.procedures.types.TransferPolyxParams)
-
-___
-
-### TransferRestriction
-
-Re-exports [TransferRestriction](../wiki/api.procedures.types.TransferRestriction)
-
-___
-
 ### TransferRestrictionResult
 
 Re-exports [TransferRestrictionResult](../wiki/api.entities.Asset.types.TransferRestrictionResult)
-
-___
-
-### TransferRestrictionType
-
-Re-exports [TransferRestrictionType](../wiki/api.procedures.types.TransferRestrictionType)
-
-___
-
-### TransferTickerOwnershipParams
-
-Re-exports [TransferTickerOwnershipParams](../wiki/api.procedures.types.TransferTickerOwnershipParams)
-
-___
-
-### TxGroupParams
-
-Re-exports [TxGroupParams](../wiki/api.procedures.types.TxGroupParams)
 
 ___
 
@@ -1048,12 +592,6 @@ ___
 
 Re-exports [VenueType](../wiki/api.entities.Venue.types.VenueType)
 
-___
-
-### WaivePermissionsParams
-
-Re-exports [WaivePermissionsParams](../wiki/api.procedures.types.WaivePermissionsParams)
-
 ## Type Aliases
 
 ### AccountBalance
@@ -1063,6 +601,26 @@ Re-exports [WaivePermissionsParams](../wiki/api.procedures.types.WaivePermission
 #### Defined in
 
 [types/index.ts:685](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L685)
+
+___
+
+### AddCountTransferRestrictionParams
+
+Ƭ **AddCountTransferRestrictionParams**: [`CountTransferRestrictionInput`](../wiki/types.CountTransferRestrictionInput) & { `type`: [`Count`](../wiki/types.TransferRestrictionType#count)  }
+
+#### Defined in
+
+[api/procedures/types.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L92)
+
+___
+
+### AddPercentageTransferRestrictionParams
+
+Ƭ **AddPercentageTransferRestrictionParams**: [`PercentageTransferRestrictionInput`](../wiki/types.PercentageTransferRestrictionInput) & { `type`: [`Percentage`](../wiki/types.TransferRestrictionType#percentage)  }
+
+#### Defined in
+
+[api/procedures/types.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L96)
 
 ___
 
@@ -1080,6 +638,22 @@ ___
 #### Defined in
 
 [types/index.ts:1065](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1065)
+
+___
+
+### AddRestrictionParams
+
+Ƭ **AddRestrictionParams**<`T`\>: `Omit`<`T` extends [`Count`](../wiki/types.TransferRestrictionType#count) ? [`AddCountTransferRestrictionParams`](../wiki/types#addcounttransferrestrictionparams) : [`AddPercentageTransferRestrictionParams`](../wiki/types#addpercentagetransferrestrictionparams), ``"type"``\>
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Defined in
+
+[api/procedures/types.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L43)
 
 ___
 
@@ -1146,6 +720,22 @@ ___
 #### Defined in
 
 [types/index.ts:1070](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1070)
+
+___
+
+### GetReturnType
+
+Ƭ **GetReturnType**<`T`\>: [`ActiveTransferRestrictions`](../wiki/types.ActiveTransferRestrictions)<`T` extends [`Count`](../wiki/types.TransferRestrictionType#count) ? [`CountTransferRestriction`](../wiki/types.CountTransferRestriction) : [`PercentageTransferRestriction`](../wiki/types.PercentageTransferRestriction)\>
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Defined in
+
+[api/procedures/types.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L57)
 
 ___
 
@@ -1239,6 +829,73 @@ ___
 #### Defined in
 
 [types/index.ts:1050](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1050)
+
+___
+
+### ModifyAssetParams
+
+Ƭ **ModifyAssetParams**: { `fundingRound?`: `string` ; `identifiers?`: [`SecurityIdentifier`](../wiki/types.SecurityIdentifier)[] ; `makeDivisible?`: ``true`` ; `name`: `string`  } \| { `fundingRound?`: `string` ; `identifiers?`: [`SecurityIdentifier`](../wiki/types.SecurityIdentifier)[] ; `makeDivisible`: ``true`` ; `name?`: `string`  } \| { `fundingRound`: `string` ; `identifiers?`: [`SecurityIdentifier`](../wiki/types.SecurityIdentifier)[] ; `makeDivisible?`: ``true`` ; `name?`: `string`  } \| { `fundingRound?`: `string` ; `identifiers`: [`SecurityIdentifier`](../wiki/types.SecurityIdentifier)[] ; `makeDivisible?`: ``true`` ; `name?`: `string`  }
+
+#### Defined in
+
+[api/procedures/types.ts:336](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L336)
+
+___
+
+### ModifyCaDefaultConfigParams
+
+Ƭ **ModifyCaDefaultConfigParams**: { `defaultTaxWithholding`: `BigNumber` ; `targets?`: [`InputTargets`](../wiki/api.entities.CorporateActionBase.types#inputtargets) ; `taxWithholdings?`: [`InputTaxWithholding`](../wiki/api.entities.CorporateActionBase.types#inputtaxwithholding)[]  } \| { `defaultTaxWithholding?`: `BigNumber` ; `targets`: [`InputTargets`](../wiki/api.entities.CorporateActionBase.types#inputtargets) ; `taxWithholdings?`: [`InputTaxWithholding`](../wiki/api.entities.CorporateActionBase.types#inputtaxwithholding)[]  } \| { `defaultTaxWithholding?`: `BigNumber` ; `targets?`: [`InputTargets`](../wiki/api.entities.CorporateActionBase.types#inputtargets) ; `taxWithholdings`: [`InputTaxWithholding`](../wiki/api.entities.CorporateActionBase.types#inputtaxwithholding)[]  }
+
+#### Defined in
+
+[api/procedures/types.ts:471](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L471)
+
+___
+
+### ModifyClaimsParams
+
+Ƭ **ModifyClaimsParams**: [`AddClaimsParams`](../wiki/types.AddClaimsParams) \| [`EditClaimsParams`](../wiki/types.EditClaimsParams) \| [`RevokeClaimsParams`](../wiki/types.RevokeClaimsParams)
+
+#### Defined in
+
+[api/procedures/types.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L231)
+
+___
+
+### ModifyComplianceRequirementParams
+
+Ƭ **ModifyComplianceRequirementParams**: `Object`
+
+#### Type declaration
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `conditions` | [`InputCondition`](../wiki/types#inputcondition)[] | array of conditions to replace the existing array of conditions for the requirement (identified by `id`).   Conditions within a requirement are *AND* between them. This means that in order   for a transfer to comply with this requirement, it must fulfill *ALL* conditions |
+| `id` | `BigNumber` | ID of the Compliance Requirement |
+
+#### Defined in
+
+[api/procedures/types.ts:420](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L420)
+
+___
+
+### ModifyOfferingTimesParams
+
+Ƭ **ModifyOfferingTimesParams**: { `end`: `Date` \| ``null`` ; `start?`: `Date`  } \| { `end?`: `Date` \| ``null`` ; `start`: `Date`  } \| { `end`: `Date` \| ``null`` ; `start`: `Date`  }
+
+#### Defined in
+
+[api/procedures/types.ts:694](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L694)
+
+___
+
+### ModifyVenueParams
+
+Ƭ **ModifyVenueParams**: { `description?`: `string` ; `type`: [`VenueType`](../wiki/api.entities.Venue.types.VenueType)  } \| { `description`: `string` ; `type?`: [`VenueType`](../wiki/api.entities.Venue.types.VenueType)  } \| { `description`: `string` ; `type`: [`VenueType`](../wiki/api.entities.Venue.types.VenueType)  }
+
+#### Defined in
+
+[api/procedures/types.ts:642](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L642)
 
 ___
 
@@ -1357,6 +1014,22 @@ ___
 #### Defined in
 
 [types/index.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L297)
+
+___
+
+### SetRestrictionsParams
+
+Ƭ **SetRestrictionsParams**<`T`\>: `Omit`<`T` extends [`Count`](../wiki/types.TransferRestrictionType#count) ? [`SetCountTransferRestrictionsParams`](../wiki/types.SetCountTransferRestrictionsParams) : [`SetPercentageTransferRestrictionsParams`](../wiki/types.SetPercentageTransferRestrictionsParams), ``"type"``\>
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Defined in
+
+[api/procedures/types.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/procedures/types.ts#L50)
 
 ___
 

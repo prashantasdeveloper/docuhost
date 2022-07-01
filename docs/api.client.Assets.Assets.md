@@ -34,7 +34,7 @@ Claim a ticker symbol that was reserved in Polymath Classic (Ethereum). The Ethe
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ClaimClassicTickerParams`](../wiki/api.procedures.types.ClaimClassicTickerParams) |
+| `args` | [`ClaimClassicTickerParams`](../wiki/types.ClaimClassicTickerParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -63,7 +63,7 @@ Create an Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateAssetWithTickerParams`](../wiki/api.procedures.types.CreateAssetWithTickerParams) |
+| `args` | [`CreateAssetWithTickerParams`](../wiki/types.CreateAssetWithTickerParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -230,7 +230,7 @@ Reserve a ticker symbol under the ownership of the signing Identity to later use
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ReserveTickerParams`](../wiki/api.procedures.types.ReserveTickerParams) |
+| `args` | [`ReserveTickerParams`](../wiki/types.ReserveTickerParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

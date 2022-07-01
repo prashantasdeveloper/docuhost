@@ -86,7 +86,7 @@ Remove a Corporate Action
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveCorporateActionParams`](../wiki/api.procedures.types.RemoveCorporateActionParams) |
+| `args` | [`RemoveCorporateActionParams`](../wiki/types.RemoveCorporateActionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -147,7 +147,7 @@ Assign a new Corporate Actions Agent for the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyCorporateActionsAgentParams`](../wiki/api.procedures.types.ModifyCorporateActionsAgentParams) |
+| `args` | [`ModifyCorporateActionsAgentParams`](../wiki/types.ModifyCorporateActionsAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -177,7 +177,7 @@ Assign default config values(targets, global tax withholding percentage and per-
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyCaDefaultConfigParams`](../wiki/api.procedures.types#modifycadefaultconfigparams) |
+| `args` | [`ModifyCaDefaultConfigParams`](../wiki/types#modifycadefaultconfigparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

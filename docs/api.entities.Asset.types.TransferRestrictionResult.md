@@ -13,7 +13,7 @@
 
 ### restriction
 
-• **restriction**: [`TransferRestriction`](../wiki/api.procedures.types.TransferRestriction)
+• **restriction**: [`TransferRestriction`](../wiki/types.TransferRestriction)
 
 #### Defined in
 

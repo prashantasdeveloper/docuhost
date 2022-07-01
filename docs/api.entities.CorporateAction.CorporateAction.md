@@ -248,7 +248,7 @@ Link a list of documents to this corporate action
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`LinkCaDocsParams`](../wiki/api.procedures.types.LinkCaDocsParams) |
+| `args` | [`LinkCaDocsParams`](../wiki/types.LinkCaDocsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -278,7 +278,7 @@ Modify the Corporate Action's Checkpoint
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyCaCheckpointParams`](../wiki/api.procedures.types.ModifyCaCheckpointParams) |
+| `args` | [`ModifyCaCheckpointParams`](../wiki/types.ModifyCaCheckpointParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

@@ -58,7 +58,7 @@ This requires two transactions
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetAssetDocumentsParams`](../wiki/api.procedures.types.SetAssetDocumentsParams) |
+| `args` | [`SetAssetDocumentsParams`](../wiki/types.SetAssetDocumentsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

@@ -29,7 +29,7 @@ Create an Instruction to exchange Assets
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInstructionWithVenueIdParams`](../wiki/api.procedures.types.AddInstructionWithVenueIdParams) |
+| `args` | [`AddInstructionWithVenueIdParams`](../wiki/types.AddInstructionWithVenueIdParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -55,7 +55,7 @@ Affirm an Instruction (authorize)
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AffirmInstructionParams`](../wiki/api.procedures.types.AffirmInstructionParams) |
+| `args` | [`AffirmInstructionParams`](../wiki/types.AffirmInstructionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -81,7 +81,7 @@ Create a Venue under the ownership of the signing Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateVenueParams`](../wiki/api.procedures.types.CreateVenueParams) |
+| `args` | [`CreateVenueParams`](../wiki/types.CreateVenueParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

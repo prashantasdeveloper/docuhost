@@ -257,7 +257,7 @@ Transfer an amount of POLYX to a specified Account
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`TransferPolyxParams`](../wiki/api.procedures.types.TransferPolyxParams) |
+| `args` | [`TransferPolyxParams`](../wiki/types.TransferPolyxParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

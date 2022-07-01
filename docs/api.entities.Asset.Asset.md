@@ -204,7 +204,7 @@ Force a transfer from a given Portfolio to the caller’s default Portfolio
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ControllerTransferParams`](../wiki/api.procedures.types.ControllerTransferParams) |
+| `args` | [`ControllerTransferParams`](../wiki/types.ControllerTransferParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -499,7 +499,7 @@ Modify some properties of the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetParams`](../wiki/api.procedures.types#modifyassetparams) |
+| `args` | [`ModifyAssetParams`](../wiki/types#modifyassetparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -531,7 +531,7 @@ Assign a new primary issuance agent for the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyPrimaryIssuanceAgentParams`](../wiki/api.procedures.types.ModifyPrimaryIssuanceAgentParams) |
+| `args` | [`ModifyPrimaryIssuanceAgentParams`](../wiki/types.ModifyPrimaryIssuanceAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -559,7 +559,7 @@ Redeem (burn) an amount of this Asset's tokens
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RedeemTokensParams`](../wiki/api.procedures.types.RedeemTokensParams) |
+| `args` | [`RedeemTokensParams`](../wiki/types.RedeemTokensParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -639,7 +639,7 @@ Transfer ownership of the Asset to another Identity. This generates an authoriza
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`TransferAssetOwnershipParams`](../wiki/api.procedures.types.TransferAssetOwnershipParams) |
+| `args` | [`TransferAssetOwnershipParams`](../wiki/types.TransferAssetOwnershipParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

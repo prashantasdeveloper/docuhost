@@ -6,7 +6,7 @@ Handles all Percentage Transfer Restriction related functionality
 
 ## Hierarchy
 
-- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Percentage`](../wiki/api.procedures.types.TransferRestrictionType#percentage)\>
+- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Percentage`](../wiki/types.TransferRestrictionType#percentage)\>
 
   ↳ **`Percentage`**
 
@@ -23,7 +23,7 @@ Handles all Percentage Transfer Restriction related functionality
 
 ### addRestriction
 
-• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddPercentageTransferRestrictionParams`](../wiki/api.procedures.types#addpercentagetransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddPercentageTransferRestrictionParams`](../wiki/types#addpercentagetransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Add a Percentage Transfer Restriction to this Asset
 
@@ -87,7 +87,7 @@ ___
 
 ### setRestrictions
 
-• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetPercentageTransferRestrictionsParams`](../wiki/api.procedures.types.SetPercentageTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetPercentageTransferRestrictionsParams`](../wiki/types.SetPercentageTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Sets all Percentage Transfer Restrictions on this Asset
 

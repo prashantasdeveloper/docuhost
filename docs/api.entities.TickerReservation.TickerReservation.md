@@ -75,7 +75,7 @@ Create an Asset using the reserved ticker
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateAssetParams`](../wiki/api.procedures.types.CreateAssetParams) |
+| `args` | [`CreateAssetParams`](../wiki/types.CreateAssetParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -238,7 +238,7 @@ Transfer ownership of the Ticker Reservation to another Identity. This generates
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`TransferTickerOwnershipParams`](../wiki/api.procedures.types.TransferTickerOwnershipParams) |
+| `args` | [`TransferTickerOwnershipParams`](../wiki/types.TransferTickerOwnershipParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns

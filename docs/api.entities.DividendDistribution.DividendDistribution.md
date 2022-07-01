@@ -472,7 +472,7 @@ Link a list of documents to this corporate action
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`LinkCaDocsParams`](../wiki/api.procedures.types.LinkCaDocsParams) |
+| `args` | [`LinkCaDocsParams`](../wiki/types.LinkCaDocsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -502,7 +502,7 @@ Modify the Distribution's Checkpoint
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`Modify`](../wiki/types.utils#modify)<[`ModifyCaCheckpointParams`](../wiki/api.procedures.types.ModifyCaCheckpointParams), { `checkpoint`: [`InputCaCheckpoint`](../wiki/api.entities.Asset.Checkpoints.types#inputcacheckpoint)  }\> |
+| `args` | [`Modify`](../wiki/types.utils#modify)<[`ModifyCaCheckpointParams`](../wiki/types.ModifyCaCheckpointParams), { `checkpoint`: [`InputCaCheckpoint`](../wiki/api.entities.Asset.Checkpoints.types#inputcacheckpoint)  }\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -536,7 +536,7 @@ Transfer the corresponding share of the dividends to a list of Identities
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`PayDividendsParams`](../wiki/api.procedures.types.PayDividendsParams) |
+| `args` | [`PayDividendsParams`](../wiki/types.PayDividendsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
