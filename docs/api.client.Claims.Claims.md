@@ -37,7 +37,7 @@ Add claims to Identities
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/types#modifyclaimsparams), ``"claims"``\> |
+| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/api.procedures.types#modifyclaimsparams), ``"claims"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -46,7 +46,7 @@ Add claims to Identities
 
 #### Defined in
 
-[api/client/Claims.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L121)
+[api/client/Claims.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L121)
 
 ___
 
@@ -63,7 +63,7 @@ Add an Investor Uniqueness Claim to the signing Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInvestorUniquenessClaimParams`](../wiki/types.AddInvestorUniquenessClaimParams) |
+| `args` | [`AddInvestorUniquenessClaimParams`](../wiki/api.procedures.types.AddInvestorUniquenessClaimParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -72,7 +72,7 @@ Add an Investor Uniqueness Claim to the signing Identity
 
 #### Defined in
 
-[api/client/Claims.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L108)
+[api/client/Claims.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L108)
 
 ___
 
@@ -92,7 +92,7 @@ Edit claims associated to Identities (only the expiry date can be modified)
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/types#modifyclaimsparams), ``"claims"``\> |
+| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/api.procedures.types#modifyclaimsparams), ``"claims"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -101,7 +101,7 @@ Edit claims associated to Identities (only the expiry date can be modified)
 
 #### Defined in
 
-[api/client/Claims.ts:134](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L134)
+[api/client/Claims.ts:134](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L134)
 
 ___
 
@@ -125,7 +125,7 @@ Retrieve the list of CDD claims for a target Identity
 
 #### Defined in
 
-[api/client/Claims.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L305)
+[api/client/Claims.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L305)
 
 ___
 
@@ -149,7 +149,7 @@ Retrieve all scopes in which claims have been made for the target Identity.
 
 #### Defined in
 
-[api/client/Claims.ts:255](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L255)
+[api/client/Claims.ts:255](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L255)
 
 ___
 
@@ -182,7 +182,7 @@ Retrieve a list of Identities with claims associated to them. Can be filtered us
 
 #### Defined in
 
-[api/client/Claims.ts:195](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L195)
+[api/client/Claims.ts:195](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L195)
 
 ___
 
@@ -206,7 +206,7 @@ Retrieve the list of InvestorUniqueness claims for a target Identity
 
 #### Defined in
 
-[api/client/Claims.ts:329](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L329)
+[api/client/Claims.ts:329](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L329)
 
 ___
 
@@ -236,7 +236,7 @@ Retrieve all claims issued by an Identity
 
 #### Defined in
 
-[api/client/Claims.ts:160](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L160)
+[api/client/Claims.ts:160](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L160)
 
 ___
 
@@ -268,7 +268,7 @@ Retrieve all claims issued about an Identity, grouped by claim issuer
 
 #### Defined in
 
-[api/client/Claims.ts:356](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L356)
+[api/client/Claims.ts:356](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L356)
 
 ___
 
@@ -288,7 +288,7 @@ Revoke claims from Identities
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/types#modifyclaimsparams), ``"claims"``\> |
+| `args` | `Pick`<[`ModifyClaimsParams`](../wiki/api.procedures.types#modifyclaimsparams), ``"claims"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -297,4 +297,4 @@ Revoke claims from Identities
 
 #### Defined in
 
-[api/client/Claims.ts:147](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Claims.ts#L147)
+[api/client/Claims.ts:147](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L147)

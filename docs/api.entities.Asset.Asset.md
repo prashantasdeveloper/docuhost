@@ -59,7 +59,7 @@ Class used to manage all Asset functionality
 
 #### Defined in
 
-[api/entities/Asset/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L110)
+[api/entities/Asset/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L110)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L115)
+[api/entities/Asset/index.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L115)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L112)
+[api/entities/Asset/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L112)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L116)
+[api/entities/Asset/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L116)
 
 ___
 
@@ -101,7 +101,7 @@ Identity ID of the Asset (used for Claims)
 
 #### Defined in
 
-[api/entities/Asset/index.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L100)
+[api/entities/Asset/index.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L100)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L108)
+[api/entities/Asset/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L108)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L111)
+[api/entities/Asset/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L111)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L114)
+[api/entities/Asset/index.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L114)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L117)
+[api/entities/Asset/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L117)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L109)
+[api/entities/Asset/index.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L109)
 
 ___
 
@@ -163,7 +163,7 @@ ticker of the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L105)
+[api/entities/Asset/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L105)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L113)
+[api/entities/Asset/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L113)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -204,7 +204,7 @@ Force a transfer from a given Portfolio to the caller’s default Portfolio
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ControllerTransferParams`](../wiki/types.ControllerTransferParams) |
+| `args` | [`ControllerTransferParams`](../wiki/api.procedures.types.ControllerTransferParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -213,7 +213,7 @@ Force a transfer from a given Portfolio to the caller’s default Portfolio
 
 #### Defined in
 
-[api/entities/Asset/index.ts:562](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L562)
+[api/entities/Asset/index.ts:562](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L562)
 
 ___
 
@@ -233,7 +233,7 @@ Retrieve the identifier data (block number, date and event index) of the event t
 
 #### Defined in
 
-[api/entities/Asset/index.ts:387](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L387)
+[api/entities/Asset/index.ts:387](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L387)
 
 ___
 
@@ -251,7 +251,7 @@ Retrieve the Asset's funding round
 
 #### Defined in
 
-[api/entities/Asset/index.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L313)
+[api/entities/Asset/index.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L313)
 
 ▸ **currentFundingRound**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -267,7 +267,7 @@ Retrieve the Asset's funding round
 
 #### Defined in
 
-[api/entities/Asset/index.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L314)
+[api/entities/Asset/index.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L314)
 
 ___
 
@@ -285,7 +285,7 @@ Retrieve the Asset's data
 
 #### Defined in
 
-[api/entities/Asset/index.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L212)
+[api/entities/Asset/index.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L212)
 
 ▸ **details**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -301,7 +301,7 @@ Retrieve the Asset's data
 
 #### Defined in
 
-[api/entities/Asset/index.ts:213](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L213)
+[api/entities/Asset/index.ts:213](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L213)
 
 ___
 
@@ -321,7 +321,7 @@ Determine whether this Asset exists on chain
 
 #### Defined in
 
-[api/entities/Asset/index.ts:654](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L654)
+[api/entities/Asset/index.ts:654](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L654)
 
 ___
 
@@ -346,7 +346,7 @@ Freeze transfers of the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:409](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L409)
+[api/entities/Asset/index.ts:409](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L409)
 
 ___
 
@@ -364,7 +364,7 @@ Retrieve the Asset's identifiers list
 
 #### Defined in
 
-[api/entities/Asset/index.ts:350](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L350)
+[api/entities/Asset/index.ts:350](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L350)
 
 ▸ **getIdentifiers**(`callback?`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -380,7 +380,7 @@ Retrieve the Asset's identifiers list
 
 #### Defined in
 
-[api/entities/Asset/index.ts:351](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L351)
+[api/entities/Asset/index.ts:351](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L351)
 
 ___
 
@@ -400,7 +400,7 @@ Retrieve this Asset's Operation History
 
 #### Defined in
 
-[api/entities/Asset/index.ts:573](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L573)
+[api/entities/Asset/index.ts:573](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L573)
 
 ___
 
@@ -420,7 +420,7 @@ Retrieve the amount of unique investors that hold this Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:506](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L506)
+[api/entities/Asset/index.ts:506](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L506)
 
 ___
 
@@ -446,7 +446,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -464,7 +464,7 @@ Check whether transfers are frozen for the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:428](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L428)
+[api/entities/Asset/index.ts:428](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L428)
 
 ▸ **isFrozen**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -480,7 +480,7 @@ Check whether transfers are frozen for the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:429](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L429)
+[api/entities/Asset/index.ts:429](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L429)
 
 ___
 
@@ -499,7 +499,7 @@ Modify some properties of the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetParams`](../wiki/types#modifyassetparams) |
+| `args` | [`ModifyAssetParams`](../wiki/api.procedures.types#modifyassetparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -508,7 +508,7 @@ Modify some properties of the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L203)
+[api/entities/Asset/index.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L203)
 
 ___
 
@@ -531,7 +531,7 @@ Assign a new primary issuance agent for the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyPrimaryIssuanceAgentParams`](../wiki/types.ModifyPrimaryIssuanceAgentParams) |
+| `args` | [`ModifyPrimaryIssuanceAgentParams`](../wiki/api.procedures.types.ModifyPrimaryIssuanceAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -540,7 +540,7 @@ Assign a new primary issuance agent for the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:469](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L469)
+[api/entities/Asset/index.ts:469](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L469)
 
 ___
 
@@ -559,7 +559,7 @@ Redeem (burn) an amount of this Asset's tokens
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RedeemTokensParams`](../wiki/types.RedeemTokensParams) |
+| `args` | [`RedeemTokensParams`](../wiki/api.procedures.types.RedeemTokensParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -568,7 +568,7 @@ Redeem (burn) an amount of this Asset's tokens
 
 #### Defined in
 
-[api/entities/Asset/index.ts:495](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L495)
+[api/entities/Asset/index.ts:495](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L495)
 
 ___
 
@@ -597,7 +597,7 @@ Remove the primary issuance agent of the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:483](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L483)
+[api/entities/Asset/index.ts:483](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L483)
 
 ___
 
@@ -617,7 +617,7 @@ Return the Asset's ticker
 
 #### Defined in
 
-[api/entities/Asset/index.ts:667](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L667)
+[api/entities/Asset/index.ts:667](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L667)
 
 ___
 
@@ -639,7 +639,7 @@ Transfer ownership of the Asset to another Identity. This generates an authoriza
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`TransferAssetOwnershipParams`](../wiki/types.TransferAssetOwnershipParams) |
+| `args` | [`TransferAssetOwnershipParams`](../wiki/api.procedures.types.TransferAssetOwnershipParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -648,7 +648,7 @@ Transfer ownership of the Asset to another Identity. This generates an authoriza
 
 #### Defined in
 
-[api/entities/Asset/index.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L192)
+[api/entities/Asset/index.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L192)
 
 ___
 
@@ -673,7 +673,7 @@ Unfreeze transfers of the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:419](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/index.ts#L419)
+[api/entities/Asset/index.ts:419](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L419)
 
 ___
 
@@ -705,7 +705,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -737,4 +737,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

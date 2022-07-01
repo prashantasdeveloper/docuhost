@@ -32,7 +32,7 @@ Transaction Groups (for permissions purposes)
 
 #### Defined in
 
-[types/index.ts:831](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L831)
+[types/index.ts:831](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L831)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:824](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L824)
+[types/index.ts:824](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L824)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:852](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L852)
+[types/index.ts:852](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L852)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:860](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L860)
+[types/index.ts:860](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L860)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:870](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L870)
+[types/index.ts:870](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L870)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:838](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L838)
+[types/index.ts:838](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L838)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:842](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L842)
+[types/index.ts:842](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L842)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:816](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L816)
+[types/index.ts:816](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L816)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:882](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L882)
+[types/index.ts:882](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L882)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:847](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L847)
+[types/index.ts:847](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L847)

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[types/index.ts:411](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L411)
+[types/index.ts:411](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L411)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:410](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L410)
+[types/index.ts:410](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L410)

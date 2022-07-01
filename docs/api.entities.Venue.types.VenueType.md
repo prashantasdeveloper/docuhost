@@ -21,7 +21,7 @@ Primary issuance
 
 #### Defined in
 
-[api/entities/Venue/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/types.ts#L11)
+[api/entities/Venue/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/types.ts#L11)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[api/entities/Venue/types.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/types.ts#L16)
+[api/entities/Venue/types.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/types.ts#L16)
 
 ___
 
@@ -43,7 +43,7 @@ Default type
 
 #### Defined in
 
-[api/entities/Venue/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/types.ts#L7)
+[api/entities/Venue/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/types.ts#L7)
 
 ___
 
@@ -55,4 +55,4 @@ Offering/Fundraise
 
 #### Defined in
 
-[api/entities/Venue/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/types.ts#L15)
+[api/entities/Venue/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/types.ts#L15)

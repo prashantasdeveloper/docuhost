@@ -13,11 +13,11 @@
 
 ### restriction
 
-• **restriction**: [`TransferRestriction`](../wiki/types.TransferRestriction)
+• **restriction**: [`TransferRestriction`](../wiki/api.procedures.types.TransferRestriction)
 
 #### Defined in
 
-[api/entities/Asset/types.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/types.ts#L29)
+[api/entities/Asset/types.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L29)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/types.ts#L30)
+[api/entities/Asset/types.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L30)

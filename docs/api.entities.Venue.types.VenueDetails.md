@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[api/entities/Venue/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/types.ts#L22)
+[api/entities/Venue/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/types.ts#L22)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[api/entities/Venue/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/types.ts#L21)
+[api/entities/Venue/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/types.ts#L21)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[api/entities/Venue/types.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/types.ts#L20)
+[api/entities/Venue/types.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/types.ts#L20)

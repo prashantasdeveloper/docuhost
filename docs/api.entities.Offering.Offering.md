@@ -43,7 +43,7 @@ Asset being offered
 
 #### Defined in
 
-[api/entities/Offering/index.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L66)
+[api/entities/Offering/index.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L66)
 
 ___
 
@@ -55,7 +55,7 @@ identifier number of the Offering
 
 #### Defined in
 
-[api/entities/Offering/index.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L61)
+[api/entities/Offering/index.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L61)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -94,7 +94,7 @@ Close the Offering
 
 #### Defined in
 
-[api/entities/Offering/index.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L159)
+[api/entities/Offering/index.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L159)
 
 ___
 
@@ -112,7 +112,7 @@ Retrieve the Offering's details
 
 #### Defined in
 
-[api/entities/Offering/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L112)
+[api/entities/Offering/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L112)
 
 ▸ **details**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -128,7 +128,7 @@ Retrieve the Offering's details
 
 #### Defined in
 
-[api/entities/Offering/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L113)
+[api/entities/Offering/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L113)
 
 ___
 
@@ -148,7 +148,7 @@ Determine whether this Offering exists on chain
 
 #### Defined in
 
-[api/entities/Offering/index.ts:278](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L278)
+[api/entities/Offering/index.ts:278](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L278)
 
 ___
 
@@ -173,7 +173,7 @@ Freeze the Offering
 
 #### Defined in
 
-[api/entities/Offering/index.ts:169](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L169)
+[api/entities/Offering/index.ts:169](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L169)
 
 ___
 
@@ -201,7 +201,7 @@ Retrieve all investments made on this Offering
 
 #### Defined in
 
-[api/entities/Offering/index.ts:221](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L221)
+[api/entities/Offering/index.ts:221](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L221)
 
 ___
 
@@ -222,7 +222,7 @@ Invest in the Offering
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`InvestInOfferingParams`](../wiki/types.InvestInOfferingParams) |
+| `args` | [`InvestInOfferingParams`](../wiki/api.procedures.types.InvestInOfferingParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -231,7 +231,7 @@ Invest in the Offering
 
 #### Defined in
 
-[api/entities/Offering/index.ts:208](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L208)
+[api/entities/Offering/index.ts:208](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L208)
 
 ___
 
@@ -257,7 +257,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -279,7 +279,7 @@ Modify the start/end time of the Offering
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyOfferingTimesParams`](../wiki/types#modifyofferingtimesparams) |
+| `args` | [`ModifyOfferingTimesParams`](../wiki/api.procedures.types#modifyofferingtimesparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -288,7 +288,7 @@ Modify the start/end time of the Offering
 
 #### Defined in
 
-[api/entities/Offering/index.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L194)
+[api/entities/Offering/index.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L194)
 
 ___
 
@@ -308,7 +308,7 @@ Return the Offering's ID and Asset ticker
 
 #### Defined in
 
-[api/entities/Offering/index.ts:296](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L296)
+[api/entities/Offering/index.ts:296](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L296)
 
 ___
 
@@ -333,7 +333,7 @@ Unfreeze the Offering
 
 #### Defined in
 
-[api/entities/Offering/index.ts:179](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L179)
+[api/entities/Offering/index.ts:179](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L179)
 
 ___
 
@@ -365,7 +365,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -397,4 +397,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

@@ -45,7 +45,7 @@ Retrieve a single Authorization Request targeting or issued by this Identity by 
 
 #### Defined in
 
-[api/entities/Identity/IdentityAuthorizations.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/IdentityAuthorizations.ts#L62)
+[api/entities/Identity/IdentityAuthorizations.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/IdentityAuthorizations.ts#L62)
 
 ___
 
@@ -73,7 +73,7 @@ Fetch all pending Authorization Requests for which this Signer is the target
 
 #### Defined in
 
-[api/entities/common/namespaces/Authorizations.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/common/namespaces/Authorizations.ts#L29)
+[api/entities/common/namespaces/Authorizations.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/common/namespaces/Authorizations.ts#L29)
 
 ___
 
@@ -97,4 +97,4 @@ Fetch all pending authorization requests issued by this Identity
 
 #### Defined in
 
-[api/entities/Identity/IdentityAuthorizations.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/IdentityAuthorizations.ts#L18)
+[api/entities/Identity/IdentityAuthorizations.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/IdentityAuthorizations.ts#L18)

@@ -34,7 +34,7 @@ Add the supplied Identities to the Asset's list of trusted claim issuers
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/types.ModifyAssetTrustedClaimIssuersAddSetParams) |
+| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersAddSetParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -43,7 +43,7 @@ Add the supplied Identities to the Asset's list of trusted claim issuers
 
 #### Defined in
 
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L96)
+[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L96)
 
 ___
 
@@ -61,7 +61,7 @@ Retrieve the current Default Trusted Claim Issuers of the Asset
 
 #### Defined in
 
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L115)
+[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L115)
 
 ▸ **get**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -77,7 +77,7 @@ Retrieve the current Default Trusted Claim Issuers of the Asset
 
 #### Defined in
 
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L116)
+[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L116)
 
 ___
 
@@ -94,7 +94,7 @@ Remove the supplied Identities from the Asset's list of trusted claim issuers   
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetTrustedClaimIssuersRemoveParams`](../wiki/types.ModifyAssetTrustedClaimIssuersRemoveParams) |
+| `args` | [`ModifyAssetTrustedClaimIssuersRemoveParams`](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersRemoveParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -103,7 +103,7 @@ Remove the supplied Identities from the Asset's list of trusted claim issuers   
 
 #### Defined in
 
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L106)
+[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L106)
 
 ___
 
@@ -122,7 +122,7 @@ This requires two transactions
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/types.ModifyAssetTrustedClaimIssuersAddSetParams) |
+| `args` | [`ModifyAssetTrustedClaimIssuersAddSetParams`](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersAddSetParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -131,4 +131,4 @@ This requires two transactions
 
 #### Defined in
 
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L86)
+[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L86)

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CheckpointSchedule/index.ts#L22)
+[api/entities/CheckpointSchedule/index.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L22)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CheckpointSchedule/index.ts#L21)
+[api/entities/CheckpointSchedule/index.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L21)

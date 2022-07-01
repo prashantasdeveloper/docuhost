@@ -47,7 +47,7 @@ Delete a Portfolio by ID
 
 #### Defined in
 
-[api/entities/Identity/Portfolios.ts:164](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/Portfolios.ts#L164)
+[api/entities/Identity/Portfolios.ts:164](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L164)
 
 ___
 
@@ -73,7 +73,7 @@ Retrieve all Portfolios custodied by this Identity.
 
 #### Defined in
 
-[api/entities/Identity/Portfolios.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/Portfolios.ts#L77)
+[api/entities/Identity/Portfolios.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L77)
 
 ___
 
@@ -89,7 +89,7 @@ Retrieve a Numbered Portfolio or the Default Portfolio if Portfolio ID is not pa
 
 #### Defined in
 
-[api/entities/Identity/Portfolios.ts:124](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/Portfolios.ts#L124)
+[api/entities/Identity/Portfolios.ts:124](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L124)
 
 ▸ **getPortfolio**(`args`): `Promise`<[`NumberedPortfolio`](../wiki/api.entities.NumberedPortfolio.NumberedPortfolio)\>
 
@@ -106,7 +106,7 @@ Retrieve a Numbered Portfolio or the Default Portfolio if Portfolio ID is not pa
 
 #### Defined in
 
-[api/entities/Identity/Portfolios.ts:125](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/Portfolios.ts#L125)
+[api/entities/Identity/Portfolios.ts:125](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L125)
 
 ___
 
@@ -122,4 +122,4 @@ Retrieve all the Portfolios owned by this Identity
 
 #### Defined in
 
-[api/entities/Identity/Portfolios.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/Portfolios.ts#L46)
+[api/entities/Identity/Portfolios.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L46)

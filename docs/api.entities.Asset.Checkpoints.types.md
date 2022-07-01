@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/types.ts#L10)
+[api/entities/Asset/Checkpoints/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/types.ts#L10)

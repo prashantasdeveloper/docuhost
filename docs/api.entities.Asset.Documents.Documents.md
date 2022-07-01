@@ -39,7 +39,7 @@ Retrieve all documents linked to the Asset
 
 #### Defined in
 
-[api/entities/Asset/Documents.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Documents.ts#L49)
+[api/entities/Asset/Documents.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Documents.ts#L49)
 
 ___
 
@@ -58,7 +58,7 @@ This requires two transactions
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetAssetDocumentsParams`](../wiki/types.SetAssetDocumentsParams) |
+| `args` | [`SetAssetDocumentsParams`](../wiki/api.procedures.types.SetAssetDocumentsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -67,4 +67,4 @@ This requires two transactions
 
 #### Defined in
 
-[api/entities/Asset/Documents.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Documents.ts#L40)
+[api/entities/Asset/Documents.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Documents.ts#L40)

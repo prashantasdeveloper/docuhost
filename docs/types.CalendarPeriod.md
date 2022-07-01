@@ -19,7 +19,7 @@ Represents a period of time measured in a specific unit (i.e. 20 days)
 
 #### Defined in
 
-[types/index.ts:1284](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1284)
+[types/index.ts:1284](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1284)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:1283](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1283)
+[types/index.ts:1283](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1283)

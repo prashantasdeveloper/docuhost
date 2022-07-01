@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L35)
+[api/entities/CorporateActionBase/index.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L35)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L36)
+[api/entities/CorporateActionBase/index.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L36)

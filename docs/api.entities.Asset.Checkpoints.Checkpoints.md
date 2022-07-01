@@ -30,7 +30,7 @@ Handles all Asset Checkpoints related functionality
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/index.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/index.ts#L30)
+[api/entities/Asset/Checkpoints/index.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L30)
 
 ## Methods
 
@@ -55,7 +55,7 @@ Create a snapshot of Asset Holders and their respective balances at this moment
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/index.ts#L54)
+[api/entities/Asset/Checkpoints/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L54)
 
 ___
 
@@ -79,7 +79,7 @@ Retrieve all Checkpoints created on this Asset, together with their correspondin
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/index.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/index.ts#L88)
+[api/entities/Asset/Checkpoints/index.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L88)
 
 ___
 
@@ -104,4 +104,4 @@ Retrieve a single Checkpoint for this Asset by its ID
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/index.ts#L63)
+[api/entities/Asset/Checkpoints/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L63)

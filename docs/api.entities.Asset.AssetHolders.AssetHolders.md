@@ -38,4 +38,4 @@ Retrieve all the Asset Holders with their respective balance
 
 #### Defined in
 
-[api/entities/Asset/AssetHolders.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/AssetHolders.ts#L17)
+[api/entities/Asset/AssetHolders.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/AssetHolders.ts#L17)

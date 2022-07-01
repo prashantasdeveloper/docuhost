@@ -19,7 +19,7 @@ beneficiary address
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L29)
+[api/entities/Subsidy/index.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L29)
 
 ___
 
@@ -31,4 +31,4 @@ subsidizer address
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:33](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L33)
+[api/entities/Subsidy/index.ts:33](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L33)

@@ -36,7 +36,7 @@ Create a Dividend Distribution for a subset of the Asset Holders at a certain (e
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ConfigureDividendDistributionParams`](../wiki/types.ConfigureDividendDistributionParams) |
+| `args` | [`ConfigureDividendDistributionParams`](../wiki/api.procedures.types.ConfigureDividendDistributionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -45,7 +45,7 @@ Create a Dividend Distribution for a subset of the Asset Holders at a certain (e
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/Distributions.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/Distributions.ts#L43)
+[api/entities/Asset/CorporateActions/Distributions.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/Distributions.ts#L43)
 
 ___
 
@@ -61,7 +61,7 @@ Retrieve all Dividend Distributions associated to this Asset, along with their d
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/Distributions.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/Distributions.ts#L118)
+[api/entities/Asset/CorporateActions/Distributions.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/Distributions.ts#L118)
 
 ___
 
@@ -86,4 +86,4 @@ Retrieve a single Dividend Distribution associated to this Asset by its ID
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/Distributions.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/Distributions.ts#L66)
+[api/entities/Asset/CorporateActions/Distributions.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/Distributions.ts#L66)

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[api/entities/PermissionGroup.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/PermissionGroup.ts#L8)
+[api/entities/PermissionGroup.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L8)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[api/entities/PermissionGroup.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/PermissionGroup.ts#L7)
+[api/entities/PermissionGroup.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L7)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[api/entities/PermissionGroup.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/PermissionGroup.ts#L9)
+[api/entities/PermissionGroup.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L9)

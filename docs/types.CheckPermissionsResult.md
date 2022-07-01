@@ -30,19 +30,19 @@ optional message explaining the reason for failure in special cases
 
 #### Defined in
 
-[types/index.ts:1011](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1011)
+[types/index.ts:1011](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1011)
 
 ___
 
 ### missingPermissions
 
-• `Optional` **missingPermissions**: `Type` extends [`Account`](../wiki/types.SignerType#account) ? [`SimplePermissions`](../wiki/types.SimplePermissions) : ``null`` \| [`TxTag`](../wiki/types#txtag)[]
+• `Optional` **missingPermissions**: `Type` extends [`Account`](../wiki/types.SignerType#account) ? [`SimplePermissions`](../wiki/types.SimplePermissions) : ``null`` \| [`TxTag`](../wiki/generated.types#txtag)[]
 
 required permissions which the signer *DOESN'T* have. Only present if `result` is `false`
 
 #### Defined in
 
-[types/index.ts:1003](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1003)
+[types/index.ts:1003](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1003)
 
 ___
 
@@ -54,4 +54,4 @@ whether the signer complies with the required permissions or not
 
 #### Defined in
 
-[types/index.ts:1007](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1007)
+[types/index.ts:1007](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1007)

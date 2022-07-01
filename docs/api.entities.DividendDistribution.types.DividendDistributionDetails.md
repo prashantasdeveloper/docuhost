@@ -19,7 +19,7 @@ whether the unclaimed funds have been reclaimed
 
 #### Defined in
 
-[api/entities/DividendDistribution/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/DividendDistribution/types.ts#L10)
+[api/entities/DividendDistribution/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/types.ts#L10)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/DividendDistribution/types.ts#L6)
+[api/entities/DividendDistribution/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/types.ts#L6)

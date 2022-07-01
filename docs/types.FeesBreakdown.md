@@ -26,7 +26,7 @@ free balance of the caller Account
 
 #### Defined in
 
-[types/index.ts:782](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L782)
+[types/index.ts:782](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L782)
 
 ___
 
@@ -38,7 +38,7 @@ fees that must be paid by the caller Account
 
 #### Defined in
 
-[types/index.ts:778](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L778)
+[types/index.ts:778](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L778)
 
 ___
 
@@ -51,4 +51,4 @@ fees that will be paid by third parties. Each element in the array represents
 
 #### Defined in
 
-[types/index.ts:774](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L774)
+[types/index.ts:774](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L774)

@@ -23,7 +23,7 @@ failed due to a revert or never entered a block
 
 #### Defined in
 
-[types/index.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L79)
+[types/index.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L79)
 
 ___
 
@@ -35,7 +35,7 @@ the queue is prepped to run
 
 #### Defined in
 
-[types/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L69)
+[types/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L69)
 
 ___
 
@@ -47,7 +47,7 @@ transactions in the queue are being executed
 
 #### Defined in
 
-[types/index.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L73)
+[types/index.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L73)
 
 ___
 
@@ -60,4 +60,4 @@ might still have failed
 
 #### Defined in
 
-[types/index.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L84)
+[types/index.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L84)

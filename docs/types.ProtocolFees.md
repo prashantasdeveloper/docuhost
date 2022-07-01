@@ -17,14 +17,14 @@
 
 #### Defined in
 
-[types/index.ts:350](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L350)
+[types/index.ts:350](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L350)
 
 ___
 
 ### tag
 
-• **tag**: [`TxTag`](../wiki/types#txtag)
+• **tag**: [`TxTag`](../wiki/generated.types#txtag)
 
 #### Defined in
 
-[types/index.ts:349](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L349)
+[types/index.ts:349](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L349)

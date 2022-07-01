@@ -41,7 +41,7 @@ Asset for which this group specifies permissions
 
 #### Defined in
 
-[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/PermissionGroup.ts#L19)
+[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L19)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[api/entities/KnownPermissionGroup.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/KnownPermissionGroup.ts#L30)
+[api/entities/KnownPermissionGroup.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/KnownPermissionGroup.ts#L30)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -85,7 +85,7 @@ Determine whether this Known Permission Group exists on chain
 
 #### Defined in
 
-[api/entities/KnownPermissionGroup.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/KnownPermissionGroup.ts#L90)
+[api/entities/KnownPermissionGroup.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/KnownPermissionGroup.ts#L90)
 
 ___
 
@@ -105,7 +105,7 @@ Retrieve the Permissions associated with this Permission Group
 
 #### Defined in
 
-[api/entities/KnownPermissionGroup.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/KnownPermissionGroup.ts#L46)
+[api/entities/KnownPermissionGroup.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/KnownPermissionGroup.ts#L46)
 
 ___
 
@@ -131,7 +131,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -151,7 +151,7 @@ Return the KnownPermissionGroup's static data
 
 #### Defined in
 
-[api/entities/KnownPermissionGroup.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/KnownPermissionGroup.ts#L97)
+[api/entities/KnownPermissionGroup.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/KnownPermissionGroup.ts#L97)
 
 ___
 
@@ -183,7 +183,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -215,4 +215,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

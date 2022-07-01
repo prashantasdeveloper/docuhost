@@ -25,7 +25,7 @@ see https://github.com/paritytech/substrate/blob/master/primitives/transaction-p
 
 #### Defined in
 
-[types/index.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L62)
+[types/index.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L62)
 
 ___
 
@@ -37,7 +37,7 @@ the transaction's execution failed due to a revert
 
 #### Defined in
 
-[types/index.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L57)
+[types/index.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L57)
 
 ___
 
@@ -49,7 +49,7 @@ the transaction is prepped to run
 
 #### Defined in
 
-[types/index.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L37)
+[types/index.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L37)
 
 ___
 
@@ -61,7 +61,7 @@ the transaction was rejected by the signer
 
 #### Defined in
 
-[types/index.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L49)
+[types/index.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L49)
 
 ___
 
@@ -73,7 +73,7 @@ the transaction is being executed
 
 #### Defined in
 
-[types/index.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L45)
+[types/index.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L45)
 
 ___
 
@@ -85,7 +85,7 @@ the transaction was run successfully
 
 #### Defined in
 
-[types/index.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L53)
+[types/index.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L53)
 
 ___
 
@@ -97,4 +97,4 @@ the transaction is waiting for the user's signature
 
 #### Defined in
 
-[types/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L41)
+[types/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L41)

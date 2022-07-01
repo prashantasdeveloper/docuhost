@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[types/index.ts:138](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L138)
+[types/index.ts:138](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L138)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L144)
+[types/index.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L144)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L136)
+[types/index.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L136)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:137](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L137)
+[types/index.ts:137](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L137)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:139](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L139)
+[types/index.ts:139](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L139)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:141](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L141)
+[types/index.ts:141](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L141)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L140)
+[types/index.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L140)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:142](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L142)
+[types/index.ts:142](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L142)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:145](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L145)
+[types/index.ts:145](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L145)
 
 ___
 
@@ -115,4 +115,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L143)
+[types/index.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L143)

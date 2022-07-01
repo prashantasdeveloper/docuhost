@@ -33,7 +33,7 @@ occurs if the sender Identity does not have enough balance to cover the amount
 
 #### Defined in
 
-[types/index.ts:621](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L621)
+[types/index.ts:621](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L621)
 
 ___
 
@@ -47,7 +47,7 @@ occurs if the sender Portfolio does not have enough balance to cover the amount
 
 #### Defined in
 
-[types/index.ts:645](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L645)
+[types/index.ts:645](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L645)
 
 ___
 
@@ -61,7 +61,7 @@ occurs if attempting to transfer decimal amounts of a non-divisible token
 
 #### Defined in
 
-[types/index.ts:590](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L590)
+[types/index.ts:590](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L590)
 
 ___
 
@@ -75,7 +75,7 @@ occurs if the receiver Identity doesn't have a valid CDD claim
 
 #### Defined in
 
-[types/index.ts:602](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L602)
+[types/index.ts:602](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L602)
 
 ___
 
@@ -89,7 +89,7 @@ occurs if the receiver Portfolio doesn't exist
 
 #### Defined in
 
-[types/index.ts:639](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L639)
+[types/index.ts:639](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L639)
 
 ___
 
@@ -103,7 +103,7 @@ occurs if the receiver Identity doesn't have a valid CDD claim
 
 #### Defined in
 
-[types/index.ts:608](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L608)
+[types/index.ts:608](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L608)
 
 ___
 
@@ -117,7 +117,7 @@ occurs if the sender Portfolio doesn't exist
 
 #### Defined in
 
-[types/index.ts:633](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L633)
+[types/index.ts:633](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L633)
 
 ___
 
@@ -132,7 +132,7 @@ occurs if one of the participants doesn't have a valid Investor Uniqueness Claim
 
 #### Defined in
 
-[types/index.ts:615](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L615)
+[types/index.ts:615](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L615)
 
 ___
 
@@ -146,7 +146,7 @@ occurs if the origin and destination Identities are the same
 
 #### Defined in
 
-[types/index.ts:596](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L596)
+[types/index.ts:596](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L596)
 
 ___
 
@@ -160,4 +160,4 @@ occurs if the Asset's transfers are frozen
 
 #### Defined in
 
-[types/index.ts:627](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L627)
+[types/index.ts:627](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L627)

@@ -37,7 +37,7 @@ Check whether this Identity has specific transaction Permissions over an Asset
 | :------ | :------ |
 | `args` | `Object` |
 | `args.asset` | `string` \| [`Asset`](../wiki/api.entities.Asset.Asset) |
-| `args.transactions` | ``null`` \| [`TxTag`](../wiki/types#txtag)[] |
+| `args.transactions` | ``null`` \| [`TxTag`](../wiki/generated.types#txtag)[] |
 
 #### Returns
 
@@ -45,7 +45,7 @@ Check whether this Identity has specific transaction Permissions over an Asset
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L133)
+[api/entities/Identity/AssetPermissions.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L133)
 
 ___
 
@@ -73,7 +73,7 @@ Retrieve the identifier data (block number, date and event index) of the event t
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:337](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L337)
+[api/entities/Identity/AssetPermissions.ts:337](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L337)
 
 ___
 
@@ -89,7 +89,7 @@ Retrieve all the Assets over which this Identity has permissions, with the corre
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L104)
+[api/entities/Identity/AssetPermissions.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L104)
 
 ___
 
@@ -112,7 +112,7 @@ Retrieve this Identity's Permission Group for a specific Asset
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L297)
+[api/entities/Identity/AssetPermissions.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L297)
 
 ___
 
@@ -143,7 +143,7 @@ Retrieve all Events triggered by Operations this Identity has performed on a spe
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L386)
+[api/entities/Identity/AssetPermissions.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L386)
 
 ___
 
@@ -161,7 +161,7 @@ Check whether this Identity has specific transaction Permissions over an Asset
 | :------ | :------ |
 | `args` | `Object` |
 | `args.asset` | `string` \| [`Asset`](../wiki/api.entities.Asset.Asset) |
-| `args.transactions` | ``null`` \| [`TxTag`](../wiki/types#txtag)[] |
+| `args.transactions` | ``null`` \| [`TxTag`](../wiki/generated.types#txtag)[] |
 
 #### Returns
 
@@ -169,7 +169,7 @@ Check whether this Identity has specific transaction Permissions over an Asset
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:285](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L285)
+[api/entities/Identity/AssetPermissions.ts:285](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L285)
 
 ___
 
@@ -186,7 +186,7 @@ Assign this Identity to a different Permission Group for a given Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetPermissionGroupParams`](../wiki/types.SetPermissionGroupParams) |
+| `args` | [`SetPermissionGroupParams`](../wiki/api.procedures.types.SetPermissionGroupParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -195,7 +195,7 @@ Assign this Identity to a different Permission Group for a given Asset
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:371](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L371)
+[api/entities/Identity/AssetPermissions.ts:371](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L371)
 
 ___
 
@@ -212,7 +212,7 @@ Abdicate from the current Permissions Group for a given Asset. This means that t
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`WaivePermissionsParams`](../wiki/types.WaivePermissionsParams) |
+| `args` | [`WaivePermissionsParams`](../wiki/api.procedures.types.WaivePermissionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -221,4 +221,4 @@ Abdicate from the current Permissions Group for a given Asset. This means that t
 
 #### Defined in
 
-[api/entities/Identity/AssetPermissions.ts:361](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/AssetPermissions.ts#L361)
+[api/entities/Identity/AssetPermissions.ts:361](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L361)

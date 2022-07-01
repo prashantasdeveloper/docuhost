@@ -23,7 +23,7 @@ the paying Account is paying for a specific transaction because of
 
 #### Defined in
 
-[types/index.ts:729](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L729)
+[types/index.ts:729](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L729)
 
 ___
 
@@ -35,4 +35,4 @@ the paying Account is currently subsidizing the caller
 
 #### Defined in
 
-[types/index.ts:723](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L723)
+[types/index.ts:723](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L723)

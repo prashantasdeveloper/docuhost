@@ -41,7 +41,7 @@ Asset whose balances are being recorded in this Checkpoint
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L51)
+[api/entities/Checkpoint.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L51)
 
 ___
 
@@ -53,7 +53,7 @@ Checkpoint identifier number
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L46)
+[api/entities/Checkpoint.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L46)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -94,7 +94,7 @@ This arises from a chain storage optimization and pagination. @see [balance](../
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L108)
+[api/entities/Checkpoint.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L108)
 
 ___
 
@@ -121,7 +121,7 @@ The balance is stored only when the Identity makes a transaction after a Checkpo
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:201](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L201)
+[api/entities/Checkpoint.ts:201](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L201)
 
 ___
 
@@ -137,7 +137,7 @@ Retrieve this Checkpoint's creation date
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L86)
+[api/entities/Checkpoint.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L86)
 
 ___
 
@@ -157,7 +157,7 @@ Determine whether this Checkpoint exists on chain
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:245](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L245)
+[api/entities/Checkpoint.ts:245](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L245)
 
 ___
 
@@ -183,7 +183,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -203,7 +203,7 @@ Return the Checkpoint's ticker and identifier
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:265](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L265)
+[api/entities/Checkpoint.ts:265](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L265)
 
 ___
 
@@ -219,7 +219,7 @@ Retrieve the Asset's total supply at this checkpoint
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Checkpoint.ts#L68)
+[api/entities/Checkpoint.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L68)
 
 ___
 
@@ -251,7 +251,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -283,4 +283,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

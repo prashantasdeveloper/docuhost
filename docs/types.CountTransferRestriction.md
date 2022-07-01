@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[types/index.ts:1249](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1249)
+[types/index.ts:1249](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1249)
 
 ___
 
@@ -43,4 +43,4 @@ TransferRestrictionBase.exemptedIds
 
 #### Defined in
 
-[types/index.ts:1245](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1245)
+[types/index.ts:1245](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1245)

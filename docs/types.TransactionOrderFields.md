@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[middleware/types.ts:1720](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/middleware/types.ts#L1720)
+[middleware/types.ts:1720](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1720)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[middleware/types.ts:1719](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/middleware/types.ts#L1719)
+[middleware/types.ts:1719](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1719)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[middleware/types.ts:1722](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/middleware/types.ts#L1722)
+[middleware/types.ts:1722](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1722)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[middleware/types.ts:1721](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/middleware/types.ts#L1721)
+[middleware/types.ts:1721](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1721)

@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[api/entities/Account.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Account.ts#L231)
+[api/entities/Account.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L231)

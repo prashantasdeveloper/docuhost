@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/Offering/index.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L40)
+[api/entities/Offering/index.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L40)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/index.ts#L41)
+[api/entities/Offering/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/index.ts#L41)

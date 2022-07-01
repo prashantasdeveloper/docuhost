@@ -6,78 +6,280 @@
 
 #### Client
 
-  - [Account Management](../wiki/api.client.AccountManagement)
-  - [Assets](../wiki/api.client.Assets)
-  - [Claims](../wiki/api.client.Claims)
-  - [Identities](../wiki/api.client.Identities)
-  - [Network](../wiki/api.client.Network)
-  - [Polymesh](../wiki/api.client.Polymesh)
-  - [Settlements](../wiki/api.client.Settlements)
+<ul><li>
+    <a href="../wiki/api.client.AccountManagement">Account Management</a>
+  </li><li>
+    <a href="../wiki/api.client.Assets">Assets</a>
+  </li><li>
+    <a href="../wiki/api.client.Claims">Claims</a>
+  </li><li>
+    <a href="../wiki/api.client.Identities">Identities</a>
+  </li><li>
+    <a href="../wiki/api.client.Network">Network</a>
+  </li><li>
+    <a href="../wiki/api.client.Polymesh">Polymesh</a>
+  </li><li>
+    <a href="../wiki/api.client.Settlements">Settlements</a>
+  </li></ul>
 
 #### Entities
 
-- [Account](../wiki/api.entities.Account)
-- [Asset](../wiki/api.entities.Asset)
-  - [Asset Holders](../wiki/api.entities.Asset.AssetHolders)
-  - [Checkpoints](../wiki/api.entities.Asset.Checkpoints)
-    - [Schedules](../wiki/api.entities.Asset.Checkpoints.Schedules)
-    - [Types](../wiki/api.entities.Asset.Checkpoints.types)
-  - [Compliance](../wiki/api.entities.Asset.Compliance)
-    - [Requirements](../wiki/api.entities.Asset.Compliance.Requirements)
-    - [Trusted Claim Issuers](../wiki/api.entities.Asset.Compliance.TrustedClaimIssuers)
-  - [Corporate Actions](../wiki/api.entities.Asset.CorporateActions)
-    - [Distributions](../wiki/api.entities.Asset.CorporateActions.Distributions)
-    - [Types](../wiki/api.entities.Asset.CorporateActions.types)
-  - [Documents](../wiki/api.entities.Asset.Documents)
-  - [Issuance](../wiki/api.entities.Asset.Issuance)
-  - [Offerings](../wiki/api.entities.Asset.Offerings)
-  - [Permissions](../wiki/api.entities.Asset.Permissions)
-  - [Settlements](../wiki/api.entities.Asset.Settlements)
-  - [Transfer Restrictions](../wiki/api.entities.Asset.TransferRestrictions)
-    - [Count](../wiki/api.entities.Asset.TransferRestrictions.Count)
-    - [Percentage](../wiki/api.entities.Asset.TransferRestrictions.Percentage)
-    - [Transfer Restriction Base](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase)
-  - [Types](../wiki/api.entities.Asset.types)
-- [Authorization Request](../wiki/api.entities.AuthorizationRequest)
-- [Checkpoint](../wiki/api.entities.Checkpoint)
-- [Checkpoint Schedule](../wiki/api.entities.CheckpointSchedule)
-  - [Types](../wiki/api.entities.CheckpointSchedule.types)
-- [Corporate Action](../wiki/api.entities.CorporateAction)
-- [Corporate Action Base](../wiki/api.entities.CorporateActionBase)
-  - [Types](../wiki/api.entities.CorporateActionBase.types)
-- [Custom Permission Group](../wiki/api.entities.CustomPermissionGroup)
-- [Default Portfolio](../wiki/api.entities.DefaultPortfolio)
-- [Default Trusted Claim Issuer](../wiki/api.entities.DefaultTrustedClaimIssuer)
-- [Dividend Distribution](../wiki/api.entities.DividendDistribution)
-  - [Types](../wiki/api.entities.DividendDistribution.types)
-- [Entity](../wiki/api.entities.Entity)
-- [Identity](../wiki/api.entities.Identity)
-  - [Asset Permissions](../wiki/api.entities.Identity.AssetPermissions)
-  - [Identity Authorizations](../wiki/api.entities.Identity.IdentityAuthorizations)
-  - [Portfolios](../wiki/api.entities.Identity.Portfolios)
-- [Instruction](../wiki/api.entities.Instruction)
-  - [Types](../wiki/api.entities.Instruction.types)
-- [Known Permission Group](../wiki/api.entities.KnownPermissionGroup)
-- [Namespace](../wiki/api.entities.Namespace)
-- [Numbered Portfolio](../wiki/api.entities.NumberedPortfolio)
-- [Offering](../wiki/api.entities.Offering)
-  - [Types](../wiki/api.entities.Offering.types)
-- [Permission Group](../wiki/api.entities.PermissionGroup)
-- [Portfolio](../wiki/api.entities.Portfolio)
-  - [Types](../wiki/api.entities.Portfolio.types)
-- [Subsidy](../wiki/api.entities.Subsidy)
-  - [Types](../wiki/api.entities.Subsidy.types)
-- [Ticker Reservation](../wiki/api.entities.TickerReservation)
-  - [Types](../wiki/api.entities.TickerReservation.types)
-- [Venue](../wiki/api.entities.Venue)
-  - [Types](../wiki/api.entities.Venue.types)
+<ul><li>
+    <a href="../wiki/api.entities.Account">Account</a>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.Asset">Asset</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.Asset.AssetHolders">Asset Holders</a>
+      </li>
+      <li>
+        <details>
+          <summary>
+            <a href="../wiki/api.entities.Asset.Checkpoints">Checkpoints</a>
+          </summary>
+          <ul>
+            <li>
+              <a href="../wiki/api.entities.Asset.Checkpoints.Schedules">Schedules</a>
+            </li><li>
+              <a href="../wiki/api.entities.Asset.Checkpoints.types">Types</a>
+            </li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>
+            <a href="../wiki/api.entities.Asset.Compliance">Compliance</a>
+          </summary>
+          <ul>
+            <li>
+              <a href="../wiki/api.entities.Asset.Compliance.Requirements">Requirements</a>
+            </li><li>
+              <a href="../wiki/api.entities.Asset.Compliance.TrustedClaimIssuers">Trusted Claim Issuers</a>
+            </li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>
+            <a href="../wiki/api.entities.Asset.CorporateActions">Corporate Actions</a>
+          </summary>
+          <ul>
+            <li>
+              <a href="../wiki/api.entities.Asset.CorporateActions.Distributions">Distributions</a>
+            </li><li>
+              <a href="../wiki/api.entities.Asset.CorporateActions.types">Types</a>
+            </li>
+          </ul>
+        </details>
+      </li><li>
+        <a href="../wiki/api.entities.Asset.Documents">Documents</a>
+      </li><li>
+        <a href="../wiki/api.entities.Asset.Issuance">Issuance</a>
+      </li><li>
+        <a href="../wiki/api.entities.Asset.Offerings">Offerings</a>
+      </li><li>
+        <a href="../wiki/api.entities.Asset.Permissions">Permissions</a>
+      </li><li>
+        <a href="../wiki/api.entities.Asset.Settlements">Settlements</a>
+      </li>
+      <li>
+        <details>
+          <summary>
+            <a href="../wiki/api.entities.Asset.TransferRestrictions">Transfer Restrictions</a>
+          </summary>
+          <ul>
+            <li>
+              <a href="../wiki/api.entities.Asset.TransferRestrictions.Count">Count</a>
+            </li><li>
+              <a href="../wiki/api.entities.Asset.TransferRestrictions.Percentage">Percentage</a>
+            </li><li>
+              <a href="../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase">Transfer Restriction Base</a>
+            </li>
+          </ul>
+        </details>
+      </li><li>
+        <a href="../wiki/api.entities.Asset.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li><li>
+    <a href="../wiki/api.entities.AuthorizationRequest">Authorization Request</a>
+  </li><li>
+    <a href="../wiki/api.entities.Checkpoint">Checkpoint</a>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.CheckpointSchedule">Checkpoint Schedule</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.CheckpointSchedule.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li><li>
+    <a href="../wiki/api.entities.CorporateAction">Corporate Action</a>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.CorporateActionBase">Corporate Action Base</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.CorporateActionBase.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li><li>
+    <a href="../wiki/api.entities.CustomPermissionGroup">Custom Permission Group</a>
+  </li><li>
+    <a href="../wiki/api.entities.DefaultPortfolio">Default Portfolio</a>
+  </li><li>
+    <a href="../wiki/api.entities.DefaultTrustedClaimIssuer">Default Trusted Claim Issuer</a>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.DividendDistribution">Dividend Distribution</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.DividendDistribution.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li><li>
+    <a href="../wiki/api.entities.Entity">Entity</a>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.Identity">Identity</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.Identity.AssetPermissions">Asset Permissions</a>
+      </li><li>
+        <a href="../wiki/api.entities.Identity.IdentityAuthorizations">Identity Authorizations</a>
+      </li><li>
+        <a href="../wiki/api.entities.Identity.Portfolios">Portfolios</a>
+      </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.Instruction">Instruction</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.Instruction.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li><li>
+    <a href="../wiki/api.entities.KnownPermissionGroup">Known Permission Group</a>
+  </li><li>
+    <a href="../wiki/api.entities.NumberedPortfolio">Numbered Portfolio</a>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.Offering">Offering</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.Offering.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li><li>
+    <a href="../wiki/api.entities.PermissionGroup">Permission Group</a>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.Portfolio">Portfolio</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.Portfolio.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.Subsidy">Subsidy</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.Subsidy.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.TickerReservation">Ticker Reservation</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.TickerReservation.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>
+        <a href="../wiki/api.entities.Venue">Venue</a>
+      </summary>
+      <ul>
+        <li>
+        <a href="../wiki/api.entities.Venue.types">Types</a>
+      </li>
+      </ul>
+    </details>
+  </li><li>
+    <a href="../wiki/api.entities.common.namespaces.Authorizations">Authorizations</a>
+  </li></ul>
 
-#### Namespaces
+#### Procedures
 
-  - [Authorizations](../wiki/api.entities.common.namespaces.Authorizations)
+<ul><li>
+    <a href="../wiki/api.procedures.types">Types</a>
+  </li></ul>
+
+#### Generated
+
+<ul><li>
+    <a href="../wiki/generated.types">Types</a>
+  </li></ul>
 
 #### Types
 
-- [Types](../wiki/types)
-  - [Utils](../wiki/types.utils)
-
+<ul>
+<li>
+  <details>
+    <summary>
+      <a href="../wiki/types">Types</a>
+    </summary>
+    <ul>
+      <li>
+    <a href="../wiki/types.utils">Utils</a>
+  </li>
+    </ul>
+  </details>
+</li></ul>

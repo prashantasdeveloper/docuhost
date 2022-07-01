@@ -27,7 +27,7 @@ Type of Authorization Request
 
 #### Defined in
 
-[types/index.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L188)
+[types/index.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L188)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:193](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L193)
+[types/index.ts:193](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L193)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:185](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L185)
+[types/index.ts:185](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L185)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L192)
+[types/index.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L192)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:190](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L190)
+[types/index.ts:190](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L190)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L191)
+[types/index.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L191)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:186](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L186)
+[types/index.ts:186](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L186)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L194)
+[types/index.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L194)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:189](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L189)
+[types/index.ts:189](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L189)
 
 ___
 
@@ -117,4 +117,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L187)
+[types/index.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L187)

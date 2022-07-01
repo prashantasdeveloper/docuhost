@@ -23,7 +23,7 @@ how the transfer adheres to the asset's compliance rules
 
 #### Defined in
 
-[api/entities/Asset/types.ts:44](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/types.ts#L44)
+[api/entities/Asset/types.ts:44](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L44)
 
 ___
 
@@ -35,7 +35,7 @@ list of general transfer errors
 
 #### Defined in
 
-[api/entities/Asset/types.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/types.ts#L40)
+[api/entities/Asset/types.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L40)
 
 ___
 
@@ -47,7 +47,7 @@ list of transfer restrictions and whether the transfer satisfies each one
 
 #### Defined in
 
-[api/entities/Asset/types.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/types.ts#L48)
+[api/entities/Asset/types.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L48)
 
 ___
 
@@ -59,4 +59,4 @@ true if the transfer is possible
 
 #### Defined in
 
-[api/entities/Asset/types.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/types.ts#L52)
+[api/entities/Asset/types.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L52)

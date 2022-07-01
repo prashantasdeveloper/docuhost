@@ -14,11 +14,11 @@
 
 ### code
 
-• **code**: [`CountryCode`](../wiki/types.CountryCode)
+• **code**: [`CountryCode`](../wiki/generated.types.CountryCode)
 
 #### Defined in
 
-[types/index.ts:263](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L263)
+[types/index.ts:263](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L263)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:264](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L264)
+[types/index.ts:264](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L264)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:262](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L262)
+[types/index.ts:262](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L262)

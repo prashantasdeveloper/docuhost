@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/KnownPermissionGroup.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/KnownPermissionGroup.ts#L8)
+[api/entities/KnownPermissionGroup.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/KnownPermissionGroup.ts#L8)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/KnownPermissionGroup.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/KnownPermissionGroup.ts#L7)
+[api/entities/KnownPermissionGroup.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/KnownPermissionGroup.ts#L7)

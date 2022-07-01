@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[api/entities/Offering/types.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L72)
+[api/entities/Offering/types.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L72)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L80)
+[api/entities/Offering/types.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L80)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L82)
+[api/entities/Offering/types.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L82)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L73)
+[api/entities/Offering/types.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L73)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L74)
+[api/entities/Offering/types.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L74)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L76)
+[api/entities/Offering/types.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L76)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L75)
+[api/entities/Offering/types.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L75)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L79)
+[api/entities/Offering/types.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L79)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L81)
+[api/entities/Offering/types.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L81)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L77)
+[api/entities/Offering/types.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L77)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L83)
+[api/entities/Offering/types.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L83)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L84)
+[api/entities/Offering/types.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L84)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L78)
+[api/entities/Offering/types.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L78)

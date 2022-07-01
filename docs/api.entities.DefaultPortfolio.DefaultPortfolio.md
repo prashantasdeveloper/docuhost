@@ -47,7 +47,7 @@ Identity of the Portfolio's owner
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L80)
+[api/entities/Portfolio/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L80)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -81,7 +81,7 @@ Determine whether this Portfolio exists on chain
 
 #### Defined in
 
-[api/entities/DefaultPortfolio.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/DefaultPortfolio.ts#L22)
+[api/entities/DefaultPortfolio.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DefaultPortfolio.ts#L22)
 
 ___
 
@@ -108,7 +108,7 @@ Retrieve the balances of all Assets in this Portfolio
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:146](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L146)
+[api/entities/Portfolio/index.ts:146](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L146)
 
 ___
 
@@ -130,7 +130,7 @@ Retrieve the custodian Identity of this Portfolio
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:276](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L276)
+[api/entities/Portfolio/index.ts:276](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L276)
 
 ___
 
@@ -164,7 +164,7 @@ Retrieve a list of transactions where this portfolio was involved. Can be filter
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:321](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L321)
+[api/entities/Portfolio/index.ts:321](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L321)
 
 ___
 
@@ -191,7 +191,7 @@ Return whether an Identity is the Portfolio custodian
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:130](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L130)
+[api/entities/Portfolio/index.ts:130](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L130)
 
 ___
 
@@ -217,7 +217,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -244,7 +244,7 @@ Return whether an Identity is the Portfolio owner
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L117)
+[api/entities/Portfolio/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L117)
 
 ___
 
@@ -264,7 +264,7 @@ Moves funds from this Portfolio to another one owned by the same Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`MoveFundsParams`](../wiki/types.MoveFundsParams) |
+| `args` | [`MoveFundsParams`](../wiki/api.procedures.types.MoveFundsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -277,7 +277,7 @@ Moves funds from this Portfolio to another one owned by the same Identity
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:254](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L254)
+[api/entities/Portfolio/index.ts:254](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L254)
 
 ___
 
@@ -309,7 +309,7 @@ Returns the custody of the portfolio to the portfolio owner unilaterally
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:267](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L267)
+[api/entities/Portfolio/index.ts:267](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L267)
 
 ___
 
@@ -333,7 +333,7 @@ Send an invitation to an Identity to assign it as custodian for this Portfolio
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetCustodianParams`](../wiki/types.SetCustodianParams) |
+| `args` | [`SetCustodianParams`](../wiki/api.procedures.types.SetCustodianParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -346,7 +346,7 @@ Send an invitation to an Identity to assign it as custodian for this Portfolio
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:241](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L241)
+[api/entities/Portfolio/index.ts:241](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L241)
 
 ___
 
@@ -366,7 +366,7 @@ Return the Portfolio ID and owner DID
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:418](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/index.ts#L418)
+[api/entities/Portfolio/index.ts:418](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L418)
 
 ___
 
@@ -398,7 +398,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -430,4 +430,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

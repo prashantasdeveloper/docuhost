@@ -55,7 +55,7 @@ Represents an Identity in the Polymesh blockchain
 
 #### Defined in
 
-[api/entities/Identity/index.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L99)
+[api/entities/Identity/index.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L99)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[api/entities/Identity/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L97)
+[api/entities/Identity/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L97)
 
 ___
 
@@ -77,7 +77,7 @@ Identity ID as stored in the blockchain
 
 #### Defined in
 
-[api/entities/Identity/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L94)
+[api/entities/Identity/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L94)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[api/entities/Identity/index.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L98)
+[api/entities/Identity/index.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L98)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -119,7 +119,7 @@ Check whether secondary Accounts are frozen
 
 #### Defined in
 
-[api/entities/Identity/index.ts:596](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L596)
+[api/entities/Identity/index.ts:596](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L596)
 
 ▸ **areSecondaryAccountsFrozen**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -135,7 +135,7 @@ Check whether secondary Accounts are frozen
 
 #### Defined in
 
-[api/entities/Identity/index.ts:597](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L597)
+[api/entities/Identity/index.ts:597](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L597)
 
 ___
 
@@ -157,7 +157,7 @@ Check whether this Identity possesses all specified roles
 
 #### Defined in
 
-[api/entities/Identity/index.ts:364](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L364)
+[api/entities/Identity/index.ts:364](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L364)
 
 ___
 
@@ -179,7 +179,7 @@ Determine whether this Identity exists on chain
 
 #### Defined in
 
-[api/entities/Identity/index.ts:753](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L753)
+[api/entities/Identity/index.ts:753](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L753)
 
 ___
 
@@ -204,7 +204,7 @@ Retrieve the balance of a particular Asset
 
 #### Defined in
 
-[api/entities/Identity/index.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L168)
+[api/entities/Identity/index.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L168)
 
 ▸ **getAssetBalance**(`args`, `callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -222,7 +222,7 @@ Retrieve the balance of a particular Asset
 
 #### Defined in
 
-[api/entities/Identity/index.ts:169](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L169)
+[api/entities/Identity/index.ts:169](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L169)
 
 ___
 
@@ -251,7 +251,7 @@ Retrieve a list of all Assets which were held at one point by this Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:322](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L322)
+[api/entities/Identity/index.ts:322](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L322)
 
 ___
 
@@ -268,7 +268,7 @@ Retrieve all Instructions where this Identity is a participant,
 
 #### Defined in
 
-[api/entities/Identity/index.ts:474](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L474)
+[api/entities/Identity/index.ts:474](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L474)
 
 ___
 
@@ -288,7 +288,7 @@ Retrieve every Dividend Distribution for which this Identity is eligible and has
 
 #### Defined in
 
-[api/entities/Identity/index.ts:633](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L633)
+[api/entities/Identity/index.ts:633](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L633)
 
 ___
 
@@ -306,7 +306,7 @@ Retrieve all pending Instructions involving this Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:543](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L543)
+[api/entities/Identity/index.ts:543](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L543)
 
 ___
 
@@ -324,7 +324,7 @@ Retrieve the primary Account associated with the Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:269](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L269)
+[api/entities/Identity/index.ts:269](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L269)
 
 ▸ **getPrimaryAccount**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -340,7 +340,7 @@ Retrieve the primary Account associated with the Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:270](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L270)
+[api/entities/Identity/index.ts:270](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L270)
 
 ___
 
@@ -367,7 +367,7 @@ Retrieve the Scope ID associated to this Identity's Investor Uniqueness Claim fo
 
 #### Defined in
 
-[api/entities/Identity/index.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L452)
+[api/entities/Identity/index.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L452)
 
 ___
 
@@ -387,7 +387,7 @@ Get the list of secondary Accounts related to the Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:688](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L688)
+[api/entities/Identity/index.ts:688](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L688)
 
 ▸ **getSecondaryAccounts**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -403,7 +403,7 @@ Get the list of secondary Accounts related to the Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:689](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L689)
+[api/entities/Identity/index.ts:689](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L689)
 
 ___
 
@@ -421,7 +421,7 @@ Get the list of Assets for which this Identity is a trusted claim issuer
 
 #### Defined in
 
-[api/entities/Identity/index.ts:399](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L399)
+[api/entities/Identity/index.ts:399](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L399)
 
 ___
 
@@ -439,7 +439,7 @@ Retrieve all Venues created by this Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:416](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L416)
+[api/entities/Identity/index.ts:416](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L416)
 
 ▸ **getVenues**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -455,7 +455,7 @@ Retrieve all Venues created by this Identity
 
 #### Defined in
 
-[api/entities/Identity/index.ts:417](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L417)
+[api/entities/Identity/index.ts:417](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L417)
 
 ___
 
@@ -477,7 +477,7 @@ Check whether this Identity possesses the specified Role
 
 #### Defined in
 
-[api/entities/Identity/index.ts:120](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L120)
+[api/entities/Identity/index.ts:120](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L120)
 
 ___
 
@@ -501,7 +501,7 @@ Check whether this Identity possesses all specified roles
 
 #### Defined in
 
-[api/entities/Identity/index.ts:388](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L388)
+[api/entities/Identity/index.ts:388](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L388)
 
 ___
 
@@ -517,7 +517,7 @@ Check whether this Identity has a valid CDD claim
 
 #### Defined in
 
-[api/entities/Identity/index.ts:217](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L217)
+[api/entities/Identity/index.ts:217](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L217)
 
 ___
 
@@ -533,7 +533,7 @@ Check whether this Identity is a CDD provider
 
 #### Defined in
 
-[api/entities/Identity/index.ts:250](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L250)
+[api/entities/Identity/index.ts:250](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L250)
 
 ___
 
@@ -559,7 +559,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -575,7 +575,7 @@ Check whether this Identity is Governance Committee member
 
 #### Defined in
 
-[api/entities/Identity/index.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L233)
+[api/entities/Identity/index.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L233)
 
 ___
 
@@ -595,7 +595,7 @@ Return the Identity's DID
 
 #### Defined in
 
-[api/entities/Identity/index.ts:776](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Identity/index.ts#L776)
+[api/entities/Identity/index.ts:776](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L776)
 
 ___
 
@@ -627,7 +627,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -659,4 +659,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

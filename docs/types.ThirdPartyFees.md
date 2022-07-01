@@ -34,7 +34,7 @@ Account that pays for the transaction
 
 #### Defined in
 
-[types/index.ts:741](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L741)
+[types/index.ts:741](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L741)
 
 ___
 
@@ -50,7 +50,7 @@ total amount that will be paid for
 
 #### Defined in
 
-[types/index.ts:745](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L745)
+[types/index.ts:745](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L745)
 
 ___
 
@@ -62,7 +62,7 @@ free balance of the third party Account
 
 #### Defined in
 
-[types/index.ts:759](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L759)
+[types/index.ts:759](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L759)
 
 ___
 
@@ -74,7 +74,7 @@ fees that will be paid by the third party Account
 
 #### Defined in
 
-[types/index.ts:755](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L755)
+[types/index.ts:755](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L755)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:737](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L737)
+[types/index.ts:737](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L737)

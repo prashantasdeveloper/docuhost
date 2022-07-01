@@ -19,7 +19,7 @@ used for conditions where no trusted claim issuers were specified
 
 #### Defined in
 
-[types/index.ts:454](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L454)
+[types/index.ts:454](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L454)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:450](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L450)
+[types/index.ts:450](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L450)

@@ -47,7 +47,7 @@ Check whether it is possible to create a settlement Instruction to transfer a ce
 
 #### Defined in
 
-[api/entities/Asset/Settlements.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Settlements.ts#L38)
+[api/entities/Asset/Settlements.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Settlements.ts#L38)
 
 ___
 
@@ -79,4 +79,4 @@ Check whether it is possible to create a settlement instruction to transfer a ce
 
 #### Defined in
 
-[api/entities/Asset/Settlements.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Settlements.ts#L107)
+[api/entities/Asset/Settlements.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Settlements.ts#L107)

@@ -35,7 +35,7 @@ the data that is being fetched does not exist on-chain, or relies on non-existen
 
 #### Defined in
 
-[types/index.ts:514](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L514)
+[types/index.ts:514](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L514)
 
 ___
 
@@ -48,7 +48,7 @@ this type of error is thrown when attempting to delete/modify an entity which ha
 
 #### Defined in
 
-[types/index.ts:536](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L536)
+[types/index.ts:536](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L536)
 
 ___
 
@@ -60,7 +60,7 @@ error that should cause termination of the calling application
 
 #### Defined in
 
-[types/index.ts:496](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L496)
+[types/index.ts:496](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L496)
 
 ___
 
@@ -72,7 +72,7 @@ general purpose errors that don't fit well into the other categories
 
 #### Defined in
 
-[types/index.ts:549](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L549)
+[types/index.ts:549](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L549)
 
 ___
 
@@ -84,7 +84,7 @@ one or more parties involved in the transaction do not have enough balance to pe
 
 #### Defined in
 
-[types/index.ts:540](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L540)
+[types/index.ts:540](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L540)
 
 ___
 
@@ -97,7 +97,7 @@ the data that is being written to the chain would result in some limit being exc
 
 #### Defined in
 
-[types/index.ts:524](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L524)
+[types/index.ts:524](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L524)
 
 ___
 
@@ -109,7 +109,7 @@ errors encountered when interacting with the historic data middleware (GQL serve
 
 #### Defined in
 
-[types/index.ts:509](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L509)
+[types/index.ts:509](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L509)
 
 ___
 
@@ -122,7 +122,7 @@ the data that is being written to the chain is the same data that is already in 
 
 #### Defined in
 
-[types/index.ts:519](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L519)
+[types/index.ts:519](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L519)
 
 ___
 
@@ -134,7 +134,7 @@ user does not have the required roles/permissions to perform an operation
 
 #### Defined in
 
-[types/index.ts:505](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L505)
+[types/index.ts:505](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L505)
 
 ___
 
@@ -146,7 +146,7 @@ transaction removed from the tx pool
 
 #### Defined in
 
-[types/index.ts:482](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L482)
+[types/index.ts:482](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L482)
 
 ___
 
@@ -158,7 +158,7 @@ user rejected the transaction in their wallet
 
 #### Defined in
 
-[types/index.ts:486](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L486)
+[types/index.ts:486](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L486)
 
 ___
 
@@ -172,7 +172,7 @@ transaction failed due to an on-chain error. This is a business logic error,
 
 #### Defined in
 
-[types/index.ts:492](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L492)
+[types/index.ts:492](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L492)
 
 ___
 
@@ -185,7 +185,7 @@ errors that are the result of something unforeseen.
 
 #### Defined in
 
-[types/index.ts:545](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L545)
+[types/index.ts:545](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L545)
 
 ___
 
@@ -200,7 +200,7 @@ one or more base prerequisites for a transaction to be successful haven't been m
 
 #### Defined in
 
-[types/index.ts:531](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L531)
+[types/index.ts:531](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L531)
 
 ___
 
@@ -213,4 +213,4 @@ user input error. This means that one or more inputs passed by the user
 
 #### Defined in
 
-[types/index.ts:501](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L501)
+[types/index.ts:501](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L501)

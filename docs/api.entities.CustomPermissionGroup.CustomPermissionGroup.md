@@ -42,7 +42,7 @@ Asset for which this group specifies permissions
 
 #### Defined in
 
-[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/PermissionGroup.ts#L19)
+[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L19)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CustomPermissionGroup.ts#L40)
+[api/entities/CustomPermissionGroup.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L40)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -86,7 +86,7 @@ Determine whether this Custom Permission Group exists on chain
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CustomPermissionGroup.ts#L101)
+[api/entities/CustomPermissionGroup.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L101)
 
 ___
 
@@ -106,7 +106,7 @@ Retrieve the list of permissions and transaction groups associated with this Per
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CustomPermissionGroup.ts#L71)
+[api/entities/CustomPermissionGroup.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L71)
 
 ___
 
@@ -132,7 +132,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -149,7 +149,7 @@ Modify the group's permissions
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetGroupPermissionsParams`](../wiki/types.SetGroupPermissionsParams) |
+| `args` | [`SetGroupPermissionsParams`](../wiki/api.procedures.types.SetGroupPermissionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -158,7 +158,7 @@ Modify the group's permissions
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CustomPermissionGroup.ts#L64)
+[api/entities/CustomPermissionGroup.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L64)
 
 ___
 
@@ -178,7 +178,7 @@ Return the Group's static data
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CustomPermissionGroup.ts#L119)
+[api/entities/CustomPermissionGroup.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L119)
 
 ___
 
@@ -210,7 +210,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -242,4 +242,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

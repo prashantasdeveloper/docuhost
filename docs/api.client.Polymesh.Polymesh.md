@@ -41,7 +41,7 @@ A set of methods for managing a Polymesh Identity's Accounts and their permissio
 
 #### Defined in
 
-[api/client/Polymesh.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L53)
+[api/client/Polymesh.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L53)
 
 ___
 
@@ -53,7 +53,7 @@ A set of methods for interacting with Assets
 
 #### Defined in
 
-[api/client/Polymesh.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L61)
+[api/client/Polymesh.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L61)
 
 ___
 
@@ -65,7 +65,7 @@ A set of methods to deal with Claims
 
 #### Defined in
 
-[api/client/Polymesh.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L41)
+[api/client/Polymesh.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L41)
 
 ___
 
@@ -77,7 +77,7 @@ A set of methods for interacting with Polymesh Identities.
 
 #### Defined in
 
-[api/client/Polymesh.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L57)
+[api/client/Polymesh.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L57)
 
 ___
 
@@ -89,7 +89,7 @@ A set of methods to interact with the Polymesh network. This includes transferri
 
 #### Defined in
 
-[api/client/Polymesh.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L45)
+[api/client/Polymesh.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L45)
 
 ___
 
@@ -101,7 +101,7 @@ A set of methods for exchanging Assets
 
 #### Defined in
 
-[api/client/Polymesh.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L49)
+[api/client/Polymesh.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L49)
 
 ## Accessors
 
@@ -117,7 +117,7 @@ Middleware client
 
 #### Defined in
 
-[api/client/Polymesh.ts:258](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L258)
+[api/client/Polymesh.ts:258](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L258)
 
 ___
 
@@ -133,7 +133,7 @@ Polkadot client
 
 #### Defined in
 
-[api/client/Polymesh.ts:242](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L242)
+[api/client/Polymesh.ts:242](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L242)
 
 ___
 
@@ -149,7 +149,7 @@ signing address (to manually submit transactions with the polkadot API)
 
 #### Defined in
 
-[api/client/Polymesh.ts:250](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L250)
+[api/client/Polymesh.ts:250](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L250)
 
 ## Methods
 
@@ -169,7 +169,7 @@ Disconnect the client and close all open connections and subscriptions
 
 #### Defined in
 
-[api/client/Polymesh.ts:217](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L217)
+[api/client/Polymesh.ts:217](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L217)
 
 ___
 
@@ -187,7 +187,7 @@ Retrieve the Identity associated to the signing Account (null if there is none)
 
 #### Defined in
 
-[api/client/Polymesh.ts:172](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L172)
+[api/client/Polymesh.ts:172](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L172)
 
 ___
 
@@ -221,7 +221,7 @@ an unsubscribe callback
 
 #### Defined in
 
-[api/client/Polymesh.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L181)
+[api/client/Polymesh.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L181)
 
 ___
 
@@ -255,7 +255,7 @@ an unsubscribe callback
 
 #### Defined in
 
-[api/client/Polymesh.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L198)
+[api/client/Polymesh.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L198)
 
 ___
 
@@ -279,7 +279,7 @@ Set the SDK's signing Account to the provided one
 
 #### Defined in
 
-[api/client/Polymesh.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L226)
+[api/client/Polymesh.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L226)
 
 ___
 
@@ -301,7 +301,7 @@ Set the SDK's Signing Manager to the provided one
 
 #### Defined in
 
-[api/client/Polymesh.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L233)
+[api/client/Polymesh.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L233)
 
 ___
 
@@ -323,4 +323,4 @@ Create an SDK instance and connect to a Polymesh node
 
 #### Defined in
 
-[api/client/Polymesh.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Polymesh.ts#L86)
+[api/client/Polymesh.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Polymesh.ts#L86)
