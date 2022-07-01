@@ -4,26 +4,28 @@
 
 ### Modules
 
-- Api
- - Client
-  - [Accountmanagement](../wiki/api.client.AccountManagement)
+#### Client
+
+  - [Account Management](../wiki/api.client.AccountManagement)
   - [Assets](../wiki/api.client.Assets)
   - [Claims](../wiki/api.client.Claims)
   - [Identities](../wiki/api.client.Identities)
   - [Network](../wiki/api.client.Network)
   - [Polymesh](../wiki/api.client.Polymesh)
   - [Settlements](../wiki/api.client.Settlements)
- - Entities
+
+#### Entities
+
   - [Account](../wiki/api.entities.Account)
   - [Asset](../wiki/api.entities.Asset)
-   - [Assetholders](../wiki/api.entities.Asset.AssetHolders)
+   - [Asset Holders](../wiki/api.entities.Asset.AssetHolders)
    - [Checkpoints](../wiki/api.entities.Asset.Checkpoints)
     - [Schedules](../wiki/api.entities.Asset.Checkpoints.Schedules)
     - [Types](../wiki/api.entities.Asset.Checkpoints.types)
    - [Compliance](../wiki/api.entities.Asset.Compliance)
     - [Requirements](../wiki/api.entities.Asset.Compliance.Requirements)
-    - [Trustedclaimissuers](../wiki/api.entities.Asset.Compliance.TrustedClaimIssuers)
-   - [Corporateactions](../wiki/api.entities.Asset.CorporateActions)
+    - [Trusted Claim Issuers](../wiki/api.entities.Asset.Compliance.TrustedClaimIssuers)
+   - [Corporate Actions](../wiki/api.entities.Asset.CorporateActions)
     - [Distributions](../wiki/api.entities.Asset.CorporateActions.Distributions)
     - [Types](../wiki/api.entities.Asset.CorporateActions.types)
    - [Documents](../wiki/api.entities.Asset.Documents)
@@ -31,47 +33,51 @@
    - [Offerings](../wiki/api.entities.Asset.Offerings)
    - [Permissions](../wiki/api.entities.Asset.Permissions)
    - [Settlements](../wiki/api.entities.Asset.Settlements)
-   - [Transferrestrictions](../wiki/api.entities.Asset.TransferRestrictions)
+   - [Transfer Restrictions](../wiki/api.entities.Asset.TransferRestrictions)
     - [Count](../wiki/api.entities.Asset.TransferRestrictions.Count)
     - [Percentage](../wiki/api.entities.Asset.TransferRestrictions.Percentage)
-    - [Transferrestrictionbase](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase)
+    - [Transfer Restriction Base](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase)
    - [Types](../wiki/api.entities.Asset.types)
-  - [Authorizationrequest](../wiki/api.entities.AuthorizationRequest)
+  - [Authorization Request](../wiki/api.entities.AuthorizationRequest)
   - [Checkpoint](../wiki/api.entities.Checkpoint)
-  - [Checkpointschedule](../wiki/api.entities.CheckpointSchedule)
+  - [Checkpoint Schedule](../wiki/api.entities.CheckpointSchedule)
    - [Types](../wiki/api.entities.CheckpointSchedule.types)
-  - [Corporateaction](../wiki/api.entities.CorporateAction)
-  - [Corporateactionbase](../wiki/api.entities.CorporateActionBase)
+  - [Corporate Action](../wiki/api.entities.CorporateAction)
+  - [Corporate Action Base](../wiki/api.entities.CorporateActionBase)
    - [Types](../wiki/api.entities.CorporateActionBase.types)
-  - [Custompermissiongroup](../wiki/api.entities.CustomPermissionGroup)
-  - [Defaultportfolio](../wiki/api.entities.DefaultPortfolio)
-  - [Defaulttrustedclaimissuer](../wiki/api.entities.DefaultTrustedClaimIssuer)
-  - [Dividenddistribution](../wiki/api.entities.DividendDistribution)
+  - [Custom Permission Group](../wiki/api.entities.CustomPermissionGroup)
+  - [Default Portfolio](../wiki/api.entities.DefaultPortfolio)
+  - [Default Trusted Claim Issuer](../wiki/api.entities.DefaultTrustedClaimIssuer)
+  - [Dividend Distribution](../wiki/api.entities.DividendDistribution)
    - [Types](../wiki/api.entities.DividendDistribution.types)
   - [Entity](../wiki/api.entities.Entity)
   - [Identity](../wiki/api.entities.Identity)
-   - [Assetpermissions](../wiki/api.entities.Identity.AssetPermissions)
-   - [Identityauthorizations](../wiki/api.entities.Identity.IdentityAuthorizations)
+   - [Asset Permissions](../wiki/api.entities.Identity.AssetPermissions)
+   - [Identity Authorizations](../wiki/api.entities.Identity.IdentityAuthorizations)
    - [Portfolios](../wiki/api.entities.Identity.Portfolios)
   - [Instruction](../wiki/api.entities.Instruction)
    - [Types](../wiki/api.entities.Instruction.types)
-  - [Knownpermissiongroup](../wiki/api.entities.KnownPermissionGroup)
+  - [Known Permission Group](../wiki/api.entities.KnownPermissionGroup)
   - [Namespace](../wiki/api.entities.Namespace)
-  - [Numberedportfolio](../wiki/api.entities.NumberedPortfolio)
+  - [Numbered Portfolio](../wiki/api.entities.NumberedPortfolio)
   - [Offering](../wiki/api.entities.Offering)
    - [Types](../wiki/api.entities.Offering.types)
-  - [Permissiongroup](../wiki/api.entities.PermissionGroup)
+  - [Permission Group](../wiki/api.entities.PermissionGroup)
   - [Portfolio](../wiki/api.entities.Portfolio)
    - [Types](../wiki/api.entities.Portfolio.types)
   - [Subsidy](../wiki/api.entities.Subsidy)
    - [Types](../wiki/api.entities.Subsidy.types)
-  - [Tickerreservation](../wiki/api.entities.TickerReservation)
+  - [Ticker Reservation](../wiki/api.entities.TickerReservation)
    - [Types](../wiki/api.entities.TickerReservation.types)
   - [Venue](../wiki/api.entities.Venue)
    - [Types](../wiki/api.entities.Venue.types)
-  - Common
-   - Namespaces
+
+#### Namespaces
+
     - [Authorizations](../wiki/api.entities.common.namespaces.Authorizations)
+
+#### Types
+
 - [Types](../wiki/types)
  - [Utils](../wiki/types.utils)
 
