@@ -38,8 +38,8 @@ Retrieve a single event by any of its indexed arguments. Can be filtered using p
 | `opts.eventArg0?` | `string` | event parameter value to filter by in position 0 |
 | `opts.eventArg1?` | `string` | event parameter value to filter by in position 1 |
 | `opts.eventArg2?` | `string` | event parameter value to filter by in position 2 |
-| `opts.eventId` | `EventIdEnum` | type of the event to fetch |
-| `opts.moduleId` | `ModuleIdEnum` | type of the module to fetch |
+| `opts.eventId` | [`EventIdEnum`](../wiki/types.EventIdEnum) | type of the event to fetch |
+| `opts.moduleId` | [`ModuleIdEnum`](../wiki/types.ModuleIdEnum) | type of the module to fetch |
 
 #### Returns
 
@@ -47,7 +47,7 @@ Retrieve a single event by any of its indexed arguments. Can be filtered using p
 
 #### Defined in
 
-[api/client/Network.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L158)
+[api/client/Network.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L159)
 
 ___
 
@@ -67,8 +67,8 @@ Retrieve a list of events. Can be filtered using parameters
 | `opts.eventArg0?` | `string` | event parameter value to filter by in position 0 |
 | `opts.eventArg1?` | `string` | event parameter value to filter by in position 1 |
 | `opts.eventArg2?` | `string` | event parameter value to filter by in position 2 |
-| `opts.eventId` | `EventIdEnum` | type of the event to fetch |
-| `opts.moduleId` | `ModuleIdEnum` | type of the module to fetch |
+| `opts.eventId` | [`EventIdEnum`](../wiki/types.EventIdEnum) | type of the event to fetch |
+| `opts.moduleId` | [`ModuleIdEnum`](../wiki/types.ModuleIdEnum) | type of the module to fetch |
 | `opts.size?` | `BigNumber` | page size |
 | `opts.start?` | `BigNumber` | page offset |
 
@@ -78,7 +78,7 @@ Retrieve a list of events. Can be filtered using parameters
 
 #### Defined in
 
-[api/client/Network.ts:197](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L197)
+[api/client/Network.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L198)
 
 ___
 
@@ -94,7 +94,7 @@ Retrieve the number of the latest block in the chain
 
 #### Defined in
 
-[api/client/Network.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L52)
+[api/client/Network.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L53)
 
 ___
 
@@ -110,7 +110,7 @@ Retrieve information for the current network
 
 #### Defined in
 
-[api/client/Network.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L73)
+[api/client/Network.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L74)
 
 ___
 
@@ -125,7 +125,7 @@ Retrieve the protocol fees associated with running specific transactions
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `args` | `Object` | - |
-| `args.tags` | `TxTag`[] | list of transaction tags (i.e. [TxTags.asset.CreateAsset, TxTags.asset.RegisterTicker] or ["asset.createAsset", "asset.registerTicker"]) |
+| `args.tags` | [`TxTag`](../wiki/types#txtag)[] | list of transaction tags (i.e. [TxTags.asset.CreateAsset, TxTags.asset.RegisterTicker] or ["asset.createAsset", "asset.registerTicker"]) |
 
 #### Returns
 
@@ -133,7 +133,7 @@ Retrieve the protocol fees associated with running specific transactions
 
 #### Defined in
 
-[api/client/Network.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L97)
+[api/client/Network.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L98)
 
 ___
 
@@ -149,7 +149,7 @@ Retrieve the chain's SS58 format
 
 #### Defined in
 
-[api/client/Network.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L66)
+[api/client/Network.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L67)
 
 ___
 
@@ -174,7 +174,7 @@ Retrieve a transaction by hash
 
 #### Defined in
 
-[api/client/Network.ts:241](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L241)
+[api/client/Network.ts:242](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L242)
 
 ___
 
@@ -190,7 +190,7 @@ Get the treasury wallet address
 
 #### Defined in
 
-[api/client/Network.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L104)
+[api/client/Network.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L105)
 
 ___
 
@@ -208,7 +208,7 @@ Get the Treasury POLYX balance
 
 #### Defined in
 
-[api/client/Network.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L117)
+[api/client/Network.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L118)
 
 ▸ **getTreasuryBalance**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -224,7 +224,7 @@ Get the Treasury POLYX balance
 
 #### Defined in
 
-[api/client/Network.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L118)
+[api/client/Network.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L119)
 
 ___
 
@@ -240,7 +240,7 @@ Fetch the current network version (i.e. 3.1.0)
 
 #### Defined in
 
-[api/client/Network.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L59)
+[api/client/Network.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L60)
 
 ___
 
@@ -257,7 +257,7 @@ Transfer an amount of POLYX to a specified Account
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`TransferPolyxParams`](../wiki/api.procedures.transferPolyx.TransferPolyxParams) |
+| `args` | [`TransferPolyxParams`](../wiki/api.procedures.types.TransferPolyxParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -266,4 +266,4 @@ Transfer an amount of POLYX to a specified Account
 
 #### Defined in
 
-[api/client/Network.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Network.ts#L143)
+[api/client/Network.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Network.ts#L144)

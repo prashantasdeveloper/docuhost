@@ -4,39 +4,109 @@
 
 ### References
 
+- [AddAssetRequirementParams](../wiki/types#addassetrequirementparams)
+- [AddClaimsParams](../wiki/types#addclaimsparams)
+- [AddCountTransferRestrictionParams](../wiki/types#addcounttransferrestrictionparams)
+- [AddInstructionParams](../wiki/types#addinstructionparams)
+- [AddInstructionWithVenueIdParams](../wiki/types#addinstructionwithvenueidparams)
+- [AddInstructionsParams](../wiki/types#addinstructionsparams)
+- [AddInvestorUniquenessClaimParams](../wiki/types#addinvestoruniquenessclaimparams)
+- [AddPercentageTransferRestrictionParams](../wiki/types#addpercentagetransferrestrictionparams)
+- [AddRestrictionParams](../wiki/types#addrestrictionparams)
+- [AffirmInstructionParams](../wiki/types#affirminstructionparams)
 - [AffirmationStatus](../wiki/types#affirmationstatus)
 - [AgentWithGroup](../wiki/types#agentwithgroup)
+- [AllowanceOperation](../wiki/types#allowanceoperation)
+- [AssetBase](../wiki/types#assetbase)
 - [AssetDetails](../wiki/types#assetdetails)
 - [CaCheckpointType](../wiki/types#cacheckpointtype)
 - [CheckpointScheduleParams](../wiki/types#checkpointscheduleparams)
+- [ClaimClassicTickerParams](../wiki/types#claimclassictickerparams)
+- [ClaimOperation](../wiki/types#claimoperation)
+- [ConfigureDividendDistributionParams](../wiki/types#configuredividenddistributionparams)
+- [ConnectParams](../wiki/types#connectparams)
+- [ControllerTransferParams](../wiki/types#controllertransferparams)
 - [CorporateActionDefaultConfig](../wiki/types#corporateactiondefaultconfig)
 - [CorporateActionKind](../wiki/types#corporateactionkind)
 - [CorporateActionParams](../wiki/types#corporateactionparams)
 - [CorporateActionTargets](../wiki/types#corporateactiontargets)
+- [CountTransferRestrictionInput](../wiki/types#counttransferrestrictioninput)
+- [CreateAssetParams](../wiki/types#createassetparams)
+- [CreateAssetWithTickerParams](../wiki/types#createassetwithtickerparams)
+- [CreateCheckpointScheduleParams](../wiki/types#createcheckpointscheduleparams)
+- [CreateGroupParams](../wiki/types#creategroupparams)
+- [CreateVenueParams](../wiki/types#createvenueparams)
+- [DecreaseAllowanceParams](../wiki/types#decreaseallowanceparams)
 - [DistributionParticipant](../wiki/types#distributionparticipant)
 - [DividendDistributionDetails](../wiki/types#dividenddistributiondetails)
 - [DividendDistributionParams](../wiki/types#dividenddistributionparams)
+- [EditClaimsParams](../wiki/types#editclaimsparams)
+- [GetReturnType](../wiki/types#getreturntype)
 - [HistoricSettlement](../wiki/types#historicsettlement)
 - [IdentityBalance](../wiki/types#identitybalance)
+- [IncreaseAllowanceParams](../wiki/types#increaseallowanceparams)
 - [InputCaCheckpoint](../wiki/types#inputcacheckpoint)
 - [InputTargets](../wiki/types#inputtargets)
 - [InputTaxWithholding](../wiki/types#inputtaxwithholding)
 - [InstructionAffirmation](../wiki/types#instructionaffirmation)
+- [InstructionAffirmationOperation](../wiki/types#instructionaffirmationoperation)
 - [InstructionDetails](../wiki/types#instructiondetails)
 - [InstructionStatus](../wiki/types#instructionstatus)
 - [InstructionStatusResult](../wiki/types#instructionstatusresult)
 - [InstructionType](../wiki/types#instructiontype)
+- [InvestInOfferingParams](../wiki/types#investinofferingparams)
 - [Investment](../wiki/types#investment)
+- [InviteAccountParams](../wiki/types#inviteaccountparams)
+- [InviteExternalAgentParams](../wiki/types#inviteexternalagentparams)
+- [LaunchOfferingParams](../wiki/types#launchofferingparams)
 - [Leg](../wiki/types#leg)
+- [LinkCaDocsParams](../wiki/types#linkcadocsparams)
+- [ModifyAssetParams](../wiki/types#modifyassetparams)
+- [ModifyAssetTrustedClaimIssuersAddSetParams](../wiki/types#modifyassettrustedclaimissuersaddsetparams)
+- [ModifyAssetTrustedClaimIssuersRemoveParams](../wiki/types#modifyassettrustedclaimissuersremoveparams)
+- [ModifyCaCheckpointParams](../wiki/types#modifycacheckpointparams)
+- [ModifyCaDefaultConfigParams](../wiki/types#modifycadefaultconfigparams)
+- [ModifyClaimsParams](../wiki/types#modifyclaimsparams)
+- [ModifyComplianceRequirementParams](../wiki/types#modifycompliancerequirementparams)
+- [ModifyCorporateActionsAgentParams](../wiki/types#modifycorporateactionsagentparams)
+- [ModifyInstructionAffirmationParams](../wiki/types#modifyinstructionaffirmationparams)
+- [ModifyOfferingTimesParams](../wiki/types#modifyofferingtimesparams)
+- [ModifyPrimaryIssuanceAgentParams](../wiki/types#modifyprimaryissuanceagentparams)
+- [ModifySignerPermissionsParams](../wiki/types#modifysignerpermissionsparams)
+- [ModifyVenueParams](../wiki/types#modifyvenueparams)
+- [MoveFundsParams](../wiki/types#movefundsparams)
 - [OfferingBalanceStatus](../wiki/types#offeringbalancestatus)
 - [OfferingDetails](../wiki/types#offeringdetails)
 - [OfferingSaleStatus](../wiki/types#offeringsalestatus)
 - [OfferingStatus](../wiki/types#offeringstatus)
 - [OfferingTier](../wiki/types#offeringtier)
 - [OfferingTimingStatus](../wiki/types#offeringtimingstatus)
+- [PayDividendsParams](../wiki/types#paydividendsparams)
+- [PercentageTransferRestrictionInput](../wiki/types#percentagetransferrestrictioninput)
 - [PortfolioBalance](../wiki/types#portfoliobalance)
+- [RedeemTokensParams](../wiki/types#redeemtokensparams)
+- [RegisterIdentityParams](../wiki/types#registeridentityparams)
+- [RemoveAssetRequirementParams](../wiki/types#removeassetrequirementparams)
+- [RemoveCheckpointScheduleParams](../wiki/types#removecheckpointscheduleparams)
+- [RemoveCorporateActionParams](../wiki/types#removecorporateactionparams)
+- [RemoveExternalAgentParams](../wiki/types#removeexternalagentparams)
+- [RemoveSecondaryAccountsParams](../wiki/types#removesecondaryaccountsparams)
+- [RenamePortfolioParams](../wiki/types#renameportfolioparams)
+- [ReserveTickerParams](../wiki/types#reservetickerparams)
+- [RevokeClaimsParams](../wiki/types#revokeclaimsparams)
 - [ScheduleDetails](../wiki/types#scheduledetails)
+- [ScopeClaimProof](../wiki/types#scopeclaimproof)
+- [SetAllowanceParams](../wiki/types#setallowanceparams)
+- [SetAssetDocumentsParams](../wiki/types#setassetdocumentsparams)
+- [SetAssetRequirementsParams](../wiki/types#setassetrequirementsparams)
+- [SetCountTransferRestrictionsParams](../wiki/types#setcounttransferrestrictionsparams)
+- [SetCustodianParams](../wiki/types#setcustodianparams)
+- [SetGroupPermissionsParams](../wiki/types#setgrouppermissionsparams)
+- [SetPercentageTransferRestrictionsParams](../wiki/types#setpercentagetransferrestrictionsparams)
+- [SetPermissionGroupParams](../wiki/types#setpermissiongroupparams)
+- [SetRestrictionsParams](../wiki/types#setrestrictionsparams)
 - [SettlementLeg](../wiki/types#settlementleg)
+- [SubsidizeAccountParams](../wiki/types#subsidizeaccountparams)
 - [SubsidyData](../wiki/types#subsidydata)
 - [SubsidyWithAllowance](../wiki/types#subsidywithallowance)
 - [TargetTreatment](../wiki/types#targettreatment)
@@ -44,34 +114,92 @@
 - [TickerReservationDetails](../wiki/types#tickerreservationdetails)
 - [TickerReservationStatus](../wiki/types#tickerreservationstatus)
 - [Tier](../wiki/types#tier)
+- [TransactionsParams](../wiki/types#transactionsparams)
+- [TransferAssetOwnershipParams](../wiki/types#transferassetownershipparams)
 - [TransferBreakdown](../wiki/types#transferbreakdown)
+- [TransferPolyxParams](../wiki/types#transferpolyxparams)
+- [TransferRestriction](../wiki/types#transferrestriction)
 - [TransferRestrictionResult](../wiki/types#transferrestrictionresult)
+- [TransferRestrictionType](../wiki/types#transferrestrictiontype)
+- [TransferTickerOwnershipParams](../wiki/types#transfertickerownershipparams)
+- [TxGroupParams](../wiki/types#txgroupparams)
 - [VenueDetails](../wiki/types#venuedetails)
 - [VenueType](../wiki/types#venuetype)
+- [WaivePermissionsParams](../wiki/types#waivepermissionsparams)
 
 ### Enumerations
 
+- [AssetTx](../wiki/types.AssetTx)
 - [AuthorizationType](../wiki/types.AuthorizationType)
+- [AuthorshipTx](../wiki/types.AuthorshipTx)
+- [BabeTx](../wiki/types.BabeTx)
+- [BalancesTx](../wiki/types.BalancesTx)
+- [BridgeTx](../wiki/types.BridgeTx)
 - [CalendarUnit](../wiki/types.CalendarUnit)
+- [CapitalDistributionTx](../wiki/types.CapitalDistributionTx)
+- [CddServiceProvidersTx](../wiki/types.CddServiceProvidersTx)
+- [CheckpointTx](../wiki/types.CheckpointTx)
 - [ClaimType](../wiki/types.ClaimType)
+- [CommitteeMembershipTx](../wiki/types.CommitteeMembershipTx)
+- [ComplianceManagerTx](../wiki/types.ComplianceManagerTx)
 - [ConditionTarget](../wiki/types.ConditionTarget)
 - [ConditionType](../wiki/types.ConditionType)
+- [ContractsTx](../wiki/types.ContractsTx)
+- [CorporateActionTx](../wiki/types.CorporateActionTx)
+- [CorporateBallotTx](../wiki/types.CorporateBallotTx)
+- [CountryCode](../wiki/types.CountryCode)
 - [ErrorCode](../wiki/types.ErrorCode)
+- [EventIdEnum](../wiki/types.EventIdEnum)
+- [ExternalAgentsTx](../wiki/types.ExternalAgentsTx)
+- [GrandpaTx](../wiki/types.GrandpaTx)
+- [IdentityTx](../wiki/types.IdentityTx)
+- [ImOnlineTx](../wiki/types.ImOnlineTx)
+- [IndicesTx](../wiki/types.IndicesTx)
 - [KnownAssetType](../wiki/types.KnownAssetType)
+- [ModuleIdEnum](../wiki/types.ModuleIdEnum)
+- [ModuleName](../wiki/types.ModuleName)
+- [MultiSigTx](../wiki/types.MultiSigTx)
+- [Order](../wiki/types.Order)
 - [PayingAccountType](../wiki/types.PayingAccountType)
 - [PermissionGroupType](../wiki/types.PermissionGroupType)
 - [PermissionType](../wiki/types.PermissionType)
+- [PipsTx](../wiki/types.PipsTx)
+- [PolymeshCommitteeTx](../wiki/types.PolymeshCommitteeTx)
+- [PolymeshContractsTx](../wiki/types.PolymeshContractsTx)
+- [PortfolioTx](../wiki/types.PortfolioTx)
+- [PreimageTx](../wiki/types.PreimageTx)
+- [ProtocolFeeTx](../wiki/types.ProtocolFeeTx)
+- [RelayerTx](../wiki/types.RelayerTx)
+- [RewardsTx](../wiki/types.RewardsTx)
 - [RoleType](../wiki/types.RoleType)
+- [SchedulerTx](../wiki/types.SchedulerTx)
 - [ScopeType](../wiki/types.ScopeType)
 - [SecurityIdentifierType](../wiki/types.SecurityIdentifierType)
+- [SessionTx](../wiki/types.SessionTx)
+- [SettlementDirectionEnum](../wiki/types.SettlementDirectionEnum)
+- [SettlementResultEnum](../wiki/types.SettlementResultEnum)
+- [SettlementTx](../wiki/types.SettlementTx)
 - [SignerType](../wiki/types.SignerType)
+- [StakingTx](../wiki/types.StakingTx)
+- [StatisticsTx](../wiki/types.StatisticsTx)
+- [StoTx](../wiki/types.StoTx)
+- [SudoTx](../wiki/types.SudoTx)
+- [SystemTx](../wiki/types.SystemTx)
+- [TechnicalCommitteeMembershipTx](../wiki/types.TechnicalCommitteeMembershipTx)
+- [TechnicalCommitteeTx](../wiki/types.TechnicalCommitteeTx)
+- [TestUtilsTx](../wiki/types.TestUtilsTx)
+- [TimestampTx](../wiki/types.TimestampTx)
 - [TransactionArgumentType](../wiki/types.TransactionArgumentType)
+- [TransactionOrderFields](../wiki/types.TransactionOrderFields)
 - [TransactionQueueStatus](../wiki/types.TransactionQueueStatus)
 - [TransactionStatus](../wiki/types.TransactionStatus)
 - [TransferError](../wiki/types.TransferError)
-- [TransferRestrictionType](../wiki/types.TransferRestrictionType)
 - [TransferStatus](../wiki/types.TransferStatus)
+- [TreasuryTx](../wiki/types.TreasuryTx)
 - [TxGroup](../wiki/types.TxGroup)
+- [UpgradeCommitteeMembershipTx](../wiki/types.UpgradeCommitteeMembershipTx)
+- [UpgradeCommitteeTx](../wiki/types.UpgradeCommitteeTx)
+- [UtilityTx](../wiki/types.UtilityTx)
 
 ### Interfaces
 
@@ -99,11 +227,9 @@
 - [ConditionBase](../wiki/types.ConditionBase)
 - [ConditionCompliance](../wiki/types.ConditionCompliance)
 - [CountTransferRestriction](../wiki/types.CountTransferRestriction)
-- [CountTransferRestrictionInput](../wiki/types.CountTransferRestrictionInput)
 - [DistributionPayment](../wiki/types.DistributionPayment)
 - [DistributionWithDetails](../wiki/types.DistributionWithDetails)
 - [EventIdentifier](../wiki/types.EventIdentifier)
-- [ExemptKey](../wiki/types.ExemptKey)
 - [ExemptedClaim](../wiki/types.ExemptedClaim)
 - [ExternalAgentCondition](../wiki/types.ExternalAgentCondition)
 - [ExtrinsicData](../wiki/types.ExtrinsicData)
@@ -129,12 +255,12 @@
 - [PaginationOptions](../wiki/types.PaginationOptions)
 - [PayingAccount](../wiki/types.PayingAccount)
 - [PercentageTransferRestriction](../wiki/types.PercentageTransferRestriction)
-- [PercentageTransferRestrictionInput](../wiki/types.PercentageTransferRestrictionInput)
 - [PermissionGroups](../wiki/types.PermissionGroups)
 - [PermissionedAccount](../wiki/types.PermissionedAccount)
 - [Permissions](../wiki/types.Permissions)
 - [PlainTransactionArgument](../wiki/types.PlainTransactionArgument)
 - [PortfolioCustodianRole](../wiki/types.PortfolioCustodianRole)
+- [PortfolioId](../wiki/types.PortfolioId)
 - [PortfolioMovement](../wiki/types.PortfolioMovement)
 - [ProcedureAuthorizationStatus](../wiki/types.ProcedureAuthorizationStatus)
 - [ProcedureMethod](../wiki/types.ProcedureMethod)
@@ -155,7 +281,6 @@
 - [ThirdPartyFees](../wiki/types.ThirdPartyFees)
 - [TickerOwnerRole](../wiki/types.TickerOwnerRole)
 - [TransactionPermissions](../wiki/types.TransactionPermissions)
-- [TransferRestriction](../wiki/types.TransferRestriction)
 - [TrustedClaimIssuer](../wiki/types.TrustedClaimIssuer)
 - [VenueOwnerRole](../wiki/types.VenueOwnerRole)
 
@@ -188,10 +313,76 @@
 - [Signer](../wiki/types#signer)
 - [SubCallback](../wiki/types#subcallback)
 - [TransactionArgument](../wiki/types#transactionargument)
+- [TransactionOrderByInput](../wiki/types#transactionorderbyinput)
+- [TxTag](../wiki/types#txtag)
 - [UnscopedClaim](../wiki/types#unscopedclaim)
 - [UnsubCallback](../wiki/types#unsubcallback)
 
+### Variables
+
+- [TxTags](../wiki/types#txtags)
+
 ## References
+
+### AddAssetRequirementParams
+
+Re-exports [AddAssetRequirementParams](../wiki/api.procedures.types.AddAssetRequirementParams)
+
+___
+
+### AddClaimsParams
+
+Re-exports [AddClaimsParams](../wiki/api.procedures.types.AddClaimsParams)
+
+___
+
+### AddCountTransferRestrictionParams
+
+Re-exports [AddCountTransferRestrictionParams](../wiki/api.procedures.types#addcounttransferrestrictionparams)
+
+___
+
+### AddInstructionParams
+
+Re-exports [AddInstructionParams](../wiki/api.procedures.types.AddInstructionParams)
+
+___
+
+### AddInstructionWithVenueIdParams
+
+Re-exports [AddInstructionWithVenueIdParams](../wiki/api.procedures.types.AddInstructionWithVenueIdParams)
+
+___
+
+### AddInstructionsParams
+
+Re-exports [AddInstructionsParams](../wiki/api.procedures.types.AddInstructionsParams)
+
+___
+
+### AddInvestorUniquenessClaimParams
+
+Re-exports [AddInvestorUniquenessClaimParams](../wiki/api.procedures.types.AddInvestorUniquenessClaimParams)
+
+___
+
+### AddPercentageTransferRestrictionParams
+
+Re-exports [AddPercentageTransferRestrictionParams](../wiki/api.procedures.types#addpercentagetransferrestrictionparams)
+
+___
+
+### AddRestrictionParams
+
+Re-exports [AddRestrictionParams](../wiki/api.procedures.types#addrestrictionparams)
+
+___
+
+### AffirmInstructionParams
+
+Re-exports [AffirmInstructionParams](../wiki/api.procedures.types.AffirmInstructionParams)
+
+___
 
 ### AffirmationStatus
 
@@ -202,6 +393,18 @@ ___
 ### AgentWithGroup
 
 Re-exports [AgentWithGroup](../wiki/api.entities.Asset.types.AgentWithGroup)
+
+___
+
+### AllowanceOperation
+
+Re-exports [AllowanceOperation](../wiki/api.procedures.types.AllowanceOperation)
+
+___
+
+### AssetBase
+
+Re-exports [AssetBase](../wiki/api.procedures.types.AssetBase)
 
 ___
 
@@ -220,6 +423,36 @@ ___
 ### CheckpointScheduleParams
 
 Re-exports [CheckpointScheduleParams](../wiki/api.entities.CheckpointSchedule.types#checkpointscheduleparams)
+
+___
+
+### ClaimClassicTickerParams
+
+Re-exports [ClaimClassicTickerParams](../wiki/api.procedures.types.ClaimClassicTickerParams)
+
+___
+
+### ClaimOperation
+
+Re-exports [ClaimOperation](../wiki/api.procedures.types.ClaimOperation)
+
+___
+
+### ConfigureDividendDistributionParams
+
+Re-exports [ConfigureDividendDistributionParams](../wiki/api.procedures.types.ConfigureDividendDistributionParams)
+
+___
+
+### ConnectParams
+
+Re-exports [ConnectParams](../wiki/api.client.Polymesh.ConnectParams)
+
+___
+
+### ControllerTransferParams
+
+Re-exports [ControllerTransferParams](../wiki/api.procedures.types.ControllerTransferParams)
 
 ___
 
@@ -247,6 +480,48 @@ Re-exports [CorporateActionTargets](../wiki/api.entities.CorporateActionBase.typ
 
 ___
 
+### CountTransferRestrictionInput
+
+Re-exports [CountTransferRestrictionInput](../wiki/api.procedures.types.CountTransferRestrictionInput)
+
+___
+
+### CreateAssetParams
+
+Re-exports [CreateAssetParams](../wiki/api.procedures.types.CreateAssetParams)
+
+___
+
+### CreateAssetWithTickerParams
+
+Re-exports [CreateAssetWithTickerParams](../wiki/api.procedures.types.CreateAssetWithTickerParams)
+
+___
+
+### CreateCheckpointScheduleParams
+
+Re-exports [CreateCheckpointScheduleParams](../wiki/api.procedures.types.CreateCheckpointScheduleParams)
+
+___
+
+### CreateGroupParams
+
+Re-exports [CreateGroupParams](../wiki/api.procedures.types.CreateGroupParams)
+
+___
+
+### CreateVenueParams
+
+Re-exports [CreateVenueParams](../wiki/api.procedures.types.CreateVenueParams)
+
+___
+
+### DecreaseAllowanceParams
+
+Re-exports [DecreaseAllowanceParams](../wiki/api.procedures.types.DecreaseAllowanceParams)
+
+___
+
 ### DistributionParticipant
 
 Re-exports [DistributionParticipant](../wiki/api.entities.DividendDistribution.types.DistributionParticipant)
@@ -265,6 +540,18 @@ Re-exports [DividendDistributionParams](../wiki/api.entities.DividendDistributio
 
 ___
 
+### EditClaimsParams
+
+Re-exports [EditClaimsParams](../wiki/api.procedures.types.EditClaimsParams)
+
+___
+
+### GetReturnType
+
+Re-exports [GetReturnType](../wiki/api.procedures.types#getreturntype)
+
+___
+
 ### HistoricSettlement
 
 Re-exports [HistoricSettlement](../wiki/api.entities.Portfolio.types.HistoricSettlement)
@@ -274,6 +561,12 @@ ___
 ### IdentityBalance
 
 Re-exports [IdentityBalance](../wiki/api.entities.Asset.types.IdentityBalance)
+
+___
+
+### IncreaseAllowanceParams
+
+Re-exports [IncreaseAllowanceParams](../wiki/api.procedures.types.IncreaseAllowanceParams)
 
 ___
 
@@ -301,6 +594,12 @@ Re-exports [InstructionAffirmation](../wiki/api.entities.Instruction.types.Instr
 
 ___
 
+### InstructionAffirmationOperation
+
+Re-exports [InstructionAffirmationOperation](../wiki/api.procedures.types.InstructionAffirmationOperation)
+
+___
+
 ### InstructionDetails
 
 Re-exports [InstructionDetails](../wiki/api.entities.Instruction.types#instructiondetails)
@@ -325,15 +624,129 @@ Re-exports [InstructionType](../wiki/api.entities.Instruction.types.InstructionT
 
 ___
 
+### InvestInOfferingParams
+
+Re-exports [InvestInOfferingParams](../wiki/api.procedures.types.InvestInOfferingParams)
+
+___
+
 ### Investment
 
 Re-exports [Investment](../wiki/api.entities.Offering.types.Investment)
 
 ___
 
+### InviteAccountParams
+
+Re-exports [InviteAccountParams](../wiki/api.procedures.types.InviteAccountParams)
+
+___
+
+### InviteExternalAgentParams
+
+Re-exports [InviteExternalAgentParams](../wiki/api.procedures.types.InviteExternalAgentParams)
+
+___
+
+### LaunchOfferingParams
+
+Re-exports [LaunchOfferingParams](../wiki/api.procedures.types.LaunchOfferingParams)
+
+___
+
 ### Leg
 
 Re-exports [Leg](../wiki/api.entities.Instruction.types.Leg)
+
+___
+
+### LinkCaDocsParams
+
+Re-exports [LinkCaDocsParams](../wiki/api.procedures.types.LinkCaDocsParams)
+
+___
+
+### ModifyAssetParams
+
+Re-exports [ModifyAssetParams](../wiki/api.procedures.types#modifyassetparams)
+
+___
+
+### ModifyAssetTrustedClaimIssuersAddSetParams
+
+Re-exports [ModifyAssetTrustedClaimIssuersAddSetParams](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersAddSetParams)
+
+___
+
+### ModifyAssetTrustedClaimIssuersRemoveParams
+
+Re-exports [ModifyAssetTrustedClaimIssuersRemoveParams](../wiki/api.procedures.types.ModifyAssetTrustedClaimIssuersRemoveParams)
+
+___
+
+### ModifyCaCheckpointParams
+
+Re-exports [ModifyCaCheckpointParams](../wiki/api.procedures.types.ModifyCaCheckpointParams)
+
+___
+
+### ModifyCaDefaultConfigParams
+
+Re-exports [ModifyCaDefaultConfigParams](../wiki/api.procedures.types#modifycadefaultconfigparams)
+
+___
+
+### ModifyClaimsParams
+
+Re-exports [ModifyClaimsParams](../wiki/api.procedures.types#modifyclaimsparams)
+
+___
+
+### ModifyComplianceRequirementParams
+
+Re-exports [ModifyComplianceRequirementParams](../wiki/api.procedures.types#modifycompliancerequirementparams)
+
+___
+
+### ModifyCorporateActionsAgentParams
+
+Re-exports [ModifyCorporateActionsAgentParams](../wiki/api.procedures.types.ModifyCorporateActionsAgentParams)
+
+___
+
+### ModifyInstructionAffirmationParams
+
+Re-exports [ModifyInstructionAffirmationParams](../wiki/api.procedures.types.ModifyInstructionAffirmationParams)
+
+___
+
+### ModifyOfferingTimesParams
+
+Re-exports [ModifyOfferingTimesParams](../wiki/api.procedures.types#modifyofferingtimesparams)
+
+___
+
+### ModifyPrimaryIssuanceAgentParams
+
+Re-exports [ModifyPrimaryIssuanceAgentParams](../wiki/api.procedures.types.ModifyPrimaryIssuanceAgentParams)
+
+___
+
+### ModifySignerPermissionsParams
+
+Re-exports [ModifySignerPermissionsParams](../wiki/api.procedures.types.ModifySignerPermissionsParams)
+
+___
+
+### ModifyVenueParams
+
+Re-exports [ModifyVenueParams](../wiki/api.procedures.types#modifyvenueparams)
+
+___
+
+### MoveFundsParams
+
+Re-exports [MoveFundsParams](../wiki/api.procedures.types.MoveFundsParams)
 
 ___
 
@@ -373,9 +786,81 @@ Re-exports [OfferingTimingStatus](../wiki/api.entities.Offering.types.OfferingTi
 
 ___
 
+### PayDividendsParams
+
+Re-exports [PayDividendsParams](../wiki/api.procedures.types.PayDividendsParams)
+
+___
+
+### PercentageTransferRestrictionInput
+
+Re-exports [PercentageTransferRestrictionInput](../wiki/api.procedures.types.PercentageTransferRestrictionInput)
+
+___
+
 ### PortfolioBalance
 
 Re-exports [PortfolioBalance](../wiki/api.entities.Portfolio.types.PortfolioBalance)
+
+___
+
+### RedeemTokensParams
+
+Re-exports [RedeemTokensParams](../wiki/api.procedures.types.RedeemTokensParams)
+
+___
+
+### RegisterIdentityParams
+
+Re-exports [RegisterIdentityParams](../wiki/api.procedures.types.RegisterIdentityParams)
+
+___
+
+### RemoveAssetRequirementParams
+
+Re-exports [RemoveAssetRequirementParams](../wiki/api.procedures.types.RemoveAssetRequirementParams)
+
+___
+
+### RemoveCheckpointScheduleParams
+
+Re-exports [RemoveCheckpointScheduleParams](../wiki/api.procedures.types.RemoveCheckpointScheduleParams)
+
+___
+
+### RemoveCorporateActionParams
+
+Re-exports [RemoveCorporateActionParams](../wiki/api.procedures.types.RemoveCorporateActionParams)
+
+___
+
+### RemoveExternalAgentParams
+
+Re-exports [RemoveExternalAgentParams](../wiki/api.procedures.types.RemoveExternalAgentParams)
+
+___
+
+### RemoveSecondaryAccountsParams
+
+Re-exports [RemoveSecondaryAccountsParams](../wiki/api.procedures.types.RemoveSecondaryAccountsParams)
+
+___
+
+### RenamePortfolioParams
+
+Re-exports [RenamePortfolioParams](../wiki/api.procedures.types.RenamePortfolioParams)
+
+___
+
+### ReserveTickerParams
+
+Re-exports [ReserveTickerParams](../wiki/api.procedures.types.ReserveTickerParams)
+
+___
+
+### RevokeClaimsParams
+
+Re-exports [RevokeClaimsParams](../wiki/api.procedures.types.RevokeClaimsParams)
 
 ___
 
@@ -385,9 +870,75 @@ Re-exports [ScheduleDetails](../wiki/api.entities.CheckpointSchedule.types.Sched
 
 ___
 
+### ScopeClaimProof
+
+Re-exports [ScopeClaimProof](../wiki/api.procedures.types.ScopeClaimProof)
+
+___
+
+### SetAllowanceParams
+
+Re-exports [SetAllowanceParams](../wiki/api.procedures.types.SetAllowanceParams)
+
+___
+
+### SetAssetDocumentsParams
+
+Re-exports [SetAssetDocumentsParams](../wiki/api.procedures.types.SetAssetDocumentsParams)
+
+___
+
+### SetAssetRequirementsParams
+
+Re-exports [SetAssetRequirementsParams](../wiki/api.procedures.types.SetAssetRequirementsParams)
+
+___
+
+### SetCountTransferRestrictionsParams
+
+Re-exports [SetCountTransferRestrictionsParams](../wiki/api.procedures.types.SetCountTransferRestrictionsParams)
+
+___
+
+### SetCustodianParams
+
+Re-exports [SetCustodianParams](../wiki/api.procedures.types.SetCustodianParams)
+
+___
+
+### SetGroupPermissionsParams
+
+Re-exports [SetGroupPermissionsParams](../wiki/api.procedures.types.SetGroupPermissionsParams)
+
+___
+
+### SetPercentageTransferRestrictionsParams
+
+Re-exports [SetPercentageTransferRestrictionsParams](../wiki/api.procedures.types.SetPercentageTransferRestrictionsParams)
+
+___
+
+### SetPermissionGroupParams
+
+Re-exports [SetPermissionGroupParams](../wiki/api.procedures.types.SetPermissionGroupParams)
+
+___
+
+### SetRestrictionsParams
+
+Re-exports [SetRestrictionsParams](../wiki/api.procedures.types#setrestrictionsparams)
+
+___
+
 ### SettlementLeg
 
 Re-exports [SettlementLeg](../wiki/api.entities.Portfolio.types.SettlementLeg)
+
+___
+
+### SubsidizeAccountParams
+
+Re-exports [SubsidizeAccountParams](../wiki/api.procedures.types.SubsidizeAccountParams)
 
 ___
 
@@ -433,15 +984,57 @@ Re-exports [Tier](../wiki/api.entities.Offering.types.Tier)
 
 ___
 
+### TransactionsParams
+
+Re-exports [TransactionsParams](../wiki/api.procedures.types.TransactionsParams)
+
+___
+
+### TransferAssetOwnershipParams
+
+Re-exports [TransferAssetOwnershipParams](../wiki/api.procedures.types.TransferAssetOwnershipParams)
+
+___
+
 ### TransferBreakdown
 
 Re-exports [TransferBreakdown](../wiki/api.entities.Asset.types.TransferBreakdown)
 
 ___
 
+### TransferPolyxParams
+
+Re-exports [TransferPolyxParams](../wiki/api.procedures.types.TransferPolyxParams)
+
+___
+
+### TransferRestriction
+
+Re-exports [TransferRestriction](../wiki/api.procedures.types.TransferRestriction)
+
+___
+
 ### TransferRestrictionResult
 
 Re-exports [TransferRestrictionResult](../wiki/api.entities.Asset.types.TransferRestrictionResult)
+
+___
+
+### TransferRestrictionType
+
+Re-exports [TransferRestrictionType](../wiki/api.procedures.types.TransferRestrictionType)
+
+___
+
+### TransferTickerOwnershipParams
+
+Re-exports [TransferTickerOwnershipParams](../wiki/api.procedures.types.TransferTickerOwnershipParams)
+
+___
+
+### TxGroupParams
+
+Re-exports [TxGroupParams](../wiki/api.procedures.types.TxGroupParams)
 
 ___
 
@@ -455,6 +1048,12 @@ ___
 
 Re-exports [VenueType](../wiki/api.entities.Venue.types.VenueType)
 
+___
+
+### WaivePermissionsParams
+
+Re-exports [WaivePermissionsParams](../wiki/api.procedures.types.WaivePermissionsParams)
+
 ## Type Aliases
 
 ### AccountBalance
@@ -463,7 +1062,7 @@ Re-exports [VenueType](../wiki/api.entities.Venue.types.VenueType)
 
 #### Defined in
 
-[types/index.ts:682](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L682)
+[types/index.ts:685](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L685)
 
 ___
 
@@ -480,7 +1079,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1062](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1062)
+[types/index.ts:1065](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1065)
 
 ___
 
@@ -492,7 +1091,7 @@ Authorization request data corresponding to type
 
 #### Defined in
 
-[types/index.ts:1082](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1082)
+[types/index.ts:1085](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1085)
 
 ___
 
@@ -509,7 +1108,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1057](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1057)
+[types/index.ts:1060](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1060)
 
 ___
 
@@ -519,7 +1118,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:307](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L307)
+[types/index.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L310)
 
 ___
 
@@ -529,7 +1128,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:420](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L420)
+[types/index.ts:423](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L423)
 
 ___
 
@@ -546,7 +1145,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1067](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1067)
+[types/index.ts:1070](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1070)
 
 ___
 
@@ -558,7 +1157,7 @@ Asset permissions shared by agents in a group
 
 #### Defined in
 
-[types/index.ts:945](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L945)
+[types/index.ts:948](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L948)
 
 ___
 
@@ -568,7 +1167,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:428](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L428)
+[types/index.ts:431](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L431)
 
 ___
 
@@ -578,7 +1177,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:391](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L391)
+[types/index.ts:394](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L394)
 
 ___
 
@@ -590,7 +1189,7 @@ Targets of a corporate action in a flexible structure for input purposes
 
 #### Defined in
 
-[types/index.ts:1419](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1419)
+[types/index.ts:1391](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1391)
 
 ___
 
@@ -602,7 +1201,7 @@ Per-Identity tax withholdings of a corporate action in a flexible structure for 
 
 #### Defined in
 
-[types/index.ts:1429](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1429)
+[types/index.ts:1401](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1401)
 
 ___
 
@@ -612,7 +1211,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:454](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L454)
+[types/index.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L457)
 
 ___
 
@@ -622,7 +1221,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:367](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L367)
+[types/index.ts:370](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L370)
 
 ___
 
@@ -639,7 +1238,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1047](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1047)
+[types/index.ts:1050](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1050)
 
 ___
 
@@ -649,7 +1248,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:689](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L689)
+[types/index.ts:692](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L692)
 
 ___
 
@@ -665,7 +1264,7 @@ Permissions to grant to a Signer over an Identity
 
 #### Defined in
 
-[types/index.ts:1180](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1180)
+[types/index.ts:1183](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1183)
 
 ___
 
@@ -682,7 +1281,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1052](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1052)
+[types/index.ts:1055](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1055)
 
 ___
 
@@ -692,7 +1291,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1166](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1166)
+[types/index.ts:1169](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1169)
 
 ___
 
@@ -704,7 +1303,7 @@ URI|mnemonic|hex representation of a private key
 
 #### Defined in
 
-[types/index.ts:1405](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1405)
+[types/index.ts:1377](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1377)
 
 ___
 
@@ -714,7 +1313,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:125](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L125)
+[types/index.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L128)
 
 ___
 
@@ -730,7 +1329,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1038](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1038)
+[types/index.ts:1041](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1041)
 
 ___
 
@@ -747,7 +1346,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1042](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1042)
+[types/index.ts:1045](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1045)
 
 ___
 
@@ -757,7 +1356,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:294](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L294)
+[types/index.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L297)
 
 ___
 
@@ -767,7 +1366,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1148](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1148)
+[types/index.ts:1151](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1151)
 
 ___
 
@@ -797,7 +1396,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:651](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L651)
+[types/index.ts:654](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L654)
 
 ___
 
@@ -807,7 +1406,34 @@ ___
 
 #### Defined in
 
-[types/index.ts:1137](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1137)
+[types/index.ts:1140](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1140)
+
+___
+
+### TransactionOrderByInput
+
+Ƭ **TransactionOrderByInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `field` | [`TransactionOrderFields`](../wiki/types.TransactionOrderFields) |
+| `order` | [`Order`](../wiki/types.Order) |
+
+#### Defined in
+
+[middleware/types.ts:1713](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/middleware/types.ts#L1713)
+
+___
+
+### TxTag
+
+Ƭ **TxTag**: [`SystemTx`](../wiki/types.SystemTx) \| [`BabeTx`](../wiki/types.BabeTx) \| [`TimestampTx`](../wiki/types.TimestampTx) \| [`IndicesTx`](../wiki/types.IndicesTx) \| [`AuthorshipTx`](../wiki/types.AuthorshipTx) \| [`BalancesTx`](../wiki/types.BalancesTx) \| [`IdentityTx`](../wiki/types.IdentityTx) \| [`CddServiceProvidersTx`](../wiki/types.CddServiceProvidersTx) \| [`PolymeshCommitteeTx`](../wiki/types.PolymeshCommitteeTx) \| [`CommitteeMembershipTx`](../wiki/types.CommitteeMembershipTx) \| [`TechnicalCommitteeTx`](../wiki/types.TechnicalCommitteeTx) \| [`TechnicalCommitteeMembershipTx`](../wiki/types.TechnicalCommitteeMembershipTx) \| [`UpgradeCommitteeTx`](../wiki/types.UpgradeCommitteeTx) \| [`UpgradeCommitteeMembershipTx`](../wiki/types.UpgradeCommitteeMembershipTx) \| [`MultiSigTx`](../wiki/types.MultiSigTx) \| [`BridgeTx`](../wiki/types.BridgeTx) \| [`StakingTx`](../wiki/types.StakingTx) \| [`SessionTx`](../wiki/types.SessionTx) \| [`GrandpaTx`](../wiki/types.GrandpaTx) \| [`ImOnlineTx`](../wiki/types.ImOnlineTx) \| [`SudoTx`](../wiki/types.SudoTx) \| [`AssetTx`](../wiki/types.AssetTx) \| [`CapitalDistributionTx`](../wiki/types.CapitalDistributionTx) \| [`CheckpointTx`](../wiki/types.CheckpointTx) \| [`ComplianceManagerTx`](../wiki/types.ComplianceManagerTx) \| [`CorporateActionTx`](../wiki/types.CorporateActionTx) \| [`CorporateBallotTx`](../wiki/types.CorporateBallotTx) \| [`PipsTx`](../wiki/types.PipsTx) \| [`PortfolioTx`](../wiki/types.PortfolioTx) \| [`ProtocolFeeTx`](../wiki/types.ProtocolFeeTx) \| [`SchedulerTx`](../wiki/types.SchedulerTx) \| [`SettlementTx`](../wiki/types.SettlementTx) \| [`StatisticsTx`](../wiki/types.StatisticsTx) \| [`StoTx`](../wiki/types.StoTx) \| [`TreasuryTx`](../wiki/types.TreasuryTx) \| [`UtilityTx`](../wiki/types.UtilityTx) \| [`ExternalAgentsTx`](../wiki/types.ExternalAgentsTx) \| [`RelayerTx`](../wiki/types.RelayerTx) \| [`RewardsTx`](../wiki/types.RewardsTx) \| [`TestUtilsTx`](../wiki/types.TestUtilsTx) \| [`PolymeshContractsTx`](../wiki/types.PolymeshContractsTx) \| [`PreimageTx`](../wiki/types.PreimageTx) \| [`ContractsTx`](../wiki/types.ContractsTx)
+
+#### Defined in
+
+[generated/types.ts:766](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/generated/types.ts#L766)
 
 ___
 
@@ -817,7 +1443,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L305)
+[types/index.ts:308](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L308)
 
 ___
 
@@ -835,4 +1461,62 @@ ___
 
 #### Defined in
 
-[types/index.ts:653](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L653)
+[types/index.ts:656](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L656)
+
+## Variables
+
+### TxTags
+
+• `Const` **TxTags**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `asset` | typeof [`AssetTx`](../wiki/types.AssetTx) |
+| `authorship` | typeof [`AuthorshipTx`](../wiki/types.AuthorshipTx) |
+| `babe` | typeof [`BabeTx`](../wiki/types.BabeTx) |
+| `balances` | typeof [`BalancesTx`](../wiki/types.BalancesTx) |
+| `bridge` | typeof [`BridgeTx`](../wiki/types.BridgeTx) |
+| `capitalDistribution` | typeof [`CapitalDistributionTx`](../wiki/types.CapitalDistributionTx) |
+| `cddServiceProviders` | typeof [`CddServiceProvidersTx`](../wiki/types.CddServiceProvidersTx) |
+| `checkpoint` | typeof [`CheckpointTx`](../wiki/types.CheckpointTx) |
+| `committeeMembership` | typeof [`CommitteeMembershipTx`](../wiki/types.CommitteeMembershipTx) |
+| `complianceManager` | typeof [`ComplianceManagerTx`](../wiki/types.ComplianceManagerTx) |
+| `contracts` | typeof [`ContractsTx`](../wiki/types.ContractsTx) |
+| `corporateAction` | typeof [`CorporateActionTx`](../wiki/types.CorporateActionTx) |
+| `corporateBallot` | typeof [`CorporateBallotTx`](../wiki/types.CorporateBallotTx) |
+| `externalAgents` | typeof [`ExternalAgentsTx`](../wiki/types.ExternalAgentsTx) |
+| `grandpa` | typeof [`GrandpaTx`](../wiki/types.GrandpaTx) |
+| `identity` | typeof [`IdentityTx`](../wiki/types.IdentityTx) |
+| `imOnline` | typeof [`ImOnlineTx`](../wiki/types.ImOnlineTx) |
+| `indices` | typeof [`IndicesTx`](../wiki/types.IndicesTx) |
+| `multiSig` | typeof [`MultiSigTx`](../wiki/types.MultiSigTx) |
+| `pips` | typeof [`PipsTx`](../wiki/types.PipsTx) |
+| `polymeshCommittee` | typeof [`PolymeshCommitteeTx`](../wiki/types.PolymeshCommitteeTx) |
+| `polymeshContracts` | typeof [`PolymeshContractsTx`](../wiki/types.PolymeshContractsTx) |
+| `portfolio` | typeof [`PortfolioTx`](../wiki/types.PortfolioTx) |
+| `preimage` | typeof [`PreimageTx`](../wiki/types.PreimageTx) |
+| `protocolFee` | typeof [`ProtocolFeeTx`](../wiki/types.ProtocolFeeTx) |
+| `relayer` | typeof [`RelayerTx`](../wiki/types.RelayerTx) |
+| `rewards` | typeof [`RewardsTx`](../wiki/types.RewardsTx) |
+| `scheduler` | typeof [`SchedulerTx`](../wiki/types.SchedulerTx) |
+| `session` | typeof [`SessionTx`](../wiki/types.SessionTx) |
+| `settlement` | typeof [`SettlementTx`](../wiki/types.SettlementTx) |
+| `staking` | typeof [`StakingTx`](../wiki/types.StakingTx) |
+| `statistics` | typeof [`StatisticsTx`](../wiki/types.StatisticsTx) |
+| `sto` | typeof [`StoTx`](../wiki/types.StoTx) |
+| `sudo` | typeof [`SudoTx`](../wiki/types.SudoTx) |
+| `system` | typeof [`SystemTx`](../wiki/types.SystemTx) |
+| `technicalCommittee` | typeof [`TechnicalCommitteeTx`](../wiki/types.TechnicalCommitteeTx) |
+| `technicalCommitteeMembership` | typeof [`TechnicalCommitteeMembershipTx`](../wiki/types.TechnicalCommitteeMembershipTx) |
+| `testUtils` | typeof [`TestUtilsTx`](../wiki/types.TestUtilsTx) |
+| `timestamp` | typeof [`TimestampTx`](../wiki/types.TimestampTx) |
+| `treasury` | typeof [`TreasuryTx`](../wiki/types.TreasuryTx) |
+| `upgradeCommittee` | typeof [`UpgradeCommitteeTx`](../wiki/types.UpgradeCommitteeTx) |
+| `upgradeCommitteeMembership` | typeof [`UpgradeCommitteeMembershipTx`](../wiki/types.UpgradeCommitteeMembershipTx) |
+| `utility` | typeof [`UtilityTx`](../wiki/types.UtilityTx) |
+
+#### Defined in
+
+[generated/types.ts:812](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/generated/types.ts#L812)

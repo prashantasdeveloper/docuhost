@@ -41,7 +41,7 @@ reserved ticker
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L51)
+[api/entities/TickerReservation/index.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L56)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -75,7 +75,7 @@ Create an Asset using the reserved ticker
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateAssetParams`](../wiki/api.procedures.createAsset.CreateAssetParams) |
+| `args` | [`CreateAssetParams`](../wiki/api.procedures.types.CreateAssetParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -84,7 +84,7 @@ Create an Asset using the reserved ticker
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:196](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L196)
+[api/entities/TickerReservation/index.ts:201](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L201)
 
 ___
 
@@ -102,7 +102,7 @@ Retrieve the Reservation's owner, expiry date and status
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L91)
+[api/entities/TickerReservation/index.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L96)
 
 ▸ **details**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -118,7 +118,7 @@ Retrieve the Reservation's owner, expiry date and status
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L92)
+[api/entities/TickerReservation/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L97)
 
 ___
 
@@ -138,7 +138,7 @@ Determine whether this Ticker Reservation exists on chain
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:221](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L221)
+[api/entities/TickerReservation/index.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L226)
 
 ___
 
@@ -167,7 +167,7 @@ to later use it in the creation of an Asset.
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L183)
+[api/entities/TickerReservation/index.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L188)
 
 ___
 
@@ -193,7 +193,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -213,7 +213,7 @@ Return the Reservation's ticker
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:234](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L234)
+[api/entities/TickerReservation/index.ts:239](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L239)
 
 ___
 
@@ -238,7 +238,7 @@ Transfer ownership of the Ticker Reservation to another Identity. This generates
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`TransferTickerOwnershipParams`](../wiki/api.procedures.transferTickerOwnership.TransferTickerOwnershipParams) |
+| `args` | [`TransferTickerOwnershipParams`](../wiki/api.procedures.types.TransferTickerOwnershipParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -247,7 +247,7 @@ Transfer ownership of the Ticker Reservation to another Identity. This generates
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:214](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/TickerReservation/index.ts#L214)
+[api/entities/TickerReservation/index.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/TickerReservation/index.ts#L219)
 
 ___
 
@@ -279,7 +279,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -311,4 +311,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)

@@ -36,7 +36,7 @@ Create a Permission Group for this Asset. Identities can be assigned to Permissi
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateGroupParams`](../wiki/api.procedures.createGroup.CreateGroupParams) |
+| `args` | [`CreateGroupParams`](../wiki/api.procedures.types.CreateGroupParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -45,7 +45,7 @@ Create a Permission Group for this Asset. Identities can be assigned to Permissi
 
 #### Defined in
 
-[api/entities/Asset/Permissions.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Permissions.ts#L70)
+[api/entities/Asset/Permissions.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Permissions.ts#L70)
 
 ___
 
@@ -62,7 +62,7 @@ Retrieve a list of agents (Identities which have permissions over the Asset) and
 
 #### Defined in
 
-[api/entities/Asset/Permissions.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Permissions.ts#L171)
+[api/entities/Asset/Permissions.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Permissions.ts#L171)
 
 ___
 
@@ -88,7 +88,7 @@ Retrieve a single Permission Group by its ID (or type). Passing an ID will fetch
 
 #### Defined in
 
-[api/entities/Asset/Permissions.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Permissions.ts#L104)
+[api/entities/Asset/Permissions.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Permissions.ts#L104)
 
 ▸ **getGroup**(`args`): `Promise`<[`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup)\>
 
@@ -105,7 +105,7 @@ Retrieve a single Permission Group by its ID (or type). Passing an ID will fetch
 
 #### Defined in
 
-[api/entities/Asset/Permissions.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Permissions.ts#L105)
+[api/entities/Asset/Permissions.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Permissions.ts#L105)
 
 ___
 
@@ -121,7 +121,7 @@ Retrieve all Permission Groups of this Asset
 
 #### Defined in
 
-[api/entities/Asset/Permissions.ts:137](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Permissions.ts#L137)
+[api/entities/Asset/Permissions.ts:137](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Permissions.ts#L137)
 
 ___
 
@@ -142,7 +142,7 @@ Invite an Identity to be an agent with permissions over this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`InviteExternalAgentParams`](../wiki/api.procedures.inviteExternalAgent.InviteExternalAgentParams) |
+| `args` | [`InviteExternalAgentParams`](../wiki/api.procedures.types.InviteExternalAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -151,7 +151,7 @@ Invite an Identity to be an agent with permissions over this Asset
 
 #### Defined in
 
-[api/entities/Asset/Permissions.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Permissions.ts#L84)
+[api/entities/Asset/Permissions.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Permissions.ts#L84)
 
 ___
 
@@ -168,7 +168,7 @@ Revoke an agent's permissions over this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveExternalAgentParams`](../wiki/api.procedures.removeExternalAgent.RemoveExternalAgentParams) |
+| `args` | [`RemoveExternalAgentParams`](../wiki/api.procedures.types.RemoveExternalAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -177,4 +177,4 @@ Revoke an agent's permissions over this Asset
 
 #### Defined in
 
-[api/entities/Asset/Permissions.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Permissions.ts#L94)
+[api/entities/Asset/Permissions.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Permissions.ts#L94)

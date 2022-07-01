@@ -34,7 +34,7 @@ Claim a ticker symbol that was reserved in Polymath Classic (Ethereum). The Ethe
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ClaimClassicTickerParams`](../wiki/api.procedures.claimClassicTicker.ClaimClassicTickerParams) |
+| `args` | [`ClaimClassicTickerParams`](../wiki/api.procedures.types.ClaimClassicTickerParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -43,7 +43,7 @@ Claim a ticker symbol that was reserved in Polymath Classic (Ethereum). The Ethe
 
 #### Defined in
 
-[api/client/Assets.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L79)
+[api/client/Assets.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L79)
 
 ___
 
@@ -63,7 +63,7 @@ Create an Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateAssetWithTickerParams`](../wiki/api.procedures.createAsset.CreateAssetWithTickerParams) |
+| `args` | [`CreateAssetWithTickerParams`](../wiki/api.procedures.types.CreateAssetWithTickerParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -72,7 +72,7 @@ Create an Asset
 
 #### Defined in
 
-[api/client/Assets.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L92)
+[api/client/Assets.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L92)
 
 ___
 
@@ -95,7 +95,7 @@ Retrieve an Asset
 
 #### Defined in
 
-[api/client/Assets.ts:213](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L213)
+[api/client/Assets.ts:213](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L213)
 
 ___
 
@@ -120,7 +120,7 @@ Retrieve all of the Assets owned by an Identity
 
 #### Defined in
 
-[api/client/Assets.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L181)
+[api/client/Assets.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L181)
 
 ___
 
@@ -143,7 +143,7 @@ Retrieve a Ticker Reservation
 
 #### Defined in
 
-[api/client/Assets.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L167)
+[api/client/Assets.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L167)
 
 ___
 
@@ -169,7 +169,7 @@ Retrieve all the ticker reservations currently owned by an Identity. This doesn'
 
 #### Defined in
 
-[api/client/Assets.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L133)
+[api/client/Assets.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L133)
 
 ___
 
@@ -194,7 +194,7 @@ Check if a ticker hasn't been reserved
 
 #### Defined in
 
-[api/client/Assets.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L101)
+[api/client/Assets.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L101)
 
 ▸ **isTickerAvailable**(`args`, `callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -212,7 +212,7 @@ Check if a ticker hasn't been reserved
 
 #### Defined in
 
-[api/client/Assets.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L102)
+[api/client/Assets.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L102)
 
 ___
 
@@ -230,7 +230,7 @@ Reserve a ticker symbol under the ownership of the signing Identity to later use
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ReserveTickerParams`](../wiki/api.procedures.reserveTicker.ReserveTickerParams) |
+| `args` | [`ReserveTickerParams`](../wiki/api.procedures.types.ReserveTickerParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -239,4 +239,4 @@ Reserve a ticker symbol under the ownership of the signing Identity to later use
 
 #### Defined in
 
-[api/client/Assets.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Assets.ts#L67)
+[api/client/Assets.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Assets.ts#L67)

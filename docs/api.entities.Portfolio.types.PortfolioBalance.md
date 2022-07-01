@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[api/entities/Portfolio/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Portfolio/types.ts#L11)
+[api/entities/Portfolio/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Portfolio/types.ts#L11)
 
 ___
 
@@ -41,7 +41,7 @@ balance available for transferring and paying fees
 
 #### Defined in
 
-[types/index.ts:671](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L671)
+[types/index.ts:674](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L674)
 
 ___
 
@@ -57,7 +57,7 @@ unavailable balance, either bonded for staking or locked for some other purpose
 
 #### Defined in
 
-[types/index.ts:675](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L675)
+[types/index.ts:678](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L678)
 
 ___
 
@@ -73,4 +73,4 @@ free + locked
 
 #### Defined in
 
-[types/index.ts:679](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L679)
+[types/index.ts:682](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L682)

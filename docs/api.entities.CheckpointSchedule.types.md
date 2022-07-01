@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CheckpointSchedule/types.ts#L10)
+[api/entities/CheckpointSchedule/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CheckpointSchedule/types.ts#L10)

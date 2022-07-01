@@ -49,7 +49,7 @@ Asset affected by this Corporate Action
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L77)
+[api/entities/CorporateActionBase/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L81)
 
 ___
 
@@ -61,7 +61,7 @@ date at which the Corporate Action was created
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L82)
+[api/entities/CorporateActionBase/index.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L86)
 
 ___
 
@@ -73,7 +73,7 @@ default percentage (0-100) of tax withholding for this Corporate Action
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L98)
+[api/entities/CorporateActionBase/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L102)
 
 ___
 
@@ -85,7 +85,7 @@ brief text description of the Corporate Action
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L87)
+[api/entities/CorporateActionBase/index.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L91)
 
 ___
 
@@ -97,7 +97,7 @@ internal Corporate Action ID
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L72)
+[api/entities/CorporateActionBase/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L76)
 
 ___
 
@@ -110,7 +110,7 @@ Asset Holder Identities related to this Corporate action. If the treatment is `E
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:93](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L93)
+[api/entities/CorporateActionBase/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L97)
 
 ___
 
@@ -123,7 +123,7 @@ percentage (0-100) of tax withholding per Identity. Any Identity not present
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L104)
+[api/entities/CorporateActionBase/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L108)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -155,7 +155,7 @@ Retrieve the Checkpoint associated with this Corporate Action. If the Checkpoint
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L183)
+[api/entities/CorporateActionBase/index.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L187)
 
 ___
 
@@ -175,7 +175,7 @@ Determine whether this Corporate Action exists on chain
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:172](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L172)
+[api/entities/CorporateActionBase/index.ts:176](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L176)
 
 ___
 
@@ -201,7 +201,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -220,7 +220,7 @@ Link a list of documents to this corporate action
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`LinkCaDocsParams`](../wiki/api.procedures.linkCaDocs.LinkCaDocsParams) |
+| `args` | [`LinkCaDocsParams`](../wiki/api.procedures.types.LinkCaDocsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -229,7 +229,7 @@ Link a list of documents to this corporate action
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:152](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L152)
+[api/entities/CorporateActionBase/index.ts:156](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L156)
 
 ___
 
@@ -246,7 +246,7 @@ Modify the Corporate Action's Checkpoint
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`Modify`](../wiki/types.utils#modify)<`ModifyCaCheckpointParams`, { `checkpoint`: [`InputCaCheckpoint`](../wiki/api.entities.Asset.Checkpoints.types#inputcacheckpoint)  }\> |
+| `args` | [`Modify`](../wiki/types.utils#modify)<[`ModifyCaCheckpointParams`](../wiki/api.procedures.types.ModifyCaCheckpointParams), { `checkpoint`: [`InputCaCheckpoint`](../wiki/api.entities.Asset.Checkpoints.types#inputcacheckpoint)  }\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -255,7 +255,7 @@ Modify the Corporate Action's Checkpoint
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:162](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L162)
+[api/entities/CorporateActionBase/index.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L166)
 
 ___
 
@@ -275,7 +275,7 @@ Return the Corporate Action's static data
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:262](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L262)
+[api/entities/CorporateActionBase/index.ts:266](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L266)
 
 ___
 
@@ -307,7 +307,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -339,4 +339,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)

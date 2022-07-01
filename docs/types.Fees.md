@@ -19,7 +19,7 @@ regular network fee
 
 #### Defined in
 
-[types/index.ts:710](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L710)
+[types/index.ts:713](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L713)
 
 ___
 
@@ -31,4 +31,4 @@ bonus fee charged by certain transactions
 
 #### Defined in
 
-[types/index.ts:706](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L706)
+[types/index.ts:709](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L709)

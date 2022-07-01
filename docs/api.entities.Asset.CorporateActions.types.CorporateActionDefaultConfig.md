@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/types.ts#L7)
+[api/entities/Asset/CorporateActions/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/types.ts#L7)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/types.ts#L6)
+[api/entities/Asset/CorporateActions/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/types.ts#L6)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/types.ts#L8)
+[api/entities/Asset/CorporateActions/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/types.ts#L8)

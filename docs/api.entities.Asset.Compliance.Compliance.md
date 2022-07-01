@@ -25,7 +25,7 @@ Handles all Asset Compliance related functionality
 
 #### Defined in
 
-[api/entities/Asset/Compliance/index.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/index.ts#L11)
+[api/entities/Asset/Compliance/index.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/index.ts#L11)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/Compliance/index.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/index.ts#L10)
+[api/entities/Asset/Compliance/index.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/index.ts#L10)

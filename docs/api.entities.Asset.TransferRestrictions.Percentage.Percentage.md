@@ -6,7 +6,7 @@ Handles all Percentage Transfer Restriction related functionality
 
 ## Hierarchy
 
-- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Percentage`](../wiki/types.TransferRestrictionType#percentage)\>
+- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Percentage`](../wiki/api.procedures.types.TransferRestrictionType#percentage)\>
 
   ↳ **`Percentage`**
 
@@ -23,7 +23,7 @@ Handles all Percentage Transfer Restriction related functionality
 
 ### addRestriction
 
-• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddPercentageTransferRestrictionParams`](../wiki/api.procedures.addTransferRestriction#addpercentagetransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddPercentageTransferRestrictionParams`](../wiki/api.procedures.types#addpercentagetransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Add a Percentage Transfer Restriction to this Asset
 
@@ -35,7 +35,7 @@ Add a Percentage Transfer Restriction to this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L27)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L25)
 
 ___
 
@@ -63,7 +63,7 @@ Retrieve all active Percentage Transfer Restrictions
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L56)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L54)
 
 ___
 
@@ -81,13 +81,13 @@ Removes all Percentage Transfer Restrictions from this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L47)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L45)
 
 ___
 
 ### setRestrictions
 
-• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetPercentageTransferRestrictionsParams`](../wiki/api.procedures.setTransferRestrictions.SetPercentageTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetPercentageTransferRestrictionsParams`](../wiki/api.procedures.types.SetPercentageTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Sets all Percentage Transfer Restrictions on this Asset
 
@@ -99,4 +99,4 @@ Sets all Percentage Transfer Restrictions on this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L37)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L35)

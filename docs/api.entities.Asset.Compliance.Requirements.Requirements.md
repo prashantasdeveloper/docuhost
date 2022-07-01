@@ -40,7 +40,7 @@ Add a new compliance requirement to the the Asset. This doesn't modify existing 
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddAssetRequirementParams`](../wiki/api.procedures.addAssetRequirement.AddAssetRequirementParams) |
+| `args` | [`AddAssetRequirementParams`](../wiki/api.procedures.types.AddAssetRequirementParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -49,7 +49,7 @@ Add a new compliance requirement to the the Asset. This doesn't modify existing 
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:103](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L103)
+[api/entities/Asset/Compliance/Requirements.ts:103](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L103)
 
 ___
 
@@ -65,7 +65,7 @@ Check whether Asset compliance requirements are paused or not
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:282](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L282)
+[api/entities/Asset/Compliance/Requirements.ts:282](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L282)
 
 ___
 
@@ -93,7 +93,7 @@ Check whether the sender and receiver Identities in a transfer comply with all t
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:253](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L253)
+[api/entities/Asset/Compliance/Requirements.ts:253](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L253)
 
 ___
 
@@ -111,7 +111,7 @@ Retrieve all of the Asset's compliance requirements, together with the Default T
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:135](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L135)
+[api/entities/Asset/Compliance/Requirements.ts:135](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L135)
 
 ▸ **get**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -127,7 +127,7 @@ Retrieve all of the Asset's compliance requirements, together with the Default T
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L136)
+[api/entities/Asset/Compliance/Requirements.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L136)
 
 ___
 
@@ -144,7 +144,7 @@ Modify a compliance requirement for the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyComplianceRequirementParams`](../wiki/api.procedures.modifyComplianceRequirement#modifycompliancerequirementparams) |
+| `args` | [`ModifyComplianceRequirementParams`](../wiki/api.procedures.types#modifycompliancerequirementparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -153,7 +153,7 @@ Modify a compliance requirement for the Asset
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L306)
+[api/entities/Asset/Compliance/Requirements.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L306)
 
 ___
 
@@ -178,7 +178,7 @@ Pause all the Asset's requirements. This means that all transfers will be allowe
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:229](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L229)
+[api/entities/Asset/Compliance/Requirements.ts:229](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L229)
 
 ___
 
@@ -195,7 +195,7 @@ Remove an existing compliance requirement from the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveAssetRequirementParams`](../wiki/api.procedures.removeAssetRequirement.RemoveAssetRequirementParams) |
+| `args` | [`RemoveAssetRequirementParams`](../wiki/api.procedures.types.RemoveAssetRequirementParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -204,7 +204,7 @@ Remove an existing compliance requirement from the Asset
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L113)
+[api/entities/Asset/Compliance/Requirements.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L113)
 
 ___
 
@@ -229,7 +229,7 @@ Delete all the current requirements for the Asset.
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L219)
+[api/entities/Asset/Compliance/Requirements.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L219)
 
 ___
 
@@ -249,7 +249,7 @@ For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SetAssetRequirementsParams`](../wiki/api.procedures.setAssetRequirements.SetAssetRequirementsParams) |
+| `args` | [`SetAssetRequirementsParams`](../wiki/api.procedures.types.SetAssetRequirementsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -258,7 +258,7 @@ For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:126](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L126)
+[api/entities/Asset/Compliance/Requirements.ts:126](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L126)
 
 ___
 
@@ -283,4 +283,4 @@ Un-pause all the Asset's current requirements
 
 #### Defined in
 
-[api/entities/Asset/Compliance/Requirements.ts:239](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Compliance/Requirements.ts#L239)
+[api/entities/Asset/Compliance/Requirements.ts:239](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Compliance/Requirements.ts#L239)

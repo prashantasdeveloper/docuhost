@@ -29,7 +29,7 @@ Account that pays for the transaction
 
 #### Defined in
 
-[types/index.ts:738](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L738)
+[types/index.ts:741](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L741)
 
 ___
 
@@ -41,7 +41,7 @@ total amount that will be paid for
 
 #### Defined in
 
-[types/index.ts:742](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L742)
+[types/index.ts:745](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L745)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:734](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L734)
+[types/index.ts:737](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L737)

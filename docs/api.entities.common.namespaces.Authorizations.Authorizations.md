@@ -48,7 +48,7 @@ Retrieve a single Authorization Request targeting this Signer by its ID
 
 #### Defined in
 
-[api/entities/common/namespaces/Authorizations.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/common/namespaces/Authorizations.ts#L65)
+[api/entities/common/namespaces/Authorizations.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/common/namespaces/Authorizations.ts#L65)
 
 ___
 
@@ -72,4 +72,4 @@ Fetch all pending Authorization Requests for which this Signer is the target
 
 #### Defined in
 
-[api/entities/common/namespaces/Authorizations.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/common/namespaces/Authorizations.ts#L29)
+[api/entities/common/namespaces/Authorizations.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/common/namespaces/Authorizations.ts#L29)

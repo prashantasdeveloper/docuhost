@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/Subsidy/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/types.ts#L22)
+[api/entities/Subsidy/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/types.ts#L22)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/Subsidy/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/types.ts#L21)
+[api/entities/Subsidy/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/types.ts#L21)

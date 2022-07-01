@@ -8,5 +8,6 @@
 
 ### Interfaces
 
+- [HumanReadable](../wiki/api.entities.AuthorizationRequest.HumanReadable)
 - [Params](../wiki/api.entities.AuthorizationRequest.Params)
 - [UniqueIdentifiers](../wiki/api.entities.AuthorizationRequest.UniqueIdentifiers)

@@ -6,7 +6,7 @@ Handles all Count Transfer Restriction related functionality
 
 ## Hierarchy
 
-- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Count`](../wiki/types.TransferRestrictionType#count)\>
+- [`TransferRestrictionBase`](../wiki/api.entities.Asset.TransferRestrictions.TransferRestrictionBase.TransferRestrictionBase)<[`Count`](../wiki/api.procedures.types.TransferRestrictionType#count)\>
 
   ↳ **`Count`**
 
@@ -23,7 +23,7 @@ Handles all Count Transfer Restriction related functionality
 
 ### addRestriction
 
-• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddCountTransferRestrictionParams`](../wiki/api.procedures.addTransferRestriction#addcounttransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **addRestriction**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`AddCountTransferRestrictionParams`](../wiki/api.procedures.types#addcounttransferrestrictionparams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Add a Count Transfer Restriction to this Asset
 
@@ -35,7 +35,7 @@ Add a Count Transfer Restriction to this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Count.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Count.ts#L27)
+[api/entities/Asset/TransferRestrictions/Count.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Count.ts#L25)
 
 ___
 
@@ -63,7 +63,7 @@ Retrieve all active Count Transfer Restrictions
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Count.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Count.ts#L56)
+[api/entities/Asset/TransferRestrictions/Count.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Count.ts#L54)
 
 ___
 
@@ -81,13 +81,13 @@ Removes all Count Transfer Restrictions from this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Count.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Count.ts#L47)
+[api/entities/Asset/TransferRestrictions/Count.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Count.ts#L45)
 
 ___
 
 ### setRestrictions
 
-• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetCountTransferRestrictionsParams`](../wiki/api.procedures.setTransferRestrictions.SetCountTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
+• **setRestrictions**: [`ProcedureMethod`](../wiki/types.ProcedureMethod)<`Omit`<[`SetCountTransferRestrictionsParams`](../wiki/api.procedures.types.SetCountTransferRestrictionsParams), ``"type"``\>, `BigNumber`, `BigNumber`\>
 
 Sets all Count Transfer Restrictions on this Asset
 
@@ -99,4 +99,4 @@ Sets all Count Transfer Restrictions on this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Count.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/Count.ts#L37)
+[api/entities/Asset/TransferRestrictions/Count.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/Count.ts#L35)

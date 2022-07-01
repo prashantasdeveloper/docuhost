@@ -1,0 +1,4 @@
+[submodule "docs@alpha"]
+	path = docs@alpha
+	url = https://github.com/prashantasdeveloper/docuhost.wiki.git
+	branch = docs@alpha

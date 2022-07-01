@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L28)
+[api/entities/AuthorizationRequest.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L28)

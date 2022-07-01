@@ -27,7 +27,7 @@ Less strict version of Parameters<T>
 
 #### Defined in
 
-[types/utils/index.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/utils/index.ts#L26)
+[types/utils/index.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/utils/index.ts#L26)
 
 ___
 
@@ -46,7 +46,7 @@ Pick a single property from T and ensure it is defined
 
 #### Defined in
 
-[types/utils/index.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/utils/index.ts#L74)
+[types/utils/index.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/utils/index.ts#L74)
 
 ___
 
@@ -65,7 +65,7 @@ Recursively traverse a type and transform its Entity properties into their
 
 #### Defined in
 
-[types/utils/index.ts:32](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/utils/index.ts#L32)
+[types/utils/index.ts:32](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/utils/index.ts#L32)
 
 ___
 
@@ -84,7 +84,7 @@ Override T with the properties of R
 
 #### Defined in
 
-[types/utils/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/utils/index.ts#L63)
+[types/utils/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/utils/index.ts#L63)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[types/utils/index.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/utils/index.ts#L7)
+[types/utils/index.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/utils/index.ts#L7)
 
 ___
 
@@ -119,4 +119,4 @@ Ensure a specific property of T is defined
 
 #### Defined in
 
-[types/utils/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/utils/index.ts#L69)
+[types/utils/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/utils/index.ts#L69)

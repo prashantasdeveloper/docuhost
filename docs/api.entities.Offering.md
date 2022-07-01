@@ -8,4 +8,5 @@
 
 ### Interfaces
 
+- [HumanReadable](../wiki/api.entities.Offering.HumanReadable)
 - [UniqueIdentifiers](../wiki/api.entities.Offering.UniqueIdentifiers)

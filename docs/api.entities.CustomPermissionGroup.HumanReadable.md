@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CustomPermissionGroup.ts#L22)
+[api/entities/CustomPermissionGroup.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CustomPermissionGroup.ts#L17)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CustomPermissionGroup.ts#L23)
+[api/entities/CustomPermissionGroup.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CustomPermissionGroup.ts#L18)

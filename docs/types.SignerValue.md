@@ -19,7 +19,7 @@ whether the signer is an Account or Identity
 
 #### Defined in
 
-[types/index.ts:793](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L793)
+[types/index.ts:796](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L796)
 
 ___
 
@@ -31,4 +31,4 @@ address or DID (depending on whether the signer is an Account or Identity)
 
 #### Defined in
 
-[types/index.ts:797](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L797)
+[types/index.ts:800](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L800)

@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L38)
+[api/entities/CorporateActionBase/index.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L42)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L41)
+[api/entities/CorporateActionBase/index.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L45)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L39)
+[api/entities/CorporateActionBase/index.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L43)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L36)
+[api/entities/CorporateActionBase/index.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L40)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L40)
+[api/entities/CorporateActionBase/index.ts:44](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L44)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L42)
+[api/entities/CorporateActionBase/index.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L46)
 
 ___
 
@@ -89,4 +89,4 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/CorporateActionBase/index.ts#L37)
+[api/entities/CorporateActionBase/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/CorporateActionBase/index.ts#L41)

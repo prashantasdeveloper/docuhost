@@ -41,7 +41,7 @@ identifier number of the Venue
 
 #### Defined in
 
-[api/entities/Venue/index.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L57)
+[api/entities/Venue/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L54)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -75,7 +75,7 @@ Creates a settlement Instruction in this Venue
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInstructionParams`](../wiki/api.procedures.addInstruction.AddInstructionParams) |
+| `args` | [`AddInstructionParams`](../wiki/api.procedures.types.AddInstructionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -84,7 +84,7 @@ Creates a settlement Instruction in this Venue
 
 #### Defined in
 
-[api/entities/Venue/index.ts:214](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L214)
+[api/entities/Venue/index.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L211)
 
 ___
 
@@ -104,7 +104,7 @@ Creates a batch of settlement Instructions in this Venue
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInstructionsParams`](../wiki/api.procedures.addInstruction.AddInstructionsParams) |
+| `args` | [`AddInstructionsParams`](../wiki/api.procedures.types.AddInstructionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -113,7 +113,7 @@ Creates a batch of settlement Instructions in this Venue
 
 #### Defined in
 
-[api/entities/Venue/index.ts:227](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L227)
+[api/entities/Venue/index.ts:224](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L224)
 
 ___
 
@@ -129,7 +129,7 @@ Retrieve information specific to this Venue
 
 #### Defined in
 
-[api/entities/Venue/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L110)
+[api/entities/Venue/index.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L107)
 
 ___
 
@@ -149,7 +149,7 @@ Determine whether this Venue exists on chain
 
 #### Defined in
 
-[api/entities/Venue/index.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L91)
+[api/entities/Venue/index.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L88)
 
 ___
 
@@ -165,7 +165,7 @@ Retrieve all pending and failed Instructions in this Venue
 
 #### Defined in
 
-[api/entities/Venue/index.ts:139](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L139)
+[api/entities/Venue/index.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L136)
 
 ___
 
@@ -183,7 +183,7 @@ Retrieve all pending Instructions in this Venue
 
 #### Defined in
 
-[api/entities/Venue/index.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L168)
+[api/entities/Venue/index.ts:165](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L165)
 
 ___
 
@@ -209,7 +209,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -229,7 +229,7 @@ Modify description and type
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyVenueParams`](../wiki/api.procedures.modifyVenue#modifyvenueparams) |
+| `args` | [`ModifyVenueParams`](../wiki/api.procedures.types#modifyvenueparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -238,7 +238,7 @@ Modify description and type
 
 #### Defined in
 
-[api/entities/Venue/index.ts:240](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L240)
+[api/entities/Venue/index.ts:237](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L237)
 
 ___
 
@@ -258,7 +258,7 @@ Return the Venue's ID
 
 #### Defined in
 
-[api/entities/Venue/index.ts:247](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Venue/index.ts#L247)
+[api/entities/Venue/index.ts:244](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Venue/index.ts#L244)
 
 ___
 
@@ -290,7 +290,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -322,4 +322,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)

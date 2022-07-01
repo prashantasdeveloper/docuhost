@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[types/index.ts:1203](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1203)
+[types/index.ts:1206](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1206)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1202](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1202)
+[types/index.ts:1205](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1205)
 
 ___
 
@@ -40,4 +40,4 @@ identifier string to help differentiate transfers
 
 #### Defined in
 
-[types/index.ts:1207](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1207)
+[types/index.ts:1210](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1210)

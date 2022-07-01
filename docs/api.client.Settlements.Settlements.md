@@ -29,7 +29,7 @@ Create an Instruction to exchange Assets
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AddInstructionWithVenueIdParams`](../wiki/api.procedures.addInstruction.AddInstructionWithVenueIdParams) |
+| `args` | [`AddInstructionWithVenueIdParams`](../wiki/api.procedures.types.AddInstructionWithVenueIdParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -38,7 +38,7 @@ Create an Instruction to exchange Assets
 
 #### Defined in
 
-[api/client/Settlements.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Settlements.ts#L118)
+[api/client/Settlements.ts:122](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Settlements.ts#L122)
 
 ___
 
@@ -55,7 +55,7 @@ Affirm an Instruction (authorize)
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`AffirmInstructionParams`](../wiki/api.procedures.modifyInstructionAffirmation.AffirmInstructionParams) |
+| `args` | [`AffirmInstructionParams`](../wiki/api.procedures.types.AffirmInstructionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -64,7 +64,7 @@ Affirm an Instruction (authorize)
 
 #### Defined in
 
-[api/client/Settlements.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Settlements.ts#L128)
+[api/client/Settlements.ts:132](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Settlements.ts#L132)
 
 ___
 
@@ -81,7 +81,7 @@ Create a Venue under the ownership of the signing Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateVenueParams`](../wiki/api.procedures.createVenue.CreateVenueParams) |
+| `args` | [`CreateVenueParams`](../wiki/api.procedures.types.CreateVenueParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -90,7 +90,7 @@ Create a Venue under the ownership of the signing Identity
 
 #### Defined in
 
-[api/client/Settlements.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Settlements.ts#L108)
+[api/client/Settlements.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Settlements.ts#L112)
 
 ___
 
@@ -113,7 +113,7 @@ Retrieve an Instruction by its ID
 
 #### Defined in
 
-[api/client/Settlements.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Settlements.ts#L86)
+[api/client/Settlements.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Settlements.ts#L90)
 
 ___
 
@@ -136,4 +136,4 @@ Retrieve a Venue by its ID
 
 #### Defined in
 
-[api/client/Settlements.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Settlements.ts#L65)
+[api/client/Settlements.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Settlements.ts#L69)

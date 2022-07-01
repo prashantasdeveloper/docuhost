@@ -9,6 +9,7 @@
 ### Interfaces
 
 - [DividendDistributionParams](../wiki/api.entities.DividendDistribution.DividendDistributionParams)
+- [HumanReadable](../wiki/api.entities.DividendDistribution.HumanReadable)
 
 ### Type Aliases
 
@@ -22,4 +23,4 @@
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/DividendDistribution/index.ts#L83)
+[api/entities/DividendDistribution/index.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/DividendDistribution/index.ts#L83)

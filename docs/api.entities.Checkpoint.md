@@ -8,4 +8,5 @@
 
 ### Interfaces
 
+- [HumanReadable](../wiki/api.entities.Checkpoint.HumanReadable)
 - [UniqueIdentifiers](../wiki/api.entities.Checkpoint.UniqueIdentifiers)

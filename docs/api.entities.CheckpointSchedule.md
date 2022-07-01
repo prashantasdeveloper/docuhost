@@ -8,5 +8,7 @@
 
 ### Interfaces
 
+- [CalendarPeriodHumanReadable](../wiki/api.entities.CheckpointSchedule.CalendarPeriodHumanReadable)
+- [HumanReadable](../wiki/api.entities.CheckpointSchedule.HumanReadable)
 - [Params](../wiki/api.entities.CheckpointSchedule.Params)
 - [UniqueIdentifiers](../wiki/api.entities.CheckpointSchedule.UniqueIdentifiers)

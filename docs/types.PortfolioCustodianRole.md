@@ -13,11 +13,11 @@
 
 ### portfolioId
 
-• **portfolioId**: `PortfolioId`
+• **portfolioId**: [`PortfolioId`](../wiki/types.PortfolioId)
 
 #### Defined in
 
-[types/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L117)
+[types/index.ts:120](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L120)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L116)
+[types/index.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L119)

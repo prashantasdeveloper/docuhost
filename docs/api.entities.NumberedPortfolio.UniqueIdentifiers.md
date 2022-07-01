@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/NumberedPortfolio.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/NumberedPortfolio.ts#L25)
+[api/entities/NumberedPortfolio.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/NumberedPortfolio.ts#L19)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/NumberedPortfolio.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/NumberedPortfolio.ts#L26)
+[api/entities/NumberedPortfolio.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/NumberedPortfolio.ts#L20)

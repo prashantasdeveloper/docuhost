@@ -24,7 +24,7 @@ list of required Asset permissions
 
 #### Defined in
 
-[types/index.ts:964](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L964)
+[types/index.ts:967](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L967)
 
 ___
 
@@ -34,16 +34,16 @@ ___
 
 #### Defined in
 
-[types/index.ts:970](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L970)
+[types/index.ts:973](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L973)
 
 ___
 
 ### transactions
 
-• `Optional` **transactions**: ``null`` \| `TxTag`[]
+• `Optional` **transactions**: ``null`` \| [`TxTag`](../wiki/types#txtag)[]
 
 list of required Transaction permissions
 
 #### Defined in
 
-[types/index.ts:968](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L968)
+[types/index.ts:971](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L971)

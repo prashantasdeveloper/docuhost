@@ -38,7 +38,7 @@ Create a new Portfolio under the ownership of the signing Identity
 
 #### Defined in
 
-[api/client/Identities.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Identities.ts#L61)
+[api/client/Identities.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Identities.ts#L60)
 
 ___
 
@@ -63,7 +63,7 @@ Create an Identity instance from a DID
 
 #### Defined in
 
-[api/client/Identities.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Identities.ts#L70)
+[api/client/Identities.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Identities.ts#L69)
 
 ___
 
@@ -86,7 +86,7 @@ Return whether the supplied Identity/DID exists
 
 #### Defined in
 
-[api/client/Identities.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Identities.ts#L77)
+[api/client/Identities.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Identities.ts#L76)
 
 ___
 
@@ -112,7 +112,7 @@ Register an Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RegisterIdentityParams`](../wiki/api.procedures.registerIdentity.RegisterIdentityParams) |
+| `args` | [`RegisterIdentityParams`](../wiki/api.procedures.types.RegisterIdentityParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -121,4 +121,4 @@ Register an Identity
 
 #### Defined in
 
-[api/client/Identities.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/Identities.ts#L51)
+[api/client/Identities.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/Identities.ts#L50)

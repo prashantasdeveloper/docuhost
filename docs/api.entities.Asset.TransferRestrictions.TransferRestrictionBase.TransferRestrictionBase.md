@@ -8,7 +8,7 @@ Base class for managing Transfer Restrictions
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`TransferRestrictionType`](../wiki/types.TransferRestrictionType) |
+| `T` | extends [`TransferRestrictionType`](../wiki/api.procedures.types.TransferRestrictionType) |
 
 ## Hierarchy
 
@@ -46,7 +46,7 @@ Add a Transfer Restriction of the corresponding type to this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `AddRestrictionParams`<`T`\> |
+| `args` | [`AddRestrictionParams`](../wiki/api.procedures.types#addrestrictionparams)<`T`\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -55,13 +55,13 @@ Add a Transfer Restriction of the corresponding type to this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L128)
+[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L106)
 
 ___
 
 ### get
 
-▸ **get**(): `Promise`<`GetReturnType`<`T`\>\>
+▸ **get**(): `Promise`<[`GetReturnType`](../wiki/api.procedures.types#getreturntype)<`T`\>\>
 
 Retrieve all active Transfer Restrictions of the corresponding type
 
@@ -71,11 +71,11 @@ Retrieve all active Transfer Restrictions of the corresponding type
 
 #### Returns
 
-`Promise`<`GetReturnType`<`T`\>\>
+`Promise`<[`GetReturnType`](../wiki/api.procedures.types#getreturntype)<`T`\>\>
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:163](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L163)
+[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:141](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L141)
 
 ___
 
@@ -102,7 +102,7 @@ Removes all Transfer Restrictions of the corresponding type from this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:152](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L152)
+[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:130](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L130)
 
 ___
 
@@ -121,7 +121,7 @@ Sets all Transfer Restrictions of the corresponding type on this Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `SetRestrictionsParams`<`T`\> |
+| `args` | [`SetRestrictionsParams`](../wiki/api.procedures.types#setrestrictionsparams)<`T`\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -130,4 +130,4 @@ Sets all Transfer Restrictions of the corresponding type on this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L140)
+[api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/TransferRestrictions/TransferRestrictionBase.ts#L118)

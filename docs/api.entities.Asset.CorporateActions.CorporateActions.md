@@ -33,7 +33,7 @@ Handles all Asset Corporate Actions related functionality
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/index.ts#L35)
+[api/entities/Asset/CorporateActions/index.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/index.ts#L38)
 
 ## Methods
 
@@ -49,7 +49,7 @@ Retrieve a list of agent Identities
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:125](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/index.ts#L125)
+[api/entities/Asset/CorporateActions/index.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/index.ts#L128)
 
 ___
 
@@ -69,7 +69,7 @@ Retrieve default config comprising of targets, global tax withholding percentage
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:160](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/index.ts#L160)
+[api/entities/Asset/CorporateActions/index.ts:163](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/index.ts#L163)
 
 ___
 
@@ -86,7 +86,7 @@ Remove a Corporate Action
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveCorporateActionParams`](../wiki/api.procedures.removeCorporateAction.RemoveCorporateActionParams) |
+| `args` | [`RemoveCorporateActionParams`](../wiki/api.procedures.types.RemoveCorporateActionParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -95,7 +95,7 @@ Remove a Corporate Action
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/index.ts#L118)
+[api/entities/Asset/CorporateActions/index.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/index.ts#L121)
 
 ___
 
@@ -124,7 +124,7 @@ Remove the Corporate Actions Agent of the Asset
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/index.ts#L108)
+[api/entities/Asset/CorporateActions/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/index.ts#L111)
 
 ___
 
@@ -147,7 +147,7 @@ Assign a new Corporate Actions Agent for the Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyCorporateActionsAgentParams`](../wiki/api.procedures.modifyCorporateActionsAgent.ModifyCorporateActionsAgentParams) |
+| `args` | [`ModifyCorporateActionsAgentParams`](../wiki/api.procedures.types.ModifyCorporateActionsAgentParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -156,7 +156,7 @@ Assign a new Corporate Actions Agent for the Asset
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/index.ts#L94)
+[api/entities/Asset/CorporateActions/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/index.ts#L97)
 
 ___
 
@@ -177,7 +177,7 @@ Assign default config values(targets, global tax withholding percentage and per-
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifyCaDefaultConfigParams`](../wiki/api.procedures.modifyCaDefaultConfig#modifycadefaultconfigparams) |
+| `args` | [`ModifyCaDefaultConfigParams`](../wiki/api.procedures.types#modifycadefaultconfigparams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -186,4 +186,4 @@ Assign default config values(targets, global tax withholding percentage and per-
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/CorporateActions/index.ts#L78)
+[api/entities/Asset/CorporateActions/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/CorporateActions/index.ts#L81)

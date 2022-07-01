@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[types/index.ts:1349](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1349)
+[types/index.ts:1321](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1321)
 
 ## Table of contents
 
@@ -56,4 +56,4 @@
 
 #### Defined in
 
-[types/index.ts:1352](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L1352)
+[types/index.ts:1324](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L1324)

@@ -39,7 +39,7 @@ Retrieve all of the Asset's Offerings and their details. Can be filtered using p
 
 #### Defined in
 
-[api/entities/Asset/Offerings.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Offerings.ts#L81)
+[api/entities/Asset/Offerings.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Offerings.ts#L79)
 
 ___
 
@@ -64,7 +64,7 @@ Retrieve a single Offering associated to this Asset by its ID
 
 #### Defined in
 
-[api/entities/Asset/Offerings.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Offerings.ts#L56)
+[api/entities/Asset/Offerings.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Offerings.ts#L54)
 
 ___
 
@@ -85,7 +85,7 @@ Launch an Asset Offering
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `LaunchOfferingParams` |
+| `args` | [`LaunchOfferingParams`](../wiki/api.procedures.types.LaunchOfferingParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -94,4 +94,4 @@ Launch an Asset Offering
 
 #### Defined in
 
-[api/entities/Asset/Offerings.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Offerings.ts#L47)
+[api/entities/Asset/Offerings.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Offerings.ts#L45)

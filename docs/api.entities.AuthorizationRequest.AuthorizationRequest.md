@@ -8,7 +8,7 @@ Represents a request made by an Identity to another Identity (or Account) for so
 
 ## Hierarchy
 
-- [`Entity`](../wiki/api.entities.Entity.Entity)<[`UniqueIdentifiers`](../wiki/api.entities.AuthorizationRequest.UniqueIdentifiers), `HumanReadable`\>
+- [`Entity`](../wiki/api.entities.Entity.Entity)<[`UniqueIdentifiers`](../wiki/api.entities.AuthorizationRequest.UniqueIdentifiers), [`HumanReadable`](../wiki/api.entities.AuthorizationRequest.HumanReadable)\>
 
   ↳ **`AuthorizationRequest`**
 
@@ -44,7 +44,7 @@ internal identifier for the Request (used to accept/reject/cancel)
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L99)
+[api/entities/AuthorizationRequest.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L99)
 
 ___
 
@@ -69,7 +69,7 @@ Authorization Request data corresponding to type of Authorization
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L88)
+[api/entities/AuthorizationRequest.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L88)
 
 ___
 
@@ -82,7 +82,7 @@ date at which the Authorization Request expires and can no longer be accepted.
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L94)
+[api/entities/AuthorizationRequest.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L94)
 
 ___
 
@@ -94,7 +94,7 @@ Identity that emitted the request
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L70)
+[api/entities/AuthorizationRequest.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L70)
 
 ___
 
@@ -106,7 +106,7 @@ Identity or Account to which the request was emitted
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L65)
+[api/entities/AuthorizationRequest.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L65)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -145,7 +145,7 @@ Accept the Authorization Request. You must be the target of the Request to be ab
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L183)
+[api/entities/AuthorizationRequest.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L183)
 
 ___
 
@@ -165,7 +165,7 @@ Determine whether this Authorization Request exists on chain
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L212)
+[api/entities/AuthorizationRequest.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L212)
 
 ___
 
@@ -191,7 +191,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -207,7 +207,7 @@ Returns whether the Authorization Request has expired
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L203)
+[api/entities/AuthorizationRequest.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L203)
 
 ___
 
@@ -235,19 +235,19 @@ Remove the Authorization Request
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:196](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L196)
+[api/entities/AuthorizationRequest.ts:196](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L196)
 
 ___
 
 ### toHuman
 
-▸ **toHuman**(): `HumanReadable`
+▸ **toHuman**(): [`HumanReadable`](../wiki/api.entities.AuthorizationRequest.HumanReadable)
 
 Return the Authorization's static data
 
 #### Returns
 
-`HumanReadable`
+[`HumanReadable`](../wiki/api.entities.AuthorizationRequest.HumanReadable)
 
 #### Overrides
 
@@ -255,7 +255,7 @@ Return the Authorization's static data
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L226)
+[api/entities/AuthorizationRequest.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L226)
 
 ___
 
@@ -287,7 +287,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -319,4 +319,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)

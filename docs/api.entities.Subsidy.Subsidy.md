@@ -41,7 +41,7 @@ Account whose transactions are being paid for
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L51)
+[api/entities/Subsidy/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L55)
 
 ___
 
@@ -53,7 +53,7 @@ Account that is paying for the transactions
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L55)
+[api/entities/Subsidy/index.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L59)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -88,7 +88,7 @@ Decrease allowance for this Subsidy relationship
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`DecreaseAllowanceParams`](../wiki/api.procedures.modifyAllowance.DecreaseAllowanceParams), ``"allowance"``\> |
+| `args` | `Pick`<[`DecreaseAllowanceParams`](../wiki/api.procedures.types.DecreaseAllowanceParams), ``"allowance"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -97,7 +97,7 @@ Decrease allowance for this Subsidy relationship
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:176](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L176)
+[api/entities/Subsidy/index.ts:180](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L180)
 
 ___
 
@@ -117,7 +117,7 @@ Determine whether this Subsidy relationship exists on chain
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L183)
+[api/entities/Subsidy/index.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L187)
 
 ___
 
@@ -135,7 +135,7 @@ Get amount of POLYX subsidized for this Subsidy relationship
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L202)
+[api/entities/Subsidy/index.ts:206](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L206)
 
 ___
 
@@ -154,7 +154,7 @@ Increase allowance for this Subsidy relationship
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`IncreaseAllowanceParams`](../wiki/api.procedures.modifyAllowance.IncreaseAllowanceParams), ``"allowance"``\> |
+| `args` | `Pick`<[`IncreaseAllowanceParams`](../wiki/api.procedures.types.IncreaseAllowanceParams), ``"allowance"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -163,7 +163,7 @@ Increase allowance for this Subsidy relationship
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:162](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L162)
+[api/entities/Subsidy/index.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L166)
 
 ___
 
@@ -189,7 +189,7 @@ Determine whether this Entity is the same as another one
 
 #### Defined in
 
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L61)
+[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L61)
 
 ___
 
@@ -216,7 +216,7 @@ Terminate this Subsidy relationship. The beneficiary Account will be forced to p
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L136)
+[api/entities/Subsidy/index.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L140)
 
 ___
 
@@ -237,7 +237,7 @@ Set allowance for this Subsidy relationship
 
 | Name | Type |
 | :------ | :------ |
-| `args` | `Pick`<[`SetAllowanceParams`](../wiki/api.procedures.modifyAllowance.SetAllowanceParams), ``"allowance"``\> |
+| `args` | `Pick`<[`SetAllowanceParams`](../wiki/api.procedures.types.SetAllowanceParams), ``"allowance"``\> |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -246,7 +246,7 @@ Set allowance for this Subsidy relationship
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:150](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L150)
+[api/entities/Subsidy/index.ts:154](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L154)
 
 ___
 
@@ -266,7 +266,7 @@ Return the Subsidy's static data
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:224](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Subsidy/index.ts#L224)
+[api/entities/Subsidy/index.ts:228](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Subsidy/index.ts#L228)
 
 ___
 
@@ -298,7 +298,7 @@ Generate the Entity's UUID from its identifying properties
 
 #### Defined in
 
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L14)
+[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L14)
 
 ___
 
@@ -330,4 +330,4 @@ Unserialize a UUID into its Unique Identifiers
 
 #### Defined in
 
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Entity.ts#L23)
+[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Entity.ts#L23)

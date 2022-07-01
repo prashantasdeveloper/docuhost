@@ -20,7 +20,7 @@ There still are Asset tokens available for purchase
 
 #### Defined in
 
-[api/entities/Offering/types.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Offering/types.ts#L24)
+[api/entities/Offering/types.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L24)
 
 ___
 
@@ -34,7 +34,7 @@ There are remaining Asset tokens, but their added value is lower than the Offeri
 
 #### Defined in
 
-[api/entities/Offering/types.ts:34](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Offering/types.ts#L34)
+[api/entities/Offering/types.ts:34](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L34)
 
 ___
 
@@ -46,4 +46,4 @@ All Asset tokens in the Offering have been sold
 
 #### Defined in
 
-[api/entities/Offering/types.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Offering/types.ts#L28)
+[api/entities/Offering/types.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Offering/types.ts#L28)

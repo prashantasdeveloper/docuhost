@@ -44,7 +44,7 @@ Freeze all of the secondary Accounts in the signing Identity. This means revokin
 
 #### Defined in
 
-[api/client/AccountManagement.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L167)
+[api/client/AccountManagement.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L167)
 
 ___
 
@@ -67,7 +67,7 @@ Return an Account instance from an address
 
 #### Defined in
 
-[api/client/AccountManagement.ts:248](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L248)
+[api/client/AccountManagement.ts:248](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L248)
 
 ___
 
@@ -92,7 +92,7 @@ Get the free/locked POLYX balance of an Account
 
 #### Defined in
 
-[api/client/AccountManagement.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L202)
+[api/client/AccountManagement.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L202)
 
 ▸ **getAccountBalance**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -108,7 +108,7 @@ Get the free/locked POLYX balance of an Account
 
 #### Defined in
 
-[api/client/AccountManagement.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L203)
+[api/client/AccountManagement.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L203)
 
 ▸ **getAccountBalance**(`args`, `callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -126,7 +126,7 @@ Get the free/locked POLYX balance of an Account
 
 #### Defined in
 
-[api/client/AccountManagement.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L204)
+[api/client/AccountManagement.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L204)
 
 ___
 
@@ -142,7 +142,7 @@ Return the signing Account, or null if no signing Account has been set
 
 #### Defined in
 
-[api/client/AccountManagement.ts:257](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L257)
+[api/client/AccountManagement.ts:257](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L257)
 
 ___
 
@@ -160,7 +160,7 @@ Return a list that contains all the signing Accounts associated to the SDK insta
 
 #### Defined in
 
-[api/client/AccountManagement.ts:270](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L270)
+[api/client/AccountManagement.ts:270](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L270)
 
 ___
 
@@ -181,7 +181,7 @@ Send an invitation to an Account to join the signing Identity as a secondary Acc
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`InviteAccountParams`](../wiki/api.procedures.inviteAccount.InviteAccountParams) |
+| `args` | [`InviteAccountParams`](../wiki/api.procedures.types.InviteAccountParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -190,7 +190,7 @@ Send an invitation to an Account to join the signing Identity as a secondary Acc
 
 #### Defined in
 
-[api/client/AccountManagement.ts:157](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L157)
+[api/client/AccountManagement.ts:157](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L157)
 
 ___
 
@@ -215,7 +215,7 @@ Disassociate the signing Account from its Identity. This operation can only be d
 
 #### Defined in
 
-[api/client/AccountManagement.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L109)
+[api/client/AccountManagement.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L109)
 
 ___
 
@@ -234,7 +234,7 @@ Modify all permissions of a list of secondary Accounts associated with the signi
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`ModifySignerPermissionsParams`](../wiki/api.procedures.modifySignerPermissions.ModifySignerPermissionsParams) |
+| `args` | [`ModifySignerPermissionsParams`](../wiki/api.procedures.types.ModifySignerPermissionsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -243,7 +243,7 @@ Modify all permissions of a list of secondary Accounts associated with the signi
 
 #### Defined in
 
-[api/client/AccountManagement.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L143)
+[api/client/AccountManagement.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L143)
 
 ___
 
@@ -260,7 +260,7 @@ Remove a list of secondary Accounts associated with the signing Identity
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveSecondaryAccountsParams`](../wiki/api.procedures.removeSecondaryAccounts.RemoveSecondaryAccountsParams) |
+| `args` | [`RemoveSecondaryAccountsParams`](../wiki/api.procedures.types.RemoveSecondaryAccountsParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -269,7 +269,7 @@ Remove a list of secondary Accounts associated with the signing Identity
 
 #### Defined in
 
-[api/client/AccountManagement.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L119)
+[api/client/AccountManagement.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L119)
 
 ___
 
@@ -298,7 +298,7 @@ Revoke all permissions of a list of secondary Accounts associated with the signi
 
 #### Defined in
 
-[api/client/AccountManagement.ts:131](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L131)
+[api/client/AccountManagement.ts:131](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L131)
 
 ___
 
@@ -319,7 +319,7 @@ Send an Authorization Request to an Account to subsidize its transaction fees
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`SubsidizeAccountParams`](../wiki/api.procedures.subsidizeAccount.SubsidizeAccountParams) |
+| `args` | [`SubsidizeAccountParams`](../wiki/api.procedures.types.SubsidizeAccountParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -328,7 +328,7 @@ Send an Authorization Request to an Account to subsidize its transaction fees
 
 #### Defined in
 
-[api/client/AccountManagement.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L191)
+[api/client/AccountManagement.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L191)
 
 ___
 
@@ -353,4 +353,4 @@ Unfreeze all of the secondary Accounts in the signing Identity. This will restor
 
 #### Defined in
 
-[api/client/AccountManagement.ts:177](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/client/AccountManagement.ts#L177)
+[api/client/AccountManagement.ts:177](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/client/AccountManagement.ts#L177)

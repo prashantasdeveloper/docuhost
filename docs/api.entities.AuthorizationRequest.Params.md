@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L43)
+[api/entities/AuthorizationRequest.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L43)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L42)
+[api/entities/AuthorizationRequest.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L42)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L41)
+[api/entities/AuthorizationRequest.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L41)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/AuthorizationRequest.ts#L40)
+[api/entities/AuthorizationRequest.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/AuthorizationRequest.ts#L40)

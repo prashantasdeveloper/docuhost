@@ -41,4 +41,4 @@ Issue a certain amount of Asset tokens to the caller's default portfolio
 
 #### Defined in
 
-[api/entities/Asset/Issuance.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Issuance.ts#L35)
+[api/entities/Asset/Issuance.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Issuance.ts#L35)

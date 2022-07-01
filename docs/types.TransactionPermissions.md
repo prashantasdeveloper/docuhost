@@ -6,7 +6,7 @@ Permissions related to Transactions. Can include/exclude individual transactions
 
 ## Hierarchy
 
-- [`SectionPermissions`](../wiki/types.SectionPermissions)<`TxTag` \| `ModuleName`\>
+- [`SectionPermissions`](../wiki/types.SectionPermissions)<[`TxTag`](../wiki/types#txtag) \| [`ModuleName`](../wiki/types.ModuleName)\>
 
   ↳ **`TransactionPermissions`**
 
@@ -22,7 +22,7 @@ Permissions related to Transactions. Can include/exclude individual transactions
 
 ### exceptions
 
-• `Optional` **exceptions**: `TxTag`[]
+• `Optional` **exceptions**: [`TxTag`](../wiki/types#txtag)[]
 
 Transactions to be exempted from inclusion/exclusion. This allows more granularity when
   setting permissions. For example, let's say we want to include only the `asset` and `staking` modules,
@@ -31,7 +31,7 @@ Transactions to be exempted from inclusion/exclusion. This allows more granulari
 
 #### Defined in
 
-[types/index.ts:913](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L913)
+[types/index.ts:916](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L916)
 
 ___
 
@@ -47,13 +47,13 @@ Whether the permissions are inclusive or exclusive
 
 #### Defined in
 
-[types/index.ts:900](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L900)
+[types/index.ts:903](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L903)
 
 ___
 
 ### values
 
-• **values**: (`TxTag` \| `ModuleName`)[]
+• **values**: ([`TxTag`](../wiki/types#txtag) \| [`ModuleName`](../wiki/types.ModuleName))[]
 
 Values to be included/excluded
 
@@ -63,4 +63,4 @@ Values to be included/excluded
 
 #### Defined in
 
-[types/index.ts:896](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/types/index.ts#L896)
+[types/index.ts:899](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/types/index.ts#L899)

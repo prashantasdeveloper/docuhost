@@ -42,7 +42,7 @@ Calculate an abstract measure of the complexity of a given Calendar Period
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/Schedules.ts:127](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Checkpoints/Schedules.ts#L127)
+[api/entities/Asset/Checkpoints/Schedules.ts:132](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/Schedules.ts#L132)
 
 ___
 
@@ -63,7 +63,7 @@ Create a schedule for Checkpoint creation (i.e. "Create a checkpoint every week 
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`CreateCheckpointScheduleParams`](../wiki/api.procedures.createCheckpointSchedule.CreateCheckpointScheduleParams) |
+| `args` | [`CreateCheckpointScheduleParams`](../wiki/api.procedures.types.CreateCheckpointScheduleParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -72,7 +72,7 @@ Create a schedule for Checkpoint creation (i.e. "Create a checkpoint every week 
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/Schedules.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Checkpoints/Schedules.ts#L57)
+[api/entities/Asset/Checkpoints/Schedules.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/Schedules.ts#L62)
 
 ___
 
@@ -89,7 +89,7 @@ Calculate the sum of the complexity of all current Checkpoint Schedules for this
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/Schedules.ts:135](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Checkpoints/Schedules.ts#L135)
+[api/entities/Asset/Checkpoints/Schedules.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/Schedules.ts#L140)
 
 ___
 
@@ -105,7 +105,7 @@ Retrieve all active Checkpoint Schedules
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/Schedules.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Checkpoints/Schedules.ts#L94)
+[api/entities/Asset/Checkpoints/Schedules.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/Schedules.ts#L99)
 
 ___
 
@@ -130,7 +130,7 @@ Retrieve a single Checkpoint Schedule associated to this Asset by its ID
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/Schedules.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Checkpoints/Schedules.ts#L76)
+[api/entities/Asset/Checkpoints/Schedules.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/Schedules.ts#L81)
 
 ___
 
@@ -146,7 +146,7 @@ Retrieve the maximum allowed Schedule complexity for this Asset
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/Schedules.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Checkpoints/Schedules.ts#L144)
+[api/entities/Asset/Checkpoints/Schedules.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/Schedules.ts#L149)
 
 ___
 
@@ -163,7 +163,7 @@ Remove the supplied Checkpoint Schedule for a given Asset
 
 | Name | Type |
 | :------ | :------ |
-| `args` | [`RemoveCheckpointScheduleParams`](../wiki/api.procedures.removeCheckpointSchedule.RemoveCheckpointScheduleParams) |
+| `args` | [`RemoveCheckpointScheduleParams`](../wiki/api.procedures.types.RemoveCheckpointScheduleParams) |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
 #### Returns
@@ -172,4 +172,4 @@ Remove the supplied Checkpoint Schedule for a given Asset
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/Schedules.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/31dfa0dc/src/api/entities/Asset/Checkpoints/Schedules.ts#L67)
+[api/entities/Asset/Checkpoints/Schedules.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/c6fe1be3/src/api/entities/Asset/Checkpoints/Schedules.ts#L72)
