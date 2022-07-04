@@ -13,18 +13,18 @@
 
 ### SettleOnAffirmation
 
-• **SettleOnAffirmation**
+• **SettleOnAffirmation** = ``"SettleOnAffirmation"``
 
 #### Defined in
 
-[api/entities/Instruction/types.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Instruction/types.ts#L13)
+[api/entities/Instruction/types.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Instruction/types.ts#L13)
 
 ___
 
 ### SettleOnBlock
 
-• **SettleOnBlock**
+• **SettleOnBlock** = ``"SettleOnBlock"``
 
 #### Defined in
 
-[api/entities/Instruction/types.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Instruction/types.ts#L14)
+[api/entities/Instruction/types.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Instruction/types.ts#L14)

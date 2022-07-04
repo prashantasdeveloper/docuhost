@@ -27,7 +27,9 @@ Handles all Percentage Transfer Restriction related functionality
 
 Add a Percentage Transfer Restriction to this Asset
 
-**`note`** the result is the total amount of restrictions after the procedure has run
+**`Note`**
+
+ the result is the total amount of restrictions after the procedure has run
 
 #### Overrides
 
@@ -35,7 +37,7 @@ Add a Percentage Transfer Restriction to this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L25)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L25)
 
 ___
 
@@ -49,7 +51,9 @@ ___
 
 Retrieve all active Percentage Transfer Restrictions
 
-**`note`** there is a maximum number of restrictions allowed across all types.
+**`Note`**
+
+ there is a maximum number of restrictions allowed across all types.
   The `availableSlots` property of the result represents how many more restrictions can be added
   before reaching that limit
 
@@ -63,7 +67,7 @@ Retrieve all active Percentage Transfer Restrictions
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L54)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L54)
 
 ___
 
@@ -73,7 +77,9 @@ ___
 
 Removes all Percentage Transfer Restrictions from this Asset
 
-**`note`** the result is the total amount of restrictions after the procedure has run
+**`Note`**
+
+ the result is the total amount of restrictions after the procedure has run
 
 #### Overrides
 
@@ -81,7 +87,7 @@ Removes all Percentage Transfer Restrictions from this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L45)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L45)
 
 ___
 
@@ -91,7 +97,9 @@ ___
 
 Sets all Percentage Transfer Restrictions on this Asset
 
-**`note`** the result is the total amount of restrictions after the procedure has run
+**`Note`**
+
+ the result is the total amount of restrictions after the procedure has run
 
 #### Overrides
 
@@ -99,4 +107,4 @@ Sets all Percentage Transfer Restrictions on this Asset
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/Percentage.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L35)
+[api/entities/Asset/TransferRestrictions/Percentage.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/TransferRestrictions/Percentage.ts#L35)

@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L67)
+[api/entities/DividendDistribution/index.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L67)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L24)
+[api/entities/CorporateAction.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L24)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L27)
+[api/entities/CorporateAction.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L27)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L25)
+[api/entities/CorporateAction.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L25)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L70)
+[api/entities/DividendDistribution/index.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L70)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L22)
+[api/entities/CorporateAction.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L22)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L69)
+[api/entities/DividendDistribution/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L69)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L66)
+[api/entities/DividendDistribution/index.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L66)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L71)
+[api/entities/DividendDistribution/index.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L71)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L68)
+[api/entities/DividendDistribution/index.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L68)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L26)
+[api/entities/CorporateAction.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L26)
 
 ___
 
@@ -182,7 +182,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L28)
+[api/entities/CorporateAction.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L28)
 
 ___
 
@@ -196,4 +196,4 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L23)
+[api/entities/CorporateAction.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L23)

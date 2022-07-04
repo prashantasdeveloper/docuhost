@@ -13,18 +13,18 @@
 
 ### Count
 
-• **Count**
+• **Count** = ``"Count"``
 
 #### Defined in
 
-[api/procedures/types.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L62)
+[api/procedures/types.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L62)
 
 ___
 
 ### Percentage
 
-• **Percentage**
+• **Percentage** = ``"Percentage"``
 
 #### Defined in
 
-[api/procedures/types.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L63)
+[api/procedures/types.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L63)

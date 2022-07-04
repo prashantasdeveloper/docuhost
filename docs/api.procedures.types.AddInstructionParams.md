@@ -27,7 +27,7 @@ block at which the Instruction will be executed automatically (optional, the Ins
 
 #### Defined in
 
-[api/procedures/types.ts:291](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L291)
+[api/procedures/types.ts:291](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L291)
 
 ___
 
@@ -39,7 +39,7 @@ array of Asset movements (amount, from, to, asset)
 
 #### Defined in
 
-[api/procedures/types.ts:274](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L274)
+[api/procedures/types.ts:274](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L274)
 
 ___
 
@@ -51,7 +51,7 @@ date at which the trade was agreed upon (optional, for off chain trades)
 
 #### Defined in
 
-[api/procedures/types.ts:283](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L283)
+[api/procedures/types.ts:283](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L283)
 
 ___
 
@@ -63,4 +63,4 @@ date at which the trade was executed (optional, for off chain trades)
 
 #### Defined in
 
-[api/procedures/types.ts:287](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L287)
+[api/procedures/types.ts:287](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L287)

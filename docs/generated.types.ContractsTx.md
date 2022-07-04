@@ -16,48 +16,48 @@
 
 ### Call
 
-• **Call**
+• **Call** = ``"contracts.call"``
 
 #### Defined in
 
-[generated/types.ts:713](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L713)
+[generated/types.ts:713](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L713)
 
 ___
 
 ### Instantiate
 
-• **Instantiate**
+• **Instantiate** = ``"contracts.instantiate"``
 
 #### Defined in
 
-[generated/types.ts:715](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L715)
+[generated/types.ts:715](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L715)
 
 ___
 
 ### InstantiateWithCode
 
-• **InstantiateWithCode**
+• **InstantiateWithCode** = ``"contracts.instantiateWithCode"``
 
 #### Defined in
 
-[generated/types.ts:714](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L714)
+[generated/types.ts:714](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L714)
 
 ___
 
 ### RemoveCode
 
-• **RemoveCode**
+• **RemoveCode** = ``"contracts.removeCode"``
 
 #### Defined in
 
-[generated/types.ts:717](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L717)
+[generated/types.ts:717](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L717)
 
 ___
 
 ### UploadCode
 
-• **UploadCode**
+• **UploadCode** = ``"contracts.uploadCode"``
 
 #### Defined in
 
-[generated/types.ts:716](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L716)
+[generated/types.ts:716](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L716)

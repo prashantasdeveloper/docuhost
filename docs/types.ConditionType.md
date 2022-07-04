@@ -17,58 +17,58 @@
 
 ### IsAbsent
 
-• **IsAbsent**
+• **IsAbsent** = ``"IsAbsent"``
 
 #### Defined in
 
-[types/index.ts:379](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L379)
+[types/index.ts:379](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L379)
 
 ___
 
 ### IsAnyOf
 
-• **IsAnyOf**
+• **IsAnyOf** = ``"IsAnyOf"``
 
 #### Defined in
 
-[types/index.ts:380](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L380)
+[types/index.ts:380](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L380)
 
 ___
 
 ### IsExternalAgent
 
-• **IsExternalAgent**
+• **IsExternalAgent** = ``"IsExternalAgent"``
 
 #### Defined in
 
-[types/index.ts:382](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L382)
+[types/index.ts:382](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L382)
 
 ___
 
 ### IsIdentity
 
-• **IsIdentity**
+• **IsIdentity** = ``"IsIdentity"``
 
 #### Defined in
 
-[types/index.ts:383](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L383)
+[types/index.ts:383](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L383)
 
 ___
 
 ### IsNoneOf
 
-• **IsNoneOf**
+• **IsNoneOf** = ``"IsNoneOf"``
 
 #### Defined in
 
-[types/index.ts:381](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L381)
+[types/index.ts:381](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L381)
 
 ___
 
 ### IsPresent
 
-• **IsPresent**
+• **IsPresent** = ``"IsPresent"``
 
 #### Defined in
 
-[types/index.ts:378](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L378)
+[types/index.ts:378](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L378)

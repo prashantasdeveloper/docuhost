@@ -13,18 +13,18 @@
 
 ### PurgeKeys
 
-• **PurgeKeys**
+• **PurgeKeys** = ``"session.purgeKeys"``
 
 #### Defined in
 
-[generated/types.ts:473](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L473)
+[generated/types.ts:473](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L473)
 
 ___
 
 ### SetKeys
 
-• **SetKeys**
+• **SetKeys** = ``"session.setKeys"``
 
 #### Defined in
 
-[generated/types.ts:472](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L472)
+[generated/types.ts:472](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L472)

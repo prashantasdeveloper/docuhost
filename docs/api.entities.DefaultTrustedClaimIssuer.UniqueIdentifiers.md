@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/DefaultTrustedClaimIssuer.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DefaultTrustedClaimIssuer.ts#L15)
+[api/entities/DefaultTrustedClaimIssuer.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DefaultTrustedClaimIssuer.ts#L15)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/DefaultTrustedClaimIssuer.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DefaultTrustedClaimIssuer.ts#L16)
+[api/entities/DefaultTrustedClaimIssuer.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DefaultTrustedClaimIssuer.ts#L16)

@@ -63,7 +63,7 @@ Asset affected by this Corporate Action
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L81)
+[api/entities/CorporateActionBase/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L81)
 
 ___
 
@@ -75,7 +75,7 @@ ticker of the currency in which dividends are being distributed
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L100)
+[api/entities/DividendDistribution/index.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L100)
 
 ___
 
@@ -91,7 +91,7 @@ date at which the Corporate Action was created
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L86)
+[api/entities/CorporateActionBase/index.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L86)
 
 ___
 
@@ -107,7 +107,7 @@ default percentage (0-100) of tax withholding for this Corporate Action
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L102)
+[api/entities/CorporateActionBase/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L102)
 
 ___
 
@@ -123,7 +123,7 @@ brief text description of the Corporate Action
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L91)
+[api/entities/CorporateActionBase/index.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L91)
 
 ___
 
@@ -135,7 +135,7 @@ date after which dividends can no longer be paid/reclaimed. A null value means t
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L116)
+[api/entities/DividendDistribution/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L116)
 
 ___
 
@@ -151,7 +151,7 @@ internal Corporate Action ID
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L76)
+[api/entities/CorporateActionBase/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L76)
 
 ___
 
@@ -164,7 +164,7 @@ maximum amount of `currency` to be distributed. Distributions are "first come, f
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L111)
+[api/entities/DividendDistribution/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L111)
 
 ___
 
@@ -176,7 +176,7 @@ Portfolio from which the dividends will be distributed
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:95](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L95)
+[api/entities/DividendDistribution/index.ts:95](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L95)
 
 ___
 
@@ -188,7 +188,7 @@ date starting from which dividends can be paid/reclaimed
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L121)
+[api/entities/DividendDistribution/index.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L121)
 
 ___
 
@@ -200,7 +200,7 @@ amount of `currency` to pay for each share held by the Asset Holders
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L105)
+[api/entities/DividendDistribution/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L105)
 
 ___
 
@@ -217,7 +217,7 @@ Asset Holder Identities related to this Corporate action. If the treatment is `E
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L97)
+[api/entities/CorporateActionBase/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L97)
 
 ___
 
@@ -234,7 +234,7 @@ percentage (0-100) of tax withholding per Identity. Any Identity not present
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L108)
+[api/entities/CorporateActionBase/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L108)
 
 ___
 
@@ -248,7 +248,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -267,10 +267,6 @@ Retrieve the Checkpoint associated with this Dividend Distribution. If the Check
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[checkpoint](../wiki/api.entities.CorporateActionBase.CorporateActionBase#checkpoint)
 
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:246](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L246)
-
 ___
 
 ### claim
@@ -279,9 +275,13 @@ ___
 
 Claim the Dividends corresponding to the signing Identity
 
-**`note`** if `currency` is indivisible, the Identity's share will be rounded down to the nearest integer (after taxes are withheld)
+**`Note`**
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [claim.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+ if `currency` is indivisible, the Identity's share will be rounded down to the nearest integer (after taxes are withheld)
+
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [claim.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -294,10 +294,6 @@ Claim the Dividends corresponding to the signing Identity
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:195](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L195)
-
 ___
 
 ### details
@@ -309,10 +305,6 @@ Retrieve details associated with this Dividend Distribution
 #### Returns
 
 `Promise`<[`DividendDistributionDetails`](../wiki/api.entities.DividendDistribution.types.DividendDistributionDetails)\>
-
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:274](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L274)
 
 ___
 
@@ -330,10 +322,6 @@ Retrieve whether the Distribution exists
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[exists](../wiki/api.entities.CorporateActionBase.CorporateActionBase#exists)
 
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:265](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L265)
-
 ___
 
 ### getParticipant
@@ -343,7 +331,9 @@ ___
 Retrieve an Identity that is entitled to dividends in this Distribution (participant),
   the amount it is entitled to and whether it has been paid or not
 
-**`note`** if the Distribution Checkpoint hasn't been created yet, the result will be null.
+**`Note`**
+
+ if the Distribution Checkpoint hasn't been created yet, the result will be null.
   This is because the Distribution participant's corresponding payment cannot be determined without a Checkpoint
 
 #### Parameters
@@ -357,10 +347,6 @@ Retrieve an Identity that is entitled to dividends in this Distribution (partici
 
 `Promise`<``null`` \| [`DistributionParticipant`](../wiki/api.entities.DividendDistribution.types.DistributionParticipant)\>
 
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:355](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L355)
-
 ___
 
 ### getParticipants
@@ -370,18 +356,18 @@ ___
 Retrieve a comprehensive list of all Identities that are entitled to dividends in this Distribution (participants),
   the amount they are entitled to and whether they have been paid or not
 
-**`note`** this request can take a lot of time with large amounts of Asset Holders
+**`Note`**
 
-**`note`** if the Distribution Checkpoint hasn't been created yet, the result will be an empty array.
+ this request can take a lot of time with large amounts of Asset Holders
+
+**`Note`**
+
+ if the Distribution Checkpoint hasn't been created yet, the result will be an empty array.
   This is because the Distribution participants cannot be determined without a Checkpoint
 
 #### Returns
 
 `Promise`<[`DistributionParticipant`](../wiki/api.entities.DividendDistribution.types.DistributionParticipant)[]\>
-
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:300](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L300)
 
 ___
 
@@ -391,9 +377,13 @@ ___
 
 Retrieve the payment history for this Distribution
 
-**`note`** uses the middleware
+**`Note`**
 
-**`note`** supports pagination
+ uses the middleware
+
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -407,10 +397,6 @@ Retrieve the payment history for this Distribution
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`DistributionPayment`](../wiki/types.DistributionPayment)\>\>
 
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:492](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L492)
-
 ___
 
 ### getWithheldTax
@@ -419,15 +405,13 @@ ___
 
 Retrieve the amount of taxes that have been withheld up to this point in this Distribution
 
-**`note`** uses the middleware
+**`Note`**
+
+ uses the middleware
 
 #### Returns
 
 `Promise`<`BigNumber`\>
-
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L457)
 
 ___
 
@@ -451,10 +435,6 @@ Determine whether this Entity is the same as another one
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[isEqual](../wiki/api.entities.CorporateActionBase.CorporateActionBase#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### linkDocuments
@@ -463,9 +443,13 @@ ___
 
 Link a list of documents to this corporate action
 
-**`note`** any previous links are removed in favor of the new list
+**`Note`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [linkDocuments.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ any previous links are removed in favor of the new list
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [linkDocuments.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -483,10 +467,6 @@ Link a list of documents to this corporate action
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[linkDocuments](../wiki/api.entities.CorporateActionBase.CorporateActionBase#linkdocuments)
 
-#### Defined in
-
-[api/entities/CorporateActionBase/index.ts:156](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L156)
-
 ___
 
 ### modifyCheckpoint
@@ -495,7 +475,9 @@ ___
 
 Modify the Distribution's Checkpoint
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modifyCheckpoint.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modifyCheckpoint.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -513,10 +495,6 @@ Modify the Distribution's Checkpoint
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[modifyCheckpoint](../wiki/api.entities.CorporateActionBase.CorporateActionBase#modifycheckpoint)
 
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:205](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L205)
-
 ___
 
 ### pay
@@ -525,11 +503,17 @@ ___
 
 Transfer the corresponding share of the dividends to a list of Identities
 
-**`note`** due to performance issues, we do not validate that the distribution has enough remaining funds to pay the corresponding amount to the supplied Identities
+**`Note`**
 
-**`note`** if `currency` is indivisible, the Identity's share will be rounded down to the nearest integer (after taxes are withheld)
+ due to performance issues, we do not validate that the distribution has enough remaining funds to pay the corresponding amount to the supplied Identities
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [pay.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ if `currency` is indivisible, the Identity's share will be rounded down to the nearest integer (after taxes are withheld)
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [pay.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -543,10 +527,6 @@ Transfer the corresponding share of the dividends to a list of Identities
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:223](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L223)
-
 ___
 
 ### reclaimFunds
@@ -555,12 +535,18 @@ ___
 
 Reclaim any remaining funds back to the origin Portfolio. This can only be done after the Distribution has expired
 
-**`note`** withheld taxes are also reclaimed in the same transaction
+**`Note`**
 
-**`note`** required roles:
+ withheld taxes are also reclaimed in the same transaction
+
+**`Note`**
+
+ required roles:
   - Origin Portfolio Custodian
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [reclaimFunds.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [reclaimFunds.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -572,10 +558,6 @@ Reclaim any remaining funds back to the origin Portfolio. This can only be done 
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:238](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L238)
 
 ___
 
@@ -592,10 +574,6 @@ Return the Dividend Distribution's static data
 #### Overrides
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[toHuman](../wiki/api.entities.CorporateActionBase.CorporateActionBase#tohuman)
-
-#### Defined in
-
-[api/entities/DividendDistribution/index.ts:622](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L622)
 
 ___
 
@@ -625,10 +603,6 @@ Generate the Entity's UUID from its identifying properties
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[generateUuid](../wiki/api.entities.CorporateActionBase.CorporateActionBase#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -656,7 +630,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [CorporateActionBase](../wiki/api.entities.CorporateActionBase.CorporateActionBase).[unserialize](../wiki/api.entities.CorporateActionBase.CorporateActionBase#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

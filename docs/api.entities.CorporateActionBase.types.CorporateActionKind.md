@@ -16,48 +16,48 @@
 
 ### IssuerNotice
 
-• **IssuerNotice**
+• **IssuerNotice** = ``"IssuerNotice"``
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L38)
+[api/entities/CorporateActionBase/types.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L38)
 
 ___
 
 ### Other
 
-• **Other**
+• **Other** = ``"Other"``
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L40)
+[api/entities/CorporateActionBase/types.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L40)
 
 ___
 
 ### PredictableBenefit
 
-• **PredictableBenefit**
+• **PredictableBenefit** = ``"PredictableBenefit"``
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L36)
+[api/entities/CorporateActionBase/types.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L36)
 
 ___
 
 ### Reorganization
 
-• **Reorganization**
+• **Reorganization** = ``"Reorganization"``
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L39)
+[api/entities/CorporateActionBase/types.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L39)
 
 ___
 
 ### UnpredictableBenefit
 
-• **UnpredictableBenefit**
+• **UnpredictableBenefit** = ``"UnpredictableBenefit"``
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L37)
+[api/entities/CorporateActionBase/types.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L37)

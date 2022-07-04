@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[api/entities/Offering/types.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L63)
+[api/entities/Offering/types.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Offering/types.ts#L63)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[api/entities/Offering/types.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L64)
+[api/entities/Offering/types.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Offering/types.ts#L64)

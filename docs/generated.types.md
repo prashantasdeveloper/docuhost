@@ -66,7 +66,7 @@
 
 #### Defined in
 
-[generated/types.ts:766](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L766)
+[generated/types.ts:766](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L766)
 
 ## Variables
 
@@ -124,4 +124,4 @@
 
 #### Defined in
 
-[generated/types.ts:812](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L812)
+[generated/types.ts:812](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L812)

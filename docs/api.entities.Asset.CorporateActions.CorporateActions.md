@@ -33,7 +33,7 @@ Handles all Asset Corporate Actions related functionality
 
 #### Defined in
 
-[api/entities/Asset/CorporateActions/index.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/index.ts#L38)
+[api/entities/Asset/CorporateActions/index.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/CorporateActions/index.ts#L38)
 
 ## Methods
 
@@ -47,10 +47,6 @@ Retrieve a list of agent Identities
 
 `Promise`<[`Identity`](../wiki/api.entities.Identity.Identity)[]\>
 
-#### Defined in
-
-[api/entities/Asset/CorporateActions/index.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/index.ts#L128)
-
 ___
 
 ### getDefaultConfig
@@ -59,17 +55,15 @@ ___
 
 Retrieve default config comprising of targets, global tax withholding percentage and per-Identity tax withholding percentages.
 
-**`note`** This config is applied to every Corporate Action that is created until they are modified. Modifying the default config
+**`Note`**
+
+ This config is applied to every Corporate Action that is created until they are modified. Modifying the default config
   does not impact existing Corporate Actions.
   When creating a Corporate Action, values passed explicitly will override this default config
 
 #### Returns
 
 `Promise`<[`CorporateActionDefaultConfig`](../wiki/api.entities.Asset.CorporateActions.types.CorporateActionDefaultConfig)\>
-
-#### Defined in
-
-[api/entities/Asset/CorporateActions/index.ts:163](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/index.ts#L163)
 
 ___
 
@@ -79,7 +73,9 @@ ___
 
 Remove a Corporate Action
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -93,10 +89,6 @@ Remove a Corporate Action
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/CorporateActions/index.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/index.ts#L121)
-
 ___
 
 ### removeAgent
@@ -105,11 +97,17 @@ ___
 
 Remove the Corporate Actions Agent of the Asset
 
-**`note`** this action will leave the Asset owner as the Corporate Actions Agent
+**`Note`**
 
-**`deprecated`**
+ this action will leave the Asset owner as the Corporate Actions Agent
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [removeAgent.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Deprecated`**
+
+ 
+
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [removeAgent.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -122,10 +120,6 @@ Remove the Corporate Actions Agent of the Asset
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/CorporateActions/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/index.ts#L111)
-
 ___
 
 ### setAgent
@@ -134,13 +128,19 @@ ___
 
 Assign a new Corporate Actions Agent for the Asset
 
-**`note`** this may create [Authorization Requests](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which have to be accepted by the `target` Identity.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`deprecated`** in favor of `inviteAgent`
+ this may create AuthorizationRequest | Authorization Requests which have to be accepted by the `target` Identity.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Deprecated`**
+
+ in favor of `inviteAgent`
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -154,10 +154,6 @@ Assign a new Corporate Actions Agent for the Asset
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/CorporateActions/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/index.ts#L97)
-
 ___
 
 ### setDefaultConfig
@@ -166,11 +162,15 @@ ___
 
 Assign default config values(targets, global tax withholding percentage and per-Identity tax withholding percentages)
 
-**`note`** These config values are applied to every Corporate Action that is created until they are modified. Modifying these values
+**`Note`**
+
+ These config values are applied to every Corporate Action that is created until they are modified. Modifying these values
   does not impact existing Corporate Actions.
   When creating a Corporate Action, values passed explicitly will override these default config values
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setDefaultConfig.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setDefaultConfig.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -183,7 +183,3 @@ Assign default config values(targets, global tax withholding percentage and per-
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/CorporateActions/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/index.ts#L81)

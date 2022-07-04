@@ -13,18 +13,18 @@
 
 ### ClaimItnReward
 
-• **ClaimItnReward**
+• **ClaimItnReward** = ``"rewards.claimItnReward"``
 
 #### Defined in
 
-[generated/types.ts:684](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L684)
+[generated/types.ts:684](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L684)
 
 ___
 
 ### SetItnRewardStatus
 
-• **SetItnRewardStatus**
+• **SetItnRewardStatus** = ``"rewards.setItnRewardStatus"``
 
 #### Defined in
 
-[generated/types.ts:685](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L685)
+[generated/types.ts:685](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L685)

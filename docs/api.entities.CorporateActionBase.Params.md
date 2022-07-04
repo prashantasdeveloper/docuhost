@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L51)
+[api/entities/CorporateActionBase/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L51)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L54)
+[api/entities/CorporateActionBase/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L54)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L52)
+[api/entities/CorporateActionBase/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L52)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L50)
+[api/entities/CorporateActionBase/index.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L50)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L53)
+[api/entities/CorporateActionBase/index.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L53)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/index.ts#L55)
+[api/entities/CorporateActionBase/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/index.ts#L55)

@@ -22,7 +22,9 @@ Handles all Settlement related functionality
 
 Create an Instruction to exchange Assets
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInstruction.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInstruction.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -36,10 +38,6 @@ Create an Instruction to exchange Assets
 
 `Promise`<`TransactionQueue`<[`Instruction`](../wiki/api.entities.Instruction.Instruction)[], [`Instruction`](../wiki/api.entities.Instruction.Instruction), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/Settlements.ts:122](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Settlements.ts#L122)
-
 ___
 
 ### affirmInstruction
@@ -48,7 +46,9 @@ ___
 
 Affirm an Instruction (authorize)
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [affirmInstruction.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [affirmInstruction.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -62,10 +62,6 @@ Affirm an Instruction (authorize)
 
 `Promise`<`TransactionQueue`<[`Instruction`](../wiki/api.entities.Instruction.Instruction), [`Instruction`](../wiki/api.entities.Instruction.Instruction), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/Settlements.ts:132](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Settlements.ts#L132)
-
 ___
 
 ### createVenue
@@ -74,7 +70,9 @@ ___
 
 Create a Venue under the ownership of the signing Identity
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createVenue.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createVenue.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -87,10 +85,6 @@ Create a Venue under the ownership of the signing Identity
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Venue`](../wiki/api.entities.Venue.Venue), [`Venue`](../wiki/api.entities.Venue.Venue), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/Settlements.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Settlements.ts#L112)
 
 ___
 
@@ -111,10 +105,6 @@ Retrieve an Instruction by its ID
 
 `Promise`<[`Instruction`](../wiki/api.entities.Instruction.Instruction)\>
 
-#### Defined in
-
-[api/client/Settlements.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Settlements.ts#L90)
-
 ___
 
 ### getVenue
@@ -133,7 +123,3 @@ Retrieve a Venue by its ID
 #### Returns
 
 `Promise`<[`Venue`](../wiki/api.entities.Venue.Venue)\>
-
-#### Defined in
-
-[api/client/Settlements.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Settlements.ts#L69)

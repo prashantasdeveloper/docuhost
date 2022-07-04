@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L24)
+[api/entities/CorporateAction.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L24)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L27)
+[api/entities/CorporateAction.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L27)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L25)
+[api/entities/CorporateAction.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L25)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L22)
+[api/entities/CorporateAction.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L22)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L26)
+[api/entities/CorporateAction.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L26)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L28)
+[api/entities/CorporateAction.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L28)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateAction.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateAction.ts#L23)
+[api/entities/CorporateAction.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateAction.ts#L23)

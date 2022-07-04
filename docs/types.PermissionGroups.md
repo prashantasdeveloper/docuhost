@@ -19,7 +19,7 @@ All Permission Groups of a specific Asset, separated by `known` and `custom`
 
 #### Defined in
 
-[types/index.ts:955](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L955)
+[types/index.ts:955](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L955)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:954](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L954)
+[types/index.ts:954](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L954)

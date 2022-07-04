@@ -33,7 +33,9 @@ Handles all Authorization related functionality
 
 Retrieve a single Authorization Request targeting this Signer by its ID
 
-**`throws`** if there is no Authorization Request with the passed ID targeting this Signer
+**`Throws`**
+
+ if there is no Authorization Request with the passed ID targeting this Signer
 
 #### Parameters
 
@@ -45,10 +47,6 @@ Retrieve a single Authorization Request targeting this Signer by its ID
 #### Returns
 
 `Promise`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest)\>
-
-#### Defined in
-
-[api/entities/common/namespaces/Authorizations.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/common/namespaces/Authorizations.ts#L65)
 
 ___
 
@@ -69,7 +67,3 @@ Fetch all pending Authorization Requests for which this Signer is the target
 #### Returns
 
 `Promise`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest)[]\>
-
-#### Defined in
-
-[api/entities/common/namespaces/Authorizations.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/common/namespaces/Authorizations.ts#L29)

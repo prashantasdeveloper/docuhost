@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/procedures/types.ts:775](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L775)
+[api/procedures/types.ts:775](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L775)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:774](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L774)
+[api/procedures/types.ts:774](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L774)

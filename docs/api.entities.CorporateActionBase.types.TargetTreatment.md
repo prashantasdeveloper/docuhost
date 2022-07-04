@@ -13,18 +13,18 @@
 
 ### Exclude
 
-• **Exclude**
+• **Exclude** = ``"Exclude"``
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L8)
+[api/entities/CorporateActionBase/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L8)
 
 ___
 
 ### Include
 
-• **Include**
+• **Include** = ``"Include"``
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L7)
+[api/entities/CorporateActionBase/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L7)

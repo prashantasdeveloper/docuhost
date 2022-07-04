@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[types/index.ts:1249](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1249)
+[types/index.ts:1249](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1249)
 
 ___
 
@@ -33,7 +33,9 @@ ___
 
 array of Scope/Identity IDs that are exempted from the Restriction
 
-**`note`** if the Asset requires investor uniqueness, Scope IDs are used. Otherwise, we use Identity IDs. More on Scope IDs and investor uniqueness
+**`Note`**
+
+ if the Asset requires investor uniqueness, Scope IDs are used. Otherwise, we use Identity IDs. More on Scope IDs and investor uniqueness
   [here](https://developers.polymesh.network/introduction/identity#polymesh-unique-identity-system-puis) and
   [here](https://developers.polymesh.network/polymesh-docs/primitives/confidential-identity)
 
@@ -43,4 +45,4 @@ TransferRestrictionBase.exemptedIds
 
 #### Defined in
 
-[types/index.ts:1245](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1245)
+[types/index.ts:1245](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1245)

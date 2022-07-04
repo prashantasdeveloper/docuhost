@@ -16,48 +16,48 @@
 
 ### Claim
 
-• **Claim**
+• **Claim** = ``"indices.claim"``
 
 #### Defined in
 
-[generated/types.ts:280](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L280)
+[generated/types.ts:280](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L280)
 
 ___
 
 ### ForceTransfer
 
-• **ForceTransfer**
+• **ForceTransfer** = ``"indices.forceTransfer"``
 
 #### Defined in
 
-[generated/types.ts:283](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L283)
+[generated/types.ts:283](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L283)
 
 ___
 
 ### Free
 
-• **Free**
+• **Free** = ``"indices.free"``
 
 #### Defined in
 
-[generated/types.ts:282](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L282)
+[generated/types.ts:282](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L282)
 
 ___
 
 ### Freeze
 
-• **Freeze**
+• **Freeze** = ``"indices.freeze"``
 
 #### Defined in
 
-[generated/types.ts:284](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L284)
+[generated/types.ts:284](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L284)
 
 ___
 
 ### Transfer
 
-• **Transfer**
+• **Transfer** = ``"indices.transfer"``
 
 #### Defined in
 
-[generated/types.ts:281](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L281)
+[generated/types.ts:281](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L281)

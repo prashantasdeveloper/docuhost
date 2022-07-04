@@ -25,7 +25,7 @@ Assets over which this key has permissions
 
 #### Defined in
 
-[types/index.ts:928](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L928)
+[types/index.ts:928](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L928)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:942](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L942)
+[types/index.ts:942](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L942)
 
 ___
 
@@ -51,7 +51,7 @@ NOTE: If transactions is null, ignore this value
 
 #### Defined in
 
-[types/index.ts:940](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L940)
+[types/index.ts:940](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L940)
 
 ___
 
@@ -63,4 +63,4 @@ Transactions this key can execute
 
 #### Defined in
 
-[types/index.ts:932](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L932)
+[types/index.ts:932](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L932)

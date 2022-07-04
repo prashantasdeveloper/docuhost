@@ -14,28 +14,28 @@
 
 ### NoteStalled
 
-• **NoteStalled**
+• **NoteStalled** = ``"grandpa.noteStalled"``
 
 #### Defined in
 
-[generated/types.ts:479](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L479)
+[generated/types.ts:479](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L479)
 
 ___
 
 ### ReportEquivocation
 
-• **ReportEquivocation**
+• **ReportEquivocation** = ``"grandpa.reportEquivocation"``
 
 #### Defined in
 
-[generated/types.ts:477](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L477)
+[generated/types.ts:477](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L477)
 
 ___
 
 ### ReportEquivocationUnsigned
 
-• **ReportEquivocationUnsigned**
+• **ReportEquivocationUnsigned** = ``"grandpa.reportEquivocationUnsigned"``
 
 #### Defined in
 
-[generated/types.ts:478](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L478)
+[generated/types.ts:478](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L478)

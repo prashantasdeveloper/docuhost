@@ -45,7 +45,7 @@ Polymesh-specific address of the Account. Serves as an identifier
 
 #### Defined in
 
-[api/entities/Account.ts:251](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L251)
+[api/entities/Account.ts:251](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Account.ts#L251)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[api/entities/Account.ts:260](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L260)
+[api/entities/Account.ts:260](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Account.ts#L260)
 
 ___
 
@@ -68,7 +68,7 @@ Substrate chains, while the address depends on the chain as well.
 
 #### Defined in
 
-[api/entities/Account.ts:257](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L257)
+[api/entities/Account.ts:257](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Account.ts#L257)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -104,10 +104,6 @@ Check if this Account possesses certain Permissions to act on behalf of its corr
 
 which permissions the Account is missing (if any) and the final result
 
-#### Defined in
-
-[api/entities/Account.ts:531](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L531)
-
 ___
 
 ### exists
@@ -124,10 +120,6 @@ Determine whether this Account exists on chain
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
 
-#### Defined in
-
-[api/entities/Account.ts:597](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L597)
-
 ___
 
 ### getBalance
@@ -136,15 +128,13 @@ ___
 
 Get the free/locked POLYX balance of the Account
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<[`Balance`](../wiki/types.Balance)\>
-
-#### Defined in
-
-[api/entities/Account.ts:282](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L282)
 
 ▸ **getBalance**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -158,10 +148,6 @@ Get the free/locked POLYX balance of the Account
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/entities/Account.ts:283](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L283)
-
 ___
 
 ### getIdentity
@@ -174,10 +160,6 @@ Retrieve the Identity associated to this Account (null if there is none)
 
 `Promise`<``null`` \| [`Identity`](../wiki/api.entities.Identity.Identity)\>
 
-#### Defined in
-
-[api/entities/Account.ts:323](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L323)
-
 ___
 
 ### getPermissions
@@ -186,15 +168,13 @@ ___
 
 Retrieve the Permissions this Account has as a Permissioned Account for its corresponding Identity
 
-**`throws`** if there is no Identity associated with the Account
+**`Throws`**
+
+ if there is no Identity associated with the Account
 
 #### Returns
 
 `Promise`<[`Permissions`](../wiki/types.Permissions)\>
-
-#### Defined in
-
-[api/entities/Account.ts:490](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L490)
 
 ___
 
@@ -205,15 +185,13 @@ ___
 Get the subsidized balance of this Account and the subsidizer Account. If
   this Account isn't being subsidized, return null
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<``null`` \| [`SubsidyWithAllowance`](../wiki/api.entities.Subsidy.types.SubsidyWithAllowance)\>
-
-#### Defined in
-
-[api/entities/Account.ts:304](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L304)
 
 ▸ **getSubsidy**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -227,10 +205,6 @@ Get the subsidized balance of this Account and the subsidizer Account. If
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/entities/Account.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L305)
-
 ___
 
 ### getTransactionHistory
@@ -239,9 +213,13 @@ ___
 
 Retrieve a list of transactions signed by this Account. Can be filtered using parameters
 
-**`note`** if both `blockNumber` and `blockHash` are passed, only `blockNumber` is taken into account
+**`Note`**
 
-**`note`** uses the middleware
+ if both `blockNumber` and `blockHash` are passed, only `blockNumber` is taken into account
+
+**`Note`**
+
+ uses the middleware
 
 #### Parameters
 
@@ -260,10 +238,6 @@ Retrieve a list of transactions signed by this Account. Can be filtered using pa
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`ExtrinsicData`](../wiki/types.ExtrinsicData)\>\>
 
-#### Defined in
-
-[api/entities/Account.ts:368](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L368)
-
 ___
 
 ### hasPermissions
@@ -272,7 +246,9 @@ ___
 
 Check if this Account possesses certain Permissions to act on behalf of its corresponding Identity
 
-**`deprecated`** in favor of `checkPermissions`
+**`Deprecated`**
+
+ in favor of `checkPermissions`
 
 #### Parameters
 
@@ -283,10 +259,6 @@ Check if this Account possesses certain Permissions to act on behalf of its corr
 #### Returns
 
 `Promise`<`boolean`\>
-
-#### Defined in
-
-[api/entities/Account.ts:588](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L588)
 
 ___
 
@@ -310,10 +282,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### isFrozen
@@ -322,15 +290,13 @@ ___
 
 Check whether this Account is frozen. If frozen, it cannot perform any Identity related action until the primary Account of the Identity unfreezes all secondary Accounts
 
-**`note`** returns false if the Account isn't associated to any Identity
+**`Note`**
+
+ returns false if the Account isn't associated to any Identity
 
 #### Returns
 
 `Promise`<`boolean`\>
-
-#### Defined in
-
-[api/entities/Account.ts:469](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L469)
 
 ___
 
@@ -347,10 +313,6 @@ Return the Account's address
 #### Overrides
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
-
-#### Defined in
-
-[api/entities/Account.ts:604](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Account.ts#L604)
 
 ___
 
@@ -380,10 +342,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -411,7 +369,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

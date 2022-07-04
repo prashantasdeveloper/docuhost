@@ -47,7 +47,7 @@ Identity of the Portfolio's owner
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L80)
+[api/entities/Portfolio/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Portfolio/index.ts#L80)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -78,10 +78,6 @@ Determine whether this Entity exists on chain
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
-
-#### Defined in
-
-[api/entities/Entity.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L68)
 
 ___
 
@@ -102,10 +98,6 @@ Retrieve the balances of all Assets in this Portfolio
 
 `Promise`<[`PortfolioBalance`](../wiki/api.entities.Portfolio.types.PortfolioBalance)[]\>
 
-#### Defined in
-
-[api/entities/Portfolio/index.ts:146](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L146)
-
 ___
 
 ### getCustodian
@@ -114,15 +106,13 @@ ___
 
 Retrieve the custodian Identity of this Portfolio
 
-**`note`** if no custodian is set, the owner Identity is returned
+**`Note`**
+
+ if no custodian is set, the owner Identity is returned
 
 #### Returns
 
 `Promise`<[`Identity`](../wiki/api.entities.Identity.Identity)\>
-
-#### Defined in
-
-[api/entities/Portfolio/index.ts:276](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L276)
 
 ___
 
@@ -132,9 +122,13 @@ ___
 
 Retrieve a list of transactions where this portfolio was involved. Can be filtered using parameters
 
-**`note`** supports pagination
+**`Note`**
 
-**`note`** uses the middleware
+ supports pagination
+
+**`Note`**
+
+ uses the middleware
 
 #### Parameters
 
@@ -149,10 +143,6 @@ Retrieve a list of transactions where this portfolio was involved. Can be filter
 #### Returns
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`HistoricSettlement`](../wiki/api.entities.Portfolio.types.HistoricSettlement)\>\>
-
-#### Defined in
-
-[api/entities/Portfolio/index.ts:321](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L321)
 
 ___
 
@@ -172,10 +162,6 @@ Return whether an Identity is the Portfolio custodian
 #### Returns
 
 `Promise`<`boolean`\>
-
-#### Defined in
-
-[api/entities/Portfolio/index.ts:130](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L130)
 
 ___
 
@@ -199,10 +185,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### isOwnedBy
@@ -222,10 +204,6 @@ Return whether an Identity is the Portfolio owner
 
 `Promise`<`boolean`\>
 
-#### Defined in
-
-[api/entities/Portfolio/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L117)
-
 ___
 
 ### moveFunds
@@ -234,10 +212,14 @@ ___
 
 Moves funds from this Portfolio to another one owned by the same Identity
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [moveFunds.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [moveFunds.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -251,10 +233,6 @@ Moves funds from this Portfolio to another one owned by the same Identity
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Portfolio/index.ts:254](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L254)
-
 ___
 
 ### quitCustody
@@ -263,10 +241,14 @@ ___
 
 Returns the custody of the portfolio to the portfolio owner unilaterally
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Portfolio Custodian
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [quitCustody.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [quitCustody.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -279,10 +261,6 @@ Returns the custody of the portfolio to the portfolio owner unilaterally
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Portfolio/index.ts:267](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L267)
-
 ___
 
 ### setCustodian
@@ -291,14 +269,20 @@ ___
 
 Send an invitation to an Identity to assign it as custodian for this Portfolio
 
-**`note`** this will create an [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `targetIdentity`.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`note`** required role:
+ this will create an AuthorizationRequest | Authorization Request which has to be accepted by the `targetIdentity`.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+
+**`Note`**
+
+ required role:
   - Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setCustodian.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setCustodian.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -311,10 +295,6 @@ Send an invitation to an Identity to assign it as custodian for this Portfolio
 #### Returns
 
 `Promise`<`TransactionQueue`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), [`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Portfolio/index.ts:241](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L241)
 
 ___
 
@@ -331,10 +311,6 @@ Return the Portfolio ID and owner DID
 #### Overrides
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
-
-#### Defined in
-
-[api/entities/Portfolio/index.ts:418](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L418)
 
 ___
 
@@ -364,10 +340,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -395,7 +367,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

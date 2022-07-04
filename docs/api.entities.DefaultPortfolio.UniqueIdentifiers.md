@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[api/entities/DefaultPortfolio.ts:4](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DefaultPortfolio.ts#L4)
+[api/entities/DefaultPortfolio.ts:4](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DefaultPortfolio.ts#L4)

@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[api/entities/Instruction/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Instruction/index.ts#L52)
+[api/entities/Instruction/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Instruction/index.ts#L52)

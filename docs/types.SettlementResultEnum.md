@@ -15,38 +15,38 @@
 
 ### Executed
 
-• **Executed**
+• **Executed** = ``"Executed"``
 
 #### Defined in
 
-[middleware/types.ts:1624](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1624)
+[middleware/types.ts:1624](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1624)
 
 ___
 
 ### Failed
 
-• **Failed**
+• **Failed** = ``"Failed"``
 
 #### Defined in
 
-[middleware/types.ts:1625](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1625)
+[middleware/types.ts:1625](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1625)
 
 ___
 
 ### None
 
-• **None**
+• **None** = ``"None"``
 
 #### Defined in
 
-[middleware/types.ts:1623](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1623)
+[middleware/types.ts:1623](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1623)
 
 ___
 
 ### Rejected
 
-• **Rejected**
+• **Rejected** = ``"Rejected"``
 
 #### Defined in
 
-[middleware/types.ts:1626](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1626)
+[middleware/types.ts:1626](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1626)

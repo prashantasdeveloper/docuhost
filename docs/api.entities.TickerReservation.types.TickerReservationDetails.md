@@ -20,7 +20,7 @@ date at which the reservation expires, null if it never expires (permanent reser
 
 #### Defined in
 
-[api/entities/TickerReservation/types.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/types.ts#L26)
+[api/entities/TickerReservation/types.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/TickerReservation/types.ts#L26)
 
 ___
 
@@ -32,7 +32,7 @@ Identity ID of the owner of the ticker, null if it hasn't been reserved
 
 #### Defined in
 
-[api/entities/TickerReservation/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/types.ts#L22)
+[api/entities/TickerReservation/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/TickerReservation/types.ts#L22)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[api/entities/TickerReservation/types.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/types.ts#L27)
+[api/entities/TickerReservation/types.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/TickerReservation/types.ts#L27)

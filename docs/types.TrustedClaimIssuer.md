@@ -6,7 +6,7 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `IsDefault` | extends `boolean` = ``false`` | whether the Identity is a default trusted claim issuer for an asset or just   for a specific compliance condition. Defaults to false |
+| `IsDefault` | extends `boolean` = ``false`` |  |
 
 ## Table of contents
 
@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[types/index.ts:363](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L363)
+[types/index.ts:363](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L363)
 
 ___
 
@@ -35,4 +35,4 @@ a null value means that the issuer is trusted for all claim types
 
 #### Defined in
 
-[types/index.ts:367](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L367)
+[types/index.ts:367](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L367)

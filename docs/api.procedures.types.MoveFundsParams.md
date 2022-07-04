@@ -19,7 +19,7 @@ list of Assets (and the corresponding token amounts) that will be moved
 
 #### Defined in
 
-[api/procedures/types.ts:786](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L786)
+[api/procedures/types.ts:786](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L786)
 
 ___
 
@@ -31,4 +31,4 @@ portfolio (or portfolio ID) that will receive the funds. Optional, if no value i
 
 #### Defined in
 
-[api/procedures/types.ts:782](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L782)
+[api/procedures/types.ts:782](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L782)

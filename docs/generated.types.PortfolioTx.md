@@ -17,58 +17,58 @@
 
 ### AcceptPortfolioCustody
 
-• **AcceptPortfolioCustody**
+• **AcceptPortfolioCustody** = ``"portfolio.acceptPortfolioCustody"``
 
 #### Defined in
 
-[generated/types.ts:594](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L594)
+[generated/types.ts:594](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L594)
 
 ___
 
 ### CreatePortfolio
 
-• **CreatePortfolio**
+• **CreatePortfolio** = ``"portfolio.createPortfolio"``
 
 #### Defined in
 
-[generated/types.ts:589](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L589)
+[generated/types.ts:589](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L589)
 
 ___
 
 ### DeletePortfolio
 
-• **DeletePortfolio**
+• **DeletePortfolio** = ``"portfolio.deletePortfolio"``
 
 #### Defined in
 
-[generated/types.ts:590](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L590)
+[generated/types.ts:590](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L590)
 
 ___
 
 ### MovePortfolioFunds
 
-• **MovePortfolioFunds**
+• **MovePortfolioFunds** = ``"portfolio.movePortfolioFunds"``
 
 #### Defined in
 
-[generated/types.ts:591](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L591)
+[generated/types.ts:591](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L591)
 
 ___
 
 ### QuitPortfolioCustody
 
-• **QuitPortfolioCustody**
+• **QuitPortfolioCustody** = ``"portfolio.quitPortfolioCustody"``
 
 #### Defined in
 
-[generated/types.ts:593](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L593)
+[generated/types.ts:593](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L593)
 
 ___
 
 ### RenamePortfolio
 
-• **RenamePortfolio**
+• **RenamePortfolio** = ``"portfolio.renamePortfolio"``
 
 #### Defined in
 
-[generated/types.ts:592](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L592)
+[generated/types.ts:592](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L592)

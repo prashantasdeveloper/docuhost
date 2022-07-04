@@ -28,7 +28,9 @@ Handles all Network related functionality, including querying for historical eve
 
 Retrieve a single event by any of its indexed arguments. Can be filtered using parameters
 
-**`note`** uses the middleware
+**`Note`**
+
+ uses the middleware
 
 #### Parameters
 
@@ -45,10 +47,6 @@ Retrieve a single event by any of its indexed arguments. Can be filtered using p
 
 `Promise`<``null`` \| [`EventIdentifier`](../wiki/types.EventIdentifier)\>
 
-#### Defined in
-
-[api/client/Network.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L159)
-
 ___
 
 ### getEventsByIndexedArgs
@@ -57,7 +55,9 @@ ___
 
 Retrieve a list of events. Can be filtered using parameters
 
-**`note`** uses the middleware
+**`Note`**
+
+ uses the middleware
 
 #### Parameters
 
@@ -76,10 +76,6 @@ Retrieve a list of events. Can be filtered using parameters
 
 `Promise`<``null`` \| [`EventIdentifier`](../wiki/types.EventIdentifier)[]\>
 
-#### Defined in
-
-[api/client/Network.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L198)
-
 ___
 
 ### getLatestBlock
@@ -92,10 +88,6 @@ Retrieve the number of the latest block in the chain
 
 `Promise`<`BigNumber`\>
 
-#### Defined in
-
-[api/client/Network.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L53)
-
 ___
 
 ### getNetworkProperties
@@ -107,10 +99,6 @@ Retrieve information for the current network
 #### Returns
 
 `Promise`<[`NetworkProperties`](../wiki/types.NetworkProperties)\>
-
-#### Defined in
-
-[api/client/Network.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L74)
 
 ___
 
@@ -131,10 +119,6 @@ Retrieve the protocol fees associated with running specific transactions
 
 `Promise`<[`ProtocolFees`](../wiki/types.ProtocolFees)[]\>
 
-#### Defined in
-
-[api/client/Network.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L98)
-
 ___
 
 ### getSs58Format
@@ -147,10 +131,6 @@ Retrieve the chain's SS58 format
 
 `BigNumber`
 
-#### Defined in
-
-[api/client/Network.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L67)
-
 ___
 
 ### getTransactionByHash
@@ -159,7 +139,9 @@ ___
 
 Retrieve a transaction by hash
 
-**`note`** uses the middleware
+**`Note`**
+
+ uses the middleware
 
 #### Parameters
 
@@ -171,10 +153,6 @@ Retrieve a transaction by hash
 #### Returns
 
 `Promise`<``null`` \| [`ExtrinsicDataWithFees`](../wiki/types.ExtrinsicDataWithFees)\>
-
-#### Defined in
-
-[api/client/Network.ts:242](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L242)
 
 ___
 
@@ -188,10 +166,6 @@ Get the treasury wallet address
 
 [`Account`](../wiki/api.entities.Account.Account)
 
-#### Defined in
-
-[api/client/Network.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L105)
-
 ___
 
 ### getTreasuryBalance
@@ -200,15 +174,13 @@ ___
 
 Get the Treasury POLYX balance
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<`BigNumber`\>
-
-#### Defined in
-
-[api/client/Network.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L118)
 
 ▸ **getTreasuryBalance**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -222,10 +194,6 @@ Get the Treasury POLYX balance
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/client/Network.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L119)
-
 ___
 
 ### getVersion
@@ -238,10 +206,6 @@ Fetch the current network version (i.e. 3.1.0)
 
 `Promise`<`string`\>
 
-#### Defined in
-
-[api/client/Network.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L60)
-
 ___
 
 ### transferPolyx
@@ -250,7 +214,9 @@ ___
 
 Transfer an amount of POLYX to a specified Account
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [transferPolyx.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [transferPolyx.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -263,7 +229,3 @@ Transfer an amount of POLYX to a specified Account
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/Network.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Network.ts#L144)

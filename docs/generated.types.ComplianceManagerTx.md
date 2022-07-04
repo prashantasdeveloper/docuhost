@@ -20,88 +20,88 @@
 
 ### AddComplianceRequirement
 
-• **AddComplianceRequirement**
+• **AddComplianceRequirement** = ``"complianceManager.addComplianceRequirement"``
 
 #### Defined in
 
-[generated/types.ts:536](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L536)
+[generated/types.ts:536](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L536)
 
 ___
 
 ### AddDefaultTrustedClaimIssuer
 
-• **AddDefaultTrustedClaimIssuer**
+• **AddDefaultTrustedClaimIssuer** = ``"complianceManager.addDefaultTrustedClaimIssuer"``
 
 #### Defined in
 
-[generated/types.ts:542](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L542)
+[generated/types.ts:542](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L542)
 
 ___
 
 ### ChangeComplianceRequirement
 
-• **ChangeComplianceRequirement**
+• **ChangeComplianceRequirement** = ``"complianceManager.changeComplianceRequirement"``
 
 #### Defined in
 
-[generated/types.ts:544](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L544)
+[generated/types.ts:544](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L544)
 
 ___
 
 ### PauseAssetCompliance
 
-• **PauseAssetCompliance**
+• **PauseAssetCompliance** = ``"complianceManager.pauseAssetCompliance"``
 
 #### Defined in
 
-[generated/types.ts:540](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L540)
+[generated/types.ts:540](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L540)
 
 ___
 
 ### RemoveComplianceRequirement
 
-• **RemoveComplianceRequirement**
+• **RemoveComplianceRequirement** = ``"complianceManager.removeComplianceRequirement"``
 
 #### Defined in
 
-[generated/types.ts:537](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L537)
+[generated/types.ts:537](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L537)
 
 ___
 
 ### RemoveDefaultTrustedClaimIssuer
 
-• **RemoveDefaultTrustedClaimIssuer**
+• **RemoveDefaultTrustedClaimIssuer** = ``"complianceManager.removeDefaultTrustedClaimIssuer"``
 
 #### Defined in
 
-[generated/types.ts:543](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L543)
+[generated/types.ts:543](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L543)
 
 ___
 
 ### ReplaceAssetCompliance
 
-• **ReplaceAssetCompliance**
+• **ReplaceAssetCompliance** = ``"complianceManager.replaceAssetCompliance"``
 
 #### Defined in
 
-[generated/types.ts:538](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L538)
+[generated/types.ts:538](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L538)
 
 ___
 
 ### ResetAssetCompliance
 
-• **ResetAssetCompliance**
+• **ResetAssetCompliance** = ``"complianceManager.resetAssetCompliance"``
 
 #### Defined in
 
-[generated/types.ts:539](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L539)
+[generated/types.ts:539](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L539)
 
 ___
 
 ### ResumeAssetCompliance
 
-• **ResumeAssetCompliance**
+• **ResumeAssetCompliance** = ``"complianceManager.resumeAssetCompliance"``
 
 #### Defined in
 
-[generated/types.ts:541](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L541)
+[generated/types.ts:541](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L541)

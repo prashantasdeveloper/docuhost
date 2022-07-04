@@ -43,318 +43,318 @@
 
 ### AddPermissionedValidator
 
-• **AddPermissionedValidator**
+• **AddPermissionedValidator** = ``"staking.addPermissionedValidator"``
 
 #### Defined in
 
-[generated/types.ts:449](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L449)
+[generated/types.ts:449](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L449)
 
 ___
 
 ### Bond
 
-• **Bond**
+• **Bond** = ``"staking.bond"``
 
 #### Defined in
 
-[generated/types.ts:437](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L437)
+[generated/types.ts:437](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L437)
 
 ___
 
 ### BondExtra
 
-• **BondExtra**
+• **BondExtra** = ``"staking.bondExtra"``
 
 #### Defined in
 
-[generated/types.ts:438](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L438)
+[generated/types.ts:438](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L438)
 
 ___
 
 ### CancelDeferredSlash
 
-• **CancelDeferredSlash**
+• **CancelDeferredSlash** = ``"staking.cancelDeferredSlash"``
 
 #### Defined in
 
-[generated/types.ts:459](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L459)
+[generated/types.ts:459](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L459)
 
 ___
 
 ### ChangeSlashingAllowedFor
 
-• **ChangeSlashingAllowedFor**
+• **ChangeSlashingAllowedFor** = ``"staking.changeSlashingAllowedFor"``
 
 #### Defined in
 
-[generated/types.ts:467](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L467)
+[generated/types.ts:467](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L467)
 
 ___
 
 ### Chill
 
-• **Chill**
+• **Chill** = ``"staking.chill"``
 
 #### Defined in
 
-[generated/types.ts:443](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L443)
+[generated/types.ts:443](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L443)
 
 ___
 
 ### ForceNewEra
 
-• **ForceNewEra**
+• **ForceNewEra** = ``"staking.forceNewEra"``
 
 #### Defined in
 
-[generated/types.ts:455](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L455)
+[generated/types.ts:455](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L455)
 
 ___
 
 ### ForceNewEraAlways
 
-• **ForceNewEraAlways**
+• **ForceNewEraAlways** = ``"staking.forceNewEraAlways"``
 
 #### Defined in
 
-[generated/types.ts:458](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L458)
+[generated/types.ts:458](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L458)
 
 ___
 
 ### ForceNoEras
 
-• **ForceNoEras**
+• **ForceNoEras** = ``"staking.forceNoEras"``
 
 #### Defined in
 
-[generated/types.ts:454](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L454)
+[generated/types.ts:454](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L454)
 
 ___
 
 ### ForceUnstake
 
-• **ForceUnstake**
+• **ForceUnstake** = ``"staking.forceUnstake"``
 
 #### Defined in
 
-[generated/types.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L457)
+[generated/types.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L457)
 
 ___
 
 ### IncreaseValidatorCount
 
-• **IncreaseValidatorCount**
+• **IncreaseValidatorCount** = ``"staking.increaseValidatorCount"``
 
 #### Defined in
 
-[generated/types.ts:447](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L447)
+[generated/types.ts:447](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L447)
 
 ___
 
 ### Nominate
 
-• **Nominate**
+• **Nominate** = ``"staking.nominate"``
 
 #### Defined in
 
-[generated/types.ts:442](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L442)
+[generated/types.ts:442](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L442)
 
 ___
 
 ### PayoutStakers
 
-• **PayoutStakers**
+• **PayoutStakers** = ``"staking.payoutStakers"``
 
 #### Defined in
 
-[generated/types.ts:460](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L460)
+[generated/types.ts:460](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L460)
 
 ___
 
 ### PayoutStakersBySystem
 
-• **PayoutStakersBySystem**
+• **PayoutStakersBySystem** = ``"staking.payoutStakersBySystem"``
 
 #### Defined in
 
-[generated/types.ts:466](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L466)
+[generated/types.ts:466](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L466)
 
 ___
 
 ### ReapStash
 
-• **ReapStash**
+• **ReapStash** = ``"staking.reapStash"``
 
 #### Defined in
 
-[generated/types.ts:463](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L463)
+[generated/types.ts:463](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L463)
 
 ___
 
 ### Rebond
 
-• **Rebond**
+• **Rebond** = ``"staking.rebond"``
 
 #### Defined in
 
-[generated/types.ts:461](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L461)
+[generated/types.ts:461](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L461)
 
 ___
 
 ### RemovePermissionedValidator
 
-• **RemovePermissionedValidator**
+• **RemovePermissionedValidator** = ``"staking.removePermissionedValidator"``
 
 #### Defined in
 
-[generated/types.ts:450](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L450)
+[generated/types.ts:450](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L450)
 
 ___
 
 ### ScaleValidatorCount
 
-• **ScaleValidatorCount**
+• **ScaleValidatorCount** = ``"staking.scaleValidatorCount"``
 
 #### Defined in
 
-[generated/types.ts:448](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L448)
+[generated/types.ts:448](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L448)
 
 ___
 
 ### SetCommissionCap
 
-• **SetCommissionCap**
+• **SetCommissionCap** = ``"staking.setCommissionCap"``
 
 #### Defined in
 
-[generated/types.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L452)
+[generated/types.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L452)
 
 ___
 
 ### SetController
 
-• **SetController**
+• **SetController** = ``"staking.setController"``
 
 #### Defined in
 
-[generated/types.ts:445](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L445)
+[generated/types.ts:445](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L445)
 
 ___
 
 ### SetHistoryDepth
 
-• **SetHistoryDepth**
+• **SetHistoryDepth** = ``"staking.setHistoryDepth"``
 
 #### Defined in
 
-[generated/types.ts:462](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L462)
+[generated/types.ts:462](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L462)
 
 ___
 
 ### SetInvulnerables
 
-• **SetInvulnerables**
+• **SetInvulnerables** = ``"staking.setInvulnerables"``
 
 #### Defined in
 
-[generated/types.ts:456](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L456)
+[generated/types.ts:456](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L456)
 
 ___
 
 ### SetMinBondThreshold
 
-• **SetMinBondThreshold**
+• **SetMinBondThreshold** = ``"staking.setMinBondThreshold"``
 
 #### Defined in
 
-[generated/types.ts:453](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L453)
+[generated/types.ts:453](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L453)
 
 ___
 
 ### SetPayee
 
-• **SetPayee**
+• **SetPayee** = ``"staking.setPayee"``
 
 #### Defined in
 
-[generated/types.ts:444](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L444)
+[generated/types.ts:444](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L444)
 
 ___
 
 ### SetValidatorCount
 
-• **SetValidatorCount**
+• **SetValidatorCount** = ``"staking.setValidatorCount"``
 
 #### Defined in
 
-[generated/types.ts:446](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L446)
+[generated/types.ts:446](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L446)
 
 ___
 
 ### SubmitElectionSolution
 
-• **SubmitElectionSolution**
+• **SubmitElectionSolution** = ``"staking.submitElectionSolution"``
 
 #### Defined in
 
-[generated/types.ts:464](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L464)
+[generated/types.ts:464](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L464)
 
 ___
 
 ### SubmitElectionSolutionUnsigned
 
-• **SubmitElectionSolutionUnsigned**
+• **SubmitElectionSolutionUnsigned** = ``"staking.submitElectionSolutionUnsigned"``
 
 #### Defined in
 
-[generated/types.ts:465](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L465)
+[generated/types.ts:465](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L465)
 
 ___
 
 ### Unbond
 
-• **Unbond**
+• **Unbond** = ``"staking.unbond"``
 
 #### Defined in
 
-[generated/types.ts:439](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L439)
+[generated/types.ts:439](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L439)
 
 ___
 
 ### UpdatePermissionedValidatorIntendedCount
 
-• **UpdatePermissionedValidatorIntendedCount**
+• **UpdatePermissionedValidatorIntendedCount** = ``"staking.updatePermissionedValidatorIntendedCount"``
 
 #### Defined in
 
-[generated/types.ts:468](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L468)
+[generated/types.ts:468](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L468)
 
 ___
 
 ### Validate
 
-• **Validate**
+• **Validate** = ``"staking.validate"``
 
 #### Defined in
 
-[generated/types.ts:441](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L441)
+[generated/types.ts:441](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L441)
 
 ___
 
 ### ValidateCddExpiryNominators
 
-• **ValidateCddExpiryNominators**
+• **ValidateCddExpiryNominators** = ``"staking.validateCddExpiryNominators"``
 
 #### Defined in
 
-[generated/types.ts:451](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L451)
+[generated/types.ts:451](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L451)
 
 ___
 
 ### WithdrawUnbonded
 
-• **WithdrawUnbonded**
+• **WithdrawUnbonded** = ``"staking.withdrawUnbonded"``
 
 #### Defined in
 
-[generated/types.ts:440](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L440)
+[generated/types.ts:440](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L440)

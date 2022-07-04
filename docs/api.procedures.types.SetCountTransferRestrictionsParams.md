@@ -19,7 +19,7 @@ array of Count Transfer Restrictions with their corresponding exemptions (if app
 
 #### Defined in
 
-[api/procedures/types.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L104)
+[api/procedures/types.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L104)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L105)
+[api/procedures/types.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L105)

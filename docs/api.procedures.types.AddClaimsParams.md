@@ -19,7 +19,7 @@ array of claims to be added
 
 #### Defined in
 
-[api/procedures/types.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L211)
+[api/procedures/types.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L211)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L212)
+[api/procedures/types.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L212)

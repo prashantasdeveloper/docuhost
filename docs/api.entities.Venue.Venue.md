@@ -41,7 +41,7 @@ identifier number of the Venue
 
 #### Defined in
 
-[api/entities/Venue/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L54)
+[api/entities/Venue/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Venue/index.ts#L54)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -65,10 +65,14 @@ ___
 
 Creates a settlement Instruction in this Venue
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Venue Owner
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInstruction.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInstruction.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -82,10 +86,6 @@ Creates a settlement Instruction in this Venue
 
 `Promise`<`TransactionQueue`<[`Instruction`](../wiki/api.entities.Instruction.Instruction)[], [`Instruction`](../wiki/api.entities.Instruction.Instruction), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Venue/index.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L211)
-
 ___
 
 ### addInstructions
@@ -94,10 +94,14 @@ ___
 
 Creates a batch of settlement Instructions in this Venue
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Venue Owner
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInstructions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInstructions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -111,10 +115,6 @@ Creates a batch of settlement Instructions in this Venue
 
 `Promise`<`TransactionQueue`<[`Instruction`](../wiki/api.entities.Instruction.Instruction)[], [`Instruction`](../wiki/api.entities.Instruction.Instruction)[], `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Venue/index.ts:224](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L224)
-
 ___
 
 ### details
@@ -126,10 +126,6 @@ Retrieve information specific to this Venue
 #### Returns
 
 `Promise`<[`VenueDetails`](../wiki/api.entities.Venue.types.VenueDetails)\>
-
-#### Defined in
-
-[api/entities/Venue/index.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L107)
 
 ___
 
@@ -147,10 +143,6 @@ Determine whether this Venue exists on chain
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
 
-#### Defined in
-
-[api/entities/Venue/index.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L88)
-
 ___
 
 ### getInstructions
@@ -163,10 +155,6 @@ Retrieve all pending and failed Instructions in this Venue
 
 `Promise`<`Pick`<[`GroupedInstructions`](../wiki/types.GroupedInstructions), ``"pending"`` \| ``"failed"``\>\>
 
-#### Defined in
-
-[api/entities/Venue/index.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L136)
-
 ___
 
 ### getPendingInstructions
@@ -175,15 +163,13 @@ ___
 
 Retrieve all pending Instructions in this Venue
 
-**`deprecated`** in favor of `getInstructions`
+**`Deprecated`**
+
+ in favor of `getInstructions`
 
 #### Returns
 
 `Promise`<[`Instruction`](../wiki/api.entities.Instruction.Instruction)[]\>
-
-#### Defined in
-
-[api/entities/Venue/index.ts:165](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L165)
 
 ___
 
@@ -207,10 +193,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### modify
@@ -219,10 +201,14 @@ ___
 
 Modify description and type
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Venue Owner
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modify.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modify.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -235,10 +221,6 @@ Modify description and type
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Venue/index.ts:237](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L237)
 
 ___
 
@@ -255,10 +237,6 @@ Return the Venue's ID
 #### Overrides
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
-
-#### Defined in
-
-[api/entities/Venue/index.ts:244](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L244)
 
 ___
 
@@ -288,10 +266,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -319,7 +293,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

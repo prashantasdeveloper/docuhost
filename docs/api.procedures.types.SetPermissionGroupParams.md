@@ -7,7 +7,7 @@ This procedure can be called with:
   - A Known Permission Group and an Asset. The Identity will be assigned as an Agent of that Group for that Asset
   - A set of Transaction Permissions and an Asset. If there is no Custom Permission Group with those permissions, a Custom Permission Group will be created for that Asset with those permissions, and
     the Identity will be assigned as an Agent of that Group for that Asset. Otherwise, the existing Group will be used
-  - An array of [Transaction Groups](../wiki/types.TxGroup) that represent a set of permissions. If there is no Custom Permission Group with those permissions, a Custom Permission Group will be created with those permissions, and
+  - An array of TxGroup | Transaction Groups that represent a set of permissions. If there is no Custom Permission Group with those permissions, a Custom Permission Group will be created with those permissions, and
     the Identity will be assigned as an Agent of that Group for that Asset. Otherwise, the existing Group will be used
 
 ## Table of contents
@@ -24,4 +24,4 @@ This procedure can be called with:
 
 #### Defined in
 
-[api/procedures/types.ts:766](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L766)
+[api/procedures/types.ts:766](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L766)

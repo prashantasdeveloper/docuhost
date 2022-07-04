@@ -35,7 +35,7 @@ Renames and re-exports [Params](../wiki/api.entities.CorporateActionBase.Params)
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L21)
+[api/entities/CorporateActionBase/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L21)
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 #### Defined in
 
-[api/entities/CorporateActionBase/types.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CorporateActionBase/types.ts#L28)
+[api/entities/CorporateActionBase/types.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CorporateActionBase/types.ts#L28)

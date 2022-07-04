@@ -17,58 +17,58 @@
 
 ### AttachBallot
 
-• **AttachBallot**
+• **AttachBallot** = ``"corporateBallot.attachBallot"``
 
 #### Defined in
 
-[generated/types.ts:560](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L560)
+[generated/types.ts:560](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L560)
 
 ___
 
 ### ChangeEnd
 
-• **ChangeEnd**
+• **ChangeEnd** = ``"corporateBallot.changeEnd"``
 
 #### Defined in
 
-[generated/types.ts:562](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L562)
+[generated/types.ts:562](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L562)
 
 ___
 
 ### ChangeMeta
 
-• **ChangeMeta**
+• **ChangeMeta** = ``"corporateBallot.changeMeta"``
 
 #### Defined in
 
-[generated/types.ts:563](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L563)
+[generated/types.ts:563](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L563)
 
 ___
 
 ### ChangeRcv
 
-• **ChangeRcv**
+• **ChangeRcv** = ``"corporateBallot.changeRcv"``
 
 #### Defined in
 
-[generated/types.ts:564](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L564)
+[generated/types.ts:564](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L564)
 
 ___
 
 ### RemoveBallot
 
-• **RemoveBallot**
+• **RemoveBallot** = ``"corporateBallot.removeBallot"``
 
 #### Defined in
 
-[generated/types.ts:565](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L565)
+[generated/types.ts:565](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L565)
 
 ___
 
 ### Vote
 
-• **Vote**
+• **Vote** = ``"corporateBallot.vote"``
 
 #### Defined in
 
-[generated/types.ts:561](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L561)
+[generated/types.ts:561](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L561)

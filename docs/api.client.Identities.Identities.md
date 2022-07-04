@@ -21,7 +21,9 @@ Handles all Identity related functionality
 
 Create a new Portfolio under the ownership of the signing Identity
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createPortfolio.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createPortfolio.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -36,10 +38,6 @@ Create a new Portfolio under the ownership of the signing Identity
 
 `Promise`<`TransactionQueue`<[`NumberedPortfolio`](../wiki/api.entities.NumberedPortfolio.NumberedPortfolio), [`NumberedPortfolio`](../wiki/api.entities.NumberedPortfolio.NumberedPortfolio), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/Identities.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Identities.ts#L60)
-
 ___
 
 ### getIdentity
@@ -48,7 +46,9 @@ ___
 
 Create an Identity instance from a DID
 
-**`throws`** if there is no Identity with the passed DID
+**`Throws`**
+
+ if there is no Identity with the passed DID
 
 #### Parameters
 
@@ -60,10 +60,6 @@ Create an Identity instance from a DID
 #### Returns
 
 `Promise`<[`Identity`](../wiki/api.entities.Identity.Identity)\>
-
-#### Defined in
-
-[api/client/Identities.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Identities.ts#L69)
 
 ___
 
@@ -84,10 +80,6 @@ Return whether the supplied Identity/DID exists
 
 `Promise`<`boolean`\>
 
-#### Defined in
-
-[api/client/Identities.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Identities.ts#L76)
-
 ___
 
 ### registerIdentity
@@ -96,16 +88,24 @@ ___
 
 Register an Identity
 
-**`note`** must be a CDD provider
+**`Note`**
 
-**`note`** this may create [Authorization Requests](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which have to be accepted by the `targetAccount`.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+ must be a CDD provider
 
-**`note`** required role:
+**`Note`**
+
+ this may create AuthorizationRequest | Authorization Requests which have to be accepted by the `targetAccount`.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+
+**`Note`**
+
+ required role:
   - Customer Due Diligence Provider
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [registerIdentity.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [registerIdentity.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -118,7 +118,3 @@ Register an Identity
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Identity`](../wiki/api.entities.Identity.Identity), [`Identity`](../wiki/api.entities.Identity.Identity), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/Identities.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Identities.ts#L50)

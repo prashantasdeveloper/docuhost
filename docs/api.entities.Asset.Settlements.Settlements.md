@@ -25,12 +25,16 @@ Handles all Asset Settlements related functionality
 
 Check whether it is possible to create a settlement Instruction to transfer a certain amount of this Asset's tokens between two Portfolios.
 
-**`note`** this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be
+**`Note`**
+
+ this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be
   transferred to portfolio B (assuming everything else checks out) the result will be success. If an instruction is created and authorized to transfer those 700 tokens,
   they would become locked. From that point, further calls to this function would yield failed results because of the funds being locked, even though they haven't been
   transferred yet
 
-**`deprecated`** in favor of [canTransfer](../wiki/api.entities.Asset.Settlements.Settlements#cantransfer)
+**`Deprecated`**
+
+ in favor of [canTransfer](../wiki/api.entities.Asset.Settlements.Settlements#cantransfer)
 
 #### Parameters
 
@@ -45,10 +49,6 @@ Check whether it is possible to create a settlement Instruction to transfer a ce
 
 `Promise`<[`TransferStatus`](../wiki/types.TransferStatus)\>
 
-#### Defined in
-
-[api/entities/Asset/Settlements.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Settlements.ts#L38)
-
 ___
 
 ### canTransfer
@@ -59,7 +59,9 @@ Check whether it is possible to create a settlement instruction to transfer a ce
   the transaction containing general errors (such as insufficient balance or invalid receiver), any broken transfer restrictions, and any compliance
   failures
 
-**`note`** this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be
+**`Note`**
+
+ this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be
   transferred to portfolio B (assuming everything else checks out) the result will be success. If an instruction is created and authorized to transfer those 700 tokens,
   they would become locked. From that point, further calls to this function would yield failed results because of the funds being locked, even though they haven't been
   transferred yet
@@ -76,7 +78,3 @@ Check whether it is possible to create a settlement instruction to transfer a ce
 #### Returns
 
 `Promise`<[`TransferBreakdown`](../wiki/api.entities.Asset.types.TransferBreakdown)\>
-
-#### Defined in
-
-[api/entities/Asset/Settlements.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Settlements.ts#L107)

@@ -96,7 +96,7 @@
 
 #### Defined in
 
-[api/procedures/types.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L92)
+[api/procedures/types.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L92)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L96)
+[api/procedures/types.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L96)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L43)
+[api/procedures/types.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L43)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L57)
+[api/procedures/types.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L57)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:336](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L336)
+[api/procedures/types.ts:336](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L336)
 
 ___
 
@@ -158,7 +158,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:471](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L471)
+[api/procedures/types.ts:471](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L471)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L231)
+[api/procedures/types.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L231)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:420](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L420)
+[api/procedures/types.ts:420](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L420)
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:694](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L694)
+[api/procedures/types.ts:694](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L694)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:642](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L642)
+[api/procedures/types.ts:642](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L642)
 
 ___
 
@@ -221,4 +221,4 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L50)
+[api/procedures/types.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L50)

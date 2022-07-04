@@ -20,88 +20,88 @@
 
 ### ChangeRecordDate
 
-• **ChangeRecordDate**
+• **ChangeRecordDate** = ``"corporateAction.changeRecordDate"``
 
 #### Defined in
 
-[generated/types.ts:555](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L555)
+[generated/types.ts:555](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L555)
 
 ___
 
 ### InitiateCorporateAction
 
-• **InitiateCorporateAction**
+• **InitiateCorporateAction** = ``"corporateAction.initiateCorporateAction"``
 
 #### Defined in
 
-[generated/types.ts:552](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L552)
+[generated/types.ts:552](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L552)
 
 ___
 
 ### InitiateCorporateActionAndDistribute
 
-• **InitiateCorporateActionAndDistribute**
+• **InitiateCorporateActionAndDistribute** = ``"corporateAction.initiateCorporateActionAndDistribute"``
 
 #### Defined in
 
-[generated/types.ts:556](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L556)
+[generated/types.ts:556](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L556)
 
 ___
 
 ### LinkCaDoc
 
-• **LinkCaDoc**
+• **LinkCaDoc** = ``"corporateAction.linkCaDoc"``
 
 #### Defined in
 
-[generated/types.ts:553](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L553)
+[generated/types.ts:553](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L553)
 
 ___
 
 ### RemoveCa
 
-• **RemoveCa**
+• **RemoveCa** = ``"corporateAction.removeCa"``
 
 #### Defined in
 
-[generated/types.ts:554](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L554)
+[generated/types.ts:554](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L554)
 
 ___
 
 ### SetDefaultTargets
 
-• **SetDefaultTargets**
+• **SetDefaultTargets** = ``"corporateAction.setDefaultTargets"``
 
 #### Defined in
 
-[generated/types.ts:549](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L549)
+[generated/types.ts:549](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L549)
 
 ___
 
 ### SetDefaultWithholdingTax
 
-• **SetDefaultWithholdingTax**
+• **SetDefaultWithholdingTax** = ``"corporateAction.setDefaultWithholdingTax"``
 
 #### Defined in
 
-[generated/types.ts:550](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L550)
+[generated/types.ts:550](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L550)
 
 ___
 
 ### SetDidWithholdingTax
 
-• **SetDidWithholdingTax**
+• **SetDidWithholdingTax** = ``"corporateAction.setDidWithholdingTax"``
 
 #### Defined in
 
-[generated/types.ts:551](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L551)
+[generated/types.ts:551](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L551)
 
 ___
 
 ### SetMaxDetailsLength
 
-• **SetMaxDetailsLength**
+• **SetMaxDetailsLength** = ``"corporateAction.setMaxDetailsLength"``
 
 #### Defined in
 
-[generated/types.ts:548](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L548)
+[generated/types.ts:548](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L548)

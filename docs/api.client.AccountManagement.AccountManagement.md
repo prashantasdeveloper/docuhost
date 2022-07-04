@@ -29,7 +29,9 @@ Handles functionality related to Account Management
 
 Freeze all of the secondary Accounts in the signing Identity. This means revoking their permission to perform any operation on the blockchain and freezing their funds until the Accounts are unfrozen via [unfreezeSecondaryAccounts](../wiki/api.client.AccountManagement.AccountManagement#unfreezesecondaryaccounts)
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [freezeSecondaryAccounts.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [freezeSecondaryAccounts.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -41,10 +43,6 @@ Freeze all of the secondary Accounts in the signing Identity. This means revokin
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/AccountManagement.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L167)
 
 ___
 
@@ -65,10 +63,6 @@ Return an Account instance from an address
 
 [`Account`](../wiki/api.entities.Account.Account)
 
-#### Defined in
-
-[api/client/AccountManagement.ts:248](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L248)
-
 ___
 
 ### getAccountBalance
@@ -77,7 +71,9 @@ ___
 
 Get the free/locked POLYX balance of an Account
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Parameters
 
@@ -90,10 +86,6 @@ Get the free/locked POLYX balance of an Account
 
 `Promise`<[`Balance`](../wiki/types.Balance)\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L202)
-
 ▸ **getAccountBalance**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
 #### Parameters
@@ -105,10 +97,6 @@ Get the free/locked POLYX balance of an Account
 #### Returns
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
-
-#### Defined in
-
-[api/client/AccountManagement.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L203)
 
 ▸ **getAccountBalance**(`args`, `callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -124,10 +112,6 @@ Get the free/locked POLYX balance of an Account
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L204)
-
 ___
 
 ### getSigningAccount
@@ -140,10 +124,6 @@ Return the signing Account, or null if no signing Account has been set
 
 ``null`` \| [`Account`](../wiki/api.entities.Account.Account)
 
-#### Defined in
-
-[api/client/AccountManagement.ts:257](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L257)
-
 ___
 
 ### getSigningAccounts
@@ -152,15 +132,13 @@ ___
 
 Return a list that contains all the signing Accounts associated to the SDK instance's Signing Manager
 
-**`throws`** — if there is no Signing Manager attached to the SDK
+**`Throws`**
+
+ — if there is no Signing Manager attached to the SDK
 
 #### Returns
 
 `Promise`<[`Account`](../wiki/api.entities.Account.Account)[]\>
-
-#### Defined in
-
-[api/client/AccountManagement.ts:270](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L270)
 
 ___
 
@@ -170,11 +148,15 @@ ___
 
 Send an invitation to an Account to join the signing Identity as a secondary Account
 
-**`note`** this will create an [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `targetAccount`.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [inviteAccount.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ this will create an AuthorizationRequest | Authorization Request which has to be accepted by the `targetAccount`.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [inviteAccount.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -188,10 +170,6 @@ Send an invitation to an Account to join the signing Identity as a secondary Acc
 
 `Promise`<`TransactionQueue`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), [`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:157](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L157)
-
 ___
 
 ### leaveIdentity
@@ -200,7 +178,9 @@ ___
 
 Disassociate the signing Account from its Identity. This operation can only be done if the signing Account is a secondary Account
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [leaveIdentity.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [leaveIdentity.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -213,10 +193,6 @@ Disassociate the signing Account from its Identity. This operation can only be d
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L109)
-
 ___
 
 ### modifyPermissions
@@ -225,9 +201,13 @@ ___
 
 Modify all permissions of a list of secondary Accounts associated with the signing Identity
 
-**`throws`** if the signing Account is not the primary Account of the Identity whose secondary Account permissions are being modified
+**`Throws`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modifyPermissions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ if the signing Account is not the primary Account of the Identity whose secondary Account permissions are being modified
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modifyPermissions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -241,10 +221,6 @@ Modify all permissions of a list of secondary Accounts associated with the signi
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L143)
-
 ___
 
 ### removeSecondaryAccounts
@@ -253,7 +229,9 @@ ___
 
 Remove a list of secondary Accounts associated with the signing Identity
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [removeSecondaryAccounts.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [removeSecondaryAccounts.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -267,10 +245,6 @@ Remove a list of secondary Accounts associated with the signing Identity
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L119)
-
 ___
 
 ### revokePermissions
@@ -279,9 +253,13 @@ ___
 
 Revoke all permissions of a list of secondary Accounts associated with the signing Identity
 
-**`throws`** if the signing Account is not the primary Account of the Identity whose secondary Account permissions are being revoked
+**`Throws`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [revokePermissions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ if the signing Account is not the primary Account of the Identity whose secondary Account permissions are being revoked
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [revokePermissions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -296,10 +274,6 @@ Revoke all permissions of a list of secondary Accounts associated with the signi
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:131](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L131)
-
 ___
 
 ### subsidizeAccount
@@ -308,11 +282,15 @@ ___
 
 Send an Authorization Request to an Account to subsidize its transaction fees
 
-**`note`** this will create an [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `beneficiary` Account.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [subsidizeAccount.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ this will create an AuthorizationRequest | Authorization Request which has to be accepted by the `beneficiary` Account.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [subsidizeAccount.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -326,10 +304,6 @@ Send an Authorization Request to an Account to subsidize its transaction fees
 
 `Promise`<`TransactionQueue`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), [`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/AccountManagement.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L191)
-
 ___
 
 ### unfreezeSecondaryAccounts
@@ -338,7 +312,9 @@ ___
 
 Unfreeze all of the secondary Accounts in the signing Identity. This will restore their permissions as they were before being frozen
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [unfreezeSecondaryAccounts.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [unfreezeSecondaryAccounts.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -350,7 +326,3 @@ Unfreeze all of the secondary Accounts in the signing Identity. This will restor
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/AccountManagement.ts:177](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/AccountManagement.ts#L177)

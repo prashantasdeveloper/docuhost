@@ -44,7 +44,7 @@ internal identifier for the Request (used to accept/reject/cancel)
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L99)
+[api/entities/AuthorizationRequest.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/AuthorizationRequest.ts#L99)
 
 ___
 
@@ -69,7 +69,7 @@ Authorization Request data corresponding to type of Authorization
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L88)
+[api/entities/AuthorizationRequest.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/AuthorizationRequest.ts#L88)
 
 ___
 
@@ -82,7 +82,7 @@ date at which the Authorization Request expires and can no longer be accepted.
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L94)
+[api/entities/AuthorizationRequest.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/AuthorizationRequest.ts#L94)
 
 ___
 
@@ -94,7 +94,7 @@ Identity that emitted the request
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L70)
+[api/entities/AuthorizationRequest.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/AuthorizationRequest.ts#L70)
 
 ___
 
@@ -106,7 +106,7 @@ Identity or Account to which the request was emitted
 
 #### Defined in
 
-[api/entities/AuthorizationRequest.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L65)
+[api/entities/AuthorizationRequest.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/AuthorizationRequest.ts#L65)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -130,7 +130,9 @@ ___
 
 Accept the Authorization Request. You must be the target of the Request to be able to accept it
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [accept.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [accept.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -142,10 +144,6 @@ Accept the Authorization Request. You must be the target of the Request to be ab
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/AuthorizationRequest.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L183)
 
 ___
 
@@ -162,10 +160,6 @@ Determine whether this Authorization Request exists on chain
 #### Overrides
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
-
-#### Defined in
-
-[api/entities/AuthorizationRequest.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L212)
 
 ___
 
@@ -189,10 +183,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### isExpired
@@ -205,10 +195,6 @@ Returns whether the Authorization Request has expired
 
 `boolean`
 
-#### Defined in
-
-[api/entities/AuthorizationRequest.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L203)
-
 ___
 
 ### remove
@@ -220,7 +206,9 @@ Remove the Authorization Request
 - If you are the Request issuer, this will cancel the Authorization
 - If you are the Request target, this will reject the Authorization
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -232,10 +220,6 @@ Remove the Authorization Request
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/AuthorizationRequest.ts:196](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L196)
 
 ___
 
@@ -252,10 +236,6 @@ Return the Authorization's static data
 #### Overrides
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
-
-#### Defined in
-
-[api/entities/AuthorizationRequest.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/AuthorizationRequest.ts#L226)
 
 ___
 
@@ -285,10 +265,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -316,7 +292,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

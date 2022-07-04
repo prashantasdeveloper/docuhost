@@ -26,7 +26,9 @@ Handles all Identity Authorization related functionality
 
 Retrieve a single Authorization Request targeting or issued by this Identity by its ID
 
-**`throws`** if there is no Authorization Request with the passed ID targeting or issued by this Identity
+**`Throws`**
+
+ if there is no Authorization Request with the passed ID targeting or issued by this Identity
 
 #### Parameters
 
@@ -42,10 +44,6 @@ Retrieve a single Authorization Request targeting or issued by this Identity by 
 #### Overrides
 
 [Authorizations](../wiki/api.entities.common.namespaces.Authorizations.Authorizations).[getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
-
-#### Defined in
-
-[api/entities/Identity/IdentityAuthorizations.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/IdentityAuthorizations.ts#L62)
 
 ___
 
@@ -71,10 +69,6 @@ Fetch all pending Authorization Requests for which this Signer is the target
 
 [Authorizations](../wiki/api.entities.common.namespaces.Authorizations.Authorizations).[getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived)
 
-#### Defined in
-
-[api/entities/common/namespaces/Authorizations.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/common/namespaces/Authorizations.ts#L29)
-
 ___
 
 ### getSent
@@ -83,7 +77,9 @@ ___
 
 Fetch all pending authorization requests issued by this Identity
 
-**`note`** supports pagination
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -94,7 +90,3 @@ Fetch all pending authorization requests issued by this Identity
 #### Returns
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest)\>\>
-
-#### Defined in
-
-[api/entities/Identity/IdentityAuthorizations.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/IdentityAuthorizations.ts#L18)

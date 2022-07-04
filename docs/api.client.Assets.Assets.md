@@ -27,7 +27,9 @@ Claim a ticker symbol that was reserved in Polymath Classic (Ethereum). The Ethe
   that owns the ticker must sign a special message that contains the DID of the Identity that will own the ticker
   in Polymesh, and provide the signed data to this call
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [claimClassicTicker.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [claimClassicTicker.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -41,10 +43,6 @@ Claim a ticker symbol that was reserved in Polymath Classic (Ethereum). The Ethe
 
 `Promise`<`TransactionQueue`<[`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation), [`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/Assets.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L79)
-
 ___
 
 ### createAsset
@@ -53,10 +51,14 @@ ___
 
 Create an Asset
 
-**`note`** if ticker is already reserved, then required role:
+**`Note`**
+
+ if ticker is already reserved, then required role:
   - Ticker Owner
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createAsset.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createAsset.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -69,10 +71,6 @@ Create an Asset
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/Assets.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L92)
 
 ___
 
@@ -93,10 +91,6 @@ Retrieve an Asset
 
 `Promise`<[`Asset`](../wiki/api.entities.Asset.Asset)\>
 
-#### Defined in
-
-[api/client/Assets.ts:213](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L213)
-
 ___
 
 ### getAssets
@@ -105,7 +99,9 @@ ___
 
 Retrieve all of the Assets owned by an Identity
 
-**`note`** Assets with unreadable characters in their tickers will be left out
+**`Note`**
+
+ Assets with unreadable characters in their tickers will be left out
 
 #### Parameters
 
@@ -117,10 +113,6 @@ Retrieve all of the Assets owned by an Identity
 #### Returns
 
 `Promise`<[`Asset`](../wiki/api.entities.Asset.Asset)[]\>
-
-#### Defined in
-
-[api/client/Assets.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L181)
 
 ___
 
@@ -141,10 +133,6 @@ Retrieve a Ticker Reservation
 
 [`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation)
 
-#### Defined in
-
-[api/client/Assets.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L167)
-
 ___
 
 ### getTickerReservations
@@ -154,7 +142,9 @@ ___
 Retrieve all the ticker reservations currently owned by an Identity. This doesn't include Assets that
   have already been launched
 
-**`note`** reservations with unreadable characters in their tickers will be left out
+**`Note`**
+
+ reservations with unreadable characters in their tickers will be left out
 
 #### Parameters
 
@@ -167,10 +157,6 @@ Retrieve all the ticker reservations currently owned by an Identity. This doesn'
 
 `Promise`<[`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation)[]\>
 
-#### Defined in
-
-[api/client/Assets.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L133)
-
 ___
 
 ### isTickerAvailable
@@ -179,7 +165,9 @@ ___
 
 Check if a ticker hasn't been reserved
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Parameters
 
@@ -191,10 +179,6 @@ Check if a ticker hasn't been reserved
 #### Returns
 
 `Promise`<`boolean`\>
-
-#### Defined in
-
-[api/client/Assets.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L101)
 
 ▸ **isTickerAvailable**(`args`, `callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -210,10 +194,6 @@ Check if a ticker hasn't been reserved
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/client/Assets.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L102)
-
 ___
 
 ### reserveTicker
@@ -223,7 +203,9 @@ ___
 Reserve a ticker symbol under the ownership of the signing Identity to later use in the creation of an Asset.
   The ticker will expire after a set amount of time, after which other users can reserve it
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [reserveTicker.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [reserveTicker.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -236,7 +218,3 @@ Reserve a ticker symbol under the ownership of the signing Identity to later use
 #### Returns
 
 `Promise`<`TransactionQueue`<[`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation), [`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/Assets.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Assets.ts#L67)

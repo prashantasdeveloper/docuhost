@@ -41,7 +41,7 @@ Account whose transactions are being paid for
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L55)
+[api/entities/Subsidy/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Subsidy/index.ts#L55)
 
 ___
 
@@ -53,7 +53,7 @@ Account that is paying for the transactions
 
 #### Defined in
 
-[api/entities/Subsidy/index.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L59)
+[api/entities/Subsidy/index.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Subsidy/index.ts#L59)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -77,11 +77,17 @@ ___
 
 Decrease allowance for this Subsidy relationship
 
-**`note`** Only the subsidizer is allowed to decrease the allowance
+**`Note`**
 
-**`throws`** if the amount to decrease by is more than the existing allowance
+ Only the subsidizer is allowed to decrease the allowance
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [decreaseAllowance.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Throws`**
+
+ if the amount to decrease by is more than the existing allowance
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [decreaseAllowance.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -94,10 +100,6 @@ Decrease allowance for this Subsidy relationship
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Subsidy/index.ts:180](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L180)
 
 ___
 
@@ -115,10 +117,6 @@ Determine whether this Subsidy relationship exists on chain
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
 
-#### Defined in
-
-[api/entities/Subsidy/index.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L187)
-
 ___
 
 ### getAllowance
@@ -127,15 +125,13 @@ ___
 
 Get amount of POLYX subsidized for this Subsidy relationship
 
-**`throws`** if the Subsidy does not exist
+**`Throws`**
+
+ if the Subsidy does not exist
 
 #### Returns
 
 `Promise`<`BigNumber`\>
-
-#### Defined in
-
-[api/entities/Subsidy/index.ts:206](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L206)
 
 ___
 
@@ -145,9 +141,13 @@ ___
 
 Increase allowance for this Subsidy relationship
 
-**`note`** Only the subsidizer is allowed to increase the allowance
+**`Note`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [increaseAllowance.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ Only the subsidizer is allowed to increase the allowance
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [increaseAllowance.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -160,10 +160,6 @@ Increase allowance for this Subsidy relationship
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Subsidy/index.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L166)
 
 ___
 
@@ -187,10 +183,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### quit
@@ -199,9 +191,13 @@ ___
 
 Terminate this Subsidy relationship. The beneficiary Account will be forced to pay for their own transactions
 
-**`note`** both the beneficiary and the subsidizer are allowed to unilaterally quit the Subsidy
+**`Note`**
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [quit.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+ both the beneficiary and the subsidizer are allowed to unilaterally quit the Subsidy
+
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [quit.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -214,10 +210,6 @@ Terminate this Subsidy relationship. The beneficiary Account will be forced to p
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Subsidy/index.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L140)
-
 ___
 
 ### setAllowance
@@ -226,11 +218,17 @@ ___
 
 Set allowance for this Subsidy relationship
 
-**`note`** Only the subsidizer is allowed to set the allowance
+**`Note`**
 
-**`throws`** if the allowance to set is equal to the current allowance
+ Only the subsidizer is allowed to set the allowance
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setAllowance.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Throws`**
+
+ if the allowance to set is equal to the current allowance
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setAllowance.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -243,10 +241,6 @@ Set allowance for this Subsidy relationship
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Subsidy/index.ts:154](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L154)
 
 ___
 
@@ -263,10 +257,6 @@ Return the Subsidy's static data
 #### Overrides
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
-
-#### Defined in
-
-[api/entities/Subsidy/index.ts:228](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Subsidy/index.ts#L228)
 
 ___
 
@@ -296,10 +286,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -327,7 +313,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

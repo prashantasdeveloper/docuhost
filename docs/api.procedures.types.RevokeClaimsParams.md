@@ -19,7 +19,7 @@ array of claims to be revoked
 
 #### Defined in
 
-[api/procedures/types.ts:227](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L227)
+[api/procedures/types.ts:227](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L227)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:228](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L228)
+[api/procedures/types.ts:228](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L228)

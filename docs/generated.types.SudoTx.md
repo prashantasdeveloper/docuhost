@@ -15,38 +15,38 @@
 
 ### SetKey
 
-• **SetKey**
+• **SetKey** = ``"sudo.setKey"``
 
 #### Defined in
 
-[generated/types.ts:489](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L489)
+[generated/types.ts:489](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L489)
 
 ___
 
 ### Sudo
 
-• **Sudo**
+• **Sudo** = ``"sudo.sudo"``
 
 #### Defined in
 
-[generated/types.ts:487](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L487)
+[generated/types.ts:487](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L487)
 
 ___
 
 ### SudoAs
 
-• **SudoAs**
+• **SudoAs** = ``"sudo.sudoAs"``
 
 #### Defined in
 
-[generated/types.ts:490](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L490)
+[generated/types.ts:490](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L490)
 
 ___
 
 ### SudoUncheckedWeight
 
-• **SudoUncheckedWeight**
+• **SudoUncheckedWeight** = ``"sudo.sudoUncheckedWeight"``
 
 #### Defined in
 
-[generated/types.ts:488](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L488)
+[generated/types.ts:488](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L488)

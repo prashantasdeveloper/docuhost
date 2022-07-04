@@ -13,18 +13,18 @@
 
 ### ChangeBaseFee
 
-• **ChangeBaseFee**
+• **ChangeBaseFee** = ``"protocolFee.changeBaseFee"``
 
 #### Defined in
 
-[generated/types.ts:599](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L599)
+[generated/types.ts:599](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L599)
 
 ___
 
 ### ChangeCoefficient
 
-• **ChangeCoefficient**
+• **ChangeCoefficient** = ``"protocolFee.changeCoefficient"``
 
 #### Defined in
 
-[generated/types.ts:598](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L598)
+[generated/types.ts:598](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L598)

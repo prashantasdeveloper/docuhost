@@ -18,13 +18,17 @@
 
 date at which the authorization request for invitation expires (optional)
 
-**`note`** if expiry date is not set, the invitation will never expire
+**`Note`**
 
-**`note`** due to chain limitations, the expiry will be ignored if the passed `permissions` don't correspond to an existing Permission Group
+ if expiry date is not set, the invitation will never expire
+
+**`Note`**
+
+ due to chain limitations, the expiry will be ignored if the passed `permissions` don't correspond to an existing Permission Group
 
 #### Defined in
 
-[api/procedures/types.ts:614](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L614)
+[api/procedures/types.ts:614](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L614)
 
 ___
 
@@ -34,7 +38,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:599](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L599)
+[api/procedures/types.ts:599](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L599)
 
 ___
 
@@ -44,4 +48,4 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:598](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L598)
+[api/procedures/types.ts:598](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L598)

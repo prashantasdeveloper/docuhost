@@ -23,4 +23,4 @@
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L83)
+[api/entities/DividendDistribution/index.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L83)

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[types/index.ts:387](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L387)
+[types/index.ts:387](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L387)
 
 ___
 
@@ -29,4 +29,4 @@ if undefined, the default trusted claim issuers for the Asset are used
 
 #### Defined in
 
-[types/index.ts:391](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L391)
+[types/index.ts:391](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L391)

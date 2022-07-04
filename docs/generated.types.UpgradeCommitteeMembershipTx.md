@@ -18,68 +18,68 @@
 
 ### AbdicateMembership
 
-• **AbdicateMembership**
+• **AbdicateMembership** = ``"upgradeCommitteeMembership.abdicateMembership"``
 
 #### Defined in
 
-[generated/types.ts:390](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L390)
+[generated/types.ts:390](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L390)
 
 ___
 
 ### AddMember
 
-• **AddMember**
+• **AddMember** = ``"upgradeCommitteeMembership.addMember"``
 
 #### Defined in
 
-[generated/types.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L386)
+[generated/types.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L386)
 
 ___
 
 ### DisableMember
 
-• **DisableMember**
+• **DisableMember** = ``"upgradeCommitteeMembership.disableMember"``
 
 #### Defined in
 
-[generated/types.ts:385](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L385)
+[generated/types.ts:385](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L385)
 
 ___
 
 ### RemoveMember
 
-• **RemoveMember**
+• **RemoveMember** = ``"upgradeCommitteeMembership.removeMember"``
 
 #### Defined in
 
-[generated/types.ts:387](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L387)
+[generated/types.ts:387](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L387)
 
 ___
 
 ### ResetMembers
 
-• **ResetMembers**
+• **ResetMembers** = ``"upgradeCommitteeMembership.resetMembers"``
 
 #### Defined in
 
-[generated/types.ts:389](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L389)
+[generated/types.ts:389](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L389)
 
 ___
 
 ### SetActiveMembersLimit
 
-• **SetActiveMembersLimit**
+• **SetActiveMembersLimit** = ``"upgradeCommitteeMembership.setActiveMembersLimit"``
 
 #### Defined in
 
-[generated/types.ts:384](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L384)
+[generated/types.ts:384](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L384)
 
 ___
 
 ### SwapMember
 
-• **SwapMember**
+• **SwapMember** = ``"upgradeCommitteeMembership.swapMember"``
 
 #### Defined in
 
-[generated/types.ts:388](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L388)
+[generated/types.ts:388](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L388)

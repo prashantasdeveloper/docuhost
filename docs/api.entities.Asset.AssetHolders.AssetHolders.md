@@ -24,7 +24,9 @@ Handles all Asset Holders related functionality
 
 Retrieve all the Asset Holders with their respective balance
 
-**`note`** supports pagination
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -35,7 +37,3 @@ Retrieve all the Asset Holders with their respective balance
 #### Returns
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`IdentityBalance`](../wiki/api.entities.Asset.types.IdentityBalance)\>\>
-
-#### Defined in
-
-[api/entities/Asset/AssetHolders.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/AssetHolders.ts#L17)

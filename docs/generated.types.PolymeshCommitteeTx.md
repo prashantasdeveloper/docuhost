@@ -16,48 +16,48 @@
 
 ### SetExpiresAfter
 
-• **SetExpiresAfter**
+• **SetExpiresAfter** = ``"polymeshCommittee.setExpiresAfter"``
 
 #### Defined in
 
-[generated/types.ts:342](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L342)
+[generated/types.ts:342](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L342)
 
 ___
 
 ### SetReleaseCoordinator
 
-• **SetReleaseCoordinator**
+• **SetReleaseCoordinator** = ``"polymeshCommittee.setReleaseCoordinator"``
 
 #### Defined in
 
-[generated/types.ts:341](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L341)
+[generated/types.ts:341](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L341)
 
 ___
 
 ### SetVoteThreshold
 
-• **SetVoteThreshold**
+• **SetVoteThreshold** = ``"polymeshCommittee.setVoteThreshold"``
 
 #### Defined in
 
-[generated/types.ts:340](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L340)
+[generated/types.ts:340](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L340)
 
 ___
 
 ### Vote
 
-• **Vote**
+• **Vote** = ``"polymeshCommittee.vote"``
 
 #### Defined in
 
-[generated/types.ts:344](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L344)
+[generated/types.ts:344](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L344)
 
 ___
 
 ### VoteOrPropose
 
-• **VoteOrPropose**
+• **VoteOrPropose** = ``"polymeshCommittee.voteOrPropose"``
 
 #### Defined in
 
-[generated/types.ts:343](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L343)
+[generated/types.ts:343](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L343)

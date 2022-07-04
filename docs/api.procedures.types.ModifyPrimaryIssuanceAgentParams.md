@@ -19,7 +19,7 @@ date at which the authorization request to modify the primary issuance agent exp
 
 #### Defined in
 
-[api/procedures/types.ts:373](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L373)
+[api/procedures/types.ts:373](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L373)
 
 ___
 
@@ -31,4 +31,4 @@ Identity to be set as primary issuance agent
 
 #### Defined in
 
-[api/procedures/types.ts:369](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L369)
+[api/procedures/types.ts:369](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L369)

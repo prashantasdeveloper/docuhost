@@ -12,8 +12,8 @@
 
 ### Set
 
-• **Set**
+• **Set** = ``"timestamp.set"``
 
 #### Defined in
 
-[generated/types.ts:276](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L276)
+[generated/types.ts:276](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L276)

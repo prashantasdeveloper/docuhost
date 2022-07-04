@@ -28,168 +28,168 @@
 
 ### AddAndAffirmInstruction
 
-• **AddAndAffirmInstruction**
+• **AddAndAffirmInstruction** = ``"settlement.addAndAffirmInstruction"``
 
 #### Defined in
 
-[generated/types.ts:616](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L616)
+[generated/types.ts:616](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L616)
 
 ___
 
 ### AddInstruction
 
-• **AddInstruction**
+• **AddInstruction** = ``"settlement.addInstruction"``
 
 #### Defined in
 
-[generated/types.ts:615](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L615)
+[generated/types.ts:615](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L615)
 
 ___
 
 ### AffirmInstruction
 
-• **AffirmInstruction**
+• **AffirmInstruction** = ``"settlement.affirmInstruction"``
 
 #### Defined in
 
-[generated/types.ts:617](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L617)
+[generated/types.ts:617](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L617)
 
 ___
 
 ### AffirmWithReceipts
 
-• **AffirmWithReceipts**
+• **AffirmWithReceipts** = ``"settlement.affirmWithReceipts"``
 
 #### Defined in
 
-[generated/types.ts:620](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L620)
+[generated/types.ts:620](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L620)
 
 ___
 
 ### AllowVenues
 
-• **AllowVenues**
+• **AllowVenues** = ``"settlement.allowVenues"``
 
 #### Defined in
 
-[generated/types.ts:624](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L624)
+[generated/types.ts:624](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L624)
 
 ___
 
 ### ChangeReceiptValidity
 
-• **ChangeReceiptValidity**
+• **ChangeReceiptValidity** = ``"settlement.changeReceiptValidity"``
 
 #### Defined in
 
-[generated/types.ts:626](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L626)
+[generated/types.ts:626](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L626)
 
 ___
 
 ### ClaimReceipt
 
-• **ClaimReceipt**
+• **ClaimReceipt** = ``"settlement.claimReceipt"``
 
 #### Defined in
 
-[generated/types.ts:621](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L621)
+[generated/types.ts:621](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L621)
 
 ___
 
 ### CreateVenue
 
-• **CreateVenue**
+• **CreateVenue** = ``"settlement.createVenue"``
 
 #### Defined in
 
-[generated/types.ts:612](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L612)
+[generated/types.ts:612](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L612)
 
 ___
 
 ### DisallowVenues
 
-• **DisallowVenues**
+• **DisallowVenues** = ``"settlement.disallowVenues"``
 
 #### Defined in
 
-[generated/types.ts:625](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L625)
+[generated/types.ts:625](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L625)
 
 ___
 
 ### ExecuteScheduledInstruction
 
-• **ExecuteScheduledInstruction**
+• **ExecuteScheduledInstruction** = ``"settlement.executeScheduledInstruction"``
 
 #### Defined in
 
-[generated/types.ts:627](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L627)
+[generated/types.ts:627](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L627)
 
 ___
 
 ### RejectInstruction
 
-• **RejectInstruction**
+• **RejectInstruction** = ``"settlement.rejectInstruction"``
 
 #### Defined in
 
-[generated/types.ts:619](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L619)
+[generated/types.ts:619](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L619)
 
 ___
 
 ### RescheduleInstruction
 
-• **RescheduleInstruction**
+• **RescheduleInstruction** = ``"settlement.rescheduleInstruction"``
 
 #### Defined in
 
-[generated/types.ts:628](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L628)
+[generated/types.ts:628](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L628)
 
 ___
 
 ### SetVenueFiltering
 
-• **SetVenueFiltering**
+• **SetVenueFiltering** = ``"settlement.setVenueFiltering"``
 
 #### Defined in
 
-[generated/types.ts:623](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L623)
+[generated/types.ts:623](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L623)
 
 ___
 
 ### UnclaimReceipt
 
-• **UnclaimReceipt**
+• **UnclaimReceipt** = ``"settlement.unclaimReceipt"``
 
 #### Defined in
 
-[generated/types.ts:622](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L622)
+[generated/types.ts:622](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L622)
 
 ___
 
 ### UpdateVenueDetails
 
-• **UpdateVenueDetails**
+• **UpdateVenueDetails** = ``"settlement.updateVenueDetails"``
 
 #### Defined in
 
-[generated/types.ts:613](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L613)
+[generated/types.ts:613](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L613)
 
 ___
 
 ### UpdateVenueType
 
-• **UpdateVenueType**
+• **UpdateVenueType** = ``"settlement.updateVenueType"``
 
 #### Defined in
 
-[generated/types.ts:614](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L614)
+[generated/types.ts:614](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L614)
 
 ___
 
 ### WithdrawAffirmation
 
-• **WithdrawAffirmation**
+• **WithdrawAffirmation** = ``"settlement.withdrawAffirmation"``
 
 #### Defined in
 
-[generated/types.ts:618](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L618)
+[generated/types.ts:618](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L618)

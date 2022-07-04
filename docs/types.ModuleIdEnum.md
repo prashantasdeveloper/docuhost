@@ -65,538 +65,538 @@
 
 ### Asset
 
-• **Asset**
+• **Asset** = ``"asset"``
 
 #### Defined in
 
-[middleware/types.ts:1165](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1165)
+[middleware/types.ts:1165](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1165)
 
 ___
 
 ### Authoritydiscovery
 
-• **Authoritydiscovery**
+• **Authoritydiscovery** = ``"authoritydiscovery"``
 
 #### Defined in
 
-[middleware/types.ts:1150](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1150)
+[middleware/types.ts:1150](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1150)
 
 ___
 
 ### Authorship
 
-• **Authorship**
+• **Authorship** = ``"authorship"``
 
 #### Defined in
 
-[middleware/types.ts:1143](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1143)
+[middleware/types.ts:1143](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1143)
 
 ___
 
 ### Babe
 
-• **Babe**
+• **Babe** = ``"babe"``
 
 #### Defined in
 
-[middleware/types.ts:1138](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1138)
+[middleware/types.ts:1138](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1138)
 
 ___
 
 ### Balances
 
-• **Balances**
+• **Balances** = ``"balances"``
 
 #### Defined in
 
-[middleware/types.ts:1141](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1141)
+[middleware/types.ts:1141](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1141)
 
 ___
 
 ### Basecontracts
 
-• **Basecontracts**
+• **Basecontracts** = ``"basecontracts"``
 
 #### Defined in
 
-[middleware/types.ts:1155](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1155)
+[middleware/types.ts:1155](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1155)
 
 ___
 
 ### Bridge
 
-• **Bridge**
+• **Bridge** = ``"bridge"``
 
 #### Defined in
 
-[middleware/types.ts:1168](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1168)
+[middleware/types.ts:1168](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1168)
 
 ___
 
 ### Capitaldistribution
 
-• **Capitaldistribution**
+• **Capitaldistribution** = ``"capitaldistribution"``
 
 #### Defined in
 
-[middleware/types.ts:1186](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1186)
+[middleware/types.ts:1186](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1186)
 
 ___
 
 ### Cddserviceproviders
 
-• **Cddserviceproviders**
+• **Cddserviceproviders** = ``"cddserviceproviders"``
 
 #### Defined in
 
-[middleware/types.ts:1176](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1176)
+[middleware/types.ts:1176](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1176)
 
 ___
 
 ### Checkpoint
 
-• **Checkpoint**
+• **Checkpoint** = ``"checkpoint"``
 
 #### Defined in
 
-[middleware/types.ts:1187](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1187)
+[middleware/types.ts:1187](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1187)
 
 ___
 
 ### Committeemembership
 
-• **Committeemembership**
+• **Committeemembership** = ``"committeemembership"``
 
 #### Defined in
 
-[middleware/types.ts:1159](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1159)
+[middleware/types.ts:1159](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1159)
 
 ___
 
 ### Compliancemanager
 
-• **Compliancemanager**
+• **Compliancemanager** = ``"compliancemanager"``
 
 #### Defined in
 
-[middleware/types.ts:1169](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1169)
+[middleware/types.ts:1169](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1169)
 
 ___
 
 ### Confidential
 
-• **Confidential**
+• **Confidential** = ``"confidential"``
 
 #### Defined in
 
-[middleware/types.ts:1181](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1181)
+[middleware/types.ts:1181](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1181)
 
 ___
 
 ### Contracts
 
-• **Contracts**
+• **Contracts** = ``"contracts"``
 
 #### Defined in
 
-[middleware/types.ts:1156](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1156)
+[middleware/types.ts:1156](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1156)
 
 ___
 
 ### Corporateaction
 
-• **Corporateaction**
+• **Corporateaction** = ``"corporateaction"``
 
 #### Defined in
 
-[middleware/types.ts:1184](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1184)
+[middleware/types.ts:1184](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1184)
 
 ___
 
 ### Corporateballot
 
-• **Corporateballot**
+• **Corporateballot** = ``"corporateballot"``
 
 #### Defined in
 
-[middleware/types.ts:1185](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1185)
+[middleware/types.ts:1185](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1185)
 
 ___
 
 ### Dividend
 
-• **Dividend**
+• **Dividend** = ``"dividend"``
 
 #### Defined in
 
-[middleware/types.ts:1166](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1166)
+[middleware/types.ts:1166](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1166)
 
 ___
 
 ### Exemption
 
-• **Exemption**
+• **Exemption** = ``"exemption"``
 
 #### Defined in
 
-[middleware/types.ts:1173](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1173)
+[middleware/types.ts:1173](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1173)
 
 ___
 
 ### Externalagents
 
-• **Externalagents**
+• **Externalagents** = ``"externalagents"``
 
 #### Defined in
 
-[middleware/types.ts:1170](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1170)
+[middleware/types.ts:1170](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1170)
 
 ___
 
 ### Finalitytracker
 
-• **Finalitytracker**
+• **Finalitytracker** = ``"finalitytracker"``
 
 #### Defined in
 
-[middleware/types.ts:1147](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1147)
+[middleware/types.ts:1147](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1147)
 
 ___
 
 ### Grandpa
 
-• **Grandpa**
+• **Grandpa** = ``"grandpa"``
 
 #### Defined in
 
-[middleware/types.ts:1148](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1148)
+[middleware/types.ts:1148](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1148)
 
 ___
 
 ### Historical
 
-• **Historical**
+• **Historical** = ``"historical"``
 
 #### Defined in
 
-[middleware/types.ts:1152](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1152)
+[middleware/types.ts:1152](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1152)
 
 ___
 
 ### Identity
 
-• **Identity**
+• **Identity** = ``"identity"``
 
 #### Defined in
 
-[middleware/types.ts:1167](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1167)
+[middleware/types.ts:1167](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1167)
 
 ___
 
 ### Imonline
 
-• **Imonline**
+• **Imonline** = ``"imonline"``
 
 #### Defined in
 
-[middleware/types.ts:1149](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1149)
+[middleware/types.ts:1149](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1149)
 
 ___
 
 ### Indices
 
-• **Indices**
+• **Indices** = ``"indices"``
 
 #### Defined in
 
-[middleware/types.ts:1140](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1140)
+[middleware/types.ts:1140](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1140)
 
 ___
 
 ### Multisig
 
-• **Multisig**
+• **Multisig** = ``"multisig"``
 
 #### Defined in
 
-[middleware/types.ts:1154](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1154)
+[middleware/types.ts:1154](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1154)
 
 ___
 
 ### Offences
 
-• **Offences**
+• **Offences** = ``"offences"``
 
 #### Defined in
 
-[middleware/types.ts:1145](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1145)
+[middleware/types.ts:1145](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1145)
 
 ___
 
 ### Permissions
 
-• **Permissions**
+• **Permissions** = ``"permissions"``
 
 #### Defined in
 
-[middleware/types.ts:1182](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1182)
+[middleware/types.ts:1182](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1182)
 
 ___
 
 ### Pips
 
-• **Pips**
+• **Pips** = ``"pips"``
 
 #### Defined in
 
-[middleware/types.ts:1160](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1160)
+[middleware/types.ts:1160](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1160)
 
 ___
 
 ### Polymeshcommittee
 
-• **Polymeshcommittee**
+• **Polymeshcommittee** = ``"polymeshcommittee"``
 
 #### Defined in
 
-[middleware/types.ts:1158](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1158)
+[middleware/types.ts:1158](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1158)
 
 ___
 
 ### Portfolio
 
-• **Portfolio**
+• **Portfolio** = ``"portfolio"``
 
 #### Defined in
 
-[middleware/types.ts:1180](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1180)
+[middleware/types.ts:1180](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1180)
 
 ___
 
 ### Protocolfee
 
-• **Protocolfee**
+• **Protocolfee** = ``"protocolfee"``
 
 #### Defined in
 
-[middleware/types.ts:1178](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1178)
+[middleware/types.ts:1178](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1178)
 
 ___
 
 ### Randomnesscollectiveflip
 
-• **Randomnesscollectiveflip**
+• **Randomnesscollectiveflip** = ``"randomnesscollectiveflip"``
 
 #### Defined in
 
-[middleware/types.ts:1151](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1151)
+[middleware/types.ts:1151](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1151)
 
 ___
 
 ### Relayer
 
-• **Relayer**
+• **Relayer** = ``"relayer"``
 
 #### Defined in
 
-[middleware/types.ts:1190](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1190)
+[middleware/types.ts:1190](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1190)
 
 ___
 
 ### Rewards
 
-• **Rewards**
+• **Rewards** = ``"rewards"``
 
 #### Defined in
 
-[middleware/types.ts:1189](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1189)
+[middleware/types.ts:1189](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1189)
 
 ___
 
 ### Scheduler
 
-• **Scheduler**
+• **Scheduler** = ``"scheduler"``
 
 #### Defined in
 
-[middleware/types.ts:1183](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1183)
+[middleware/types.ts:1183](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1183)
 
 ___
 
 ### Session
 
-• **Session**
+• **Session** = ``"session"``
 
 #### Defined in
 
-[middleware/types.ts:1146](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1146)
+[middleware/types.ts:1146](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1146)
 
 ___
 
 ### Settlement
 
-• **Settlement**
+• **Settlement** = ``"settlement"``
 
 #### Defined in
 
-[middleware/types.ts:1174](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1174)
+[middleware/types.ts:1174](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1174)
 
 ___
 
 ### Staking
 
-• **Staking**
+• **Staking** = ``"staking"``
 
 #### Defined in
 
-[middleware/types.ts:1144](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1144)
+[middleware/types.ts:1144](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1144)
 
 ___
 
 ### Statistics
 
-• **Statistics**
+• **Statistics** = ``"statistics"``
 
 #### Defined in
 
-[middleware/types.ts:1177](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1177)
+[middleware/types.ts:1177](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1177)
 
 ___
 
 ### Sto
 
-• **Sto**
+• **Sto** = ``"sto"``
 
 #### Defined in
 
-[middleware/types.ts:1175](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1175)
+[middleware/types.ts:1175](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1175)
 
 ___
 
 ### Stocapped
 
-• **Stocapped**
+• **Stocapped** = ``"stocapped"``
 
 #### Defined in
 
-[middleware/types.ts:1172](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1172)
+[middleware/types.ts:1172](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1172)
 
 ___
 
 ### Sudo
 
-• **Sudo**
+• **Sudo** = ``"sudo"``
 
 #### Defined in
 
-[middleware/types.ts:1153](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1153)
+[middleware/types.ts:1153](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1153)
 
 ___
 
 ### System
 
-• **System**
+• **System** = ``"system"``
 
 #### Defined in
 
-[middleware/types.ts:1137](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1137)
+[middleware/types.ts:1137](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1137)
 
 ___
 
 ### Technicalcommittee
 
-• **Technicalcommittee**
+• **Technicalcommittee** = ``"technicalcommittee"``
 
 #### Defined in
 
-[middleware/types.ts:1161](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1161)
+[middleware/types.ts:1161](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1161)
 
 ___
 
 ### Technicalcommitteemembership
 
-• **Technicalcommitteemembership**
+• **Technicalcommitteemembership** = ``"technicalcommitteemembership"``
 
 #### Defined in
 
-[middleware/types.ts:1162](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1162)
+[middleware/types.ts:1162](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1162)
 
 ___
 
 ### Testnet
 
-• **Testnet**
+• **Testnet** = ``"testnet"``
 
 #### Defined in
 
-[middleware/types.ts:1188](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1188)
+[middleware/types.ts:1188](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1188)
 
 ___
 
 ### Timestamp
 
-• **Timestamp**
+• **Timestamp** = ``"timestamp"``
 
 #### Defined in
 
-[middleware/types.ts:1139](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1139)
+[middleware/types.ts:1139](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1139)
 
 ___
 
 ### Transactionpayment
 
-• **Transactionpayment**
+• **Transactionpayment** = ``"transactionpayment"``
 
 #### Defined in
 
-[middleware/types.ts:1142](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1142)
+[middleware/types.ts:1142](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1142)
 
 ___
 
 ### Treasury
 
-• **Treasury**
+• **Treasury** = ``"treasury"``
 
 #### Defined in
 
-[middleware/types.ts:1157](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1157)
+[middleware/types.ts:1157](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1157)
 
 ___
 
 ### Upgradecommittee
 
-• **Upgradecommittee**
+• **Upgradecommittee** = ``"upgradecommittee"``
 
 #### Defined in
 
-[middleware/types.ts:1163](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1163)
+[middleware/types.ts:1163](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1163)
 
 ___
 
 ### Upgradecommitteemembership
 
-• **Upgradecommitteemembership**
+• **Upgradecommitteemembership** = ``"upgradecommitteemembership"``
 
 #### Defined in
 
-[middleware/types.ts:1164](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1164)
+[middleware/types.ts:1164](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1164)
 
 ___
 
 ### Utility
 
-• **Utility**
+• **Utility** = ``"utility"``
 
 #### Defined in
 
-[middleware/types.ts:1179](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1179)
+[middleware/types.ts:1179](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1179)
 
 ___
 
 ### Voting
 
-• **Voting**
+• **Voting** = ``"voting"``
 
 #### Defined in
 
-[middleware/types.ts:1171](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1171)
+[middleware/types.ts:1171](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1171)

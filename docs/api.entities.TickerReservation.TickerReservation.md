@@ -41,7 +41,7 @@ reserved ticker
 
 #### Defined in
 
-[api/entities/TickerReservation/index.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L56)
+[api/entities/TickerReservation/index.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/TickerReservation/index.ts#L56)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -65,10 +65,14 @@ ___
 
 Create an Asset using the reserved ticker
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Ticker Owner
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createAsset.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createAsset.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -82,10 +86,6 @@ Create an Asset using the reserved ticker
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/TickerReservation/index.ts:201](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L201)
-
 ___
 
 ### details
@@ -94,15 +94,13 @@ ___
 
 Retrieve the Reservation's owner, expiry date and status
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<[`TickerReservationDetails`](../wiki/api.entities.TickerReservation.types.TickerReservationDetails)\>
-
-#### Defined in
-
-[api/entities/TickerReservation/index.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L96)
 
 ▸ **details**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -115,10 +113,6 @@ Retrieve the Reservation's owner, expiry date and status
 #### Returns
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
-
-#### Defined in
-
-[api/entities/TickerReservation/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L97)
 
 ___
 
@@ -136,10 +130,6 @@ Determine whether this Ticker Reservation exists on chain
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
 
-#### Defined in
-
-[api/entities/TickerReservation/index.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L226)
-
 ___
 
 ### extend
@@ -149,10 +139,14 @@ ___
 Extend the Reservation time period of the ticker for 60 days from now
 to later use it in the creation of an Asset.
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Ticker Owner
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [extend.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [extend.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -164,10 +158,6 @@ to later use it in the creation of an Asset.
 #### Returns
 
 `Promise`<`TransactionQueue`<[`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation), [`TickerReservation`](../wiki/api.entities.TickerReservation.TickerReservation), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/TickerReservation/index.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L188)
 
 ___
 
@@ -191,10 +181,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### toHuman
@@ -211,10 +197,6 @@ Return the Reservation's ticker
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
 
-#### Defined in
-
-[api/entities/TickerReservation/index.ts:239](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L239)
-
 ___
 
 ### transferOwnership
@@ -224,14 +206,20 @@ ___
 Transfer ownership of the Ticker Reservation to another Identity. This generates an authorization request that must be accepted
   by the target
 
-**`note`** this will create [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `target` Identity.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`note`** required role:
+ this will create AuthorizationRequest | Authorization Request which has to be accepted by the `target` Identity.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+
+**`Note`**
+
+ required role:
   - Ticker Owner
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [transferOwnership.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [transferOwnership.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -244,10 +232,6 @@ Transfer ownership of the Ticker Reservation to another Identity. This generates
 #### Returns
 
 `Promise`<`TransactionQueue`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), [`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/TickerReservation/index.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/index.ts#L219)
 
 ___
 
@@ -277,10 +261,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -308,7 +288,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

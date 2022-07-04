@@ -30,7 +30,7 @@ checkpoint to be used to calculate Dividends. If a Schedule is passed, the next 
 
 #### Defined in
 
-[api/procedures/types.ts:513](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L513)
+[api/procedures/types.ts:513](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L513)
 
 ___
 
@@ -42,7 +42,7 @@ ticker of the currency in which Dividends will be distributed
 
 #### Defined in
 
-[api/procedures/types.ts:521](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L521)
+[api/procedures/types.ts:521](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L521)
 
 ___
 
@@ -54,7 +54,7 @@ date at which the issuer publicly declared the Dividend Distribution. Optional, 
 
 #### Defined in
 
-[api/procedures/types.ts:492](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L492)
+[api/procedures/types.ts:492](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L492)
 
 ___
 
@@ -66,7 +66,7 @@ default percentage (0-100) of the Benefits to be held for tax purposes
 
 #### Defined in
 
-[api/procedures/types.ts:503](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L503)
+[api/procedures/types.ts:503](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L503)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:493](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L493)
+[api/procedures/types.ts:493](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L493)
 
 ___
 
@@ -88,7 +88,7 @@ optional, defaults to never expiring
 
 #### Defined in
 
-[api/procedures/types.ts:537](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L537)
+[api/procedures/types.ts:537](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L537)
 
 ___
 
@@ -100,7 +100,7 @@ maximum amount of `currency` to distribute in total
 
 #### Defined in
 
-[api/procedures/types.ts:529](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L529)
+[api/procedures/types.ts:529](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L529)
 
 ___
 
@@ -112,7 +112,7 @@ portfolio from which the Dividends will be distributed. Optional, defaults to th
 
 #### Defined in
 
-[api/procedures/types.ts:517](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L517)
+[api/procedures/types.ts:517](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L517)
 
 ___
 
@@ -124,7 +124,7 @@ date from which Asset Holders can claim their Dividends
 
 #### Defined in
 
-[api/procedures/types.ts:533](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L533)
+[api/procedures/types.ts:533](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L533)
 
 ___
 
@@ -136,7 +136,7 @@ amount of `currency` to distribute per each share of the Asset that a target hol
 
 #### Defined in
 
-[api/procedures/types.ts:525](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L525)
+[api/procedures/types.ts:525](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L525)
 
 ___
 
@@ -150,7 +150,7 @@ Asset Holder Identities to be included (or excluded) from the Dividend Distribut
 
 #### Defined in
 
-[api/procedures/types.ts:499](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L499)
+[api/procedures/types.ts:499](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L499)
 
 ___
 
@@ -163,4 +163,4 @@ percentage (0-100) of the Benefits to be held for tax purposes from individual A
 
 #### Defined in
 
-[api/procedures/types.ts:508](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L508)
+[api/procedures/types.ts:508](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L508)

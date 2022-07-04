@@ -14,34 +14,34 @@
 
 ### Expired
 
-• **Expired**
+• **Expired** = ``"Expired"``
 
 End date reached
 
 #### Defined in
 
-[api/entities/Offering/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L17)
+[api/entities/Offering/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Offering/types.ts#L17)
 
 ___
 
 ### NotStarted
 
-• **NotStarted**
+• **NotStarted** = ``"NotStarted"``
 
 Start date not reached yet
 
 #### Defined in
 
-[api/entities/Offering/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L9)
+[api/entities/Offering/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Offering/types.ts#L9)
 
 ___
 
 ### Started
 
-• **Started**
+• **Started** = ``"Started"``
 
 Between start and end date
 
 #### Defined in
 
-[api/entities/Offering/types.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Offering/types.ts#L13)
+[api/entities/Offering/types.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Offering/types.ts#L13)

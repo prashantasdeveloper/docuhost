@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[types/index.ts:317](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L317)
+[types/index.ts:317](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L317)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:316](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L316)
+[types/index.ts:316](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L316)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:315](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L315)
+[types/index.ts:315](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L315)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L314)
+[types/index.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L314)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L313)
+[types/index.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L313)

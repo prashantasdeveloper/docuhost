@@ -14,28 +14,28 @@
 
 ### Both
 
-• **Both**
+• **Both** = ``"Both"``
 
 #### Defined in
 
-[types/index.ts:200](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L200)
+[types/index.ts:200](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L200)
 
 ___
 
 ### Receiver
 
-• **Receiver**
+• **Receiver** = ``"Receiver"``
 
 #### Defined in
 
-[types/index.ts:199](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L199)
+[types/index.ts:199](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L199)
 
 ___
 
 ### Sender
 
-• **Sender**
+• **Sender** = ``"Sender"``
 
 #### Defined in
 
-[types/index.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L198)
+[types/index.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L198)

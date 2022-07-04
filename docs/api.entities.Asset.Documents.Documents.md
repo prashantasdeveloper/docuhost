@@ -25,7 +25,9 @@ Handles all Asset Document related functionality
 
 Retrieve all documents linked to the Asset
 
-**`note`** supports pagination
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -37,10 +39,6 @@ Retrieve all documents linked to the Asset
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`AssetDocument`](../wiki/types.AssetDocument)\>\>
 
-#### Defined in
-
-[api/entities/Asset/Documents.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Documents.ts#L49)
-
 ___
 
 ### set
@@ -51,7 +49,9 @@ Assign a new list of documents to the Asset by replacing the existing list of do
 
 This requires two transactions
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [set.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [set.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -64,7 +64,3 @@ This requires two transactions
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Documents.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Documents.ts#L40)

@@ -35,238 +35,238 @@
 
 ### AcceptAssetOwnershipTransfer
 
-• **AcceptAssetOwnershipTransfer**
+• **AcceptAssetOwnershipTransfer** = ``"asset.acceptAssetOwnershipTransfer"``
 
 #### Defined in
 
-[generated/types.ts:496](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L496)
+[generated/types.ts:496](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L496)
 
 ___
 
 ### AcceptTickerTransfer
 
-• **AcceptTickerTransfer**
+• **AcceptTickerTransfer** = ``"asset.acceptTickerTransfer"``
 
 #### Defined in
 
-[generated/types.ts:495](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L495)
+[generated/types.ts:495](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L495)
 
 ___
 
 ### AddDocuments
 
-• **AddDocuments**
+• **AddDocuments** = ``"asset.addDocuments"``
 
 #### Defined in
 
-[generated/types.ts:504](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L504)
+[generated/types.ts:504](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L504)
 
 ___
 
 ### ClaimClassicTicker
 
-• **ClaimClassicTicker**
+• **ClaimClassicTicker** = ``"asset.claimClassicTicker"``
 
 #### Defined in
 
-[generated/types.ts:508](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L508)
+[generated/types.ts:508](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L508)
 
 ___
 
 ### ControllerTransfer
 
-• **ControllerTransfer**
+• **ControllerTransfer** = ``"asset.controllerTransfer"``
 
 #### Defined in
 
-[generated/types.ts:510](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L510)
+[generated/types.ts:510](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L510)
 
 ___
 
 ### CreateAsset
 
-• **CreateAsset**
+• **CreateAsset** = ``"asset.createAsset"``
 
 #### Defined in
 
-[generated/types.ts:497](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L497)
+[generated/types.ts:497](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L497)
 
 ___
 
 ### CreateAssetWithCustomType
 
-• **CreateAssetWithCustomType**
+• **CreateAssetWithCustomType** = ``"asset.createAssetWithCustomType"``
 
 #### Defined in
 
-[generated/types.ts:512](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L512)
+[generated/types.ts:512](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L512)
 
 ___
 
 ### Freeze
 
-• **Freeze**
+• **Freeze** = ``"asset.freeze"``
 
 #### Defined in
 
-[generated/types.ts:498](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L498)
+[generated/types.ts:498](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L498)
 
 ___
 
 ### Issue
 
-• **Issue**
+• **Issue** = ``"asset.issue"``
 
 #### Defined in
 
-[generated/types.ts:501](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L501)
+[generated/types.ts:501](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L501)
 
 ___
 
 ### MakeDivisible
 
-• **MakeDivisible**
+• **MakeDivisible** = ``"asset.makeDivisible"``
 
 #### Defined in
 
-[generated/types.ts:503](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L503)
+[generated/types.ts:503](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L503)
 
 ___
 
 ### Redeem
 
-• **Redeem**
+• **Redeem** = ``"asset.redeem"``
 
 #### Defined in
 
-[generated/types.ts:502](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L502)
+[generated/types.ts:502](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L502)
 
 ___
 
 ### RegisterAndSetLocalAssetMetadata
 
-• **RegisterAndSetLocalAssetMetadata**
+• **RegisterAndSetLocalAssetMetadata** = ``"asset.registerAndSetLocalAssetMetadata"``
 
 #### Defined in
 
-[generated/types.ts:515](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L515)
+[generated/types.ts:515](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L515)
 
 ___
 
 ### RegisterAssetMetadataGlobalType
 
-• **RegisterAssetMetadataGlobalType**
+• **RegisterAssetMetadataGlobalType** = ``"asset.registerAssetMetadataGlobalType"``
 
 #### Defined in
 
-[generated/types.ts:517](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L517)
+[generated/types.ts:517](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L517)
 
 ___
 
 ### RegisterAssetMetadataLocalType
 
-• **RegisterAssetMetadataLocalType**
+• **RegisterAssetMetadataLocalType** = ``"asset.registerAssetMetadataLocalType"``
 
 #### Defined in
 
-[generated/types.ts:516](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L516)
+[generated/types.ts:516](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L516)
 
 ___
 
 ### RegisterCustomAssetType
 
-• **RegisterCustomAssetType**
+• **RegisterCustomAssetType** = ``"asset.registerCustomAssetType"``
 
 #### Defined in
 
-[generated/types.ts:511](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L511)
+[generated/types.ts:511](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L511)
 
 ___
 
 ### RegisterTicker
 
-• **RegisterTicker**
+• **RegisterTicker** = ``"asset.registerTicker"``
 
 #### Defined in
 
-[generated/types.ts:494](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L494)
+[generated/types.ts:494](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L494)
 
 ___
 
 ### RemoveDocuments
 
-• **RemoveDocuments**
+• **RemoveDocuments** = ``"asset.removeDocuments"``
 
 #### Defined in
 
-[generated/types.ts:505](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L505)
+[generated/types.ts:505](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L505)
 
 ___
 
 ### RenameAsset
 
-• **RenameAsset**
+• **RenameAsset** = ``"asset.renameAsset"``
 
 #### Defined in
 
-[generated/types.ts:500](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L500)
+[generated/types.ts:500](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L500)
 
 ___
 
 ### ReserveClassicTicker
 
-• **ReserveClassicTicker**
+• **ReserveClassicTicker** = ``"asset.reserveClassicTicker"``
 
 #### Defined in
 
-[generated/types.ts:509](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L509)
+[generated/types.ts:509](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L509)
 
 ___
 
 ### SetAssetMetadata
 
-• **SetAssetMetadata**
+• **SetAssetMetadata** = ``"asset.setAssetMetadata"``
 
 #### Defined in
 
-[generated/types.ts:513](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L513)
+[generated/types.ts:513](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L513)
 
 ___
 
 ### SetAssetMetadataDetails
 
-• **SetAssetMetadataDetails**
+• **SetAssetMetadataDetails** = ``"asset.setAssetMetadataDetails"``
 
 #### Defined in
 
-[generated/types.ts:514](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L514)
+[generated/types.ts:514](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L514)
 
 ___
 
 ### SetFundingRound
 
-• **SetFundingRound**
+• **SetFundingRound** = ``"asset.setFundingRound"``
 
 #### Defined in
 
-[generated/types.ts:506](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L506)
+[generated/types.ts:506](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L506)
 
 ___
 
 ### Unfreeze
 
-• **Unfreeze**
+• **Unfreeze** = ``"asset.unfreeze"``
 
 #### Defined in
 
-[generated/types.ts:499](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L499)
+[generated/types.ts:499](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L499)
 
 ___
 
 ### UpdateIdentifiers
 
-• **UpdateIdentifiers**
+• **UpdateIdentifiers** = ``"asset.updateIdentifiers"``
 
 #### Defined in
 
-[generated/types.ts:507](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L507)
+[generated/types.ts:507](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L507)

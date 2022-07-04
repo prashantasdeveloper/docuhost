@@ -27,10 +27,14 @@ Handles all Claims related functionality
 
 Add claims to Identities
 
-**`note`** required roles:
+**`Note`**
+
+ required roles:
   - Customer Due Diligence Provider: if there is at least one CDD claim in the arguments
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addClaims.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addClaims.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -44,10 +48,6 @@ Add claims to Identities
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/Claims.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L121)
-
 ___
 
 ### addInvestorUniquenessClaim
@@ -56,7 +56,9 @@ ___
 
 Add an Investor Uniqueness Claim to the signing Identity
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInvestorUniquenessClaim.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [addInvestorUniquenessClaim.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -70,10 +72,6 @@ Add an Investor Uniqueness Claim to the signing Identity
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/client/Claims.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L108)
-
 ___
 
 ### editClaims
@@ -82,10 +80,14 @@ ___
 
 Edit claims associated to Identities (only the expiry date can be modified)
 
-**`note`** required roles:
+**`Note`**
+
+ required roles:
   - Customer Due Diligence Provider: if there is at least one CDD claim in the arguments
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [editClaims.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [editClaims.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -98,10 +100,6 @@ Edit claims associated to Identities (only the expiry date can be modified)
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/Claims.ts:134](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L134)
 
 ___
 
@@ -123,10 +121,6 @@ Retrieve the list of CDD claims for a target Identity
 
 `Promise`<[`ClaimData`](../wiki/types.ClaimData)<[`CddClaim`](../wiki/types.CddClaim)\>[]\>
 
-#### Defined in
-
-[api/client/Claims.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L305)
-
 ___
 
 ### getClaimScopes
@@ -147,10 +141,6 @@ Retrieve all scopes in which claims have been made for the target Identity.
 
 `Promise`<[`ClaimScope`](../wiki/types.ClaimScope)[]\>
 
-#### Defined in
-
-[api/client/Claims.ts:255](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L255)
-
 ___
 
 ### getIdentitiesWithClaims
@@ -159,9 +149,13 @@ ___
 
 Retrieve a list of Identities with claims associated to them. Can be filtered using parameters
 
-**`note`** supports pagination
+**`Note`**
 
-**`note`** uses the middleware
+ supports pagination
+
+**`Note`**
+
+ uses the middleware
 
 #### Parameters
 
@@ -179,10 +173,6 @@ Retrieve a list of Identities with claims associated to them. Can be filtered us
 #### Returns
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`IdentityWithClaims`](../wiki/types.IdentityWithClaims)\>\>
-
-#### Defined in
-
-[api/client/Claims.ts:195](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L195)
 
 ___
 
@@ -204,10 +194,6 @@ Retrieve the list of InvestorUniqueness claims for a target Identity
 
 `Promise`<[`ClaimData`](../wiki/types.ClaimData)<[`InvestorUniquenessClaim`](../wiki/types.InvestorUniquenessClaim)\>[]\>
 
-#### Defined in
-
-[api/client/Claims.ts:329](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L329)
-
 ___
 
 ### getIssuedClaims
@@ -216,9 +202,13 @@ ___
 
 Retrieve all claims issued by an Identity
 
-**`note`** supports pagination
+**`Note`**
 
-**`note`** uses the middleware
+ supports pagination
+
+**`Note`**
+
+ uses the middleware
 
 #### Parameters
 
@@ -234,10 +224,6 @@ Retrieve all claims issued by an Identity
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`ClaimData`](../wiki/types.ClaimData)<[`Claim`](../wiki/types#claim)\>\>\>
 
-#### Defined in
-
-[api/client/Claims.ts:160](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L160)
-
 ___
 
 ### getTargetingClaims
@@ -246,9 +232,13 @@ ___
 
 Retrieve all claims issued about an Identity, grouped by claim issuer
 
-**`note`** supports pagination
+**`Note`**
 
-**`note`** uses the middleware (optional)
+ supports pagination
+
+**`Note`**
+
+ uses the middleware (optional)
 
 #### Parameters
 
@@ -266,10 +256,6 @@ Retrieve all claims issued about an Identity, grouped by claim issuer
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`IdentityWithClaims`](../wiki/types.IdentityWithClaims)\>\>
 
-#### Defined in
-
-[api/client/Claims.ts:356](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L356)
-
 ___
 
 ### revokeClaims
@@ -278,10 +264,14 @@ ___
 
 Revoke claims from Identities
 
-**`note`** required roles:
+**`Note`**
+
+ required roles:
   - Customer Due Diligence Provider: if there is at least one CDD claim in the arguments
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [revokeClaims.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [revokeClaims.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -294,7 +284,3 @@ Revoke claims from Identities
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/client/Claims.ts:147](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/client/Claims.ts#L147)

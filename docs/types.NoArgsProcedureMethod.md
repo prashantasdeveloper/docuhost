@@ -25,32 +25,32 @@
 
 `Promise`<`TransactionQueue`<`ProcedureReturnValue`, `ReturnValue`, `unknown`[][]\>\>
 
-#### Defined in
-
-[types/index.ts:1331](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1331)
-
 ## Table of contents
 
-### Methods
+### Properties
 
 - [checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
 
-## Methods
+## Properties
 
 ### checkAuthorization
 
-▸ **checkAuthorization**(`opts?`): `Promise`<[`ProcedureAuthorizationStatus`](../wiki/types.ProcedureAuthorizationStatus)\>
+• **checkAuthorization**: (`opts?`: [`ProcedureOpts`](../wiki/types.ProcedureOpts)) => `Promise`<[`ProcedureAuthorizationStatus`](../wiki/types.ProcedureAuthorizationStatus)\>
 
-#### Parameters
+#### Type declaration
+
+▸ (`opts?`): `Promise`<[`ProcedureAuthorizationStatus`](../wiki/types.ProcedureAuthorizationStatus)\>
+
+##### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `opts?` | [`ProcedureOpts`](../wiki/types.ProcedureOpts) |
 
-#### Returns
+##### Returns
 
 `Promise`<[`ProcedureAuthorizationStatus`](../wiki/types.ProcedureAuthorizationStatus)\>
 
 #### Defined in
 
-[types/index.ts:1332](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1332)
+[types/index.ts:1332](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1332)

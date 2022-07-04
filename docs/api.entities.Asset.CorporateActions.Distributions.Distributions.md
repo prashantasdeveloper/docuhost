@@ -26,10 +26,14 @@ Handles all Asset Distributions related functionality
 
 Create a Dividend Distribution for a subset of the Asset Holders at a certain (existing or future) Checkpoint
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Origin Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [configureDividendDistribution.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [configureDividendDistribution.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -43,10 +47,6 @@ Create a Dividend Distribution for a subset of the Asset Holders at a certain (e
 
 `Promise`<`TransactionQueue`<[`DividendDistribution`](../wiki/api.entities.DividendDistribution.DividendDistribution), [`DividendDistribution`](../wiki/api.entities.DividendDistribution.DividendDistribution), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/CorporateActions/Distributions.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/Distributions.ts#L43)
-
 ___
 
 ### get
@@ -59,10 +59,6 @@ Retrieve all Dividend Distributions associated to this Asset, along with their d
 
 `Promise`<[`DistributionWithDetails`](../wiki/types.DistributionWithDetails)[]\>
 
-#### Defined in
-
-[api/entities/Asset/CorporateActions/Distributions.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/Distributions.ts#L118)
-
 ___
 
 ### getOne
@@ -71,7 +67,9 @@ ___
 
 Retrieve a single Dividend Distribution associated to this Asset by its ID
 
-**`throws`** if there is no Distribution with the passed ID
+**`Throws`**
+
+ if there is no Distribution with the passed ID
 
 #### Parameters
 
@@ -83,7 +81,3 @@ Retrieve a single Dividend Distribution associated to this Asset by its ID
 #### Returns
 
 `Promise`<[`DistributionWithDetails`](../wiki/types.DistributionWithDetails)\>
-
-#### Defined in
-
-[api/entities/Asset/CorporateActions/Distributions.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/CorporateActions/Distributions.ts#L66)

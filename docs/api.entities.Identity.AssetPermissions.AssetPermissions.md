@@ -43,10 +43,6 @@ Check whether this Identity has specific transaction Permissions over an Asset
 
 `Promise`<[`CheckPermissionsResult`](../wiki/types.CheckPermissionsResult)<[`Identity`](../wiki/types.SignerType#identity)\>\>
 
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L133)
-
 ___
 
 ### enabledAt
@@ -56,9 +52,13 @@ ___
 Retrieve the identifier data (block number, date and event index) of the event that was emitted when this Identity was enabled/added as
   an Agent with permissions over a specific Asset
 
-**`note`** uses the middleware
+**`Note`**
 
-**`note`** there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
+ uses the middleware
+
+**`Note`**
+
+ there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
 
 #### Parameters
 
@@ -71,10 +71,6 @@ Retrieve the identifier data (block number, date and event index) of the event t
 
 `Promise`<``null`` \| [`EventIdentifier`](../wiki/types.EventIdentifier)\>
 
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:337](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L337)
-
 ___
 
 ### get
@@ -86,10 +82,6 @@ Retrieve all the Assets over which this Identity has permissions, with the corre
 #### Returns
 
 `Promise`<[`AssetWithGroup`](../wiki/types.AssetWithGroup)[]\>
-
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L104)
 
 ___
 
@@ -110,10 +102,6 @@ Retrieve this Identity's Permission Group for a specific Asset
 
 `Promise`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup)\>
 
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L297)
-
 ___
 
 ### getOperationHistory
@@ -122,9 +110,13 @@ ___
 
 Retrieve all Events triggered by Operations this Identity has performed on a specific Asset
 
-**`note`** uses the middleware
+**`Note`**
 
-**`note`** supports pagination
+ uses the middleware
+
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -141,10 +133,6 @@ Retrieve all Events triggered by Operations this Identity has performed on a spe
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`EventIdentifier`](../wiki/types.EventIdentifier)\>\>
 
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L386)
-
 ___
 
 ### hasPermissions
@@ -153,7 +141,9 @@ ___
 
 Check whether this Identity has specific transaction Permissions over an Asset
 
-**`deprecated`** in favor of `checkPermissions`
+**`Deprecated`**
+
+ in favor of `checkPermissions`
 
 #### Parameters
 
@@ -167,10 +157,6 @@ Check whether this Identity has specific transaction Permissions over an Asset
 
 `Promise`<`boolean`\>
 
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:285](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L285)
-
 ___
 
 ### setGroup
@@ -179,7 +165,9 @@ ___
 
 Assign this Identity to a different Permission Group for a given Asset
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setGroup.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setGroup.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -193,10 +181,6 @@ Assign this Identity to a different Permission Group for a given Asset
 
 `Promise`<`TransactionQueue`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup), [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup) \| [`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:371](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L371)
-
 ___
 
 ### waive
@@ -205,7 +189,9 @@ ___
 
 Abdicate from the current Permissions Group for a given Asset. This means that this Identity will no longer have any permissions over said Asset
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [waive.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [waive.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -218,7 +204,3 @@ Abdicate from the current Permissions Group for a given Asset. This means that t
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Identity/AssetPermissions.ts:361](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/AssetPermissions.ts#L361)

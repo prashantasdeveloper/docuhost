@@ -22,7 +22,7 @@ optional message explaining the reason for failure in special cases
 
 #### Defined in
 
-[types/index.ts:991](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L991)
+[types/index.ts:991](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L991)
 
 ___
 
@@ -34,7 +34,7 @@ required roles which the Identity *DOESN'T* have. Only present if `result` is `f
 
 #### Defined in
 
-[types/index.ts:983](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L983)
+[types/index.ts:983](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L983)
 
 ___
 
@@ -46,4 +46,4 @@ whether the signer possesses all the required roles or not
 
 #### Defined in
 
-[types/index.ts:987](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L987)
+[types/index.ts:987](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L987)

@@ -40,10 +40,6 @@ Calculate an abstract measure of the complexity of a given Calendar Period
 
 `BigNumber`
 
-#### Defined in
-
-[api/entities/Asset/Checkpoints/Schedules.ts:132](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/Schedules.ts#L132)
-
 ___
 
 ### create
@@ -52,11 +48,15 @@ ___
 
 Create a schedule for Checkpoint creation (i.e. "Create a checkpoint every week for 5 weeks, starting next tuesday")
 
-**`note`** due to chain limitations, schedules are advanced and (if appropriate) executed whenever the Asset is
+**`Note`**
+
+ due to chain limitations, schedules are advanced and (if appropriate) executed whenever the Asset is
   redeemed, issued or transferred between portfolios. This means that on an Asset without much movement, there may be disparities between intended Checkpoint creation dates
   and the actual date when they are created. This, however, has no effect on the Checkpoint's accuracy regarding to balances
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [create.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [create.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -69,10 +69,6 @@ Create a schedule for Checkpoint creation (i.e. "Create a checkpoint every week 
 #### Returns
 
 `Promise`<`TransactionQueue`<[`CheckpointSchedule`](../wiki/api.entities.CheckpointSchedule.CheckpointSchedule), [`CheckpointSchedule`](../wiki/api.entities.CheckpointSchedule.CheckpointSchedule), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Checkpoints/Schedules.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/Schedules.ts#L62)
 
 ___
 
@@ -87,10 +83,6 @@ Calculate the sum of the complexity of all current Checkpoint Schedules for this
 
 `Promise`<`BigNumber`\>
 
-#### Defined in
-
-[api/entities/Asset/Checkpoints/Schedules.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/Schedules.ts#L140)
-
 ___
 
 ### get
@@ -103,10 +95,6 @@ Retrieve all active Checkpoint Schedules
 
 `Promise`<[`ScheduleWithDetails`](../wiki/types.ScheduleWithDetails)[]\>
 
-#### Defined in
-
-[api/entities/Asset/Checkpoints/Schedules.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/Schedules.ts#L99)
-
 ___
 
 ### getOne
@@ -115,7 +103,9 @@ ___
 
 Retrieve a single Checkpoint Schedule associated to this Asset by its ID
 
-**`throws`** if there is no Schedule with the passed ID
+**`Throws`**
+
+ if there is no Schedule with the passed ID
 
 #### Parameters
 
@@ -127,10 +117,6 @@ Retrieve a single Checkpoint Schedule associated to this Asset by its ID
 #### Returns
 
 `Promise`<[`ScheduleWithDetails`](../wiki/types.ScheduleWithDetails)\>
-
-#### Defined in
-
-[api/entities/Asset/Checkpoints/Schedules.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/Schedules.ts#L81)
 
 ___
 
@@ -144,10 +130,6 @@ Retrieve the maximum allowed Schedule complexity for this Asset
 
 `Promise`<`BigNumber`\>
 
-#### Defined in
-
-[api/entities/Asset/Checkpoints/Schedules.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/Schedules.ts#L149)
-
 ___
 
 ### remove
@@ -156,7 +138,9 @@ ___
 
 Remove the supplied Checkpoint Schedule for a given Asset
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -169,7 +153,3 @@ Remove the supplied Checkpoint Schedule for a given Asset
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Checkpoints/Schedules.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/Schedules.ts#L72)

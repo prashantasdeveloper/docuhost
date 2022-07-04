@@ -31,198 +31,198 @@
 
 ### AcceptMultisigSignerAsIdentity
 
-• **AcceptMultisigSignerAsIdentity**
+• **AcceptMultisigSignerAsIdentity** = ``"multiSig.acceptMultisigSignerAsIdentity"``
 
 #### Defined in
 
-[generated/types.ts:403](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L403)
+[generated/types.ts:403](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L403)
 
 ___
 
 ### AcceptMultisigSignerAsKey
 
-• **AcceptMultisigSignerAsKey**
+• **AcceptMultisigSignerAsKey** = ``"multiSig.acceptMultisigSignerAsKey"``
 
 #### Defined in
 
-[generated/types.ts:404](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L404)
+[generated/types.ts:404](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L404)
 
 ___
 
 ### AddMultisigSigner
 
-• **AddMultisigSigner**
+• **AddMultisigSigner** = ``"multiSig.addMultisigSigner"``
 
 #### Defined in
 
-[generated/types.ts:405](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L405)
+[generated/types.ts:405](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L405)
 
 ___
 
 ### AddMultisigSignersViaCreator
 
-• **AddMultisigSignersViaCreator**
+• **AddMultisigSignersViaCreator** = ``"multiSig.addMultisigSignersViaCreator"``
 
 #### Defined in
 
-[generated/types.ts:407](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L407)
+[generated/types.ts:407](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L407)
 
 ___
 
 ### ApproveAsIdentity
 
-• **ApproveAsIdentity**
+• **ApproveAsIdentity** = ``"multiSig.approveAsIdentity"``
 
 #### Defined in
 
-[generated/types.ts:399](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L399)
+[generated/types.ts:399](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L399)
 
 ___
 
 ### ApproveAsKey
 
-• **ApproveAsKey**
+• **ApproveAsKey** = ``"multiSig.approveAsKey"``
 
 #### Defined in
 
-[generated/types.ts:400](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L400)
+[generated/types.ts:400](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L400)
 
 ___
 
 ### ChangeSigsRequired
 
-• **ChangeSigsRequired**
+• **ChangeSigsRequired** = ``"multiSig.changeSigsRequired"``
 
 #### Defined in
 
-[generated/types.ts:409](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L409)
+[generated/types.ts:409](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L409)
 
 ___
 
 ### CreateMultisig
 
-• **CreateMultisig**
+• **CreateMultisig** = ``"multiSig.createMultisig"``
 
 #### Defined in
 
-[generated/types.ts:394](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L394)
+[generated/types.ts:394](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L394)
 
 ___
 
 ### CreateOrApproveProposalAsIdentity
 
-• **CreateOrApproveProposalAsIdentity**
+• **CreateOrApproveProposalAsIdentity** = ``"multiSig.createOrApproveProposalAsIdentity"``
 
 #### Defined in
 
-[generated/types.ts:395](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L395)
+[generated/types.ts:395](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L395)
 
 ___
 
 ### CreateOrApproveProposalAsKey
 
-• **CreateOrApproveProposalAsKey**
+• **CreateOrApproveProposalAsKey** = ``"multiSig.createOrApproveProposalAsKey"``
 
 #### Defined in
 
-[generated/types.ts:396](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L396)
+[generated/types.ts:396](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L396)
 
 ___
 
 ### CreateProposalAsIdentity
 
-• **CreateProposalAsIdentity**
+• **CreateProposalAsIdentity** = ``"multiSig.createProposalAsIdentity"``
 
 #### Defined in
 
-[generated/types.ts:397](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L397)
+[generated/types.ts:397](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L397)
 
 ___
 
 ### CreateProposalAsKey
 
-• **CreateProposalAsKey**
+• **CreateProposalAsKey** = ``"multiSig.createProposalAsKey"``
 
 #### Defined in
 
-[generated/types.ts:398](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L398)
+[generated/types.ts:398](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L398)
 
 ___
 
 ### ExecuteScheduledProposal
 
-• **ExecuteScheduledProposal**
+• **ExecuteScheduledProposal** = ``"multiSig.executeScheduledProposal"``
 
 #### Defined in
 
-[generated/types.ts:412](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L412)
+[generated/types.ts:412](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L412)
 
 ___
 
 ### MakeMultisigPrimary
 
-• **MakeMultisigPrimary**
+• **MakeMultisigPrimary** = ``"multiSig.makeMultisigPrimary"``
 
 #### Defined in
 
-[generated/types.ts:411](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L411)
+[generated/types.ts:411](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L411)
 
 ___
 
 ### MakeMultisigSecondary
 
-• **MakeMultisigSecondary**
+• **MakeMultisigSecondary** = ``"multiSig.makeMultisigSecondary"``
 
 #### Defined in
 
-[generated/types.ts:413](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L413)
+[generated/types.ts:413](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L413)
 
 ___
 
 ### MakeMultisigSigner
 
-• **MakeMultisigSigner**
+• **MakeMultisigSigner** = ``"multiSig.makeMultisigSigner"``
 
 #### Defined in
 
-[generated/types.ts:410](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L410)
+[generated/types.ts:410](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L410)
 
 ___
 
 ### RejectAsIdentity
 
-• **RejectAsIdentity**
+• **RejectAsIdentity** = ``"multiSig.rejectAsIdentity"``
 
 #### Defined in
 
-[generated/types.ts:401](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L401)
+[generated/types.ts:401](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L401)
 
 ___
 
 ### RejectAsKey
 
-• **RejectAsKey**
+• **RejectAsKey** = ``"multiSig.rejectAsKey"``
 
 #### Defined in
 
-[generated/types.ts:402](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L402)
+[generated/types.ts:402](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L402)
 
 ___
 
 ### RemoveMultisigSigner
 
-• **RemoveMultisigSigner**
+• **RemoveMultisigSigner** = ``"multiSig.removeMultisigSigner"``
 
 #### Defined in
 
-[generated/types.ts:406](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L406)
+[generated/types.ts:406](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L406)
 
 ___
 
 ### RemoveMultisigSignersViaCreator
 
-• **RemoveMultisigSignersViaCreator**
+• **RemoveMultisigSignersViaCreator** = ``"multiSig.removeMultisigSignersViaCreator"``
 
 #### Defined in
 
-[generated/types.ts:408](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L408)
+[generated/types.ts:408](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L408)

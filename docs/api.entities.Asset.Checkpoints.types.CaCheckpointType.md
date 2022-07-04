@@ -13,18 +13,18 @@
 
 ### Existing
 
-• **Existing**
+• **Existing** = ``"Existing"``
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/types.ts#L6)
+[api/entities/Asset/Checkpoints/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/Checkpoints/types.ts#L6)
 
 ___
 
 ### Schedule
 
-• **Schedule**
+• **Schedule** = ``"Schedule"``
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/types.ts#L7)
+[api/entities/Asset/Checkpoints/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/Checkpoints/types.ts#L7)

@@ -15,38 +15,38 @@
 
 ### NotePreimage
 
-• **NotePreimage**
+• **NotePreimage** = ``"preimage.notePreimage"``
 
 #### Defined in
 
-[generated/types.ts:706](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L706)
+[generated/types.ts:706](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L706)
 
 ___
 
 ### RequestPreimage
 
-• **RequestPreimage**
+• **RequestPreimage** = ``"preimage.requestPreimage"``
 
 #### Defined in
 
-[generated/types.ts:708](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L708)
+[generated/types.ts:708](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L708)
 
 ___
 
 ### UnnotePreimage
 
-• **UnnotePreimage**
+• **UnnotePreimage** = ``"preimage.unnotePreimage"``
 
 #### Defined in
 
-[generated/types.ts:707](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L707)
+[generated/types.ts:707](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L707)
 
 ___
 
 ### UnrequestPreimage
 
-• **UnrequestPreimage**
+• **UnrequestPreimage** = ``"preimage.unrequestPreimage"``
 
 #### Defined in
 
-[generated/types.ts:709](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L709)
+[generated/types.ts:709](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L709)

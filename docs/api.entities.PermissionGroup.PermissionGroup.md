@@ -41,7 +41,7 @@ Asset for which this group specifies permissions
 
 #### Defined in
 
-[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L19)
+[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/PermissionGroup.ts#L19)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -73,10 +73,6 @@ Determine whether this Entity exists on chain
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
 
-#### Defined in
-
-[api/entities/Entity.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L68)
-
 ___
 
 ### getPermissions
@@ -88,10 +84,6 @@ Retrieve the Permissions associated with this Permission Group
 #### Returns
 
 `Promise`<[`GroupPermissions`](../wiki/types#grouppermissions)\>
-
-#### Defined in
-
-[api/entities/PermissionGroup.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L35)
 
 ___
 
@@ -115,10 +107,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### toHuman
@@ -134,10 +122,6 @@ Returns Entity data in a human readable (JSON) format
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
-
-#### Defined in
-
-[api/entities/Entity.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L73)
 
 ___
 
@@ -167,10 +151,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### isUniqueIdentifiers
@@ -192,10 +172,6 @@ Typeguard that checks whether the object passed corresponds to the unique identi
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[isUniqueIdentifiers](../wiki/api.entities.Entity.Entity#isuniqueidentifiers)
-
-#### Defined in
-
-[api/entities/Entity.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L42)
 
 ___
 
@@ -224,7 +200,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

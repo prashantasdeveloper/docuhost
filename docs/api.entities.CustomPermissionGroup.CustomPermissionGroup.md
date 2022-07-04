@@ -42,7 +42,7 @@ Asset for which this group specifies permissions
 
 #### Defined in
 
-[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/PermissionGroup.ts#L19)
+[api/entities/PermissionGroup.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/PermissionGroup.ts#L19)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[api/entities/CustomPermissionGroup.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L40)
+[api/entities/CustomPermissionGroup.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CustomPermissionGroup.ts#L40)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -84,10 +84,6 @@ Determine whether this Custom Permission Group exists on chain
 
 [PermissionGroup](../wiki/api.entities.PermissionGroup.PermissionGroup).[exists](../wiki/api.entities.PermissionGroup.PermissionGroup#exists)
 
-#### Defined in
-
-[api/entities/CustomPermissionGroup.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L101)
-
 ___
 
 ### getPermissions
@@ -103,10 +99,6 @@ Retrieve the list of permissions and transaction groups associated with this Per
 #### Overrides
 
 [PermissionGroup](../wiki/api.entities.PermissionGroup.PermissionGroup).[getPermissions](../wiki/api.entities.PermissionGroup.PermissionGroup#getpermissions)
-
-#### Defined in
-
-[api/entities/CustomPermissionGroup.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L71)
 
 ___
 
@@ -130,10 +122,6 @@ Determine whether this Entity is the same as another one
 
 [PermissionGroup](../wiki/api.entities.PermissionGroup.PermissionGroup).[isEqual](../wiki/api.entities.PermissionGroup.PermissionGroup#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### setPermissions
@@ -142,7 +130,9 @@ ___
 
 Modify the group's permissions
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setPermissions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [setPermissions.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -155,10 +145,6 @@ Modify the group's permissions
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/CustomPermissionGroup.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L64)
 
 ___
 
@@ -175,10 +161,6 @@ Return the Group's static data
 #### Overrides
 
 [PermissionGroup](../wiki/api.entities.PermissionGroup.PermissionGroup).[toHuman](../wiki/api.entities.PermissionGroup.PermissionGroup#tohuman)
-
-#### Defined in
-
-[api/entities/CustomPermissionGroup.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CustomPermissionGroup.ts#L119)
 
 ___
 
@@ -208,10 +190,6 @@ Generate the Entity's UUID from its identifying properties
 
 [PermissionGroup](../wiki/api.entities.PermissionGroup.PermissionGroup).[generateUuid](../wiki/api.entities.PermissionGroup.PermissionGroup#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -239,7 +217,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [PermissionGroup](../wiki/api.entities.PermissionGroup.PermissionGroup).[unserialize](../wiki/api.entities.PermissionGroup.PermissionGroup#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

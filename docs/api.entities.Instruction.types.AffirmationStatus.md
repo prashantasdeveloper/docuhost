@@ -14,28 +14,28 @@
 
 ### Affirmed
 
-• **Affirmed**
+• **Affirmed** = ``"Affirmed"``
 
 #### Defined in
 
-[api/entities/Instruction/types.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Instruction/types.ts#L49)
+[api/entities/Instruction/types.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Instruction/types.ts#L49)
 
 ___
 
 ### Pending
 
-• **Pending**
+• **Pending** = ``"Pending"``
 
 #### Defined in
 
-[api/entities/Instruction/types.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Instruction/types.ts#L48)
+[api/entities/Instruction/types.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Instruction/types.ts#L48)
 
 ___
 
 ### Unknown
 
-• **Unknown**
+• **Unknown** = ``"Unknown"``
 
 #### Defined in
 
-[api/entities/Instruction/types.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Instruction/types.ts#L47)
+[api/entities/Instruction/types.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Instruction/types.ts#L47)

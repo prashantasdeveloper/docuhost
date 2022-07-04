@@ -12,8 +12,8 @@
 
 ### SetUncles
 
-• **SetUncles**
+• **SetUncles** = ``"authorship.setUncles"``
 
 #### Defined in
 
-[generated/types.ts:288](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L288)
+[generated/types.ts:288](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L288)

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L52)
+[api/entities/Portfolio/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Portfolio/index.ts#L52)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/Portfolio/index.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Portfolio/index.ts#L53)
+[api/entities/Portfolio/index.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Portfolio/index.ts#L53)

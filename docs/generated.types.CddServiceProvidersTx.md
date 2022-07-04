@@ -18,68 +18,68 @@
 
 ### AbdicateMembership
 
-• **AbdicateMembership**
+• **AbdicateMembership** = ``"cddServiceProviders.abdicateMembership"``
 
 #### Defined in
 
-[generated/types.ts:336](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L336)
+[generated/types.ts:336](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L336)
 
 ___
 
 ### AddMember
 
-• **AddMember**
+• **AddMember** = ``"cddServiceProviders.addMember"``
 
 #### Defined in
 
-[generated/types.ts:332](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L332)
+[generated/types.ts:332](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L332)
 
 ___
 
 ### DisableMember
 
-• **DisableMember**
+• **DisableMember** = ``"cddServiceProviders.disableMember"``
 
 #### Defined in
 
-[generated/types.ts:331](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L331)
+[generated/types.ts:331](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L331)
 
 ___
 
 ### RemoveMember
 
-• **RemoveMember**
+• **RemoveMember** = ``"cddServiceProviders.removeMember"``
 
 #### Defined in
 
-[generated/types.ts:333](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L333)
+[generated/types.ts:333](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L333)
 
 ___
 
 ### ResetMembers
 
-• **ResetMembers**
+• **ResetMembers** = ``"cddServiceProviders.resetMembers"``
 
 #### Defined in
 
-[generated/types.ts:335](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L335)
+[generated/types.ts:335](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L335)
 
 ___
 
 ### SetActiveMembersLimit
 
-• **SetActiveMembersLimit**
+• **SetActiveMembersLimit** = ``"cddServiceProviders.setActiveMembersLimit"``
 
 #### Defined in
 
-[generated/types.ts:330](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L330)
+[generated/types.ts:330](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L330)
 
 ___
 
 ### SwapMember
 
-• **SwapMember**
+• **SwapMember** = ``"cddServiceProviders.swapMember"``
 
 #### Defined in
 
-[generated/types.ts:334](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L334)
+[generated/types.ts:334](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L334)

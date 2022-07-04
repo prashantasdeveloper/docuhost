@@ -28,12 +28,12 @@
 • **assetType**: `string`
 
 type of security that the Asset represents (i.e. Equity, Debt, Commodity, etc). Common values are included in the
-  [KnownAssetType](../wiki/types.KnownAssetType) enum, but custom values can be used as well. Custom values must be registered on-chain the first time
+  KnownAssetType enum, but custom values can be used as well. Custom values must be registered on-chain the first time
   they're used, requiring an additional transaction. They aren't tied to a specific Asset
 
 #### Defined in
 
-[api/procedures/types.ts:172](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L172)
+[api/procedures/types.ts:172](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L172)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L181)
+[api/procedures/types.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L181)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:180](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L180)
+[api/procedures/types.ts:180](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L180)
 
 ___
 
@@ -67,7 +67,7 @@ amount of Asset tokens that will be minted on creation (optional, default doesn'
 
 #### Defined in
 
-[api/procedures/types.ts:162](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L162)
+[api/procedures/types.ts:162](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L162)
 
 ___
 
@@ -79,7 +79,7 @@ whether a single Asset token can be divided into decimal parts
 
 #### Defined in
 
-[api/procedures/types.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L166)
+[api/procedures/types.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L166)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L158)
+[api/procedures/types.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L158)
 
 ___
 
@@ -102,7 +102,7 @@ whether this asset requires investors to have a Investor Uniqueness Claim in ord
 
 #### Defined in
 
-[api/procedures/types.ts:186](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L186)
+[api/procedures/types.ts:186](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L186)
 
 ___
 
@@ -114,4 +114,4 @@ array of domestic or international alphanumeric security identifiers for the Ass
 
 #### Defined in
 
-[api/procedures/types.ts:176](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L176)
+[api/procedures/types.ts:176](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L176)

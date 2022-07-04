@@ -42,7 +42,7 @@ Asset for which Checkpoints are scheduled
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L65)
+[api/entities/CheckpointSchedule/index.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CheckpointSchedule/index.ts#L65)
 
 ___
 
@@ -54,7 +54,7 @@ abstract measure of the complexity of this Schedule. Shorter periods translate i
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L87)
+[api/entities/CheckpointSchedule/index.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CheckpointSchedule/index.ts#L87)
 
 ___
 
@@ -67,7 +67,7 @@ date at which the last Checkpoint will be created with this Schedule.
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L82)
+[api/entities/CheckpointSchedule/index.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CheckpointSchedule/index.ts#L82)
 
 ___
 
@@ -79,7 +79,7 @@ schedule identifier number
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L60)
+[api/entities/CheckpointSchedule/index.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CheckpointSchedule/index.ts#L60)
 
 ___
 
@@ -92,7 +92,7 @@ how often this Schedule creates a Checkpoint. A null value means this Schedule
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L71)
+[api/entities/CheckpointSchedule/index.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CheckpointSchedule/index.ts#L71)
 
 ___
 
@@ -104,7 +104,7 @@ first Checkpoint creation date
 
 #### Defined in
 
-[api/entities/CheckpointSchedule/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L76)
+[api/entities/CheckpointSchedule/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/CheckpointSchedule/index.ts#L76)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -131,10 +131,6 @@ Retrieve information specific to this Schedule
 #### Returns
 
 `Promise`<[`ScheduleDetails`](../wiki/api.entities.CheckpointSchedule.types.ScheduleDetails)\>
-
-#### Defined in
-
-[api/entities/CheckpointSchedule/index.ts:123](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L123)
 
 ___
 
@@ -152,10 +148,6 @@ Determine whether this Checkpoint Schedule exists on chain
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
 
-#### Defined in
-
-[api/entities/CheckpointSchedule/index.ts:189](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L189)
-
 ___
 
 ### getCheckpoints
@@ -167,10 +159,6 @@ Retrieve all Checkpoints created by this Schedule
 #### Returns
 
 `Promise`<[`Checkpoint`](../wiki/api.entities.Checkpoint.Checkpoint)[]\>
-
-#### Defined in
-
-[api/entities/CheckpointSchedule/index.ts:157](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L157)
 
 ___
 
@@ -194,10 +182,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### toHuman
@@ -213,10 +197,6 @@ Return the Schedule's static data
 #### Overrides
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
-
-#### Defined in
-
-[api/entities/CheckpointSchedule/index.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/CheckpointSchedule/index.ts#L211)
 
 ___
 
@@ -246,10 +226,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -277,7 +253,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

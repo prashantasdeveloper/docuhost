@@ -58,7 +58,7 @@ Asset for which this Identity is a Default Trusted Claim Issuer
 
 #### Defined in
 
-[api/entities/DefaultTrustedClaimIssuer.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DefaultTrustedClaimIssuer.ts#L36)
+[api/entities/DefaultTrustedClaimIssuer.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DefaultTrustedClaimIssuer.ts#L36)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[api/entities/Identity/index.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L99)
+[api/entities/Identity/index.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Identity/index.ts#L99)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[api/entities/Identity/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L97)
+[api/entities/Identity/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Identity/index.ts#L97)
 
 ___
 
@@ -102,7 +102,7 @@ Identity ID as stored in the blockchain
 
 #### Defined in
 
-[api/entities/Identity/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L94)
+[api/entities/Identity/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Identity/index.ts#L94)
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 #### Defined in
 
-[api/entities/Identity/index.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L98)
+[api/entities/Identity/index.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Identity/index.ts#L98)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -140,17 +140,17 @@ ___
 
 Retrieve the identifier data (block number, date and event index) of the event that was emitted when the trusted claim issuer was added
 
-**`note`** uses the middleware
+**`Note`**
 
-**`note`** there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
+ uses the middleware
+
+**`Note`**
+
+ there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
 
 #### Returns
 
 `Promise`<``null`` \| [`EventIdentifier`](../wiki/types.EventIdentifier)\>
-
-#### Defined in
-
-[api/entities/DefaultTrustedClaimIssuer.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DefaultTrustedClaimIssuer.ts#L55)
 
 ___
 
@@ -160,7 +160,9 @@ ___
 
 Check whether secondary Accounts are frozen
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
@@ -169,10 +171,6 @@ Check whether secondary Accounts are frozen
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[areSecondaryAccountsFrozen](../wiki/api.entities.Identity.Identity#aresecondaryaccountsfrozen)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:596](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L596)
 
 ▸ **areSecondaryAccountsFrozen**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -189,10 +187,6 @@ Check whether secondary Accounts are frozen
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[areSecondaryAccountsFrozen](../wiki/api.entities.Identity.Identity#aresecondaryaccountsfrozen)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:597](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L597)
 
 ___
 
@@ -216,10 +210,6 @@ Check whether this Identity possesses all specified roles
 
 [Identity](../wiki/api.entities.Identity.Identity).[checkRoles](../wiki/api.entities.Identity.Identity#checkroles)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:364](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L364)
-
 ___
 
 ### exists
@@ -228,7 +218,9 @@ ___
 
 Determine whether this Identity exists on chain
 
-**`note`** asset Identities aren't considered to exist for the
+**`Note`**
+
+ asset Identities aren't considered to exist for the
 
 #### Returns
 
@@ -238,10 +230,6 @@ Determine whether this Identity exists on chain
 
 [Identity](../wiki/api.entities.Identity.Identity).[exists](../wiki/api.entities.Identity.Identity#exists)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:753](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L753)
-
 ___
 
 ### getAssetBalance
@@ -250,7 +238,9 @@ ___
 
 Retrieve the balance of a particular Asset
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Parameters
 
@@ -266,10 +256,6 @@ Retrieve the balance of a particular Asset
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[getAssetBalance](../wiki/api.entities.Identity.Identity#getassetbalance)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L168)
 
 ▸ **getAssetBalance**(`args`, `callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -289,10 +275,6 @@ Retrieve the balance of a particular Asset
 
 [Identity](../wiki/api.entities.Identity.Identity).[getAssetBalance](../wiki/api.entities.Identity.Identity#getassetbalance)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:169](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L169)
-
 ___
 
 ### getHeldAssets
@@ -301,9 +283,13 @@ ___
 
 Retrieve a list of all Assets which were held at one point by this Identity
 
-**`note`** uses the middleware
+**`Note`**
 
-**`note`** supports pagination
+ uses the middleware
+
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -322,10 +308,6 @@ Retrieve a list of all Assets which were held at one point by this Identity
 
 [Identity](../wiki/api.entities.Identity.Identity).[getHeldAssets](../wiki/api.entities.Identity.Identity#getheldassets)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:322](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L322)
-
 ___
 
 ### getInstructions
@@ -343,10 +325,6 @@ Retrieve all Instructions where this Identity is a participant,
 
 [Identity](../wiki/api.entities.Identity.Identity).[getInstructions](../wiki/api.entities.Identity.Identity#getinstructions)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:474](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L474)
-
 ___
 
 ### getPendingDistributions
@@ -355,9 +333,13 @@ ___
 
 Retrieve every Dividend Distribution for which this Identity is eligible and hasn't been paid
 
-**`note`** uses the middleware
+**`Note`**
 
-**`note`** this query can be potentially **SLOW** depending on which Assets this Identity has held
+ uses the middleware
+
+**`Note`**
+
+ this query can be potentially **SLOW** depending on which Assets this Identity has held
 
 #### Returns
 
@@ -367,10 +349,6 @@ Retrieve every Dividend Distribution for which this Identity is eligible and has
 
 [Identity](../wiki/api.entities.Identity.Identity).[getPendingDistributions](../wiki/api.entities.Identity.Identity#getpendingdistributions)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:633](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L633)
-
 ___
 
 ### getPendingInstructions
@@ -379,7 +357,9 @@ ___
 
 Retrieve all pending Instructions involving this Identity
 
-**`deprecated`** in favor of `getInstructions`
+**`Deprecated`**
+
+ in favor of `getInstructions`
 
 #### Returns
 
@@ -389,10 +369,6 @@ Retrieve all pending Instructions involving this Identity
 
 [Identity](../wiki/api.entities.Identity.Identity).[getPendingInstructions](../wiki/api.entities.Identity.Identity#getpendinginstructions)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:543](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L543)
-
 ___
 
 ### getPrimaryAccount
@@ -401,7 +377,9 @@ ___
 
 Retrieve the primary Account associated with the Identity
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
@@ -410,10 +388,6 @@ Retrieve the primary Account associated with the Identity
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[getPrimaryAccount](../wiki/api.entities.Identity.Identity#getprimaryaccount)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:269](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L269)
 
 ▸ **getPrimaryAccount**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -431,10 +405,6 @@ Retrieve the primary Account associated with the Identity
 
 [Identity](../wiki/api.entities.Identity.Identity).[getPrimaryAccount](../wiki/api.entities.Identity.Identity#getprimaryaccount)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:270](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L270)
-
 ___
 
 ### getScopeId
@@ -444,7 +414,9 @@ ___
 Retrieve the Scope ID associated to this Identity's Investor Uniqueness Claim for a specific Asset, or null
   if there is none
 
-**`note`** more on Investor Uniqueness [here](https://developers.polymesh.network/introduction/identity#polymesh-unique-identity-system-puis) and
+**`Note`**
+
+ more on Investor Uniqueness [here](https://developers.polymesh.network/introduction/identity#polymesh-unique-identity-system-puis) and
   [here](https://developers.polymesh.network/polymesh-docs/primitives/confidential-identity)
 
 #### Parameters
@@ -462,10 +434,6 @@ Retrieve the Scope ID associated to this Identity's Investor Uniqueness Claim fo
 
 [Identity](../wiki/api.entities.Identity.Identity).[getScopeId](../wiki/api.entities.Identity.Identity#getscopeid)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L452)
-
 ___
 
 ### getSecondaryAccounts
@@ -474,9 +442,13 @@ ___
 
 Get the list of secondary Accounts related to the Identity
 
-**`note`** can be subscribed to
+**`Note`**
 
-**`note`** This method currently lacks pagination and may be slow for identities with many thousands of keys
+ can be subscribed to
+
+**`Note`**
+
+ This method currently lacks pagination and may be slow for identities with many thousands of keys
 
 #### Returns
 
@@ -485,10 +457,6 @@ Get the list of secondary Accounts related to the Identity
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[getSecondaryAccounts](../wiki/api.entities.Identity.Identity#getsecondaryaccounts)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:688](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L688)
 
 ▸ **getSecondaryAccounts**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -506,10 +474,6 @@ Get the list of secondary Accounts related to the Identity
 
 [Identity](../wiki/api.entities.Identity.Identity).[getSecondaryAccounts](../wiki/api.entities.Identity.Identity#getsecondaryaccounts)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:689](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L689)
-
 ___
 
 ### getTrustingAssets
@@ -518,7 +482,9 @@ ___
 
 Get the list of Assets for which this Identity is a trusted claim issuer
 
-**`note`** uses the middleware
+**`Note`**
+
+ uses the middleware
 
 #### Returns
 
@@ -528,10 +494,6 @@ Get the list of Assets for which this Identity is a trusted claim issuer
 
 [Identity](../wiki/api.entities.Identity.Identity).[getTrustingAssets](../wiki/api.entities.Identity.Identity#gettrustingassets)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:399](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L399)
-
 ___
 
 ### getVenues
@@ -540,7 +502,9 @@ ___
 
 Retrieve all Venues created by this Identity
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
@@ -549,10 +513,6 @@ Retrieve all Venues created by this Identity
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[getVenues](../wiki/api.entities.Identity.Identity#getvenues)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:416](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L416)
 
 ▸ **getVenues**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -569,10 +529,6 @@ Retrieve all Venues created by this Identity
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[getVenues](../wiki/api.entities.Identity.Identity#getvenues)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:417](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L417)
 
 ___
 
@@ -596,10 +552,6 @@ Check whether this Identity possesses the specified Role
 
 [Identity](../wiki/api.entities.Identity.Identity).[hasRole](../wiki/api.entities.Identity.Identity#hasrole)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:120](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L120)
-
 ___
 
 ### hasRoles
@@ -608,7 +560,9 @@ ___
 
 Check whether this Identity possesses all specified roles
 
-**`deprecated`** in favor of `checkRoles`
+**`Deprecated`**
+
+ in favor of `checkRoles`
 
 #### Parameters
 
@@ -623,10 +577,6 @@ Check whether this Identity possesses all specified roles
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[hasRoles](../wiki/api.entities.Identity.Identity#hasroles)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:388](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L388)
 
 ___
 
@@ -644,10 +594,6 @@ Check whether this Identity has a valid CDD claim
 
 [Identity](../wiki/api.entities.Identity.Identity).[hasValidCdd](../wiki/api.entities.Identity.Identity#hasvalidcdd)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:217](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L217)
-
 ___
 
 ### isCddProvider
@@ -663,10 +609,6 @@ Check whether this Identity is a CDD provider
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[isCddProvider](../wiki/api.entities.Identity.Identity#iscddprovider)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:250](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L250)
 
 ___
 
@@ -690,10 +632,6 @@ Determine whether this Entity is the same as another one
 
 [Identity](../wiki/api.entities.Identity.Identity).[isEqual](../wiki/api.entities.Identity.Identity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### isGcMember
@@ -709,10 +647,6 @@ Check whether this Identity is Governance Committee member
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[isGcMember](../wiki/api.entities.Identity.Identity#isgcmember)
-
-#### Defined in
-
-[api/entities/Identity/index.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L233)
 
 ___
 
@@ -730,10 +664,6 @@ Return the Identity's DID
 
 [Identity](../wiki/api.entities.Identity.Identity).[toHuman](../wiki/api.entities.Identity.Identity#tohuman)
 
-#### Defined in
-
-[api/entities/Identity/index.ts:776](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/index.ts#L776)
-
 ___
 
 ### trustedFor
@@ -745,10 +675,6 @@ Retrieve claim types for which this Claim Issuer is trusted. A null value means 
 #### Returns
 
 `Promise`<``null`` \| [`ClaimType`](../wiki/types.ClaimType)[]\>
-
-#### Defined in
-
-[api/entities/DefaultTrustedClaimIssuer.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DefaultTrustedClaimIssuer.ts#L77)
 
 ___
 
@@ -778,10 +704,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Identity](../wiki/api.entities.Identity.Identity).[generateUuid](../wiki/api.entities.Identity.Identity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -809,7 +731,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Identity](../wiki/api.entities.Identity.Identity).[unserialize](../wiki/api.entities.Identity.Identity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

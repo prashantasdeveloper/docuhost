@@ -14,34 +14,34 @@
 
 ### AssetCreated
 
-• **AssetCreated**
+• **AssetCreated** = ``"AssetCreated"``
 
 an Asset using this ticker has already been created
 
 #### Defined in
 
-[api/entities/TickerReservation/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/types.ts#L15)
+[api/entities/TickerReservation/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/TickerReservation/types.ts#L15)
 
 ___
 
 ### Free
 
-• **Free**
+• **Free** = ``"Free"``
 
 ticker hasn't been reserved or previous reservation expired
 
 #### Defined in
 
-[api/entities/TickerReservation/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/types.ts#L7)
+[api/entities/TickerReservation/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/TickerReservation/types.ts#L7)
 
 ___
 
 ### Reserved
 
-• **Reserved**
+• **Reserved** = ``"Reserved"``
 
 ticker is currently reserved
 
 #### Defined in
 
-[api/entities/TickerReservation/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/TickerReservation/types.ts#L11)
+[api/entities/TickerReservation/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/TickerReservation/types.ts#L11)

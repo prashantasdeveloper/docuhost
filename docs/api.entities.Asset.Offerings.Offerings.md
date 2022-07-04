@@ -37,10 +37,6 @@ Retrieve all of the Asset's Offerings and their details. Can be filtered using p
 
 `Promise`<[`OfferingWithDetails`](../wiki/types.OfferingWithDetails)[]\>
 
-#### Defined in
-
-[api/entities/Asset/Offerings.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Offerings.ts#L79)
-
 ___
 
 ### getOne
@@ -49,7 +45,9 @@ ___
 
 Retrieve a single Offering associated to this Asset by its ID
 
-**`throws`** if there is no Offering with the passed ID
+**`Throws`**
+
+ if there is no Offering with the passed ID
 
 #### Parameters
 
@@ -62,10 +60,6 @@ Retrieve a single Offering associated to this Asset by its ID
 
 `Promise`<[`Offering`](../wiki/api.entities.Offering.Offering)\>
 
-#### Defined in
-
-[api/entities/Asset/Offerings.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Offerings.ts#L54)
-
 ___
 
 ### launch
@@ -74,11 +68,15 @@ ___
 
 Launch an Asset Offering
 
-**`note`** required roles:
+**`Note`**
+
+ required roles:
   - Offering Portfolio Custodian
   - Raising Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [launch.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [launch.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -91,7 +89,3 @@ Launch an Asset Offering
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Offering`](../wiki/api.entities.Offering.Offering), [`Offering`](../wiki/api.entities.Offering.Offering), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Offerings.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Offerings.ts#L45)

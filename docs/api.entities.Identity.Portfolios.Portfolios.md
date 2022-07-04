@@ -27,10 +27,14 @@ Handles all Portfolio related functionality on the Identity side
 
 Delete a Portfolio by ID
 
-**`note`** required role:
+**`Note`**
+
+ required role:
   - Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [delete.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [delete.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -45,10 +49,6 @@ Delete a Portfolio by ID
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Identity/Portfolios.ts:164](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L164)
-
 ___
 
 ### getCustodiedPortfolios
@@ -59,7 +59,9 @@ Retrieve all Portfolios custodied by this Identity.
   This only includes portfolios owned by a different Identity but custodied by this one.
   To fetch Portfolios owned by this Identity, use [getPortfolios](../wiki/api.entities.Identity.Portfolios.Portfolios#getportfolios)
 
-**`note`** supports pagination
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -70,10 +72,6 @@ Retrieve all Portfolios custodied by this Identity.
 #### Returns
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`NumberedPortfolio`](../wiki/api.entities.NumberedPortfolio.NumberedPortfolio) \| [`DefaultPortfolio`](../wiki/api.entities.DefaultPortfolio.DefaultPortfolio)\>\>
-
-#### Defined in
-
-[api/entities/Identity/Portfolios.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L77)
 
 ___
 
@@ -86,10 +84,6 @@ Retrieve a Numbered Portfolio or the Default Portfolio if Portfolio ID is not pa
 #### Returns
 
 `Promise`<[`DefaultPortfolio`](../wiki/api.entities.DefaultPortfolio.DefaultPortfolio)\>
-
-#### Defined in
-
-[api/entities/Identity/Portfolios.ts:124](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L124)
 
 ▸ **getPortfolio**(`args`): `Promise`<[`NumberedPortfolio`](../wiki/api.entities.NumberedPortfolio.NumberedPortfolio)\>
 
@@ -104,10 +98,6 @@ Retrieve a Numbered Portfolio or the Default Portfolio if Portfolio ID is not pa
 
 `Promise`<[`NumberedPortfolio`](../wiki/api.entities.NumberedPortfolio.NumberedPortfolio)\>
 
-#### Defined in
-
-[api/entities/Identity/Portfolios.ts:125](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L125)
-
 ___
 
 ### getPortfolios
@@ -119,7 +109,3 @@ Retrieve all the Portfolios owned by this Identity
 #### Returns
 
 `Promise`<[[`DefaultPortfolio`](../wiki/api.entities.DefaultPortfolio.DefaultPortfolio), ...NumberedPortfolio[]]\>
-
-#### Defined in
-
-[api/entities/Identity/Portfolios.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Identity/Portfolios.ts#L46)

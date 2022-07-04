@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[types/index.ts:1302](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1302)
+[types/index.ts:1302](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1302)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1299](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1299)
+[types/index.ts:1299](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1299)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1298](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1298)
+[types/index.ts:1298](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1298)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1300](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1300)
+[types/index.ts:1300](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1300)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1301](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1301)
+[types/index.ts:1301](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1301)
 
 ___
 
@@ -73,4 +73,4 @@ percentage (0-100) of tax withholding for the `target` identity
 
 #### Defined in
 
-[types/index.ts:1306](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1306)
+[types/index.ts:1306](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1306)

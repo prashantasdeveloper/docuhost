@@ -29,7 +29,9 @@ Handles all Asset Permissions related functionality
 
 Create a Permission Group for this Asset. Identities can be assigned to Permission Groups as agents. Agents assigned to a Permission Group have said group's permissions over the Asset
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createGroup.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [createGroup.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -42,10 +44,6 @@ Create a Permission Group for this Asset. Identities can be assigned to Permissi
 #### Returns
 
 `Promise`<`TransactionQueue`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup), [`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Permissions.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Permissions.ts#L70)
 
 ___
 
@@ -60,10 +58,6 @@ Retrieve a list of agents (Identities which have permissions over the Asset) and
 
 `Promise`<[`AgentWithGroup`](../wiki/api.entities.Asset.types.AgentWithGroup)[]\>
 
-#### Defined in
-
-[api/entities/Asset/Permissions.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Permissions.ts#L171)
-
 ___
 
 ### getGroup
@@ -73,7 +67,9 @@ ___
 Retrieve a single Permission Group by its ID (or type). Passing an ID will fetch a Custom Permission Group,
   while passing a type will fetch a Known Permission Group
 
-**`throws`** if there is no Permission Group with the passed ID
+**`Throws`**
+
+ if there is no Permission Group with the passed ID
 
 #### Parameters
 
@@ -85,10 +81,6 @@ Retrieve a single Permission Group by its ID (or type). Passing an ID will fetch
 #### Returns
 
 `Promise`<[`CustomPermissionGroup`](../wiki/api.entities.CustomPermissionGroup.CustomPermissionGroup)\>
-
-#### Defined in
-
-[api/entities/Asset/Permissions.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Permissions.ts#L104)
 
 ▸ **getGroup**(`args`): `Promise`<[`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup)\>
 
@@ -103,10 +95,6 @@ Retrieve a single Permission Group by its ID (or type). Passing an ID will fetch
 
 `Promise`<[`KnownPermissionGroup`](../wiki/api.entities.KnownPermissionGroup.KnownPermissionGroup)\>
 
-#### Defined in
-
-[api/entities/Asset/Permissions.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Permissions.ts#L105)
-
 ___
 
 ### getGroups
@@ -119,10 +107,6 @@ Retrieve all Permission Groups of this Asset
 
 `Promise`<[`PermissionGroups`](../wiki/types.PermissionGroups)\>
 
-#### Defined in
-
-[api/entities/Asset/Permissions.ts:137](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Permissions.ts#L137)
-
 ___
 
 ### inviteAgent
@@ -131,11 +115,15 @@ ___
 
 Invite an Identity to be an agent with permissions over this Asset
 
-**`note`** this will create an [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `target` Identity.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [inviteAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ this will create an AuthorizationRequest | Authorization Request which has to be accepted by the `target` Identity.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [inviteAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -149,10 +137,6 @@ Invite an Identity to be an agent with permissions over this Asset
 
 `Promise`<`TransactionQueue`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), [`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Permissions.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Permissions.ts#L84)
-
 ___
 
 ### removeAgent
@@ -161,7 +145,9 @@ ___
 
 Revoke an agent's permissions over this Asset
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [removeAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [removeAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -174,7 +160,3 @@ Revoke an agent's permissions over this Asset
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Permissions.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Permissions.ts#L94)

@@ -38,7 +38,7 @@ public key of the signer. Unsigned transactions have no signer, in which case th
 
 #### Defined in
 
-[types/index.ts:332](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L332)
+[types/index.ts:332](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L332)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:326](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L326)
+[types/index.ts:326](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L326)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:327](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L327)
+[types/index.ts:327](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L327)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:341](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L341)
+[types/index.ts:341](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L341)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:328](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L328)
+[types/index.ts:328](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L328)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:345](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L345)
+[types/index.ts:345](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L345)
 
 ___
 
@@ -120,7 +120,7 @@ nonce of the transaction. Null for unsigned transactions where address is null
 
 #### Defined in
 
-[types/index.ts:336](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L336)
+[types/index.ts:336](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L336)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:338](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L338)
+[types/index.ts:338](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L338)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:340](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L340)
+[types/index.ts:340](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L340)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:339](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L339)
+[types/index.ts:339](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L339)
 
 ___
 
@@ -176,4 +176,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:337](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L337)
+[types/index.ts:337](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L337)

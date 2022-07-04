@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[api/entities/Asset/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L7)
+[api/entities/Asset/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L7)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L16)
+[api/entities/Asset/types.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L16)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L8)
+[api/entities/Asset/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L8)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L9)
+[api/entities/Asset/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L9)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L10)
+[api/entities/Asset/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L10)
 
 ___
 
@@ -71,11 +71,13 @@ ___
 
 • **primaryIssuanceAgents**: [`Identity`](../wiki/api.entities.Identity.Identity)[]
 
-**`deprecated`**
+**`Deprecated`**
+
+ 
 
 #### Defined in
 
-[api/entities/Asset/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L15)
+[api/entities/Asset/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L15)
 
 ___
 
@@ -85,7 +87,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L17)
+[api/entities/Asset/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L17)
 
 ___
 
@@ -95,4 +97,4 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L11)
+[api/entities/Asset/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L11)

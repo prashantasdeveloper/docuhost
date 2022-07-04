@@ -25,7 +25,7 @@ Handles all Asset Transfer Restrictions related functionality
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/index.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/TransferRestrictions/index.ts#L10)
+[api/entities/Asset/TransferRestrictions/index.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/TransferRestrictions/index.ts#L10)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/TransferRestrictions/index.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/TransferRestrictions/index.ts#L11)
+[api/entities/Asset/TransferRestrictions/index.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/TransferRestrictions/index.ts#L11)

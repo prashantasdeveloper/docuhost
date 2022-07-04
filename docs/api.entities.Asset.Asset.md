@@ -59,7 +59,7 @@ Class used to manage all Asset functionality
 
 #### Defined in
 
-[api/entities/Asset/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L110)
+[api/entities/Asset/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L112)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L115)
+[api/entities/Asset/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L117)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L112)
+[api/entities/Asset/index.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L114)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L116)
+[api/entities/Asset/index.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L118)
 
 ___
 
@@ -101,7 +101,7 @@ Identity ID of the Asset (used for Claims)
 
 #### Defined in
 
-[api/entities/Asset/index.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L100)
+[api/entities/Asset/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L102)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L108)
+[api/entities/Asset/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L110)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L111)
+[api/entities/Asset/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L113)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L114)
+[api/entities/Asset/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L116)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L117)
+[api/entities/Asset/index.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L119)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L109)
+[api/entities/Asset/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L111)
 
 ___
 
@@ -163,7 +163,7 @@ ticker of the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L105)
+[api/entities/Asset/index.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L107)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L113)
+[api/entities/Asset/index.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L115)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -197,7 +197,9 @@ ___
 
 Force a transfer from a given Portfolio to the caller’s default Portfolio
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [controllerTransfer.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [controllerTransfer.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -211,10 +213,6 @@ Force a transfer from a given Portfolio to the caller’s default Portfolio
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:562](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L562)
-
 ___
 
 ### createdAt
@@ -223,17 +221,17 @@ ___
 
 Retrieve the identifier data (block number, date and event index) of the event that was emitted when the token was created
 
-**`note`** uses the middleware
+**`Note`**
 
-**`note`** there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
+ uses the middleware
+
+**`Note`**
+
+ there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
 
 #### Returns
 
 `Promise`<``null`` \| [`EventIdentifier`](../wiki/types.EventIdentifier)\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:387](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L387)
 
 ___
 
@@ -243,15 +241,13 @@ ___
 
 Retrieve the Asset's funding round
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<``null`` \| `string`\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L313)
 
 ▸ **currentFundingRound**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -265,10 +261,6 @@ Retrieve the Asset's funding round
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L314)
-
 ___
 
 ### details
@@ -277,15 +269,13 @@ ___
 
 Retrieve the Asset's data
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<[`AssetDetails`](../wiki/api.entities.Asset.types.AssetDetails)\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L212)
 
 ▸ **details**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -298,10 +288,6 @@ Retrieve the Asset's data
 #### Returns
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:213](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L213)
 
 ___
 
@@ -319,10 +305,6 @@ Determine whether this Asset exists on chain
 
 [Entity](../wiki/api.entities.Entity.Entity).[exists](../wiki/api.entities.Entity.Entity#exists)
 
-#### Defined in
-
-[api/entities/Asset/index.ts:654](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L654)
-
 ___
 
 ### freeze
@@ -331,7 +313,9 @@ ___
 
 Freeze transfers of the Asset
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [freeze.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [freeze.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -344,10 +328,6 @@ Freeze transfers of the Asset
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:409](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L409)
-
 ___
 
 ### getIdentifiers
@@ -356,15 +336,13 @@ ___
 
 Retrieve the Asset's identifiers list
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<[`SecurityIdentifier`](../wiki/types.SecurityIdentifier)[]\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:350](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L350)
 
 ▸ **getIdentifiers**(`callback?`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -378,10 +356,6 @@ Retrieve the Asset's identifiers list
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:351](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L351)
-
 ___
 
 ### getOperationHistory
@@ -390,17 +364,17 @@ ___
 
 Retrieve this Asset's Operation History
 
-**`note`** Operations are grouped by the agent Identity who performed them
+**`Note`**
 
-**`note`** uses the middleware
+ Operations are grouped by the agent Identity who performed them
+
+**`Note`**
+
+ uses the middleware
 
 #### Returns
 
 `Promise`<[`HistoricAgentOperation`](../wiki/types.HistoricAgentOperation)[]\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:573](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L573)
 
 ___
 
@@ -410,17 +384,15 @@ ___
 
 Retrieve the amount of unique investors that hold this Asset
 
-**`note`** this takes into account the Scope ID of Investor Uniqueness Claims. If an investor holds balances
+**`Note`**
+
+ this takes into account the Scope ID of Investor Uniqueness Claims. If an investor holds balances
   of this Asset in two or more different Identities, but they all have Investor Uniqueness Claims with the same
   Scope ID, then they will only be counted once for the purposes of this result
 
 #### Returns
 
 `Promise`<`BigNumber`\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:506](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L506)
 
 ___
 
@@ -444,10 +416,6 @@ Determine whether this Entity is the same as another one
 
 [Entity](../wiki/api.entities.Entity.Entity).[isEqual](../wiki/api.entities.Entity.Entity#isequal)
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### isFrozen
@@ -456,15 +424,13 @@ ___
 
 Check whether transfers are frozen for the Asset
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<`boolean`\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:428](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L428)
 
 ▸ **isFrozen**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -478,10 +444,6 @@ Check whether transfers are frozen for the Asset
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:429](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L429)
-
 ___
 
 ### modify
@@ -490,9 +452,13 @@ ___
 
 Modify some properties of the Asset
 
-**`throws`** if the passed values result in no changes being made to the Asset
+**`Throws`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modify.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ if the passed values result in no changes being made to the Asset
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modify.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -506,10 +472,6 @@ Modify some properties of the Asset
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L203)
-
 ___
 
 ### modifyPrimaryIssuanceAgent
@@ -518,13 +480,19 @@ ___
 
 Assign a new primary issuance agent for the Asset
 
-**`note`** this will create an [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `target` Identity.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`deprecated`** in favor of `inviteAgent`
+ this will create an AuthorizationRequest | Authorization Request which has to be accepted by the `target` Identity.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modifyPrimaryIssuanceAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Deprecated`**
+
+ in favor of `inviteAgent`
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modifyPrimaryIssuanceAgent.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -538,10 +506,6 @@ Assign a new primary issuance agent for the Asset
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:469](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L469)
-
 ___
 
 ### redeem
@@ -550,9 +514,13 @@ ___
 
 Redeem (burn) an amount of this Asset's tokens
 
-**`note`** tokens are removed from the caller's Default Portfolio
+**`Note`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [redeem.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ tokens are removed from the caller's Default Portfolio
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [redeem.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -566,10 +534,6 @@ Redeem (burn) an amount of this Asset's tokens
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:495](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L495)
-
 ___
 
 ### removePrimaryIssuanceAgent
@@ -578,11 +542,17 @@ ___
 
 Remove the primary issuance agent of the Asset
 
-**`note`** if primary issuance agent is not set, Asset owner would be used by default
+**`Note`**
 
-**`deprecated`**
+ if primary issuance agent is not set, Asset owner would be used by default
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [removePrimaryIssuanceAgent.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Deprecated`**
+
+ 
+
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [removePrimaryIssuanceAgent.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -594,10 +564,6 @@ Remove the primary issuance agent of the Asset
 #### Returns
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:483](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L483)
 
 ___
 
@@ -615,10 +581,6 @@ Return the Asset's ticker
 
 [Entity](../wiki/api.entities.Entity.Entity).[toHuman](../wiki/api.entities.Entity.Entity#tohuman)
 
-#### Defined in
-
-[api/entities/Asset/index.ts:667](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L667)
-
 ___
 
 ### transferOwnership
@@ -628,11 +590,15 @@ ___
 Transfer ownership of the Asset to another Identity. This generates an authorization request that must be accepted
   by the recipient
 
-**`note`** this will create [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `target` Identity.
-  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
+**`Note`**
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [transferOwnership.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+ this will create AuthorizationRequest | Authorization Request which has to be accepted by the `target` Identity.
+  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [transferOwnership.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -646,10 +612,6 @@ Transfer ownership of the Asset to another Identity. This generates an authoriza
 
 `Promise`<`TransactionQueue`<[`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), [`AuthorizationRequest`](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/index.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L192)
-
 ___
 
 ### unfreeze
@@ -658,7 +620,9 @@ ___
 
 Unfreeze transfers of the Asset
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [unfreeze.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [unfreeze.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -670,10 +634,6 @@ Unfreeze transfers of the Asset
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/index.ts:419](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/index.ts#L419)
 
 ___
 
@@ -703,10 +663,6 @@ Generate the Entity's UUID from its identifying properties
 
 [Entity](../wiki/api.entities.Entity.Entity).[generateUuid](../wiki/api.entities.Entity.Entity#generateuuid)
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### unserialize
@@ -734,7 +690,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Inherited from
 
 [Entity](../wiki/api.entities.Entity.Entity).[unserialize](../wiki/api.entities.Entity.Entity#unserialize)
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

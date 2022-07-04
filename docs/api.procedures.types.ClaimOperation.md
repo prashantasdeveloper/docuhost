@@ -14,28 +14,28 @@
 
 ### Add
 
-• **Add**
+• **Add** = ``"Add"``
 
 #### Defined in
 
-[api/procedures/types.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L203)
+[api/procedures/types.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L203)
 
 ___
 
 ### Edit
 
-• **Edit**
+• **Edit** = ``"Edit"``
 
 #### Defined in
 
-[api/procedures/types.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L204)
+[api/procedures/types.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L204)
 
 ___
 
 ### Revoke
 
-• **Revoke**
+• **Revoke** = ``"Revoke"``
 
 #### Defined in
 
-[api/procedures/types.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L202)
+[api/procedures/types.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L202)

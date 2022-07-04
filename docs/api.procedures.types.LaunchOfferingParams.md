@@ -26,7 +26,7 @@ end date of the Offering (optional, defaults to never)
 
 #### Defined in
 
-[api/procedures/types.ts:575](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L575)
+[api/procedures/types.ts:575](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L575)
 
 ___
 
@@ -38,7 +38,7 @@ minimum amount that can be spent on this offering
 
 #### Defined in
 
-[api/procedures/types.ts:584](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L584)
+[api/procedures/types.ts:584](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L584)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:567](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L567)
+[api/procedures/types.ts:567](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L567)
 
 ___
 
@@ -60,7 +60,7 @@ portfolio in which the Asset tokens to be sold are stored
 
 #### Defined in
 
-[api/procedures/types.ts:551](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L551)
+[api/procedures/types.ts:551](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L551)
 
 ___
 
@@ -73,7 +73,7 @@ ticker symbol of the currency in which the funds are being raised (i.e. 'USD' or
 
 #### Defined in
 
-[api/procedures/types.ts:560](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L560)
+[api/procedures/types.ts:560](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L560)
 
 ___
 
@@ -85,7 +85,7 @@ portfolio in which the raised funds will be stored
 
 #### Defined in
 
-[api/procedures/types.ts:555](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L555)
+[api/procedures/types.ts:555](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L555)
 
 ___
 
@@ -97,7 +97,7 @@ start date of the Offering (optional, defaults to right now)
 
 #### Defined in
 
-[api/procedures/types.ts:571](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L571)
+[api/procedures/types.ts:571](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L571)
 
 ___
 
@@ -110,7 +110,7 @@ array of sale tiers. Each tier consists of an amount of Assets to be sold at a c
 
 #### Defined in
 
-[api/procedures/types.ts:580](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L580)
+[api/procedures/types.ts:580](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L580)
 
 ___
 
@@ -124,4 +124,4 @@ venue through which all offering related trades will be settled
 
 #### Defined in
 
-[api/procedures/types.ts:566](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L566)
+[api/procedures/types.ts:566](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L566)

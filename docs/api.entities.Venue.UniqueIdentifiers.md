@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[api/entities/Venue/index.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Venue/index.ts#L27)
+[api/entities/Venue/index.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Venue/index.ts#L27)

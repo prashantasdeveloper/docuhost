@@ -24,7 +24,9 @@ Handles all Asset Issuance related functionality
 
 Issue a certain amount of Asset tokens to the caller's default portfolio
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [issue.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [issue.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -38,7 +40,3 @@ Issue a certain amount of Asset tokens to the caller's default portfolio
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Issuance.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Issuance.ts#L35)

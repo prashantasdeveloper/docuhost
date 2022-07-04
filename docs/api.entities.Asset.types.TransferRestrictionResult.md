@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/Asset/types.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L29)
+[api/entities/Asset/types.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L29)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/types.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/types.ts#L30)
+[api/entities/Asset/types.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/types.ts#L30)

@@ -27,7 +27,9 @@ Handles all Asset Default Trusted Claim Issuers related functionality
 
 Add the supplied Identities to the Asset's list of trusted claim issuers
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [add.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [add.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -41,10 +43,6 @@ Add the supplied Identities to the Asset's list of trusted claim issuers
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L96)
-
 ___
 
 ### get
@@ -53,15 +51,13 @@ ___
 
 Retrieve the current Default Trusted Claim Issuers of the Asset
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<[`TrustedClaimIssuer`](../wiki/types.TrustedClaimIssuer)<``true``\>[]\>
-
-#### Defined in
-
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L115)
 
 ▸ **get**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -75,10 +71,6 @@ Retrieve the current Default Trusted Claim Issuers of the Asset
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L116)
-
 ___
 
 ### remove
@@ -87,7 +79,9 @@ ___
 
 Remove the supplied Identities from the Asset's list of trusted claim issuers   *
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -101,10 +95,6 @@ Remove the supplied Identities from the Asset's list of trusted claim issuers   
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L106)
-
 ___
 
 ### set
@@ -115,7 +105,9 @@ Assign a new default list of trusted claim issuers to the Asset by replacing the
 
 This requires two transactions
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [set.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [set.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -128,7 +120,3 @@ This requires two transactions
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Compliance/TrustedClaimIssuers.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/TrustedClaimIssuers.ts#L86)

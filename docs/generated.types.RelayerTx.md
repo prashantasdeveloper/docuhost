@@ -17,58 +17,58 @@
 
 ### AcceptPayingKey
 
-• **AcceptPayingKey**
+• **AcceptPayingKey** = ``"relayer.acceptPayingKey"``
 
 #### Defined in
 
-[generated/types.ts:676](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L676)
+[generated/types.ts:676](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L676)
 
 ___
 
 ### DecreasePolyxLimit
 
-• **DecreasePolyxLimit**
+• **DecreasePolyxLimit** = ``"relayer.decreasePolyxLimit"``
 
 #### Defined in
 
-[generated/types.ts:680](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L680)
+[generated/types.ts:680](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L680)
 
 ___
 
 ### IncreasePolyxLimit
 
-• **IncreasePolyxLimit**
+• **IncreasePolyxLimit** = ``"relayer.increasePolyxLimit"``
 
 #### Defined in
 
-[generated/types.ts:679](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L679)
+[generated/types.ts:679](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L679)
 
 ___
 
 ### RemovePayingKey
 
-• **RemovePayingKey**
+• **RemovePayingKey** = ``"relayer.removePayingKey"``
 
 #### Defined in
 
-[generated/types.ts:677](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L677)
+[generated/types.ts:677](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L677)
 
 ___
 
 ### SetPayingKey
 
-• **SetPayingKey**
+• **SetPayingKey** = ``"relayer.setPayingKey"``
 
 #### Defined in
 
-[generated/types.ts:675](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L675)
+[generated/types.ts:675](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L675)
 
 ___
 
 ### UpdatePolyxLimit
 
-• **UpdatePolyxLimit**
+• **UpdatePolyxLimit** = ``"relayer.updatePolyxLimit"``
 
 #### Defined in
 
-[generated/types.ts:678](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L678)
+[generated/types.ts:678](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L678)

@@ -28,168 +28,168 @@
 
 ### ApproveCommitteeProposal
 
-• **ApproveCommitteeProposal**
+• **ApproveCommitteeProposal** = ``"pips.approveCommitteeProposal"``
 
 #### Defined in
 
-[generated/types.ts:577](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L577)
+[generated/types.ts:577](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L577)
 
 ___
 
 ### ClearSnapshot
 
-• **ClearSnapshot**
+• **ClearSnapshot** = ``"pips.clearSnapshot"``
 
 #### Defined in
 
-[generated/types.ts:581](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L581)
+[generated/types.ts:581](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L581)
 
 ___
 
 ### EnactSnapshotResults
 
-• **EnactSnapshotResults**
+• **EnactSnapshotResults** = ``"pips.enactSnapshotResults"``
 
 #### Defined in
 
-[generated/types.ts:583](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L583)
+[generated/types.ts:583](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L583)
 
 ___
 
 ### ExecuteScheduledPip
 
-• **ExecuteScheduledPip**
+• **ExecuteScheduledPip** = ``"pips.executeScheduledPip"``
 
 #### Defined in
 
-[generated/types.ts:584](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L584)
+[generated/types.ts:584](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L584)
 
 ___
 
 ### ExpireScheduledPip
 
-• **ExpireScheduledPip**
+• **ExpireScheduledPip** = ``"pips.expireScheduledPip"``
 
 #### Defined in
 
-[generated/types.ts:585](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L585)
+[generated/types.ts:585](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L585)
 
 ___
 
 ### Propose
 
-• **Propose**
+• **Propose** = ``"pips.propose"``
 
 #### Defined in
 
-[generated/types.ts:575](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L575)
+[generated/types.ts:575](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L575)
 
 ___
 
 ### PruneProposal
 
-• **PruneProposal**
+• **PruneProposal** = ``"pips.pruneProposal"``
 
 #### Defined in
 
-[generated/types.ts:579](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L579)
+[generated/types.ts:579](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L579)
 
 ___
 
 ### RejectProposal
 
-• **RejectProposal**
+• **RejectProposal** = ``"pips.rejectProposal"``
 
 #### Defined in
 
-[generated/types.ts:578](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L578)
+[generated/types.ts:578](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L578)
 
 ___
 
 ### RescheduleExecution
 
-• **RescheduleExecution**
+• **RescheduleExecution** = ``"pips.rescheduleExecution"``
 
 #### Defined in
 
-[generated/types.ts:580](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L580)
+[generated/types.ts:580](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L580)
 
 ___
 
 ### SetActivePipLimit
 
-• **SetActivePipLimit**
+• **SetActivePipLimit** = ``"pips.setActivePipLimit"``
 
 #### Defined in
 
-[generated/types.ts:574](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L574)
+[generated/types.ts:574](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L574)
 
 ___
 
 ### SetDefaultEnactmentPeriod
 
-• **SetDefaultEnactmentPeriod**
+• **SetDefaultEnactmentPeriod** = ``"pips.setDefaultEnactmentPeriod"``
 
 #### Defined in
 
-[generated/types.ts:571](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L571)
+[generated/types.ts:571](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L571)
 
 ___
 
 ### SetMaxPipSkipCount
 
-• **SetMaxPipSkipCount**
+• **SetMaxPipSkipCount** = ``"pips.setMaxPipSkipCount"``
 
 #### Defined in
 
-[generated/types.ts:573](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L573)
+[generated/types.ts:573](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L573)
 
 ___
 
 ### SetMinProposalDeposit
 
-• **SetMinProposalDeposit**
+• **SetMinProposalDeposit** = ``"pips.setMinProposalDeposit"``
 
 #### Defined in
 
-[generated/types.ts:570](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L570)
+[generated/types.ts:570](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L570)
 
 ___
 
 ### SetPendingPipExpiry
 
-• **SetPendingPipExpiry**
+• **SetPendingPipExpiry** = ``"pips.setPendingPipExpiry"``
 
 #### Defined in
 
-[generated/types.ts:572](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L572)
+[generated/types.ts:572](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L572)
 
 ___
 
 ### SetPruneHistoricalPips
 
-• **SetPruneHistoricalPips**
+• **SetPruneHistoricalPips** = ``"pips.setPruneHistoricalPips"``
 
 #### Defined in
 
-[generated/types.ts:569](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L569)
+[generated/types.ts:569](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L569)
 
 ___
 
 ### Snapshot
 
-• **Snapshot**
+• **Snapshot** = ``"pips.snapshot"``
 
 #### Defined in
 
-[generated/types.ts:582](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L582)
+[generated/types.ts:582](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L582)
 
 ___
 
 ### Vote
 
-• **Vote**
+• **Vote** = ``"pips.vote"``
 
 #### Defined in
 
-[generated/types.ts:576](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L576)
+[generated/types.ts:576](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L576)

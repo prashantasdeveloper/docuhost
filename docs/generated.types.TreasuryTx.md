@@ -13,18 +13,18 @@
 
 ### Disbursement
 
-• **Disbursement**
+• **Disbursement** = ``"treasury.disbursement"``
 
 #### Defined in
 
-[generated/types.ts:652](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L652)
+[generated/types.ts:652](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L652)
 
 ___
 
 ### Reimbursement
 
-• **Reimbursement**
+• **Reimbursement** = ``"treasury.reimbursement"``
 
 #### Defined in
 
-[generated/types.ts:653](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L653)
+[generated/types.ts:653](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L653)

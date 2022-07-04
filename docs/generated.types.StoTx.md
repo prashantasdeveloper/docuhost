@@ -17,58 +17,58 @@
 
 ### CreateFundraiser
 
-• **CreateFundraiser**
+• **CreateFundraiser** = ``"sto.createFundraiser"``
 
 #### Defined in
 
-[generated/types.ts:643](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L643)
+[generated/types.ts:643](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L643)
 
 ___
 
 ### FreezeFundraiser
 
-• **FreezeFundraiser**
+• **FreezeFundraiser** = ``"sto.freezeFundraiser"``
 
 #### Defined in
 
-[generated/types.ts:645](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L645)
+[generated/types.ts:645](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L645)
 
 ___
 
 ### Invest
 
-• **Invest**
+• **Invest** = ``"sto.invest"``
 
 #### Defined in
 
-[generated/types.ts:644](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L644)
+[generated/types.ts:644](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L644)
 
 ___
 
 ### ModifyFundraiserWindow
 
-• **ModifyFundraiserWindow**
+• **ModifyFundraiserWindow** = ``"sto.modifyFundraiserWindow"``
 
 #### Defined in
 
-[generated/types.ts:647](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L647)
+[generated/types.ts:647](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L647)
 
 ___
 
 ### Stop
 
-• **Stop**
+• **Stop** = ``"sto.stop"``
 
 #### Defined in
 
-[generated/types.ts:648](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L648)
+[generated/types.ts:648](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L648)
 
 ___
 
 ### UnfreezeFundraiser
 
-• **UnfreezeFundraiser**
+• **UnfreezeFundraiser** = ``"sto.unfreezeFundraiser"``
 
 #### Defined in
 
-[generated/types.ts:646](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L646)
+[generated/types.ts:646](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L646)

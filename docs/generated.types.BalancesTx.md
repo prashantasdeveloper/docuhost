@@ -17,58 +17,58 @@
 
 ### BurnAccountBalance
 
-• **BurnAccountBalance**
+• **BurnAccountBalance** = ``"balances.burnAccountBalance"``
 
 #### Defined in
 
-[generated/types.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L297)
+[generated/types.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L297)
 
 ___
 
 ### DepositBlockRewardReserveBalance
 
-• **DepositBlockRewardReserveBalance**
+• **DepositBlockRewardReserveBalance** = ``"balances.depositBlockRewardReserveBalance"``
 
 #### Defined in
 
-[generated/types.ts:294](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L294)
+[generated/types.ts:294](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L294)
 
 ___
 
 ### ForceTransfer
 
-• **ForceTransfer**
+• **ForceTransfer** = ``"balances.forceTransfer"``
 
 #### Defined in
 
-[generated/types.ts:296](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L296)
+[generated/types.ts:296](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L296)
 
 ___
 
 ### SetBalance
 
-• **SetBalance**
+• **SetBalance** = ``"balances.setBalance"``
 
 #### Defined in
 
-[generated/types.ts:295](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L295)
+[generated/types.ts:295](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L295)
 
 ___
 
 ### Transfer
 
-• **Transfer**
+• **Transfer** = ``"balances.transfer"``
 
 #### Defined in
 
-[generated/types.ts:292](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L292)
+[generated/types.ts:292](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L292)
 
 ___
 
 ### TransferWithMemo
 
-• **TransferWithMemo**
+• **TransferWithMemo** = ``"balances.transferWithMemo"``
 
 #### Defined in
 
-[generated/types.ts:293](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L293)
+[generated/types.ts:293](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L293)

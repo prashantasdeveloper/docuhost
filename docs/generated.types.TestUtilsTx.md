@@ -15,38 +15,38 @@
 
 ### GetCddOf
 
-• **GetCddOf**
+• **GetCddOf** = ``"testUtils.getCddOf"``
 
 #### Defined in
 
-[generated/types.ts:692](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L692)
+[generated/types.ts:692](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L692)
 
 ___
 
 ### GetMyDid
 
-• **GetMyDid**
+• **GetMyDid** = ``"testUtils.getMyDid"``
 
 #### Defined in
 
-[generated/types.ts:691](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L691)
+[generated/types.ts:691](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L691)
 
 ___
 
 ### MockCddRegisterDid
 
-• **MockCddRegisterDid**
+• **MockCddRegisterDid** = ``"testUtils.mockCddRegisterDid"``
 
 #### Defined in
 
-[generated/types.ts:690](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L690)
+[generated/types.ts:690](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L690)
 
 ___
 
 ### RegisterDid
 
-• **RegisterDid**
+• **RegisterDid** = ``"testUtils.registerDid"``
 
 #### Defined in
 
-[generated/types.ts:689](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L689)
+[generated/types.ts:689](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L689)

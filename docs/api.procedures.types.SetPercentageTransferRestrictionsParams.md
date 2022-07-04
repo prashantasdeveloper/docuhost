@@ -19,7 +19,7 @@ array of Percentage Transfer Restrictions with their corresponding exemptions (i
 
 #### Defined in
 
-[api/procedures/types.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L112)
+[api/procedures/types.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L112)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[api/procedures/types.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L113)
+[api/procedures/types.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L113)

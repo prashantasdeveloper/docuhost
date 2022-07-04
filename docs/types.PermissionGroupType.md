@@ -15,32 +15,32 @@
 
 ### ExceptMeta
 
-• **ExceptMeta**
+• **ExceptMeta** = ``"ExceptMeta"``
 
 not authorized:
   - externalAgents
 
 #### Defined in
 
-[types/index.ts:1023](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1023)
+[types/index.ts:1023](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1023)
 
 ___
 
 ### Full
 
-• **Full**
+• **Full** = ``"Full"``
 
 all transactions authorized
 
 #### Defined in
 
-[types/index.ts:1018](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1018)
+[types/index.ts:1018](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1018)
 
 ___
 
 ### PolymeshV1Caa
 
-• **PolymeshV1Caa**
+• **PolymeshV1Caa** = ``"PolymeshV1Caa"``
 
 authorized:
   - corporateAction
@@ -49,13 +49,13 @@ authorized:
 
 #### Defined in
 
-[types/index.ts:1030](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1030)
+[types/index.ts:1030](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1030)
 
 ___
 
 ### PolymeshV1Pia
 
-• **PolymeshV1Pia**
+• **PolymeshV1Pia** = ``"PolymeshV1Pia"``
 
 authorized:
   - asset.issue
@@ -65,4 +65,4 @@ authorized:
 
 #### Defined in
 
-[types/index.ts:1038](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1038)
+[types/index.ts:1038](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1038)

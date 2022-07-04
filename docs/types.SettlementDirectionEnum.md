@@ -14,28 +14,28 @@
 
 ### Incoming
 
-• **Incoming**
+• **Incoming** = ``"Incoming"``
 
 #### Defined in
 
-[middleware/types.ts:1602](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1602)
+[middleware/types.ts:1602](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1602)
 
 ___
 
 ### None
 
-• **None**
+• **None** = ``"None"``
 
 #### Defined in
 
-[middleware/types.ts:1601](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1601)
+[middleware/types.ts:1601](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1601)
 
 ___
 
 ### Outgoing
 
-• **Outgoing**
+• **Outgoing** = ``"Outgoing"``
 
 #### Defined in
 
-[middleware/types.ts:1603](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1603)
+[middleware/types.ts:1603](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1603)

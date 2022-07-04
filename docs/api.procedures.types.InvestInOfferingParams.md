@@ -21,7 +21,7 @@ portfolio from which funds will be withdrawn to pay for the Asset tokens
 
 #### Defined in
 
-[api/procedures/types.ts:719](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L719)
+[api/procedures/types.ts:719](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L719)
 
 ___
 
@@ -33,7 +33,7 @@ maximum average price to pay per Asset token (optional)
 
 #### Defined in
 
-[api/procedures/types.ts:727](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L727)
+[api/procedures/types.ts:727](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L727)
 
 ___
 
@@ -45,7 +45,7 @@ amount of Asset tokens to purchase
 
 #### Defined in
 
-[api/procedures/types.ts:723](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L723)
+[api/procedures/types.ts:723](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L723)
 
 ___
 
@@ -57,4 +57,4 @@ portfolio in which the purchased Asset tokens will be stored
 
 #### Defined in
 
-[api/procedures/types.ts:715](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L715)
+[api/procedures/types.ts:715](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L715)

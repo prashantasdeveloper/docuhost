@@ -30,7 +30,7 @@ Handles all Asset Checkpoints related functionality
 
 #### Defined in
 
-[api/entities/Asset/Checkpoints/index.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L30)
+[api/entities/Asset/Checkpoints/index.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/Checkpoints/index.ts#L30)
 
 ## Methods
 
@@ -40,7 +40,9 @@ Handles all Asset Checkpoints related functionality
 
 Create a snapshot of Asset Holders and their respective balances at this moment
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [create.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [create.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -53,10 +55,6 @@ Create a snapshot of Asset Holders and their respective balances at this moment
 
 `Promise`<`TransactionQueue`<[`Checkpoint`](../wiki/api.entities.Checkpoint.Checkpoint), [`Checkpoint`](../wiki/api.entities.Checkpoint.Checkpoint), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Checkpoints/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L54)
-
 ___
 
 ### get
@@ -65,7 +63,9 @@ ___
 
 Retrieve all Checkpoints created on this Asset, together with their corresponding creation Date and Total Supply
 
-**`note`** supports pagination
+**`Note`**
+
+ supports pagination
 
 #### Parameters
 
@@ -77,10 +77,6 @@ Retrieve all Checkpoints created on this Asset, together with their correspondin
 
 `Promise`<[`ResultSet`](../wiki/types.ResultSet)<[`CheckpointWithData`](../wiki/types.CheckpointWithData)\>\>
 
-#### Defined in
-
-[api/entities/Asset/Checkpoints/index.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L88)
-
 ___
 
 ### getOne
@@ -89,7 +85,9 @@ ___
 
 Retrieve a single Checkpoint for this Asset by its ID
 
-**`throws`** if there is no Checkpoint with the passed ID
+**`Throws`**
+
+ if there is no Checkpoint with the passed ID
 
 #### Parameters
 
@@ -101,7 +99,3 @@ Retrieve a single Checkpoint for this Asset by its ID
 #### Returns
 
 `Promise`<[`Checkpoint`](../wiki/api.entities.Checkpoint.Checkpoint)\>
-
-#### Defined in
-
-[api/entities/Asset/Checkpoints/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Checkpoints/index.ts#L63)

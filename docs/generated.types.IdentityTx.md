@@ -37,258 +37,258 @@
 
 ### AcceptPrimaryKey
 
-• **AcceptPrimaryKey**
+• **AcceptPrimaryKey** = ``"identity.acceptPrimaryKey"``
 
 #### Defined in
 
-[generated/types.ts:304](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L304)
+[generated/types.ts:304](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L304)
 
 ___
 
 ### AddAuthorization
 
-• **AddAuthorization**
+• **AddAuthorization** = ``"identity.addAuthorization"``
 
 #### Defined in
 
-[generated/types.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L314)
+[generated/types.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L314)
 
 ___
 
 ### AddClaim
 
-• **AddClaim**
+• **AddClaim** = ``"identity.addClaim"``
 
 #### Defined in
 
-[generated/types.ts:308](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L308)
+[generated/types.ts:308](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L308)
 
 ___
 
 ### AddInvestorUniquenessClaim
 
-• **AddInvestorUniquenessClaim**
+• **AddInvestorUniquenessClaim** = ``"identity.addInvestorUniquenessClaim"``
 
 #### Defined in
 
-[generated/types.ts:317](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L317)
+[generated/types.ts:317](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L317)
 
 ___
 
 ### AddInvestorUniquenessClaimV2
 
-• **AddInvestorUniquenessClaimV2**
+• **AddInvestorUniquenessClaimV2** = ``"identity.addInvestorUniquenessClaimV2"``
 
 #### Defined in
 
-[generated/types.ts:320](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L320)
+[generated/types.ts:320](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L320)
 
 ___
 
 ### AddSecondaryKeysWithAuthorization
 
-• **AddSecondaryKeysWithAuthorization**
+• **AddSecondaryKeysWithAuthorization** = ``"identity.addSecondaryKeysWithAuthorization"``
 
 #### Defined in
 
-[generated/types.ts:316](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L316)
+[generated/types.ts:316](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L316)
 
 ___
 
 ### AddSecondaryKeysWithAuthorizationOld
 
-• **AddSecondaryKeysWithAuthorizationOld**
+• **AddSecondaryKeysWithAuthorizationOld** = ``"identity.addSecondaryKeysWithAuthorizationOld"``
 
 #### Defined in
 
-[generated/types.ts:325](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L325)
+[generated/types.ts:325](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L325)
 
 ___
 
 ### CddRegisterDid
 
-• **CddRegisterDid**
+• **CddRegisterDid** = ``"identity.cddRegisterDid"``
 
 #### Defined in
 
-[generated/types.ts:301](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L301)
+[generated/types.ts:301](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L301)
 
 ___
 
 ### ChangeCddRequirementForMkRotation
 
-• **ChangeCddRequirementForMkRotation**
+• **ChangeCddRequirementForMkRotation** = ``"identity.changeCddRequirementForMkRotation"``
 
 #### Defined in
 
-[generated/types.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L305)
+[generated/types.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L305)
 
 ___
 
 ### FreezeSecondaryKeys
 
-• **FreezeSecondaryKeys**
+• **FreezeSecondaryKeys** = ``"identity.freezeSecondaryKeys"``
 
 #### Defined in
 
-[generated/types.ts:312](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L312)
+[generated/types.ts:312](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L312)
 
 ___
 
 ### GcAddCddClaim
 
-• **GcAddCddClaim**
+• **GcAddCddClaim** = ``"identity.gcAddCddClaim"``
 
 #### Defined in
 
-[generated/types.ts:318](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L318)
+[generated/types.ts:318](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L318)
 
 ___
 
 ### GcRevokeCddClaim
 
-• **GcRevokeCddClaim**
+• **GcRevokeCddClaim** = ``"identity.gcRevokeCddClaim"``
 
 #### Defined in
 
-[generated/types.ts:319](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L319)
+[generated/types.ts:319](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L319)
 
 ___
 
 ### InvalidateCddClaims
 
-• **InvalidateCddClaims**
+• **InvalidateCddClaims** = ``"identity.invalidateCddClaims"``
 
 #### Defined in
 
-[generated/types.ts:302](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L302)
+[generated/types.ts:302](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L302)
 
 ___
 
 ### JoinIdentityAsKey
 
-• **JoinIdentityAsKey**
+• **JoinIdentityAsKey** = ``"identity.joinIdentityAsKey"``
 
 #### Defined in
 
-[generated/types.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L306)
+[generated/types.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L306)
 
 ___
 
 ### LeaveIdentityAsKey
 
-• **LeaveIdentityAsKey**
+• **LeaveIdentityAsKey** = ``"identity.leaveIdentityAsKey"``
 
 #### Defined in
 
-[generated/types.ts:307](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L307)
+[generated/types.ts:307](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L307)
 
 ___
 
 ### LegacySetPermissionToSigner
 
-• **LegacySetPermissionToSigner**
+• **LegacySetPermissionToSigner** = ``"identity.legacySetPermissionToSigner"``
 
 #### Defined in
 
-[generated/types.ts:311](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L311)
+[generated/types.ts:311](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L311)
 
 ___
 
 ### PlaceholderLegacySetPermissionToSigner
 
-• **PlaceholderLegacySetPermissionToSigner**
+• **PlaceholderLegacySetPermissionToSigner** = ``"identity.placeholderLegacySetPermissionToSigner"``
 
 #### Defined in
 
-[generated/types.ts:324](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L324)
+[generated/types.ts:324](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L324)
 
 ___
 
 ### RemoveAuthorization
 
-• **RemoveAuthorization**
+• **RemoveAuthorization** = ``"identity.removeAuthorization"``
 
 #### Defined in
 
-[generated/types.ts:315](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L315)
+[generated/types.ts:315](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L315)
 
 ___
 
 ### RemoveSecondaryKeys
 
-• **RemoveSecondaryKeys**
+• **RemoveSecondaryKeys** = ``"identity.removeSecondaryKeys"``
 
 #### Defined in
 
-[generated/types.ts:303](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L303)
+[generated/types.ts:303](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L303)
 
 ___
 
 ### RemoveSecondaryKeysOld
 
-• **RemoveSecondaryKeysOld**
+• **RemoveSecondaryKeysOld** = ``"identity.removeSecondaryKeysOld"``
 
 #### Defined in
 
-[generated/types.ts:323](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L323)
+[generated/types.ts:323](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L323)
 
 ___
 
 ### RevokeClaim
 
-• **RevokeClaim**
+• **RevokeClaim** = ``"identity.revokeClaim"``
 
 #### Defined in
 
-[generated/types.ts:309](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L309)
+[generated/types.ts:309](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L309)
 
 ___
 
 ### RevokeClaimByIndex
 
-• **RevokeClaimByIndex**
+• **RevokeClaimByIndex** = ``"identity.revokeClaimByIndex"``
 
 #### Defined in
 
-[generated/types.ts:321](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L321)
+[generated/types.ts:321](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L321)
 
 ___
 
 ### RotatePrimaryKeyToSecondary
 
-• **RotatePrimaryKeyToSecondary**
+• **RotatePrimaryKeyToSecondary** = ``"identity.rotatePrimaryKeyToSecondary"``
 
 #### Defined in
 
-[generated/types.ts:322](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L322)
+[generated/types.ts:322](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L322)
 
 ___
 
 ### SetPermissionToSigner
 
-• **SetPermissionToSigner**
+• **SetPermissionToSigner** = ``"identity.setPermissionToSigner"``
 
 #### Defined in
 
-[generated/types.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L310)
+[generated/types.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L310)
 
 ___
 
 ### SetSecondaryKeyPermissions
 
-• **SetSecondaryKeyPermissions**
+• **SetSecondaryKeyPermissions** = ``"identity.setSecondaryKeyPermissions"``
 
 #### Defined in
 
-[generated/types.ts:326](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L326)
+[generated/types.ts:326](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L326)
 
 ___
 
 ### UnfreezeSecondaryKeys
 
-• **UnfreezeSecondaryKeys**
+• **UnfreezeSecondaryKeys** = ``"identity.unfreezeSecondaryKeys"``
 
 #### Defined in
 
-[generated/types.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L313)
+[generated/types.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L313)

@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[api/procedures/types.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L306)
+[api/procedures/types.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L306)

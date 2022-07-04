@@ -33,7 +33,9 @@ Handles all Asset Compliance Requirements related functionality
 
 Add a new compliance requirement to the the Asset. This doesn't modify existing requirements
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [add.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [add.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -47,10 +49,6 @@ Add a new compliance requirement to the the Asset. This doesn't modify existing 
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:103](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L103)
-
 ___
 
 ### arePaused
@@ -63,10 +61,6 @@ Check whether Asset compliance requirements are paused or not
 
 `Promise`<`boolean`\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:282](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L282)
-
 ___
 
 ### checkSettle
@@ -75,9 +69,13 @@ ___
 
 Check whether the sender and receiver Identities in a transfer comply with all the requirements of this Asset
 
-**`note`** this does not take balances into account
+**`Note`**
 
-**`deprecated`** in favor of `settlements.canTransfer`
+ this does not take balances into account
+
+**`Deprecated`**
+
+ in favor of `settlements.canTransfer`
 
 #### Parameters
 
@@ -91,10 +89,6 @@ Check whether the sender and receiver Identities in a transfer comply with all t
 
 `Promise`<[`Compliance`](../wiki/types.Compliance)\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:253](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L253)
-
 ___
 
 ### get
@@ -103,15 +97,13 @@ ___
 
 Retrieve all of the Asset's compliance requirements, together with the Default Trusted Claim Issuers
 
-**`note`** can be subscribed to
+**`Note`**
+
+ can be subscribed to
 
 #### Returns
 
 `Promise`<[`ComplianceRequirements`](../wiki/types.ComplianceRequirements)\>
-
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:135](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L135)
 
 ▸ **get**(`callback`): `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
@@ -125,10 +117,6 @@ Retrieve all of the Asset's compliance requirements, together with the Default T
 
 `Promise`<[`UnsubCallback`](../wiki/types#unsubcallback)\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L136)
-
 ___
 
 ### modify
@@ -137,7 +125,9 @@ ___
 
 Modify a compliance requirement for the Asset
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modify.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [modify.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -151,10 +141,6 @@ Modify a compliance requirement for the Asset
 
 `Promise`<`TransactionQueue`<`void`, `void`, `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L306)
-
 ___
 
 ### pause
@@ -163,7 +149,9 @@ ___
 
 Pause all the Asset's requirements. This means that all transfers will be allowed until requirements are unpaused
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [pause.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [pause.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -176,10 +164,6 @@ Pause all the Asset's requirements. This means that all transfers will be allowe
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:229](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L229)
-
 ___
 
 ### remove
@@ -188,7 +172,9 @@ ___
 
 Remove an existing compliance requirement from the Asset
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [remove.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -202,10 +188,6 @@ Remove an existing compliance requirement from the Asset
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L113)
-
 ___
 
 ### reset
@@ -214,7 +196,9 @@ ___
 
 Delete all the current requirements for the Asset.
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [reset.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [reset.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -227,10 +211,6 @@ Delete all the current requirements for the Asset.
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L219)
-
 ___
 
 ### set
@@ -239,10 +219,14 @@ ___
 
 Configure compliance requirements for the Asset. This operation will replace all existing requirements with a new requirement set
 
-**`example`** Say A, B, C, D and E are requirements and we arrange them as `[[A, B], [C, D], [E]]`.
+**`Example`**
+
+ Say A, B, C, D and E are requirements and we arrange them as `[[A, B], [C, D], [E]]`.
 For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
-**`note`** this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [set.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [ProcedureMethod](../wiki/types.ProcedureMethod), which means you can call [set.checkAuthorization](../wiki/types.ProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -256,10 +240,6 @@ For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
 
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:126](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L126)
-
 ___
 
 ### unpause
@@ -268,7 +248,9 @@ ___
 
 Un-pause all the Asset's current requirements
 
-**`note`** this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [unpause.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
+**`Note`**
+
+ this method is of type [NoArgsProcedureMethod](../wiki/types.NoArgsProcedureMethod), which means you can call [unpause.checkAuthorization](../wiki/types.NoArgsProcedureMethod#checkauthorization)
   on it to see whether the signing Account and Identity have the required roles and permissions to run it
 
 #### Parameters
@@ -280,7 +262,3 @@ Un-pause all the Asset's current requirements
 #### Returns
 
 `Promise`<`TransactionQueue`<[`Asset`](../wiki/api.entities.Asset.Asset), [`Asset`](../wiki/api.entities.Asset.Asset), `unknown`[][]\>\>
-
-#### Defined in
-
-[api/entities/Asset/Compliance/Requirements.ts:239](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Asset/Compliance/Requirements.ts#L239)

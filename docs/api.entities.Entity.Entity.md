@@ -66,7 +66,7 @@ Represents an object or resource in the Polymesh Ecosystem with its own set of p
 
 #### Defined in
 
-[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L46)
+[api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
@@ -79,10 +79,6 @@ Determine whether this Entity exists on chain
 #### Returns
 
 `Promise`<`boolean`\>
-
-#### Defined in
-
-[api/entities/Entity.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L68)
 
 ___
 
@@ -102,10 +98,6 @@ Determine whether this Entity is the same as another one
 
 `boolean`
 
-#### Defined in
-
-[api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L61)
-
 ___
 
 ### toHuman
@@ -117,10 +109,6 @@ Returns Entity data in a human readable (JSON) format
 #### Returns
 
 `HumanReadable`
-
-#### Defined in
-
-[api/entities/Entity.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L73)
 
 ___
 
@@ -146,10 +134,6 @@ Generate the Entity's UUID from its identifying properties
 
 `string`
 
-#### Defined in
-
-[api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L14)
-
 ___
 
 ### isUniqueIdentifiers
@@ -167,10 +151,6 @@ Typeguard that checks whether the object passed corresponds to the unique identi
 #### Returns
 
 `boolean`
-
-#### Defined in
-
-[api/entities/Entity.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L42)
 
 ___
 
@@ -195,7 +175,3 @@ Unserialize a UUID into its Unique Identifiers
 #### Returns
 
 `Identifiers`
-
-#### Defined in
-
-[api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Entity.ts#L23)

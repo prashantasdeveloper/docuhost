@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L24)
+[api/entities/Checkpoint.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Checkpoint.ts#L24)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[api/entities/Checkpoint.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/Checkpoint.ts#L25)
+[api/entities/Checkpoint.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Checkpoint.ts#L25)

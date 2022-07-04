@@ -17,58 +17,58 @@
 
 ### Cancel
 
-• **Cancel**
+• **Cancel** = ``"scheduler.cancel"``
 
 #### Defined in
 
-[generated/types.ts:604](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L604)
+[generated/types.ts:604](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L604)
 
 ___
 
 ### CancelNamed
 
-• **CancelNamed**
+• **CancelNamed** = ``"scheduler.cancelNamed"``
 
 #### Defined in
 
-[generated/types.ts:606](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L606)
+[generated/types.ts:606](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L606)
 
 ___
 
 ### Schedule
 
-• **Schedule**
+• **Schedule** = ``"scheduler.schedule"``
 
 #### Defined in
 
-[generated/types.ts:603](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L603)
+[generated/types.ts:603](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L603)
 
 ___
 
 ### ScheduleAfter
 
-• **ScheduleAfter**
+• **ScheduleAfter** = ``"scheduler.scheduleAfter"``
 
 #### Defined in
 
-[generated/types.ts:607](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L607)
+[generated/types.ts:607](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L607)
 
 ___
 
 ### ScheduleNamed
 
-• **ScheduleNamed**
+• **ScheduleNamed** = ``"scheduler.scheduleNamed"``
 
 #### Defined in
 
-[generated/types.ts:605](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L605)
+[generated/types.ts:605](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L605)
 
 ___
 
 ### ScheduleNamedAfter
 
-• **ScheduleNamedAfter**
+• **ScheduleNamedAfter** = ``"scheduler.scheduleNamedAfter"``
 
 #### Defined in
 
-[generated/types.ts:608](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/generated/types.ts#L608)
+[generated/types.ts:608](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/generated/types.ts#L608)

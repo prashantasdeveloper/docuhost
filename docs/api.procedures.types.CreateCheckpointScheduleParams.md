@@ -18,11 +18,13 @@
 
 The cadence with which to make Checkpoints.
 
-**`note`** A null value indicates to create only one Checkpoint, regardless of repetitions specified. This can be used to schedule the creation of a Checkpoint in the future
+**`Note`**
+
+ A null value indicates to create only one Checkpoint, regardless of repetitions specified. This can be used to schedule the creation of a Checkpoint in the future
 
 #### Defined in
 
-[api/procedures/types.ts:397](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L397)
+[api/procedures/types.ts:397](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L397)
 
 ___
 
@@ -34,7 +36,7 @@ The number of snapshots to take. A null value indicates snapshots should be made
 
 #### Defined in
 
-[api/procedures/types.ts:401](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L401)
+[api/procedures/types.ts:401](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L401)
 
 ___
 
@@ -46,4 +48,4 @@ The date from which to begin creating snapshots. A null value indicates immediat
 
 #### Defined in
 
-[api/procedures/types.ts:392](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L392)
+[api/procedures/types.ts:392](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L392)

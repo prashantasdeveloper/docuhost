@@ -1341,7 +1341,7 @@ Re-exports [WaivePermissionsParams](../wiki/api.procedures.types.WaivePermission
 
 #### Defined in
 
-[types/index.ts:685](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L685)
+[types/index.ts:685](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L685)
 
 ___
 
@@ -1358,7 +1358,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1065](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1065)
+[types/index.ts:1065](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1065)
 
 ___
 
@@ -1370,7 +1370,7 @@ Authorization request data corresponding to type
 
 #### Defined in
 
-[types/index.ts:1085](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1085)
+[types/index.ts:1085](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1085)
 
 ___
 
@@ -1387,7 +1387,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1060](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1060)
+[types/index.ts:1060](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1060)
 
 ___
 
@@ -1397,7 +1397,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L310)
+[types/index.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L310)
 
 ___
 
@@ -1407,7 +1407,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:423](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L423)
+[types/index.ts:423](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L423)
 
 ___
 
@@ -1424,7 +1424,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1070](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1070)
+[types/index.ts:1070](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1070)
 
 ___
 
@@ -1436,7 +1436,7 @@ Asset permissions shared by agents in a group
 
 #### Defined in
 
-[types/index.ts:948](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L948)
+[types/index.ts:948](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L948)
 
 ___
 
@@ -1446,7 +1446,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:431](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L431)
+[types/index.ts:431](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L431)
 
 ___
 
@@ -1456,7 +1456,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:394](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L394)
+[types/index.ts:394](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L394)
 
 ___
 
@@ -1468,7 +1468,7 @@ Targets of a corporate action in a flexible structure for input purposes
 
 #### Defined in
 
-[types/index.ts:1391](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1391)
+[types/index.ts:1391](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1391)
 
 ___
 
@@ -1480,7 +1480,7 @@ Per-Identity tax withholdings of a corporate action in a flexible structure for 
 
 #### Defined in
 
-[types/index.ts:1401](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1401)
+[types/index.ts:1401](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1401)
 
 ___
 
@@ -1490,7 +1490,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L457)
+[types/index.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L457)
 
 ___
 
@@ -1500,7 +1500,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:370](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L370)
+[types/index.ts:370](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L370)
 
 ___
 
@@ -1517,7 +1517,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1050](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1050)
+[types/index.ts:1050](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1050)
 
 ___
 
@@ -1527,7 +1527,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:692](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L692)
+[types/index.ts:692](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L692)
 
 ___
 
@@ -1539,11 +1539,13 @@ Permissions to grant to a Signer over an Identity
 
 [Permissions](../wiki/types.Permissions)
 
-**`note`** TxGroups in the `transactionGroups` array will be transformed into their corresponding `TxTag`s
+**`Note`**
+
+ TxGroups in the `transactionGroups` array will be transformed into their corresponding `TxTag`s
 
 #### Defined in
 
-[types/index.ts:1183](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1183)
+[types/index.ts:1183](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1183)
 
 ___
 
@@ -1560,7 +1562,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1055](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1055)
+[types/index.ts:1055](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1055)
 
 ___
 
@@ -1570,7 +1572,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1169](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1169)
+[types/index.ts:1169](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1169)
 
 ___
 
@@ -1582,7 +1584,7 @@ URI|mnemonic|hex representation of a private key
 
 #### Defined in
 
-[types/index.ts:1377](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1377)
+[types/index.ts:1377](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1377)
 
 ___
 
@@ -1592,7 +1594,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L128)
+[types/index.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L128)
 
 ___
 
@@ -1608,7 +1610,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1041](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1041)
+[types/index.ts:1041](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1041)
 
 ___
 
@@ -1625,7 +1627,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1045](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1045)
+[types/index.ts:1045](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1045)
 
 ___
 
@@ -1635,7 +1637,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L297)
+[types/index.ts:297](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L297)
 
 ___
 
@@ -1645,7 +1647,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1151](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1151)
+[types/index.ts:1151](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1151)
 
 ___
 
@@ -1675,7 +1677,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:654](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L654)
+[types/index.ts:654](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L654)
 
 ___
 
@@ -1685,7 +1687,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:1140](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L1140)
+[types/index.ts:1140](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L1140)
 
 ___
 
@@ -1702,7 +1704,7 @@ ___
 
 #### Defined in
 
-[middleware/types.ts:1713](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/middleware/types.ts#L1713)
+[middleware/types.ts:1713](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/middleware/types.ts#L1713)
 
 ___
 
@@ -1712,7 +1714,7 @@ ___
 
 #### Defined in
 
-[types/index.ts:308](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L308)
+[types/index.ts:308](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L308)
 
 ___
 
@@ -1730,4 +1732,4 @@ ___
 
 #### Defined in
 
-[types/index.ts:656](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/types/index.ts#L656)
+[types/index.ts:656](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/types/index.ts#L656)

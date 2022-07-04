@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L76)
+[api/entities/DividendDistribution/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L76)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L79)
+[api/entities/DividendDistribution/index.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L79)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L78)
+[api/entities/DividendDistribution/index.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L78)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L75)
+[api/entities/DividendDistribution/index.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L75)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L80)
+[api/entities/DividendDistribution/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L80)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[api/entities/DividendDistribution/index.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/entities/DividendDistribution/index.ts#L77)
+[api/entities/DividendDistribution/index.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/DividendDistribution/index.ts#L77)

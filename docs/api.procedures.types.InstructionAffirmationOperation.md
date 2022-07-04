@@ -14,28 +14,28 @@
 
 ### Affirm
 
-• **Affirm**
+• **Affirm** = ``"Affirm"``
 
 #### Defined in
 
-[api/procedures/types.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L310)
+[api/procedures/types.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L310)
 
 ___
 
 ### Reject
 
-• **Reject**
+• **Reject** = ``"Reject"``
 
 #### Defined in
 
-[api/procedures/types.ts:312](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L312)
+[api/procedures/types.ts:312](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L312)
 
 ___
 
 ### Withdraw
 
-• **Withdraw**
+• **Withdraw** = ``"Withdraw"``
 
 #### Defined in
 
-[api/procedures/types.ts:311](https://github.com/PolymathNetwork/polymesh-sdk/blob/49113a20/src/api/procedures/types.ts#L311)
+[api/procedures/types.ts:311](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/procedures/types.ts#L311)
