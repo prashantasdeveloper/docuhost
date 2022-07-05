@@ -59,7 +59,7 @@ Class used to manage all Asset functionality
 
 #### Defined in
 
-[api/entities/Asset/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L112)
+[api/entities/Asset/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L110)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L117)
+[api/entities/Asset/index.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L115)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L114)
+[api/entities/Asset/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L112)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L118)
+[api/entities/Asset/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L116)
 
 ___
 
@@ -101,7 +101,7 @@ Identity ID of the Asset (used for Claims)
 
 #### Defined in
 
-[api/entities/Asset/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L102)
+[api/entities/Asset/index.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L100)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L110)
+[api/entities/Asset/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L108)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L113)
+[api/entities/Asset/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L111)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L116)
+[api/entities/Asset/index.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L114)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L119)
+[api/entities/Asset/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L117)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L111)
+[api/entities/Asset/index.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L109)
 
 ___
 
@@ -163,7 +163,7 @@ ticker of the Asset
 
 #### Defined in
 
-[api/entities/Asset/index.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L107)
+[api/entities/Asset/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L105)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[api/entities/Asset/index.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L115)
+[api/entities/Asset/index.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/c37bc05d/src/api/entities/Asset/index.ts#L113)
 
 ___
 
@@ -482,9 +482,9 @@ Assign a new primary issuance agent for the Asset
 
 **`Note`**
 
- this will create an AuthorizationRequest | Authorization Request which has to be accepted by the `target` Identity.
-  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+ this will create an [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `target` Identity.
+  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
 
 **`Deprecated`**
 
@@ -592,9 +592,9 @@ Transfer ownership of the Asset to another Identity. This generates an authoriza
 
 **`Note`**
 
- this will create AuthorizationRequest | Authorization Request which has to be accepted by the `target` Identity.
-  An Account or Identity can fetch its pending Authorization Requests by calling Authorizations.getReceived | authorizations.getReceived.
-  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling Authorizations.getOne | authorizations.getOne
+ this will create [Authorization Request](../wiki/api.entities.AuthorizationRequest.AuthorizationRequest) which has to be accepted by the `target` Identity.
+  An [Account](../wiki/api.entities.Account.Account) or [Identity](../wiki/api.entities.Identity.Identity) can fetch its pending Authorization Requests by calling [authorizations.getReceived](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getreceived).
+  Also, an Account or Identity can directly fetch the details of an Authorization Request by calling [authorizations.getOne](../wiki/api.entities.common.namespaces.Authorizations.Authorizations#getone)
 
 **`Note`**
 

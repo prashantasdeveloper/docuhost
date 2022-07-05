@@ -28,7 +28,7 @@
 • **assetType**: `string`
 
 type of security that the Asset represents (i.e. Equity, Debt, Commodity, etc). Common values are included in the
-  KnownAssetType enum, but custom values can be used as well. Custom values must be registered on-chain the first time
+  [KnownAssetType](../wiki/types.KnownAssetType) enum, but custom values can be used as well. Custom values must be registered on-chain the first time
   they're used, requiring an additional transaction. They aren't tied to a specific Asset
 
 #### Defined in
